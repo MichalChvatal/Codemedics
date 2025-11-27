@@ -1,0 +1,11 @@
+
+# Used for Jupyter Notebooks
+jupyter 
+notebook
+
+# Others
+pandas
+numpy
+scipy
+tqdm
+matplotlib
