@@ -1,0 +1,1487 @@
+[
+    {
+        "chunk_id": "CI_0",
+        "utvar": "Kancelář ředitele",
+        "chunk": "Útvar/oddělení: Kancelář ředitele;Vazba na ESRS (ESG): ESRS G1;Procesy: Interní korespondence"
+    },
+    {
+        "chunk_id": "CI_1",
+        "utvar": "Sekretariát ředitelství",
+        "chunk": "Útvar/oddělení: Sekretariát ředitelství;Vazba na ESRS (ESG): ESRS S4;Procesy: Schvalování směrnic"
+    },
+    {
+        "chunk_id": "CI_2",
+        "utvar": "Oddělení pověřence",
+        "chunk": "Útvar/oddělení: Oddělení pověřence;Procesy: Ochrana osobních údajů (GDPR)"
+    },
+    {
+        "chunk_id": "CI_3",
+        "utvar": "Oddělení spisové služby",
+        "chunk": "Útvar/oddělení: Oddělení spisové služby;Procesy: Spisová služba"
+    },
+    {
+        "chunk_id": "CI_4",
+        "utvar": "Centrum komunikace a marketingu",
+        "chunk": "Útvar/oddělení: Centrum komunikace a marketingu;Vazba na ESRS (ESG): ESRS S4;Procesy: Interní/externí komunikace"
+    },
+    {
+        "chunk_id": "CI_5",
+        "utvar": "Oddělení komunikace",
+        "chunk": "Útvar/oddělení: Oddělení komunikace;Vazba na ESRS (ESG): ESRS S3;Procesy: Tiskové zprávy"
+    },
+    {
+        "chunk_id": "CI_6",
+        "utvar": "Oddělení marketingu",
+        "chunk": "Útvar/oddělení: Oddělení marketingu;Vazba na ESRS (ESG): ESRS G1;Procesy: Správa médií"
+    },
+    {
+        "chunk_id": "CI_7",
+        "utvar": "Manažer pro kybernetickou bezpečnost",
+        "chunk": "Útvar/oddělení: Manažer pro kybernetickou bezpečnost;Vazba na ESRS (ESG): ESRG G1;Procesy: Řízení bezpečnostních politik"
+    },
+    {
+        "chunk_id": "CI_8",
+        "utvar": "Manažer pro kybernetickou bezpečnost",
+        "chunk": "Útvar/oddělení: Manažer pro kybernetickou bezpečnost;Vazba na ESRS (ESG): ESRS S4;Procesy: Řešení incidentů"
+    },
+    {
+        "chunk_id": "CI_9",
+        "utvar": "Manažer pro kybernetickou bezpečnost",
+        "chunk": "Útvar/oddělení: Manažer pro kybernetickou bezpečnost;Procesy: Školení"
+    },
+    {
+        "chunk_id": "CI_10",
+        "utvar": "Útvar náměstka pro vědu a výzkum ",
+        "chunk": "Útvar/oddělení: Útvar náměstka pro vědu a výzkum;Vazba na ESRS (ESG): ESRS G1;Procesy: Správa grantů"
+    },
+    {
+        "chunk_id": "CI_11",
+        "utvar": "Oddělení vědy a výzkumu ",
+        "chunk": "Útvar/oddělení: Oddělení vědy a výzkumu;Vazba na ESRS (ESG): ESRS S4;Procesy: Klinické studie"
+    },
+    {
+        "chunk_id": "CI_12",
+        "utvar": "Etická komise",
+        "chunk": "Útvar/oddělení: Etická komise;Vazba na ESRS (ESG): ESRS G1;Procesy: Etická schválení"
+    },
+    {
+        "chunk_id": "CI_13",
+        "utvar": "Oddělení krizové připravenosti",
+        "chunk": "Útvar/oddělení: Oddělení krizové připravenosti;Vazba na ESRS (ESG): ESRS S1,2,3,4;Procesy: Tvorba krizových plánů"
+    },
+    {
+        "chunk_id": "CI_14",
+        "utvar": "Koordinační středisko Medicíny katastrof (MEKA)",
+        "chunk": "Útvar/oddělení: Koordinační středisko Medicíny katastrof (MEKA);Vazba na ESRS (ESG): ESRS G1;Procesy: Evidence mimořádných událostí"
+    },
+    {
+        "chunk_id": "CI_15",
+        "utvar": "Oddělení právních věcí",
+        "chunk": "Útvar/oddělení: Oddělení právních věcí;Vazba na ESRS (ESG): ESRS G1;Procesy: Legislativa (právní poradenství, soudní agendy)"
+    },
+    {
+        "chunk_id": "CI_16",
+        "utvar": "Oddělení právních věcí",
+        "chunk": "Útvar/oddělení: Oddělení právních věcí;Vazba na ESRS (ESG): ESRS S1 (zaměstnanci);Procesy: Smlouvy"
+    },
+    {
+        "chunk_id": "CI_17",
+        "utvar": "Oddělení právních věcí",
+        "chunk": "Útvar/oddělení: Oddělení právních věcí;Vazba na ESRS (ESG): ESRS S4 (klienti);Procesy: včetně klinických studií"
+    },
+    {
+        "chunk_id": "CI_18",
+        "utvar": "Oddělení právních věcí",
+        "chunk": "Útvar/oddělení: Oddělení právních věcí;Vazba na ESRS (ESG): ESRS S2 (dodavatelé);Procesy: Řešení stížností"
+    },
+    {
+        "chunk_id": "CI_19",
+        "utvar": "Oddělení právních věcí",
+        "chunk": "Útvar/oddělení: Oddělení právních věcí;Procesy: Agenda zákona č. 106/1999 Sb., o svobodném přístupu k informacím"
+    },
+    {
+        "chunk_id": "CI_20",
+        "utvar": "Odbor personálních záležitostí",
+        "chunk": "Útvar/oddělení: Odbor personálních záležitostí;Vazba na ESRS (ESG): ESRS S1;Procesy: Nábor"
+    },
+    {
+        "chunk_id": "CI_21",
+        "utvar": "Sekretariát OPZ",
+        "chunk": "Útvar/oddělení: Sekretariát OPZ;Vazba na ESRS (ESG): ESRS G1 (řízení zam-ců);Procesy: Vzdělávání"
+    },
+    {
+        "chunk_id": "CI_22",
+        "utvar": "Personální oddělení",
+        "chunk": "Útvar/oddělení: Personální oddělení;Procesy: Mzdová agenda a benefity"
+    },
+    {
+        "chunk_id": "CI_23",
+        "utvar": "Analytické oddělení",
+        "chunk": "Útvar/oddělení: Analytické oddělení;Procesy: Vedení osobních spisů"
+    },
+    {
+        "chunk_id": "CI_24",
+        "utvar": "Oddělení pro radiační dohled",
+        "chunk": "Útvar/oddělení: Oddělení pro radiační dohled;Vazba na ESRS (ESG): ESRS S1;Procesy: Radiační ochrana a bezpečnost práce včetně legislativy"
+    },
+    {
+        "chunk_id": "CI_25",
+        "utvar": "Oddělení interního auditu a kontroly",
+        "chunk": "Útvar/oddělení: Oddělení interního auditu a kontroly;Vazba na ESRS (ESG): ESRS S1;Procesy: Provádění auditů"
+    },
+    {
+        "chunk_id": "CI_26",
+        "utvar": "Oddělení interního auditu a kontroly",
+        "chunk": "Útvar/oddělení: Oddělení interního auditu a kontroly;Vazba na ESRS (ESG): ESRS S2;Procesy: Stížnosti"
+    },
+    {
+        "chunk_id": "CI_27",
+        "utvar": "Oddělení interního auditu a kontroly",
+        "chunk": "Útvar/oddělení: Oddělení interního auditu a kontroly;Vazba na ESRS (ESG): ESRS G2;Procesy: Ombudsman"
+    },
+    {
+        "chunk_id": "CI_28",
+        "utvar": "Ekonomický odbor",
+        "chunk": "Útvar/oddělení: Ekonomický odbor;Vazba na ESRS (ESG): ESRS G1;Procesy: Rozpočtování (tvorba a kontrola rozpočtu)"
+    },
+    {
+        "chunk_id": "CI_29",
+        "utvar": "Sekretariát EO",
+        "chunk": "Útvar/oddělení: Sekretariát EO;Vazba na ESRS (ESG): ESRS E1-6,7,8 (uhlíkové kredity);Procesy: včetně klinických studií"
+    },
+    {
+        "chunk_id": "CI_30",
+        "utvar": "Odd. vnitronemocničního účetnictví a financí",
+        "chunk": "Útvar/oddělení: Odd. vnitronemocničního účetnictví a financí;Procesy: Fakturace"
+    },
+    {
+        "chunk_id": "CI_31",
+        "utvar": "Oddělení controllingu",
+        "chunk": "Útvar/oddělení: Oddělení controllingu;Procesy: Kontrola nákladů"
+    },
+    {
+        "chunk_id": "CI_32",
+        "utvar": "Oddělení operativní evidence",
+        "chunk": "Útvar/oddělení: Oddělení operativní evidence;Procesy: včetně klinických studií"
+    },
+    {
+        "chunk_id": "CI_33",
+        "utvar": "Oddělení účtáren a informací",
+        "chunk": "Útvar/oddělení: Oddělení účtáren a informací;Procesy: Výkazy a datové výstupy pro pojišťovny"
+    },
+    {
+        "chunk_id": "CI_34",
+        "utvar": "Oddělení zdravotních pojišťoven",
+        "chunk": "Útvar/oddělení: Oddělení zdravotních pojišťoven;Procesy: Vedení účetnictví"
+    },
+    {
+        "chunk_id": "CI_35",
+        "utvar": "Investiční odbor",
+        "chunk": "Útvar/oddělení: Investiční odbor;Vazba na ESRS (ESG): ESRS E1;Procesy: Řízení investic"
+    },
+    {
+        "chunk_id": "CI_36",
+        "utvar": "Sekretariát IO",
+        "chunk": "Útvar/oddělení: Sekretariát IO;Vazba na ESRS (ESG): ESRS E2;Procesy: Žádosti o dotace (bez VVV)"
+    },
+    {
+        "chunk_id": "CI_37",
+        "utvar": "Obchodní oddělení",
+        "chunk": "Útvar/oddělení: Obchodní oddělení;Vazba na ESRS (ESG): ESRS E3;Procesy: Administrace dotací (bez VVV)"
+    },
+    {
+        "chunk_id": "CI_38",
+        "utvar": "Oddělení rozvojových investic",
+        "chunk": "Útvar/oddělení: Oddělení rozvojových investic;Vazba na ESRS (ESG): ESRS E4;Procesy: Nájmy a nájemní smlouvy"
+    },
+    {
+        "chunk_id": "CI_39",
+        "utvar": "Oddělení pro řízení projektů",
+        "chunk": "Útvar/oddělení: Oddělení pro řízení projektů;Vazba na ESRS (ESG): ESRS E5;Procesy: Veřejné zakázky a výběrová řízení"
+    },
+    {
+        "chunk_id": "CI_40",
+        "utvar": "Oddělení zdravotnické techniky",
+        "chunk": "Útvar/oddělení: Oddělení zdravotnické techniky;Vazba na ESRS (ESG): ESRS G1;Procesy: Digitalizace"
+    },
+    {
+        "chunk_id": "CI_41",
+        "utvar": "Oddělení provozních investic",
+        "chunk": "Útvar/oddělení: Oddělení provozních investic;Procesy: Udržitelnost a společenská odpovědnost"
+    },
+    {
+        "chunk_id": "CI_42",
+        "utvar": "Centrum informatiky",
+        "chunk": "Útvar/oddělení: Centrum informatiky;Vazba na ESRS (ESG): ESRS S4 (pacientská data);Procesy: IT helpdesk"
+    },
+    {
+        "chunk_id": "CI_43",
+        "utvar": "Sekretariát CI",
+        "chunk": "Útvar/oddělení: Sekretariát CI;Vazba na ESRS (ESG): ESRS G1;Procesy: Správa systémů"
+    },
+    {
+        "chunk_id": "CI_44",
+        "utvar": "Oddělení infrastruktury",
+        "chunk": "Útvar/oddělení: Oddělení infrastruktury;Procesy: IT strategie"
+    },
+    {
+        "chunk_id": "CI_45",
+        "utvar": "Oddělení koncových stanic",
+        "chunk": "Útvar/oddělení: Oddělení koncových stanic;Procesy: Bezpečnost"
+    },
+    {
+        "chunk_id": "CI_46",
+        "utvar": "Oddělení projektů IT",
+        "chunk": "Útvar/oddělení: Oddělení projektů IT;Procesy: Digitalizace"
+    },
+    {
+        "chunk_id": "CI_47",
+        "utvar": "Oddělení organizačních služeb",
+        "chunk": "Útvar/oddělení: Oddělení organizačních služeb;Procesy: Kyberbezpečnost"
+    },
+    {
+        "chunk_id": "CI_48",
+        "utvar": "Odbor hospodářsko-technické správy",
+        "chunk": "Útvar/oddělení: Odbor hospodářsko-technické správy;Vazba na ESRS (ESG): ESRS E1;Procesy: Zajištění provozu"
+    },
+    {
+        "chunk_id": "CI_49",
+        "utvar": "Sekretariát OHTS",
+        "chunk": "Útvar/oddělení: Sekretariát OHTS;Vazba na ESRS (ESG): ESRS E2;Procesy: Údržba"
+    },
+    {
+        "chunk_id": "CI_50",
+        "utvar": "Doprava",
+        "chunk": "Útvar/oddělení: Doprava;Vazba na ESRS (ESG): ESRS E3;Procesy: Přeprava"
+    },
+    {
+        "chunk_id": "CI_51",
+        "utvar": "Energetika",
+        "chunk": "Útvar/oddělení: Energetika;Vazba na ESRS (ESG): ESRS E4;Procesy: Energetika"
+    },
+    {
+        "chunk_id": "CI_52",
+        "utvar": "Prádelna",
+        "chunk": "Útvar/oddělení: Prádelna;Vazba na ESRS (ESG): ESRS E5;Procesy: BOZP"
+    },
+    {
+        "chunk_id": "CI_53",
+        "utvar": "Správa budov NBP",
+        "chunk": "Útvar/oddělení: Správa budov NBP;Vazba na ESRS (ESG): ESRS S4;Procesy: Zásobování"
+    },
+    {
+        "chunk_id": "CI_54",
+        "utvar": "Správa budov DN",
+        "chunk": "Útvar/oddělení: Správa budov DN;Procesy: Obchodování s emisními povolenkami (EU ETS)"
+    },
+    {
+        "chunk_id": "IO_0",
+        "utvar": "Kancelář ředitele",
+        "chunk": "Útvar/oddělení: Kancelář ředitele;Vazba na ESRS (ESG): ESRS G1;Procesy: Interní korespondence"
+    },
+    {
+        "chunk_id": "IO_1",
+        "utvar": "Sekretariát ředitelství",
+        "chunk": "Útvar/oddělení: Sekretariát ředitelství;Vazba na ESRS (ESG): ESRS S4;Procesy: Schvalování směrnic"
+    },
+    {
+        "chunk_id": "IO_2",
+        "utvar": "Oddělení pověřence",
+        "chunk": "Útvar/oddělení: Oddělení pověřence;Procesy: Ochrana osobních údajů (GDPR)"
+    },
+    {
+        "chunk_id": "IO_3",
+        "utvar": "Oddělení spisové služby",
+        "chunk": "Útvar/oddělení: Oddělení spisové služby;Procesy: Spisová služba"
+    },
+    {
+        "chunk_id": "IO_4",
+        "utvar": "Centrum komunikace a marketingu",
+        "chunk": "Útvar/oddělení: Centrum komunikace a marketingu;Vazba na ESRS (ESG): ESRS S4;Procesy: Interní/externí komunikace"
+    },
+    {
+        "chunk_id": "IO_5",
+        "utvar": "Oddělení komunikace",
+        "chunk": "Útvar/oddělení: Oddělení komunikace;Vazba na ESRS (ESG): ESRS S3;Procesy: Tiskové zprávy"
+    },
+    {
+        "chunk_id": "IO_6",
+        "utvar": "Oddělení marketingu",
+        "chunk": "Útvar/oddělení: Oddělení marketingu;Vazba na ESRS (ESG): ESRS G1;Procesy: Správa médií"
+    },
+    {
+        "chunk_id": "IO_7",
+        "utvar": "Manažer pro kybernetickou bezpečnost",
+        "chunk": "Útvar/oddělení: Manažer pro kybernetickou bezpečnost;Vazba na ESRS (ESG): ESRG G1;Procesy: Řízení bezpečnostních politik"
+    },
+    {
+        "chunk_id": "IO_8",
+        "utvar": "Manažer pro kybernetickou bezpečnost",
+        "chunk": "Útvar/oddělení: Manažer pro kybernetickou bezpečnost;Vazba na ESRS (ESG): ESRS S4;Procesy: Řešení incidentů"
+    },
+    {
+        "chunk_id": "IO_9",
+        "utvar": "Manažer pro kybernetickou bezpečnost",
+        "chunk": "Útvar/oddělení: Manažer pro kybernetickou bezpečnost;Procesy: Školení"
+    },
+    {
+        "chunk_id": "IO_10",
+        "utvar": "Útvar náměstka pro vědu a výzkum ",
+        "chunk": "Útvar/oddělení: Útvar náměstka pro vědu a výzkum;Vazba na ESRS (ESG): ESRS G1;Procesy: Správa grantů"
+    },
+    {
+        "chunk_id": "IO_11",
+        "utvar": "Oddělení vědy a výzkumu ",
+        "chunk": "Útvar/oddělení: Oddělení vědy a výzkumu;Vazba na ESRS (ESG): ESRS S4;Procesy: Klinické studie"
+    },
+    {
+        "chunk_id": "IO_12",
+        "utvar": "Etická komise",
+        "chunk": "Útvar/oddělení: Etická komise;Vazba na ESRS (ESG): ESRS G1;Procesy: Etická schválení"
+    },
+    {
+        "chunk_id": "IO_13",
+        "utvar": "Oddělení krizové připravenosti",
+        "chunk": "Útvar/oddělení: Oddělení krizové připravenosti;Vazba na ESRS (ESG): ESRS S1,2,3,4;Procesy: Tvorba krizových plánů"
+    },
+    {
+        "chunk_id": "IO_14",
+        "utvar": "Koordinační středisko Medicíny katastrof (MEKA)",
+        "chunk": "Útvar/oddělení: Koordinační středisko Medicíny katastrof (MEKA);Vazba na ESRS (ESG): ESRS G1;Procesy: Evidence mimořádných událostí"
+    },
+    {
+        "chunk_id": "IO_15",
+        "utvar": "Oddělení právních věcí",
+        "chunk": "Útvar/oddělení: Oddělení právních věcí;Vazba na ESRS (ESG): ESRS G1;Procesy: Legislativa (právní poradenství, soudní agendy)"
+    },
+    {
+        "chunk_id": "IO_16",
+        "utvar": "Oddělení právních věcí",
+        "chunk": "Útvar/oddělení: Oddělení právních věcí;Vazba na ESRS (ESG): ESRS S1 (zaměstnanci);Procesy: Smlouvy"
+    },
+    {
+        "chunk_id": "IO_17",
+        "utvar": "Oddělení právních věcí",
+        "chunk": "Útvar/oddělení: Oddělení právních věcí;Vazba na ESRS (ESG): ESRS S4 (klienti);Procesy: včetně klinických studií"
+    },
+    {
+        "chunk_id": "IO_18",
+        "utvar": "Oddělení právních věcí",
+        "chunk": "Útvar/oddělení: Oddělení právních věcí;Vazba na ESRS (ESG): ESRS S2 (dodavatelé);Procesy: Řešení stížností"
+    },
+    {
+        "chunk_id": "IO_19",
+        "utvar": "Oddělení právních věcí",
+        "chunk": "Útvar/oddělení: Oddělení právních věcí;Procesy: Agenda zákona č. 106/1999 Sb., o svobodném přístupu k informacím"
+    },
+    {
+        "chunk_id": "IO_20",
+        "utvar": "Odbor personálních záležitostí",
+        "chunk": "Útvar/oddělení: Odbor personálních záležitostí;Vazba na ESRS (ESG): ESRS S1;Procesy: Nábor"
+    },
+    {
+        "chunk_id": "IO_21",
+        "utvar": "Sekretariát OPZ",
+        "chunk": "Útvar/oddělení: Sekretariát OPZ;Vazba na ESRS (ESG): ESRS G1 (řízení zam-ců);Procesy: Vzdělávání"
+    },
+    {
+        "chunk_id": "IO_22",
+        "utvar": "Personální oddělení",
+        "chunk": "Útvar/oddělení: Personální oddělení;Procesy: Mzdová agenda a benefity"
+    },
+    {
+        "chunk_id": "IO_23",
+        "utvar": "Analytické oddělení",
+        "chunk": "Útvar/oddělení: Analytické oddělení;Procesy: Vedení osobních spisů"
+    },
+    {
+        "chunk_id": "IO_24",
+        "utvar": "Oddělení pro radiační dohled",
+        "chunk": "Útvar/oddělení: Oddělení pro radiační dohled;Vazba na ESRS (ESG): ESRS S1;Procesy: Radiační ochrana a bezpečnost práce včetně legislativy"
+    },
+    {
+        "chunk_id": "IO_25",
+        "utvar": "Oddělení interního auditu a kontroly",
+        "chunk": "Útvar/oddělení: Oddělení interního auditu a kontroly;Vazba na ESRS (ESG): ESRS S1;Procesy: Provádění auditů"
+    },
+    {
+        "chunk_id": "IO_26",
+        "utvar": "Oddělení interního auditu a kontroly",
+        "chunk": "Útvar/oddělení: Oddělení interního auditu a kontroly;Vazba na ESRS (ESG): ESRS S2;Procesy: Stížnosti"
+    },
+    {
+        "chunk_id": "IO_27",
+        "utvar": "Oddělení interního auditu a kontroly",
+        "chunk": "Útvar/oddělení: Oddělení interního auditu a kontroly;Vazba na ESRS (ESG): ESRS G2;Procesy: Ombudsman"
+    },
+    {
+        "chunk_id": "IO_28",
+        "utvar": "Ekonomický odbor",
+        "chunk": "Útvar/oddělení: Ekonomický odbor;Vazba na ESRS (ESG): ESRS G1;Procesy: Rozpočtování (tvorba a kontrola rozpočtu)"
+    },
+    {
+        "chunk_id": "IO_29",
+        "utvar": "Sekretariát EO",
+        "chunk": "Útvar/oddělení: Sekretariát EO;Vazba na ESRS (ESG): ESRS E1-6,7,8 (uhlíkové kredity);Procesy: včetně klinických studií"
+    },
+    {
+        "chunk_id": "IO_30",
+        "utvar": "Odd. vnitronemocničního účetnictví a financí",
+        "chunk": "Útvar/oddělení: Odd. vnitronemocničního účetnictví a financí;Procesy: Fakturace"
+    },
+    {
+        "chunk_id": "IO_31",
+        "utvar": "Oddělení controllingu",
+        "chunk": "Útvar/oddělení: Oddělení controllingu;Procesy: Kontrola nákladů"
+    },
+    {
+        "chunk_id": "IO_32",
+        "utvar": "Oddělení operativní evidence",
+        "chunk": "Útvar/oddělení: Oddělení operativní evidence;Procesy: včetně klinických studií"
+    },
+    {
+        "chunk_id": "IO_33",
+        "utvar": "Oddělení účtáren a informací",
+        "chunk": "Útvar/oddělení: Oddělení účtáren a informací;Procesy: Výkazy a datové výstupy pro pojišťovny"
+    },
+    {
+        "chunk_id": "IO_34",
+        "utvar": "Oddělení zdravotních pojišťoven",
+        "chunk": "Útvar/oddělení: Oddělení zdravotních pojišťoven;Procesy: Vedení účetnictví"
+    },
+    {
+        "chunk_id": "IO_35",
+        "utvar": "Investiční odbor",
+        "chunk": "Útvar/oddělení: Investiční odbor;Vazba na ESRS (ESG): ESRS E1;Procesy: Řízení investic"
+    },
+    {
+        "chunk_id": "IO_36",
+        "utvar": "Sekretariát IO",
+        "chunk": "Útvar/oddělení: Sekretariát IO;Vazba na ESRS (ESG): ESRS E2;Procesy: Žádosti o dotace (bez VVV)"
+    },
+    {
+        "chunk_id": "IO_37",
+        "utvar": "Obchodní oddělení",
+        "chunk": "Útvar/oddělení: Obchodní oddělení;Vazba na ESRS (ESG): ESRS E3;Procesy: Administrace dotací (bez VVV)"
+    },
+    {
+        "chunk_id": "IO_38",
+        "utvar": "Oddělení rozvojových investic",
+        "chunk": "Útvar/oddělení: Oddělení rozvojových investic;Vazba na ESRS (ESG): ESRS E4;Procesy: Nájmy a nájemní smlouvy"
+    },
+    {
+        "chunk_id": "IO_39",
+        "utvar": "Oddělení pro řízení projektů",
+        "chunk": "Útvar/oddělení: Oddělení pro řízení projektů;Vazba na ESRS (ESG): ESRS E5;Procesy: Veřejné zakázky a výběrová řízení"
+    },
+    {
+        "chunk_id": "IO_40",
+        "utvar": "Oddělení zdravotnické techniky",
+        "chunk": "Útvar/oddělení: Oddělení zdravotnické techniky;Vazba na ESRS (ESG): ESRS G1;Procesy: Digitalizace"
+    },
+    {
+        "chunk_id": "IO_41",
+        "utvar": "Oddělení provozních investic",
+        "chunk": "Útvar/oddělení: Oddělení provozních investic;Procesy: Udržitelnost a společenská odpovědnost"
+    },
+    {
+        "chunk_id": "IO_42",
+        "utvar": "Centrum informatiky",
+        "chunk": "Útvar/oddělení: Centrum informatiky;Vazba na ESRS (ESG): ESRS S4 (pacientská data);Procesy: IT helpdesk"
+    },
+    {
+        "chunk_id": "IO_43",
+        "utvar": "Sekretariát CI",
+        "chunk": "Útvar/oddělení: Sekretariát CI;Vazba na ESRS (ESG): ESRS G1;Procesy: Správa systémů"
+    },
+    {
+        "chunk_id": "IO_44",
+        "utvar": "Oddělení infrastruktury",
+        "chunk": "Útvar/oddělení: Oddělení infrastruktury;Procesy: IT strategie"
+    },
+    {
+        "chunk_id": "IO_45",
+        "utvar": "Oddělení koncových stanic",
+        "chunk": "Útvar/oddělení: Oddělení koncových stanic;Procesy: Bezpečnost"
+    },
+    {
+        "chunk_id": "IO_46",
+        "utvar": "Oddělení projektů IT",
+        "chunk": "Útvar/oddělení: Oddělení projektů IT;Procesy: Digitalizace"
+    },
+    {
+        "chunk_id": "IO_47",
+        "utvar": "Oddělení organizačních služeb",
+        "chunk": "Útvar/oddělení: Oddělení organizačních služeb;Procesy: Kyberbezpečnost"
+    },
+    {
+        "chunk_id": "IO_48",
+        "utvar": "Odbor hospodářsko-technické správy",
+        "chunk": "Útvar/oddělení: Odbor hospodářsko-technické správy;Vazba na ESRS (ESG): ESRS E1;Procesy: Zajištění provozu"
+    },
+    {
+        "chunk_id": "IO_49",
+        "utvar": "Sekretariát OHTS",
+        "chunk": "Útvar/oddělení: Sekretariát OHTS;Vazba na ESRS (ESG): ESRS E2;Procesy: Údržba"
+    },
+    {
+        "chunk_id": "IO_50",
+        "utvar": "Doprava",
+        "chunk": "Útvar/oddělení: Doprava;Vazba na ESRS (ESG): ESRS E3;Procesy: Přeprava"
+    },
+    {
+        "chunk_id": "IO_51",
+        "utvar": "Energetika",
+        "chunk": "Útvar/oddělení: Energetika;Vazba na ESRS (ESG): ESRS E4;Procesy: Energetika"
+    },
+    {
+        "chunk_id": "IO_52",
+        "utvar": "Prádelna",
+        "chunk": "Útvar/oddělení: Prádelna;Vazba na ESRS (ESG): ESRS E5;Procesy: BOZP"
+    },
+    {
+        "chunk_id": "IO_53",
+        "utvar": "Správa budov NBP",
+        "chunk": "Útvar/oddělení: Správa budov NBP;Vazba na ESRS (ESG): ESRS S4;Procesy: Zásobování"
+    },
+    {
+        "chunk_id": "IO_54",
+        "utvar": "Správa budov DN",
+        "chunk": "Útvar/oddělení: Správa budov DN;Procesy: Obchodování s emisními povolenkami (EU ETS)"
+    },
+    {
+        "chunk_id": "Kancelář ředitele_0",
+        "utvar": "Kancelář ředitele",
+        "chunk": "Útvar/oddělení: Kancelář ředitele;Procesy: Oblast činnosti Kanceláře ředitele;Popis procesu v organizačním řádu OPZ: Nezdravotnický útvar zajišťuje činnosti v oblasti organizace a řízení, včetně koordinace a kontroly plnění strategických úkolů, ochrany osobních údajů FN Brno, spisové a archivní služby a řízení kvality a bezpečí poskytovaných služeb."
+    },
+    {
+        "chunk_id": "Kancelář ředitele_1",
+        "utvar": "Sekretariát ředitelství",
+        "chunk": "Útvar/oddělení: Sekretariát ředitelství;Procesy: Organizace a plánování schůzek ředitele;Popis procesu v organizačním řádu OPZ: Odpovídá za organizaci a plánování schůzek ředitele FN Brno se zaměstnanci a dalšími subjekty."
+    },
+    {
+        "chunk_id": "Kancelář ředitele_2",
+        "utvar": "Sekretariát ředitelství",
+        "chunk": "Útvar/oddělení: Sekretariát ředitelství;Procesy: Kontrola vyřízení požadavků útvarů;Popis procesu v organizačním řádu OPZ: Odpovídá za kontrolu vyřízení požadavků útvarů FN Brno na ředitele FN Brno v oblasti cestovních příkazů, schvalování služebních telefonů a SIM karet a dalších požadavků útvarů."
+    },
+    {
+        "chunk_id": "Kancelář ředitele_3",
+        "utvar": "Sekretariát ředitelství",
+        "chunk": "Útvar/oddělení: Sekretariát ředitelství;Procesy: Předkládání dokumentů řediteli;Popis procesu v organizačním řádu OPZ: Odpovídá za předkládání řediteli k vyjádření (podpisu) dokumenty z útvarů FN Brno."
+    },
+    {
+        "chunk_id": "Kancelář ředitele_4",
+        "utvar": "Sekretariát ředitelství",
+        "chunk": "Útvar/oddělení: Sekretariát ředitelství;Procesy: Korespondence ředitele;Popis procesu v organizačním řádu OPZ: Odpovídá za vyřizování korespondence ředitele FN Brno."
+    },
+    {
+        "chunk_id": "Kancelář ředitele_5",
+        "utvar": "Sekretariát ředitelství",
+        "chunk": "Útvar/oddělení: Sekretariát ředitelství;Procesy: Pochvaly zaměstnanců;Popis procesu v organizačním řádu OPZ: Odpovídá za vyřizování pochval zaměstnanců FN Brno od pacientů/klientů směřujících na ředitele FN Brno."
+    },
+    {
+        "chunk_id": "Kancelář ředitele_6",
+        "utvar": "Sekretariát ředitelství",
+        "chunk": "Útvar/oddělení: Sekretariát ředitelství;Procesy: Kontrola plnění úkolů ředitele;Popis procesu v organizačním řádu OPZ: Zajišťuje kontrolu plnění úkolů zadaných ředitelem FN Brno."
+    },
+    {
+        "chunk_id": "Kancelář ředitele_7",
+        "utvar": "Sekretariát ředitelství",
+        "chunk": "Útvar/oddělení: Sekretariát ředitelství;Procesy: Zveřejňování informací a přehledů;Popis procesu v organizačním řádu OPZ: Zajišťuje zveřejňování důležitých informací z Kanceláře ředitele, včetně uveřejnění měsíčních přehledů z oblasti personalistiky a ekonomiky v systému Share Point."
+    },
+    {
+        "chunk_id": "Kancelář ředitele_8",
+        "utvar": "Sekretariát ředitelství",
+        "chunk": "Útvar/oddělení: Sekretariát ředitelství;Procesy: Zveřejňování příkazů a oběžníků;Popis procesu v organizačním řádu OPZ: Zajišťuje zveřejňování Příkazů ředitele, Oběžníků ředitele a sdělení útvarů FN Brno (prostřednictvím skupinových adres „All User“)."
+    },
+    {
+        "chunk_id": "Kancelář ředitele_9",
+        "utvar": "Sekretariát ředitelství",
+        "chunk": "Útvar/oddělení: Sekretariát ředitelství;Procesy: Základní dokumenty FN Brno;Popis procesu v organizačním řádu OPZ: Odpovídá za zpracování základních dokumentů FN Brno – Zřizovací listina, Statut FN Brno, Organizační řád FN Brno – a jejich aktualizaci."
+    },
+    {
+        "chunk_id": "Kancelář ředitele_10",
+        "utvar": "Sekretariát ředitelství",
+        "chunk": "Útvar/oddělení: Sekretariát ředitelství;Procesy: Informování MZ ČR o organizačních změnách;Popis procesu v organizačním řádu OPZ: Odpovídá za informování MZ ČR o organizačních změnách na I.–III. organizační úrovni dle požadavku MZ ČR."
+    },
+    {
+        "chunk_id": "Kancelář ředitele_11",
+        "utvar": "Sekretariát ředitelství",
+        "chunk": "Útvar/oddělení: Sekretariát ředitelství;Procesy: Agenda programu MEDEVAC;Popis procesu v organizačním řádu OPZ: Zajišťuje schvalování žádostí MV ČR a MZ ČR k agendě programu MEDEVAC ředitelem, informuje o stanovisku ředitele MV ČR, MZ ČR, EO, OPZ a útvary, které se podílejí na zajišťování tohoto programu zaměstnanci FN Brno."
+    },
+    {
+        "chunk_id": "Kancelář ředitele_12",
+        "utvar": "Sekretariát ředitelství",
+        "chunk": "Útvar/oddělení: Sekretariát ředitelství;Procesy: Pracovní výročí zaměstnanců;Popis procesu v organizačním řádu OPZ: Vyřizuje agendu pracovních výročí – příprava a realizace procesu gratulace zaměstnanci k pracovnímu výročí ředitelem či příslušným vedoucím zaměstnancem v přímé podřízenosti ředitele."
+    },
+    {
+        "chunk_id": "Kancelář ředitele_13",
+        "utvar": "Sekretariát ředitelství",
+        "chunk": "Útvar/oddělení: Sekretariát ředitelství;Procesy: Informace ke Kamerovému systému;Popis procesu v organizačním řádu OPZ: Spolupracuje s vedoucím Centrálního velínu poskytováním mu informací ke Kamerovému systému."
+    },
+    {
+        "chunk_id": "Kancelář ředitele_14",
+        "utvar": "Oddělení pověřence",
+        "chunk": "Útvar/oddělení: Oddělení pověřence;Procesy: Komunikace s dozorovými orgány;Popis procesu v organizačním řádu OPZ: Komunikuje s ÚOOÚ a MZ ČR při zajištění své činnosti."
+    },
+    {
+        "chunk_id": "Kancelář ředitele_15",
+        "utvar": "Oddělení pověřence",
+        "chunk": "Útvar/oddělení: Oddělení pověřence;Procesy: Ochrana osobních údajů zaměstnanců;Popis procesu v organizačním řádu OPZ: Odpovídá za ochranu osobních dat zaměstnanců FN Brno v souladu s platnou právní úpravou a GDPR."
+    },
+    {
+        "chunk_id": "Kancelář ředitele_16",
+        "utvar": "Oddělení pověřence",
+        "chunk": "Útvar/oddělení: Oddělení pověřence;Procesy: Poradenská činnost a dotazy;Popis procesu v organizačním řádu OPZ: Provádí poradenskou činnost a odpovídá na dotazy zaměstnanců v oblasti ochrany osobních údajů."
+    },
+    {
+        "chunk_id": "Kancelář ředitele_17",
+        "utvar": "Oddělení pověřence",
+        "chunk": "Útvar/oddělení: Oddělení pověřence;Procesy: Školení v oblasti ochrany osobních údajů;Popis procesu v organizačním řádu OPZ: Provádí školení zaměstnanců v agendě ochrana osobních údajů v rámci vstupních školení a následně spolupracuje s útvary v rámci zajištění periodických školení zaměstnanců, vede záznamy o realizaci těchto školení."
+    },
+    {
+        "chunk_id": "Kancelář ředitele_18",
+        "utvar": "Oddělení pověřence",
+        "chunk": "Útvar/oddělení: Oddělení pověřence;Procesy: Analýza a řízení rizik v ochraně osobních údajů;Popis procesu v organizačním řádu OPZ: Provádí zpracování analýzy rizik, jejich monitorování a vyhodnocování, iniciuje přijímání opatření k ochraně osobních údajů."
+    },
+    {
+        "chunk_id": "Kancelář ředitele_19",
+        "utvar": "Oddělení pověřence",
+        "chunk": "Útvar/oddělení: Oddělení pověřence;Procesy: Evidence činností a podnětů;Popis procesu v organizačním řádu OPZ: Vede záznamy o činnosti zpracování a vyřizování podnětů a stížností subjektů adresovaných ÚOOÚ."
+    },
+    {
+        "chunk_id": "Kancelář ředitele_20",
+        "utvar": "Oddělení pověřence",
+        "chunk": "Útvar/oddělení: Oddělení pověřence;Procesy: Dozorová činnost v oblasti osobních údajů;Popis procesu v organizačním řádu OPZ: Zajišťuje komplexní dozorovou činnost v oblasti ochrany osobních údajů."
+    },
+    {
+        "chunk_id": "Kancelář ředitele_21",
+        "utvar": "Oddělení pověřence",
+        "chunk": "Útvar/oddělení: Oddělení pověřence;Procesy: Stanoviska k IŘD a formulářům;Popis procesu v organizačním řádu OPZ: Zpracovává stanoviska Oddělení pověřence k návrhům interní řídicí dokumentace (IŘD) a formulářů FN Brno."
+    },
+    {
+        "chunk_id": "Kancelář ředitele_22",
+        "utvar": "Oddělení spisové služby",
+        "chunk": "Útvar/oddělení: Oddělení spisové služby;Procesy: Agenda spisové a archivní služby;Popis procesu v organizačním řádu OPZ: Odpovídá za zpracování a řádný chod agend Oddělení spisové služby: činnost ústředních spisoven a centrálních podatelen FN Brno, koordinace zákonných a kvalifikovaných požadavků zacházení s dokumenty FN Brno, dohled nad vyřazováním dokumentů jednotlivých útvarů, organizace archiválií a komunikace s MZA."
+    },
+    {
+        "chunk_id": "Kancelář ředitele_23",
+        "utvar": "Oddělení spisové služby",
+        "chunk": "Útvar/oddělení: Oddělení spisové služby;Procesy: Fyzická likvidace dokumentů;Popis procesu v organizačním řádu OPZ: Ve spolupráci s OHTS se podílí na zajištění fyzické likvidace dokumentů vyřazených na základě skartačního řízení ve FN Brno."
+    },
+    {
+        "chunk_id": "Kancelář ředitele_24",
+        "utvar": "Oddělení spisové služby",
+        "chunk": "Útvar/oddělení: Oddělení spisové služby;Procesy: Evidence razítek;Popis procesu v organizačním řádu OPZ: Vede ústřední evidenci služebních a lékařských razítek ve FN Brno."
+    },
+    {
+        "chunk_id": "Kancelář ředitele_25",
+        "utvar": "Oddělení spisové služby",
+        "chunk": "Útvar/oddělení: Oddělení spisové služby;Procesy: Administrace IS a datové schránky;Popis procesu v organizačním řádu OPZ: Je administrátorem datové schránky FN Brno a IS WISPI-SSL a IS WISPI-ASA."
+    },
+    {
+        "chunk_id": "Kancelář ředitele_26",
+        "utvar": "Oddělení spisové služby",
+        "chunk": "Útvar/oddělení: Oddělení spisové služby;Procesy: Administrativní bezpečnost;Popis procesu v organizačním řádu OPZ: Vytváří koncepci a zajišťuje oblast administrativní bezpečnosti v rámci spisové služby."
+    },
+    {
+        "chunk_id": "Kancelář ředitele_27",
+        "utvar": "Systém řízení kvality - Sekretariát ředitelství (SŘK)",
+        "chunk": "Útvar/oddělení: Systém řízení kvality - Sekretariát ředitelství (SŘK);Procesy: Systém řízení kvality – metodické vedení;Popis procesu v organizačním řádu OPZ: Odpovídá za zpracování a řádný chod agend systému řízení kvality a bezpečí poskytovaných služeb (SŘK) ve FN Brno a metodické vedení útvarů FN Brno v této agendě."
+    },
+    {
+        "chunk_id": "Kancelář ředitele_28",
+        "utvar": "Systém řízení kvality - Sekretariát ředitelství (SŘK)",
+        "chunk": "Útvar/oddělení: Systém řízení kvality - Sekretariát ředitelství (SŘK);Procesy: Dokumentace a indikátory kvality;Popis procesu v organizačním řádu OPZ: Odpovídá za zpracování dokumentů SŘK na celonemocniční úrovni dle standardů kvality ve spolupráci s příslušnými útvary FN Brno, sleduje a vyhodnocuje indikátory kvality na celonemocniční úrovni a ze závěrů navrhuje opatření k zvýšení efektivity SŘK ve FN Brno."
+    },
+    {
+        "chunk_id": "OIAK_0",
+        "utvar": "Oddělení interního auditu a kontroly (OIAK)",
+        "chunk": "Útvar/oddělení: Oddělení interního auditu a kontroly (OIAK);Procesy: Organizační začlenění a poslání;Popis procesu v organizačním řádu OPZ: Oddělení interního auditu a kontroly je organizační součástí FN Brno přímo podřízenou řediteli FN Brno. Interní audit je nezávislá, objektivně ujišťovací a konzultační činnost zaměřená na přidávání hodnoty a zdokonalování procesů v organizaci. Pomáhá organizaci dosahovat cílů tím, že přináší systematický metodický přístup k hodnocení a zlepšování účinnosti systému řízení rizik, řídicích a kontrolních procesů a správy a řízení organizace."
+    },
+    {
+        "chunk_id": "OIAK_1",
+        "utvar": "Oddělení interního auditu a kontroly (OIAK)",
+        "chunk": "Útvar/oddělení: Oddělení interního auditu a kontroly (OIAK);Procesy: Koncepce interních auditů a kontrol;Popis procesu v organizačním řádu OPZ: Zpracovává koncepci provádění auditů výkonu, auditů systémů a finančních auditů na základě ročního plánu interních auditů a interních kontrol OIAK ve FN Brno."
+    },
+    {
+        "chunk_id": "OIAK_2",
+        "utvar": "Oddělení interního auditu a kontroly (OIAK)",
+        "chunk": "Útvar/oddělení: Oddělení interního auditu a kontroly (OIAK);Procesy: Operativní kontroly;Popis procesu v organizačním řádu OPZ: Zajišťuje dle aktuálních potřeb vedení FN Brno provádění operativních kontrol."
+    },
+    {
+        "chunk_id": "OIAK_3",
+        "utvar": "Oddělení interního auditu a kontroly (OIAK)",
+        "chunk": "Útvar/oddělení: Oddělení interního auditu a kontroly (OIAK);Procesy: Stížnosti a podněty klientů;Popis procesu v organizačním řádu OPZ: Odpovídá za evidenci, prošetření a vyřízení stížností, oznámení a podnětů klientů/pacientů dle platné právní úpravy."
+    },
+    {
+        "chunk_id": "OIAK_4",
+        "utvar": "Oddělení interního auditu a kontroly (OIAK)",
+        "chunk": "Útvar/oddělení: Oddělení interního auditu a kontroly (OIAK);Procesy: Mapa rizik;Popis procesu v organizačním řádu OPZ: Podílí se na tvorbě Mapy rizik ve FN Brno a zpracovává Mapu rizik FN Brno dle pracovního postupu Řízení rizik ve FN Brno."
+    },
+    {
+        "chunk_id": "OIAK_5",
+        "utvar": "Oddělení interního auditu a kontroly (OIAK)",
+        "chunk": "Útvar/oddělení: Oddělení interního auditu a kontroly (OIAK);Procesy: Systém vnitřního řízení a kontroly;Popis procesu v organizačním řádu OPZ: Posuzuje aktuálnost a potřebnost stanovených pravidel a postupů a navrhuje nová pravidla tam, kde zjištěná pochybení vyžadují systémové řešení. Systém vnitřního řízení a kontroly posuzuje zejména ve vztahu k řízení rizik významných pro dosažení cílů a strategie FN Brno."
+    },
+    {
+        "chunk_id": "OIAK_6",
+        "utvar": "Oddělení interního auditu a kontroly (OIAK)",
+        "chunk": "Útvar/oddělení: Oddělení interního auditu a kontroly (OIAK);Procesy: Interní audit;Popis procesu v organizačním řádu OPZ: Provádí interní audit dle směrnice Interní audit a kontrolní činnost ve FN Brno v souladu s mezinárodními standardy interního auditu. Provádí nezávislé a objektivní přezkoumání a vyhodnocování kontrolního systému FN Brno. Prověřuje efektivnost procesů a faktory týkající se poměru nákladů a výnosů, monitoruje procesy a posuzuje, zda systém vnitřního řízení a kontroly funguje v souladu se svým určením."
+    },
+    {
+        "chunk_id": "OIAK_7",
+        "utvar": "Oddělení interního auditu a kontroly (OIAK)",
+        "chunk": "Útvar/oddělení: Oddělení interního auditu a kontroly (OIAK);Procesy: Interní operativní kontroly;Popis procesu v organizačním řádu OPZ: Provádí interní operativní kontroly dle směrnice Interní audit a kontrolní činnost ve FN Brno."
+    },
+    {
+        "chunk_id": "OIAK_8",
+        "utvar": "Oddělení interního auditu a kontroly (OIAK)",
+        "chunk": "Útvar/oddělení: Oddělení interního auditu a kontroly (OIAK);Procesy: Evidence externích kontrol;Popis procesu v organizačním řádu OPZ: Vede evidenci externích kontrol dle směrnice Interní audit a kontrolní činnost ve FN Brno."
+    },
+    {
+        "chunk_id": "OIAK_9",
+        "utvar": "Oddělení interního auditu a kontroly (OIAK)",
+        "chunk": "Útvar/oddělení: Oddělení interního auditu a kontroly (OIAK);Procesy: Evidence možného korupčního jednání;Popis procesu v organizačním řádu OPZ: Vede evidenci možného korupčního jednání v souladu se směrnicí Zásady prevence a potírání korupce a podvodů ve FN Brno."
+    },
+    {
+        "chunk_id": "OIAK_10",
+        "utvar": "Oddělení interního auditu a kontroly (OIAK)",
+        "chunk": "Útvar/oddělení: Oddělení interního auditu a kontroly (OIAK);Procesy: Prověření hospodárnosti, účelnosti a efektivnosti;Popis procesu v organizačním řádu OPZ: Prověřuje hospodárnost, účelnost a efektivnost hospodaření FN Brno."
+    },
+    {
+        "chunk_id": "OIAK_11",
+        "utvar": "Oddělení interního auditu a kontroly (OIAK)",
+        "chunk": "Útvar/oddělení: Oddělení interního auditu a kontroly (OIAK);Procesy: Personální a technické podmínky;Popis procesu v organizačním řádu OPZ: Vytváří personální a technické podmínky k optimalizaci pracovních činností za účelem zajištění hlavního poslání OIAK."
+    },
+    {
+        "chunk_id": "OIAK_12",
+        "utvar": "Oddělení interního auditu a kontroly (OIAK)",
+        "chunk": "Útvar/oddělení: Oddělení interního auditu a kontroly (OIAK);Procesy: Základní dokumenty řízení;Popis procesu v organizačním řádu OPZ: Řídí se směrnicemi Organizační řád FN Brno, Provozní řád FN Brno, Spisový řád FN Brno, dalšími směrnicemi, pracovními postupy, příkazy, oběžníky a rozhodnutími ředitele FN Brno, externími právními předpisy a vlastní řídicí dokumentací (Organizační řád OIAK, Provozní řád OIAK, Interní audit a kontrolní činnost, Zásady prevence a potírání korupce a podvodů, Zjišťování alkoholu a jiných návykových látek u zaměstnanců FN Brno, Řízení rizik ve FN Brno, Statut OIAK, Program pro zabezpečení a zvyšování kvality interního auditu)."
+    },
+    {
+        "chunk_id": "OIAK_13",
+        "utvar": "Oddělení interního auditu a kontroly (OIAK)",
+        "chunk": "Útvar/oddělení: Oddělení interního auditu a kontroly (OIAK);Procesy: Vnitřní komunikace a porady;Popis procesu v organizačním řádu OPZ: Uskutečňuje nepravidelné operativní porady, na nichž vedoucí OIAK zadává úkoly. Koná pravidelné provozní porady svolávané vedoucím OIAK, jichž se účastní všichni zaměstnanci OIAK; na nich jsou zaměstnanci informováni o problémech a úkolech z porad vedení FN Brno a o zjištěných nedostatcích a jsou jim ukládány operativní úkoly. Pro vnitřní komunikaci využívá vnitřní informační systémy (Outlook a SharePoint)."
+    },
+    {
+        "chunk_id": "OIAK_14",
+        "utvar": "Oddělení interního auditu a kontroly (OIAK)",
+        "chunk": "Útvar/oddělení: Oddělení interního auditu a kontroly (OIAK);Procesy: Řízení oddělení – vedoucí OIAK;Popis procesu v organizačním řádu OPZ: Vedoucí OIAK je přímo podřízen řediteli FN Brno. Přímo řídí zaměstnance OIAK, stanovuje jim úkoly a kontroluje jejich plnění. Vymezuje pracovní povinnosti, stanovuje odpovědnosti za zpracování dokumentů OIAK, jejich kontrolu a schvalování. Má povinnost zpracovat popisy pracovní náplně podřízených zaměstnanců jako nedílnou součást pracovních smluv a seznámit je s jejich ustanoveními. Vytváří předpoklady pro provádění interního auditu, kontrolní činnosti a řádného přešetření stížností."
+    },
+    {
+        "chunk_id": "OIAK_15",
+        "utvar": "Oddělení interního auditu a kontroly (OIAK)",
+        "chunk": "Útvar/oddělení: Oddělení interního auditu a kontroly (OIAK);Procesy: Interní auditor – činnosti;Popis procesu v organizačním řádu OPZ: Interní auditor zajišťuje zpracování plánu interního auditu ve FN Brno a jeho realizaci v souladu s mezinárodními standardy interního auditu. Pravidelně kontroluje a hodnotí vnitřní kontrolní systém, sestavuje Mapu rizik, napomáhá zajištění spolehlivosti podávání interních i externích zpráv a udržování souladu s právními i interními předpisy. Provádí kontrolní činnost ve FN Brno, samostatně zpracovává protokoly z prováděných interních auditů a kontrol a na základě jejich závěrů navrhuje příslušná opatření."
+    },
+    {
+        "chunk_id": "OIAK_16",
+        "utvar": "Oddělení interního auditu a kontroly (OIAK)",
+        "chunk": "Útvar/oddělení: Oddělení interního auditu a kontroly (OIAK);Procesy: Referent – činnosti;Popis procesu v organizačním řádu OPZ: Referent prošetřuje stížnosti a podněty dle platné právní úpravy a pokynu vedoucího. Vede evidenci písemností OIAK dle Spisového řádu FN Brno, zajišťuje drobné administrativní úkony a dle pokynu vedoucího může být zařazen jako dílčí člen kontrolní skupiny při provádění interního auditu nebo kontroly."
+    },
+    {
+        "chunk_id": "OIAK_17",
+        "utvar": "Oddělení interního auditu a kontroly (OIAK)",
+        "chunk": "Útvar/oddělení: Oddělení interního auditu a kontroly (OIAK);Procesy: Zastupování vedoucího;Popis procesu v organizačním řádu OPZ: V době nepřítomnosti vedoucího zaměstnance zastupuje určený zástupce v rozsahu povinností, práv a odpovědností. Zástupce i zastupovaný se vzájemně informují o průběhu a stavu hlavních nedokončených prací a jiných důležitých okolnostech; důležitá rozhodnutí lze odložit do návratu zastupovaného, není-li to možné, požádá zástupce o rozhodnutí vyššího nadřízeného (ředitele FN Brno)."
+    },
+    {
+        "chunk_id": "OIAK_18",
+        "utvar": "Oddělení interního auditu a kontroly (OIAK)",
+        "chunk": "Útvar/oddělení: Oddělení interního auditu a kontroly (OIAK);Procesy: Přístup k informacím a součinnost útvarů;Popis procesu v organizačním řádu OPZ: Zaměstnanci OIAK vykonávají činnost nezávisle a mají přístup na všechny útvary FN Brno a ke všem informacím podstatným k výkonu jejich práce. Všichni zaměstnanci FN Brno jsou povinni poskytnout součinnost na základě směrnice Interní audit a kontrolní činnost ve FN Brno."
+    },
+    {
+        "chunk_id": "OIAK_19",
+        "utvar": "Oddělení interního auditu a kontroly (OIAK)",
+        "chunk": "Útvar/oddělení: Oddělení interního auditu a kontroly (OIAK);Procesy: Závěry šetření a protokoly;Popis procesu v organizačním řádu OPZ: Závěry šetření z interních auditů a kontrol zpracovávají zaměstnanci OIAK do protokolů, které předkládají prostřednictvím vedoucího OIAK řediteli a vedení FN Brno, včetně návrhů preventivních a nápravných opatření."
+    },
+    {
+        "chunk_id": "OIAK_20",
+        "utvar": "Oddělení interního auditu a kontroly (OIAK)",
+        "chunk": "Útvar/oddělení: Oddělení interního auditu a kontroly (OIAK);Procesy: Systém řízení kvality – představitel vedení;Popis procesu v organizačním řádu OPZ: Vedení OIAK systematicky vytváří podmínky pro aplikaci normy systému kvality ve všech činnostech. Zaměstnanci jsou tvůrci a spolutvůrci směrnic a pracovních postupů systému řízení kvality a zajišťují výkon činností nutných k zajištění požadované kvality. Představitel vedení oddělení pro kvalitu, jmenovaný vedoucím OIAK, koordinuje činnosti spojené s budováním, údržbou a neustálým zlepšováním systému řízení kvality OIAK, podílí se na tvorbě dokumentace systému kvality, organizuje interní školení zaměstnanců OIAK, předkládá zprávy o dosažené výkonnosti systému činností a navrhuje opatření k neustálému zlepšování. Spolupracuje s představitelem vedení FN Brno pro kvalitu a odpovídá za správnost a soulad interní řízené dokumentace OIAK s legislativou a interní řídicí dokumentací FN Brno."
+    },
+    {
+        "chunk_id": "OIAK_21",
+        "utvar": "Oddělení interního auditu a kontroly (OIAK)",
+        "chunk": "Útvar/oddělení: Oddělení interního auditu a kontroly (OIAK);Procesy: Metrolog oddělení;Popis procesu v organizačním řádu OPZ: Metrolog oddělení je ustanoven vedoucím OIAK a jmenován ředitelem FN Brno. Zabezpečuje jednotnost a správnost měřidel a měření používáním vhodných měřicích metod, zákonných měřicích jednotek a měřidel splňujících stanovené požadavky v souladu s Metrologickým řádem FN Brno."
+    },
+    {
+        "chunk_id": "OPV_0",
+        "utvar": "Úsek obecných právních věcí",
+        "chunk": "Útvar/oddělení: Úsek obecných právních věcí;Procesy: Právní konzultace;Popis procesu v organizačním řádu OPZ: Poskytuje právní porady, konzultace, informace a školení v právní oblasti zaměstnancům v rámci jejich činnosti pro FN Brno v oblastech neřešených ostatními úseky OPV.\nSleduje dodržování zákonnosti v činnosti FN Brno.\nPoskytuje rady a konzultace v oblasti nakládání s majetkem státu, pracovního práva, znaleckého práva a práv duševního vlastnictví.\nPosuzuje a vyřizuje oprávněné zájmy druhých stran vůči FN Brno v právních věcech."
+    },
+    {
+        "chunk_id": "OPV_1",
+        "utvar": "Úsek obecných právních věcí",
+        "chunk": "Útvar/oddělení: Úsek obecných právních věcí;Procesy: Soudní jednání;Popis procesu v organizačním řádu OPZ: Připravuje dokumenty a podklady pro jednání před soudy, ostatními státními a rozhodčími orgány v právních věcech."
+    },
+    {
+        "chunk_id": "OPV_2",
+        "utvar": "Úsek obecných právních věcí",
+        "chunk": "Útvar/oddělení: Úsek obecných právních věcí;Procesy: Smlouvy;Popis procesu v organizačním řádu OPZ: Přezkoumává a uzavírá smlouvy, prosazuje zájmy FN Brno ve smluvních vztazích."
+    },
+    {
+        "chunk_id": "OPV_3",
+        "utvar": "Úsek obecných právních věcí",
+        "chunk": "Útvar/oddělení: Úsek obecných právních věcí;Procesy: Smlouvy;Popis procesu v organizačním řádu OPZ: Přezkoumává a uzavírá smlouvy včetně jejich změn zejména v oblasti:\n- nakládání s majetkem, se kterým je příslušná hospodařit FN Brno,\n- užívání majetku třetích osob,\n- vzdělávání,\n- pracovněprávní."
+    },
+    {
+        "chunk_id": "OPV_4",
+        "utvar": "Úsek obecných právních věcí",
+        "chunk": "Útvar/oddělení: Úsek obecných právních věcí;Procesy: Škody z odpovědnosti;Popis procesu v organizačním řádu OPZ: Řeší škody z odpovědnosti FN Brno způsobené na majetku zaměstnanců a klientů a škody způsobené FN Brno."
+    },
+    {
+        "chunk_id": "OPV_5",
+        "utvar": "Úsek obecných právních věcí",
+        "chunk": "Útvar/oddělení: Úsek obecných právních věcí;Procesy: Škody z odpovědnosti;Popis procesu v organizačním řádu OPZ: Řeší škody z odpovědnosti FN Brno způsobené na zdraví zaměstnanců a klientů, svolává škodní komisi a předkládá jí návrhy na řešení škodních událostí."
+    },
+    {
+        "chunk_id": "OPV_6",
+        "utvar": "Úsek obecných právních věcí",
+        "chunk": "Útvar/oddělení: Úsek obecných právních věcí;Procesy: Škody z odpovědnosti;Popis procesu v organizačním řádu OPZ: Svolává škodní komisi a předkládá jí návrhy na řešení škodních událostí."
+    },
+    {
+        "chunk_id": "OPV_7",
+        "utvar": "Úsek obecných právních věcí",
+        "chunk": "Útvar/oddělení: Úsek obecných právních věcí;Procesy: Zanelcké posudky;Popis procesu v organizačním řádu OPZ: Zajišťuje agendu ústavních znaleckých posudků."
+    },
+    {
+        "chunk_id": "OPV_8",
+        "utvar": "Úsek obecných právních věcí",
+        "chunk": "Útvar/oddělení: Úsek obecných právních věcí;Procesy: Pohledávky;Popis procesu v organizačním řádu OPZ: Vymáhá pohledávky FN Brno mimosoudní a soudní cestou."
+    },
+    {
+        "chunk_id": "OPV_9",
+        "utvar": "Úsek obecných právních věcí",
+        "chunk": "Útvar/oddělení: Úsek obecných právních věcí;Procesy: Interní předpisy;Popis procesu v organizačním řádu OPZ: Posuzuje návrhy interní řízené dokumentace mimo OPV."
+    },
+    {
+        "chunk_id": "OPV_10",
+        "utvar": "Úsek obecných právních věcí",
+        "chunk": "Útvar/oddělení: Úsek obecných právních věcí;Procesy: Právní normy;Popis procesu v organizačním řádu OPZ: Sleduje změny v právním řádu, zpracovává právní podklady, analýzy, stanoviska a právní rozbory."
+    },
+    {
+        "chunk_id": "OPV_11",
+        "utvar": "Úsek obecných právních věcí",
+        "chunk": "Útvar/oddělení: Úsek obecných právních věcí;Procesy: Právní normy;Popis procesu v organizačním řádu OPZ: Zajišťuje správu externích dokumentů (Sbírka zákonů, Věstník MZ a jiné interní normativní instrukce)."
+    },
+    {
+        "chunk_id": "OPV_12",
+        "utvar": "Úsek obecných právních věcí",
+        "chunk": "Útvar/oddělení: Úsek obecných právních věcí;Procesy: Právní normy;Popis procesu v organizačním řádu OPZ: Posuzuje návrhy právních předpisů."
+    },
+    {
+        "chunk_id": "OPV_13",
+        "utvar": "Úsek obecných právních věcí",
+        "chunk": "Útvar/oddělení: Úsek obecných právních věcí;Procesy: Přístup k informacím;Popis procesu v organizačním řádu OPZ: Vyřizuje agendu FN Brno o svobodném přístupu k informacím dle zák. č. 106/1999 Sb. v platném znění."
+    },
+    {
+        "chunk_id": "OPV_14",
+        "utvar": "Úsek obecných právních věcí",
+        "chunk": "Útvar/oddělení: Úsek obecných právních věcí;Procesy: Přístup k informacím;Popis procesu v organizačním řádu OPZ: Ověřuje, organizuje a vyřizuje žádosti klientů vztahující se k nakládání se zdravotnickou dokumentací pacientů FN Brno."
+    },
+    {
+        "chunk_id": "OPV_15",
+        "utvar": "Úsek veřejných zakázek pro oblast provozně-technickou",
+        "chunk": "Útvar/oddělení: Úsek veřejných zakázek pro oblast provozně-technickou;Procesy: Veřejné zakázky;Popis procesu v organizačním řádu OPZ: Provádí zadávací řízení na veřejné zakázky. Ve svých činnostech je tento úsek zaměřen na veřejné zakázky:\n- na stavební práce nebo související s přípravou a prováděním stavebních prací;\n- v oblasti informačních a komunikačních technologií;\n- v oblasti provozních investic a služeb;\n- na dodávky zboží pro MTZ FN Brno a pro Stravovací provoz."
+    },
+    {
+        "chunk_id": "OPV_16",
+        "utvar": "Úsek veřejných zakázek pro oblast provozně-technickou",
+        "chunk": "Útvar/oddělení: Úsek veřejných zakázek pro oblast provozně-technickou;Procesy: Veřejné zakázky;Popis procesu v organizačním řádu OPZ: Sleduje dodržování zákonnosti v činnosti FN Brno ve vztahu k zákonu č. 134/2016 Sb., o zadávání veřejných zakázek."
+    },
+    {
+        "chunk_id": "OPV_17",
+        "utvar": "Úsek veřejných zakázek pro oblast provozně-technickou",
+        "chunk": "Útvar/oddělení: Úsek veřejných zakázek pro oblast provozně-technickou;Procesy: Veřejné zakázky;Popis procesu v organizačním řádu OPZ: Poskytuje právní poradenství ostatním útvarům v oblasti zadávacích a výběrových řízení, resp. veřejných zakázek, kde má FN Brno postavení účastníka zadávacího řízení, zájemce o veřejnou zakázku malého rozsahu, resp. dodavatele."
+    },
+    {
+        "chunk_id": "OPV_18",
+        "utvar": "Úsek veřejných zakázek pro oblast provozně-technickou",
+        "chunk": "Útvar/oddělení: Úsek veřejných zakázek pro oblast provozně-technickou;Procesy: Právní konzultace;Popis procesu v organizačním řádu OPZ: Poskytuje právní porady, konzultace, informace a školení v právní oblasti zaměstnancům v rámci jejich činnosti pro FN Brno."
+    },
+    {
+        "chunk_id": "OPV_19",
+        "utvar": "Úsek veřejných zakázek pro oblast provozně-technickou",
+        "chunk": "Útvar/oddělení: Úsek veřejných zakázek pro oblast provozně-technickou;Procesy: Soudní jednání;Popis procesu v organizačním řádu OPZ: Připravuje dokumenty a podklady pro jednání před soudy, ostatními státními a rozhodčími orgány v právních věcech."
+    },
+    {
+        "chunk_id": "OPV_20",
+        "utvar": "Úsek veřejných zakázek pro oblast provozně-technickou",
+        "chunk": "Útvar/oddělení: Úsek veřejných zakázek pro oblast provozně-technickou;Procesy: Smlouvy;Popis procesu v organizačním řádu OPZ: Prosazuje zájmy FN Brno ve smluvních vztazích a právní podporu ostatním útvarům FN Brno při jejich plnění."
+    },
+    {
+        "chunk_id": "OPV_21",
+        "utvar": "Úsek veřejných zakázek pro oblast provozně-technickou",
+        "chunk": "Útvar/oddělení: Úsek veřejných zakázek pro oblast provozně-technickou;Procesy: Právní normy;Popis procesu v organizačním řádu OPZ: Sleduje změny v právním řádu, zpracovává právní podklady, analýzy, stanoviska a právní rozbory."
+    },
+    {
+        "chunk_id": "OPV_22",
+        "utvar": "Úsek veřejných zakázek pro oblast provozně-technickou",
+        "chunk": "Útvar/oddělení: Úsek veřejných zakázek pro oblast provozně-technickou;Procesy: Interní předpisy;Popis procesu v organizačním řádu OPZ: Posuzuje návrhy interní řízené dokumentace mimo OPV."
+    },
+    {
+        "chunk_id": "OPV_23",
+        "utvar": "Úsek veřejných zakázek pro oblast zdravotnickou",
+        "chunk": "Útvar/oddělení: Úsek veřejných zakázek pro oblast zdravotnickou;Procesy: Veřejné zakázky;Popis procesu v organizačním řádu OPZ: Provádí zadávací řízení na veřejné zakázky. Ve svých činnostech je tento úsek zaměřen na veřejné zakázky:\n- léčivé přípravky;\n- zdravotnický materiál;\n- ostatní spotřební materiál pro zdravotnické potřeby;\n- zdravotnické přístroje včetně servisních služeb;\n- nábytek;\n- další plnění neuvedená ve vymezení zaměření Úseku veřejných zakázek pro oblast provozně-technickou."
+    },
+    {
+        "chunk_id": "OPV_24",
+        "utvar": "Úsek veřejných zakázek pro oblast zdravotnickou",
+        "chunk": "Útvar/oddělení: Úsek veřejných zakázek pro oblast zdravotnickou;Procesy: Veřejné zakázky;Popis procesu v organizačním řádu OPZ: Sleduje dodržování zákonnosti v činnosti FN Brno ve vztahu k zákonu č. 134/2016 Sb., o zadávání veřejných zakázek."
+    },
+    {
+        "chunk_id": "OPV_25",
+        "utvar": "Úsek veřejných zakázek pro oblast zdravotnickou",
+        "chunk": "Útvar/oddělení: Úsek veřejných zakázek pro oblast zdravotnickou;Procesy: Veřejné zakázky;Popis procesu v organizačním řádu OPZ: Poskytuje právní poradenství ostatním útvarům v oblasti zadávacích a výběrových řízení, resp. veřejných zakázek, kde má FN Brno postavení účastníka zadávacího řízení, zájemce o veřejnou zakázku malého rozsahu, resp. dodavatele."
+    },
+    {
+        "chunk_id": "OPV_26",
+        "utvar": "Úsek veřejných zakázek pro oblast zdravotnickou",
+        "chunk": "Útvar/oddělení: Úsek veřejných zakázek pro oblast zdravotnickou;Procesy: Veřejné zakázky;Popis procesu v organizačním řádu OPZ: Provádí zadávací řízení na veřejné zakázky."
+    },
+    {
+        "chunk_id": "OPV_27",
+        "utvar": "Úsek veřejných zakázek pro oblast zdravotnickou",
+        "chunk": "Útvar/oddělení: Úsek veřejných zakázek pro oblast zdravotnickou;Procesy: Soudní jednání;Popis procesu v organizačním řádu OPZ: Připravuje dokumenty a podklady pro jednání před soudy, ostatními státními a rozhodčími orgány v právních věcech."
+    },
+    {
+        "chunk_id": "OPV_28",
+        "utvar": "Úsek veřejných zakázek pro oblast zdravotnickou",
+        "chunk": "Útvar/oddělení: Úsek veřejných zakázek pro oblast zdravotnickou;Procesy: Smlouvy;Popis procesu v organizačním řádu OPZ: Přezkoumává a uzavírá smlouvy včetně jejich změn zejména v oblastech:\n- na veřejné zakázky zadávané v režimu ZZVZ, \n- na veřejné zakázky malého rozsahu,\n- na veřejné zakázky, ve kterých má FN Brno postavení dodavatele,\n- smlouvy související s výše uvedenými smlouvami."
+    },
+    {
+        "chunk_id": "OPV_29",
+        "utvar": "Úsek veřejných zakázek pro oblast zdravotnickou",
+        "chunk": "Útvar/oddělení: Úsek veřejných zakázek pro oblast zdravotnickou;Procesy: Smlouvy;Popis procesu v organizačním řádu OPZ: Prosazuje zájmy FN Brno ve smluvních vztazích a právní podporu ostatním útvarům FN Brno při jejich plnění."
+    },
+    {
+        "chunk_id": "OPV_30",
+        "utvar": "Úsek veřejných zakázek pro oblast zdravotnickou",
+        "chunk": "Útvar/oddělení: Úsek veřejných zakázek pro oblast zdravotnickou;Procesy: Právní normy;Popis procesu v organizačním řádu OPZ: Posuzuje návrhy právních předpisů."
+    },
+    {
+        "chunk_id": "OPV_31",
+        "utvar": "Úsek veřejných zakázek pro oblast zdravotnickou",
+        "chunk": "Útvar/oddělení: Úsek veřejných zakázek pro oblast zdravotnickou;Procesy: Právní normy;Popis procesu v organizačním řádu OPZ: Sleduje změny v právním řádu, zpracovává právní podklady, analýzy, stanoviska a právní rozbory."
+    },
+    {
+        "chunk_id": "OPV_32",
+        "utvar": "Úsek veřejných zakázek pro oblast zdravotnickou",
+        "chunk": "Útvar/oddělení: Úsek veřejných zakázek pro oblast zdravotnickou;Procesy: Interní předpisy;Popis procesu v organizačním řádu OPZ: Posuzuje návrhy interní řízené dokumentace mimo OPV."
+    },
+    {
+        "chunk_id": "OPV_33",
+        "utvar": "Úsek veřejných zakázek pro oblast zdravotnickou",
+        "chunk": "Útvar/oddělení: Úsek veřejných zakázek pro oblast zdravotnickou;Procesy: Právní konzultace;Popis procesu v organizačním řádu OPZ: Poskytuje právní porady, konzultace, informace a školení v právní oblasti zaměstnancům v rámci jejich činnosti pro FN Brno."
+    },
+    {
+        "chunk_id": "OPV_34",
+        "utvar": "Úsek administrativní podpory",
+        "chunk": "Útvar/oddělení: Úsek administrativní podpory;Procesy: Administrace činností OPV;Popis procesu v organizačním řádu OPZ: Zajišťuje činnost sekretariátu vedoucího OPV."
+    },
+    {
+        "chunk_id": "OPV_35",
+        "utvar": "Úsek administrativní podpory",
+        "chunk": "Útvar/oddělení: Úsek administrativní podpory;Procesy: Administrace činností OPV;Popis procesu v organizačním řádu OPZ: poskytuje další administrativní podporu ostatním zaměstnancům úseků OPV."
+    },
+    {
+        "chunk_id": "OPV_36",
+        "utvar": "Úsek administrativní podpory",
+        "chunk": "Útvar/oddělení: Úsek administrativní podpory;Procesy: Smlouvy;Popis procesu v organizačním řádu OPZ: Zajišťuje agendu spojenou s registrem smluv."
+    },
+    {
+        "chunk_id": "OPV_37",
+        "utvar": "Úsek administrativní podpory",
+        "chunk": "Útvar/oddělení: Úsek administrativní podpory;Procesy: Spisová služba;Popis procesu v organizačním řádu OPZ: Vede archiv OPV – a to zejména archiv smluv, archiv spisové agendy veřejných zakázek a ostatní spisovou agendu, jakož i archiv ostatní dokumentace, včetně archivu vedoucího OPV."
+    },
+    {
+        "chunk_id": "OPV_38",
+        "utvar": "Úsek administrativní podpory",
+        "chunk": "Útvar/oddělení: Úsek administrativní podpory;Procesy: Spisová služba;Popis procesu v organizačním řádu OPZ: Zajišťuje skartační řízení,"
+    },
+    {
+        "chunk_id": "OPV_39",
+        "utvar": "Úsek administrativní podpory",
+        "chunk": "Útvar/oddělení: Úsek administrativní podpory;Procesy: Evidence majetku;Popis procesu v organizačním řádu OPZ: Eviduje majetek FN Brno svěřený OPV."
+    },
+    {
+        "chunk_id": "OPV_40",
+        "utvar": "Úsek administrativní podpory",
+        "chunk": "Útvar/oddělení: Úsek administrativní podpory;Procesy: Smlouvy;Popis procesu v organizačním řádu OPZ: Uzavírá vybrané formulářové smlouvy."
+    },
+    {
+        "chunk_id": "OPV_41",
+        "utvar": "Úsek administrativní podpory",
+        "chunk": "Útvar/oddělení: Úsek administrativní podpory;Procesy: Smlouvy;Popis procesu v organizačním řádu OPZ: Zajišťuje agendu končících smluv."
+    },
+    {
+        "chunk_id": "OPV_42",
+        "utvar": "Úsek administrativní podpory",
+        "chunk": "Útvar/oddělení: Úsek administrativní podpory;Procesy: Přístup k informacím;Popis procesu v organizačním řádu OPZ: Poskytuje ve vybraných administrativně a právně nekomplikovaných případech výpisy ze zdravotnické dokumentace."
+    },
+    {
+        "chunk_id": "OPV_43",
+        "utvar": "Úsek administrativní podpory",
+        "chunk": "Útvar/oddělení: Úsek administrativní podpory;Procesy: Komise FN Brno;Popis procesu v organizačním řádu OPZ: Vede agendu příjmu podkladů pro jednání etických komisí FN Brno,"
+    },
+    {
+        "chunk_id": "OPV_44",
+        "utvar": "Úsek medicínského práva",
+        "chunk": "Útvar/oddělení: Úsek medicínského práva;Procesy: Klinické studie;Popis procesu v organizačním řádu OPZ: Vyřizuje agendu klinických studií léčiv a klinických hodnocení zdravotnických prostředků."
+    },
+    {
+        "chunk_id": "OPV_45",
+        "utvar": "Úsek medicínského práva",
+        "chunk": "Útvar/oddělení: Úsek medicínského práva;Procesy: Právní normy;Popis procesu v organizačním řádu OPZ: Sleduje změny v právním řádu, zpracovává právní podklady, analýzy, stanoviska a právní rozbory ve vztahu k právním předpisům z oblasti medicínského práva."
+    },
+    {
+        "chunk_id": "OPV_46",
+        "utvar": "Úsek medicínského práva",
+        "chunk": "Útvar/oddělení: Úsek medicínského práva;Procesy: Právní konzultace;Popis procesu v organizačním řádu OPZ: Poskytuje právní porady, konzultace, informace a školení v právní oblasti zaměstnancům v rámci jejich činnosti pro FN Brno."
+    },
+    {
+        "chunk_id": "OPV_47",
+        "utvar": "Úsek medicínského práva",
+        "chunk": "Útvar/oddělení: Úsek medicínského práva;Procesy: Soudní jednání;Popis procesu v organizačním řádu OPZ: Připravuje dokumenty a podklady pro jednání před soudy, ostatními státními a rozhodčími orgány v právních věcech."
+    },
+    {
+        "chunk_id": "OPV_48",
+        "utvar": "Úsek medicínského práva",
+        "chunk": "Útvar/oddělení: Úsek medicínského práva;Procesy: Právní konzultace;Popis procesu v organizačním řádu OPZ: Poskytuje rady a konzultace v oblasti ochrany osobních údajů."
+    },
+    {
+        "chunk_id": "OPV_49",
+        "utvar": "Úsek medicínského práva",
+        "chunk": "Útvar/oddělení: Úsek medicínského práva;Procesy: Smlouvy;Popis procesu v organizačním řádu OPZ: Přezkoumává a uzavírá smlouvy včetně jejich změn zejména v oblastech: \n– souvisejících s poskytováním zdravotních služeb, \n– souvisejících s prováděním klinických studií, \n– v oblasti vědy a výzkumu."
+    },
+    {
+        "chunk_id": "OPV_50",
+        "utvar": "Úsek medicínského práva",
+        "chunk": "Útvar/oddělení: Úsek medicínského práva;Procesy: Smlouvy;Popis procesu v organizačním řádu OPZ: Přezkoumává a uzavírá smlouvy, prosazuje zájmy FN Brno ve smluvních vztazích a právní podporu ostatním útvarům FN Brno při jejich plnění."
+    },
+    {
+        "chunk_id": "OPV_51",
+        "utvar": "Úsek medicínského práva",
+        "chunk": "Útvar/oddělení: Úsek medicínského práva;Procesy: Přístup k informacím;Popis procesu v organizačním řádu OPZ: Ověřuje, organizuje a vyřizuje žádosti klientů vztahující se k nakládání se zdravotnickou dokumentací pacientů FN Brno."
+    },
+    {
+        "chunk_id": "OPV_52",
+        "utvar": "Úsek medicínského práva",
+        "chunk": "Útvar/oddělení: Úsek medicínského práva;Procesy: Přístup k informacím;Popis procesu v organizačním řádu OPZ: Metodicky vede Úsek administrativní podpory v rozsahu, ve kterém Úsek administrativní podpory poskytuje kopie ze zdravotnické dokumentace."
+    },
+    {
+        "chunk_id": "OPV_53",
+        "utvar": "Úsek medicínského práva",
+        "chunk": "Útvar/oddělení: Úsek medicínského práva;Procesy: Komise FN Brno;Popis procesu v organizačním řádu OPZ: Zajišťuje účast a právní dohled v činnosti: \n– Komise pro odškodňování pracovních úrazů a nemocí z povolání, \n– Etické komise."
+    },
+    {
+        "chunk_id": "OPV_54",
+        "utvar": "Úsek medicínského práva",
+        "chunk": "Útvar/oddělení: Úsek medicínského práva;Procesy: Komise FN Brno;Popis procesu v organizačním řádu OPZ: Provádí právní přezkum statutů komisí v podřízenosti ředitele FN Brno a indikačních komisí, mezioborových pracovních skupin v podřízenosti příslušného náměstka léčebné a preventivní péče."
+    },
+    {
+        "chunk_id": "OPV_55",
+        "utvar": "Úsek medicínského práva",
+        "chunk": "Útvar/oddělení: Úsek medicínského práva;Procesy: Kamerové systémy;Popis procesu v organizačním řádu OPZ: (nová oblast)"
+    },
+    {
+        "chunk_id": "OPV_56",
+        "utvar": "Úsek medicínského práva",
+        "chunk": "Útvar/oddělení: Úsek medicínského práva;Procesy: Interní normativní akty a formuláře;Popis procesu v organizačním řádu OPZ: (nová oblast)"
+    },
+    {
+        "chunk_id": "OPV_57",
+        "utvar": "Úsek medicínského práva",
+        "chunk": "Útvar/oddělení: Úsek medicínského práva;Procesy: Informované souhlasy a elektronizace;Popis procesu v organizačním řádu OPZ: (nová oblast)"
+    },
+    {
+        "chunk_id": "OPV_58",
+        "utvar": "Úsek medicínského práva",
+        "chunk": "Útvar/oddělení: Úsek medicínského práva;Procesy: Organizační nastavení a pracovní režim;Popis procesu v organizačním řádu OPZ: (nová oblast)"
+    },
+    {
+        "chunk_id": "OPZ_0",
+        "utvar": "Sekretariát OPZ",
+        "chunk": "Útvar/oddělení: Sekretariát OPZ;Procesy: Materiálně-technické zajištění odboru;Popis procesu v organizačním řádu OPZ: ;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Materiálně-technické zajištění probíhá jednou měsíčně. Čtrnáct dní předem je připraven rozpis potřeb, podle kterého se objednávají požadované položky. Objednávky údržby se zadávají přes sdílenou aplikaci ÚDRŽBA. Vše je zajišťováno elektronicky."
+    },
+    {
+        "chunk_id": "OPZ_1",
+        "utvar": "Sekretariát OPZ",
+        "chunk": "Útvar/oddělení: Sekretariát OPZ;Procesy: Komunikace OPZ;Popis procesu v organizačním řádu OPZ: ;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Proces probíhá tak, jak je popsán v organizačním řádu. Koordinace komunikace funguje bez změn a odpovídá stanovenému popisu."
+    },
+    {
+        "chunk_id": "OPZ_2",
+        "utvar": "Sekretariát OPZ",
+        "chunk": "Útvar/oddělení: Sekretariát OPZ;Procesy: Porady OPZ;Popis procesu v organizačním řádu OPZ: ;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Porady se svolávají e-mailem. Zápisy z porad se obvykle nevyhotovují. Hodnocení zaměstnanců probíhá elektronicky a tento způsob je funkční a osvědčený."
+    },
+    {
+        "chunk_id": "OPZ_3",
+        "utvar": "Sekretariát OPZ",
+        "chunk": "Útvar/oddělení: Sekretariát OPZ;Procesy: Výběrová řízení;Popis procesu v organizačním řádu OPZ: ;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Probíhá spolupráce s fakultou při organizaci výběrových řízení na přednosty. Sekretariát koordinuje podklady a zajišťuje podpisy. U velkých výběrových řízení organizuje celý proces samostatně – svolává komisi, zajišťuje administrativní úkony a koordinuje účast. Domlouvání termínů by bylo možné zefektivnit pomocí Doodle nebo sdílených kalendářů. Členové komise podepisují prohlášení o nepodjatosti. Spis k výběrovému řízení je sdílen také s Masarykovou univerzitou."
+    },
+    {
+        "chunk_id": "OPZ_4",
+        "utvar": "Sekretariát OPZ",
+        "chunk": "Útvar/oddělení: Sekretariát OPZ;Procesy: Spisová služba;Popis procesu v organizačním řádu OPZ: ;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Pošta je vedena ve dvou knihách – sekretariátní a personalistické. Sekretariát předává dokumenty z datových schránek, v případě potřeby je tiskne. WISPI funguje dobře, avšak od roku 2027 se očekává nový systém. Pošta se z DN nosí dvakrát denně. Vstupní školení či jiné dokumenty sekretariát předá personalistkám, které je zakládají do osobních spisů; totéž platí pro neschopenky a personální změny. Platové výměry se tisknou, nosí k podpisu náměstkovi a po podpisu se jeden výtisk předává zaměstnanci a druhý se zakládá do osobní složky. Doporučuje se minimalizovat papír a přihlášky mít elektronicky."
+    },
+    {
+        "chunk_id": "OPZ_5",
+        "utvar": "Personální oddělení",
+        "chunk": "Útvar/oddělení: Personální oddělení;Procesy: Přijímání a převádění zaměstnanců;Popis procesu v organizačním řádu OPZ: Zajišťuje personální a mzdovou agendu v oblasti přijímání zaměstnanců a jejich převádění v rámci FN Brno včetně zařazování do modulu systemizace. Provádí platové zařazení dle vzdělání, pracovní náplně a praxe. Eviduje odbornou způsobilost a doklady o vzdělání v PMS.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Po uzávěrce se provádějí nástupy, klinikám se zasílají sestavy se zůstatky (cca 5 sestav). Zaměstnanci přicházejí s osobním dotazníkem a žádostí, někdy i bez předchozí informace. Nástupy se neprovádějí první dva dny měsíce kvůli uzávěrce. Lékařská prohlídka je hotová předem. Smlouva se podepisuje při nástupu, následně školení BOZP. Pracovní náplň může být podepsána později na klinice. Dokumenty se ukládají fyzicky. Dokumenty v EISOD dostává každý nový zaměstnanec."
+    },
+    {
+        "chunk_id": "OPZ_6",
+        "utvar": "Personální oddělení",
+        "chunk": "Útvar/oddělení: Personální oddělení;Procesy: Ukončování pracovních poměrů;Popis procesu v organizačním řádu OPZ: Zajišťuje personální a mzdovou agendu v oblasti ukončování pracovních poměrů.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Výstupní list je elektronický. Personální oddělení jej vyplní, ostatní útvary potvrzují elektronicky (IT – karta, klinika – klíče, razítka). Zaměstnanci dostávají informační dopis s povinnostmi. Část procesu (e-mailová komunikace) není elektronizována."
+    },
+    {
+        "chunk_id": "OPZ_7",
+        "utvar": "Personální oddělení",
+        "chunk": "Útvar/oddělení: Personální oddělení;Procesy: Odměňování;Popis procesu v organizačním řádu OPZ: Provádí výpočty platů, zúčtování, srážky podle rozhodnutí soudů, FÚ, exekutorů, FKSP, penzijních produktů. Zajišťuje refundace. Zpracovává a rozesílá elektronické výplatní lístky.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Výplatnice se automaticky odesílají do e-mailu zaměstnanců."
+    },
+    {
+        "chunk_id": "OPZ_8",
+        "utvar": "Personální oddělení",
+        "chunk": "Útvar/oddělení: Personální oddělení;Procesy: Zúčtování daní;Popis procesu v organizačním řádu OPZ: Vede agendu daně ze závislé činnosti, roční zúčtování daní, zdravotní a sociální pojištění. Archivuje evidenční listy důchodového pojištění.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: V lednu je extrémně mnoho změn a nástupů. Provádí roční zúčtování a zpracovává potvrzení o zdanitelných příjmech. Kliniky informují, kdo potvrzení potřebuje."
+    },
+    {
+        "chunk_id": "OPZ_9",
+        "utvar": "Personální oddělení",
+        "chunk": "Útvar/oddělení: Personální oddělení;Procesy: Neschopenky;Popis procesu v organizačním řádu OPZ: Zpracovává elektronické neschopenky, vyplácí náhrady DPN, odesílá dokumenty datovou schránkou na MSSZ, informuje vedoucí.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Agenda probíhá elektronicky."
+    },
+    {
+        "chunk_id": "OPZ_10",
+        "utvar": "Personální oddělení",
+        "chunk": "Útvar/oddělení: Personální oddělení;Procesy: Personální a mzdový systém (PMS);Popis procesu v organizačním řádu OPZ: Zadává pracovní údaje do PMS, provádí měsíční zpracování a distribuci sestav, kontroluje limity přesčasů.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Probíhá měsíční uzávěrka a kontrola sestav."
+    },
+    {
+        "chunk_id": "OPZ_11",
+        "utvar": "Personální oddělení",
+        "chunk": "Útvar/oddělení: Personální oddělení;Procesy: Výkazy (součást PMS);Popis procesu v organizačním řádu OPZ: Není definováno v OŘ.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Výkazy mají být odevzdány do 1. dne měsíce do 15:00. Kliniky termín často nedodrží. Výkazy se podepisují a uzamykají primáři, kteří nemají vždy čas. Oddělení obdrží informaci o uzamčení a pokračuje v práci. Data se již nepřepisují do NAV. Chybovost je vysoká — 2–3 dny oprav. IT nabízí školení. Probíhá kontrola výpočtu, neschopenek, ošetřování. První tři dny probíhá uzávěrka a oddělení má být nerušeno. Odesílání XML směrem na ÚP a MSSZ probíhá datovkou."
+    },
+    {
+        "chunk_id": "OPZ_12",
+        "utvar": "Personální oddělení",
+        "chunk": "Útvar/oddělení: Personální oddělení;Procesy: Zaměstnanci z cizích zemí;Popis procesu v organizačním řádu OPZ: Vede evidenci zaměstnanců z EU a cizinců, spolupracuje s ÚP.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Každý cizinec se hlásí na ÚP při nástupu i změně. Mimo EU je proces náročný – vyžadují se povolení ÚP i cizinecké policie. Prodloužení povolení trvá dlouho, oddělení vystavuje smlouvu o smlouvě budoucí."
+    },
+    {
+        "chunk_id": "OPZ_13",
+        "utvar": "Personální oddělení",
+        "chunk": "Útvar/oddělení: Personální oddělení;Procesy: Mzdové listy;Popis procesu v organizačním řádu OPZ: Odpovídá za vyhotovení a archivaci mzdových listů a osobních spisů.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Archivace probíhá standardně."
+    },
+    {
+        "chunk_id": "OPZ_14",
+        "utvar": "Personální oddělení",
+        "chunk": "Útvar/oddělení: Personální oddělení;Procesy: Statistiky a reporty;Popis procesu v organizačním řádu OPZ: Zpracovává statistická hlášení pro ČSSZ, ZP, FÚ.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Probíhá standardní rutina."
+    },
+    {
+        "chunk_id": "OPZ_15",
+        "utvar": "Personální oddělení",
+        "chunk": "Útvar/oddělení: Personální oddělení;Procesy: Databáze (odměny, osobní příplatky, změny platů);Popis procesu v organizačním řádu OPZ: Je správcem databáze mimořádných odměn, motivačního fondu, osobního příplatku a změn platu.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Provádějí se změny platů. Osobní příplatky se zatím vedou v Lotus databázi, změny platů na Sharepointu."
+    },
+    {
+        "chunk_id": "OPZ_16",
+        "utvar": "Personální oddělení",
+        "chunk": "Útvar/oddělení: Personální oddělení;Procesy: Pracovněprávní spory;Popis procesu v organizačním řádu OPZ: Spolupracuje s OPV při řešení pracovněprávních sporů.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Probíhají společné schůzky každých 14 dní, ladí se spolupráce."
+    },
+    {
+        "chunk_id": "OPZ_17",
+        "utvar": "Personální oddělení",
+        "chunk": "Útvar/oddělení: Personální oddělení;Procesy: Výzkumné projekty;Popis procesu v organizačním řádu OPZ: Zajišťuje personální a mzdovou agendu projektů, spolupracuje s OVV a EO a archivuje doklady.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Agendu zajišťuje 5 kolegyň (3 granty, 2 exekuce). Exekuce se zpracovávají elektronicky."
+    },
+    {
+        "chunk_id": "OPZ_18",
+        "utvar": "Personální oddělení",
+        "chunk": "Útvar/oddělení: Personální oddělení;Procesy: FKSP;Popis procesu v organizačním řádu OPZ: Není definováno v OŘ.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Zadává do systému srážky půjček."
+    },
+    {
+        "chunk_id": "OPZ_19",
+        "utvar": "Personální oddělení",
+        "chunk": "Útvar/oddělení: Personální oddělení;Procesy: Karta zaměstnance;Popis procesu v organizačním řádu OPZ: Není definováno v OŘ.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Pracuje se systémem NAV, kde jsou uloženy osobní spisy. Probíhá propojení s IŘD."
+    },
+    {
+        "chunk_id": "OPZ_20",
+        "utvar": "Personální oddělení",
+        "chunk": "Útvar/oddělení: Personální oddělení;Procesy: NAVISION;Popis procesu v organizačním řádu OPZ: Není definováno v OŘ.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Systém je stabilní, funkční a doladěný."
+    },
+    {
+        "chunk_id": "OPZ_21",
+        "utvar": "Personální oddělení",
+        "chunk": "Útvar/oddělení: Personální oddělení;Procesy: Evidenční listy;Popis procesu v organizačním řádu OPZ: Není definováno v OŘ.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Podepisují se na klinikách, personální oddělení tam dochází."
+    },
+    {
+        "chunk_id": "OPZ_22",
+        "utvar": "Personální oddělení",
+        "chunk": "Útvar/oddělení: Personální oddělení;Procesy: Výplatnice;Popis procesu v organizačním řádu OPZ: Není definováno v OŘ.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Odesílají se automaticky e-mailem."
+    },
+    {
+        "chunk_id": "OPZ_23",
+        "utvar": "Personální oddělení",
+        "chunk": "Útvar/oddělení: Personální oddělení;Procesy: Spisovna;Popis procesu v organizačním řádu OPZ: Není definováno v OŘ.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Spisovna je v současném stavu v pořádku."
+    },
+    {
+        "chunk_id": "OPZ_24",
+        "utvar": "Analytické oddělení",
+        "chunk": "Útvar/oddělení: Analytické oddělení;Procesy: Penzijní připojištění a životní pojištění;Popis procesu v organizačním řádu OPZ: Zajišťuje agendu příspěvků zaměstnavatele na penzijní připojištění / doplňkové penzijní spoření a životní pojištění.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Tato agenda je ve skutečnosti rozdělena na dvě části. Oddělení ji neprovádí, řeší ji jiné pracoviště (mají sestry a dělníky), spadá pod Renatu."
+    },
+    {
+        "chunk_id": "OPZ_25",
+        "utvar": "Analytické oddělení",
+        "chunk": "Útvar/oddělení: Analytické oddělení;Procesy: Adaptační proces;Popis procesu v organizačním řádu OPZ: Organizačně zajišťuje adaptační program pro absolventy.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Oddělení tuto agendu neprovádí."
+    },
+    {
+        "chunk_id": "OPZ_26",
+        "utvar": "Analytické oddělení",
+        "chunk": "Útvar/oddělení: Analytické oddělení;Procesy: Statistiky a reporty (rozborová činnost);Popis procesu v organizačním řádu OPZ: Zajišťuje rozborovou činnost na základě požadavků útvarů FN Brno a vedení FN Brno.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Z NAVISION do Excelu připravují rozbory pro interní účely – pravidelné + ad hoc podklady pro vedení, přednosty, primáře a další požadavky. Vše funguje dobře, data jsou v NAVISIONision, automatizované."
+    },
+    {
+        "chunk_id": "OPZ_27",
+        "utvar": "Analytické oddělení",
+        "chunk": "Útvar/oddělení: Analytické oddělení;Procesy: Statistiky a reporty – výkaz personálního a mzdového vývoje;Popis procesu v organizačním řádu OPZ: Měsíčně zpracovává výkaz personálního a mzdového vývoje FN Brno za příslušné období.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Jedná se o jeden z běžných rozborů, který se zpracovává pravidelně každý měsíc."
+    },
+    {
+        "chunk_id": "OPZ_28",
+        "utvar": "Analytické oddělení",
+        "chunk": "Útvar/oddělení: Analytické oddělení;Procesy: Rozpočty;Popis procesu v organizačním řádu OPZ: Zpracovává návrh rozpočtu mzdových a osobních nákladů FN Brno. Zajišťuje podklady pro rozpočty útvarů – stavy zaměstnanců.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Provádí predikce NEO – osobní náklady podle minulého roku a předpokládaných změn; poté se generuje rozpočet pro celou FN Brno. Stavy zaměstnanců se předělávají z Lotus Notes do nového systému – databáze bude samostatná s ohledem na avizované zrušení LN do 31. 12.  2026."
+    },
+    {
+        "chunk_id": "OPZ_29",
+        "utvar": "Analytické oddělení",
+        "chunk": "Útvar/oddělení: Analytické oddělení;Procesy: Plánování zaměstnanců;Popis procesu v organizačním řádu OPZ: Sleduje stavy zaměstnanců a dodržení plánu zaměstnanců. Realizuje požadavky na změnu plánu, sleduje a hodnotí stavy zaměstnanců. Je správcem databáze „Změny plánu zaměstnanců“.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Z podkladů se připravují informace pro rozpočty – data se tahají z NAVISION. Jedná se o běžnou činnost, jednou ročně se připravují podklady pro nový rozpočet. Při potřebě změny plánu (např. nábor nového člověka) se připraví změna v plánu zaměstnanců a následně jde požadavek na náboráře."
+    },
+    {
+        "chunk_id": "OPZ_30",
+        "utvar": "Analytické oddělení",
+        "chunk": "Útvar/oddělení: Analytické oddělení;Procesy: OZP;Popis procesu v organizačním řádu OPZ: Vede evidenci osob OZP, sleduje a vyhodnocuje náhradní plnění kvůli splnění povinného podílu.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Jednou ročně zjišťují počet OZP ve FN Brno a spolupracují s EO. Kontroluje se, zda odběry služeb či zboží splňují legislativu náhradního plnění. Vše je v systému NAVISION. Kliniky se samy ozývají."
+    },
+    {
+        "chunk_id": "OPZ_31",
+        "utvar": "Analytické oddělení",
+        "chunk": "Útvar/oddělení: Analytické oddělení;Procesy: Výběrová řízení;Popis procesu v organizačním řádu OPZ: Zajišťuje nábor a evidenci uchazečů, včetně inzertní činnosti.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Agenda se rozvíjí. Využívají sociální sítě. Pasivní nábor – uchazeč se ozve sám, aktivní nábor – oslovují uchazeče a zapisují je do databáze. Uchazeče lze uložit do databáze, ze které si vedoucí pracovišť vybírají. Databáze volných míst existuje (původně v Lotusu). Doposud proces tel. a emailem."
+    },
+    {
+        "chunk_id": "OPZ_32",
+        "utvar": "Analytické oddělení",
+        "chunk": "Útvar/oddělení: Analytické oddělení;Procesy: Databáze (uchazeči o zaměstnání);Popis procesu v organizačním řádu OPZ: Je správcem databáze uchazečů o zaměstnání ve FN Brno.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Databáze funguje bez problémů. Součástí týmu je i jedna zaměstnankyně, která pracuje jako headhunter."
+    },
+    {
+        "chunk_id": "OPZ_33",
+        "utvar": "Analytické oddělení",
+        "chunk": "Útvar/oddělení: Analytické oddělení;Procesy: Statistiky a reporty – ÚZIS, ČSÚ, ÚP;Popis procesu v organizačním řádu OPZ: Zpracovává statistická hlášení pro ÚZIS, ČSÚ a ÚP.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Generují čtvrtletní a roční sestavy. Dotazníky na ÚP, ÚZIS a další instituce se vyjíždějí automaticky jako předdefinované sestavy."
+    },
+    {
+        "chunk_id": "OPZ_34",
+        "utvar": "Analytické oddělení",
+        "chunk": "Útvar/oddělení: Analytické oddělení;Procesy: Vnitropodnikové kalkulace;Popis procesu v organizačním řádu OPZ: Není definováno v OŘ.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Připravují podklady pro kalkulace vnitropodnikových výkonů – údaje o osobních nákladech z předchozího roku."
+    },
+    {
+        "chunk_id": "OPZ_35",
+        "utvar": "Analytické oddělení",
+        "chunk": "Útvar/oddělení: Analytické oddělení;Procesy: NAVISION – synchronizace;Popis procesu v organizačním řádu OPZ: Není definováno v OŘ.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: V současnosti synchronizují dva NAVISION. V budoucnu bude vše propojeno v novém NAVISION, což výrazně zjednoduší práci."
+    },
+    {
+        "chunk_id": "OPZ_36",
+        "utvar": "Analytické oddělení",
+        "chunk": "Útvar/oddělení: Analytické oddělení;Procesy: Nová činnost – školka;Popis procesu v organizačním řádu OPZ: Není definováno v OŘ.;Poznámka k organizačnímu řádu: ;Popis na základě rozhovoru: Oddělení bude mít novou roli: jedna kolegyně bude koordinátor školky."
+    },
+    {
+        "chunk_id": "OPZ_37",
+        "utvar": "Oddělení vzdělávání a péče o zaměstnance",
+        "chunk": "Útvar/oddělení: Oddělení vzdělávání a péče o zaměstnance;Procesy: Vzdělávání zaměstnanců;Popis procesu v organizačním řádu OPZ: Navrhuje koncepci přípravy vzdělávání zaměstnanců, systému vzdělávání a hodnocení zaměstnanců FN Brno ve spolupráci se všemi útvary nemocnice.;Popis na základě rozhovoru: Zajišťuje informativní vstupní školení pro nové zaměstnance. Celonemocniční vzdělávání na Sharepointu (https://fnembrno.sharepoint.com/sites/UV/Vzdlvac%20akce/Forms/AllItems.aspx) - spolupráce s klinikami, existence IŘD v této oblasti k hodnocení zaměstanců,dále také zmiňována supervize (individuální či kolektivní"
+    },
+    {
+        "chunk_id": "OPZ_38",
+        "utvar": "Oddělení vzdělávání a péče o zaměstnance",
+        "chunk": "Útvar/oddělení: Oddělení vzdělávání a péče o zaměstnance;Procesy: Vzdělávání zaměstnanců;Popis procesu v organizačním řádu OPZ: Vyhodnocuje systém vzdělávání jako celek i jednotlivých útvarů, včetně provádění rozborů a zjišťování aktuálních aktivit zaměstnanců v odborných a společenských institucích souvisejících s činností FN Brno.;Popis na základě rozhovoru: To je jedním ze záměru oddělení a zahrnuje to v podstatě všechny jeho dílčí činnosti (viz níže)."
+    },
+    {
+        "chunk_id": "OPZ_39",
+        "utvar": "Oddělení vzdělávání a péče o zaměstnance",
+        "chunk": "Útvar/oddělení: Oddělení vzdělávání a péče o zaměstnance;Procesy: Vzdělávání zaměstnanců;Popis procesu v organizačním řádu OPZ: Zajišťuje a metodicky řídí systém vzdělávání ve FN Brno ve vztahu k zaměstnancům FN Brno, jiným PZS, institucím, organizacím a školám.;Popis na základě rozhovoru: V NAVISION OVPZ vede evidenci, kam se zaměstnanci hlásí. OVPZ zadává vzdělávací plány lékařů a provádí kontroly. OVPZ spolupracuje s bezpečnostními techniky na školeních BOZP a PO. Tato školení eviduje v NAVISION: vyjíždí kontrolní sestavy, sleduje, komu školení končí, a urgencemi zajišťuje jejich absolvování. OVPZ vystavuje osvědčení, která jsou uložena ve složce oddělení a jsou rozesílána zaměstnancům. Školení probíhá v systému Moodle. U prezenčních kurzů může být používána čtečka pro evidenci docházky, zatím se však příliš nevyužívá. Školení BOZP zaměstnanců se koná 1× za 2 roky; jejich konání hlídá vedoucí a bezpečnostní technici provádějí kontroly."
+    },
+    {
+        "chunk_id": "OPZ_40",
+        "utvar": "Oddělení vzdělávání a péče o zaměstnance",
+        "chunk": "Útvar/oddělení: Oddělení vzdělávání a péče o zaměstnance;Procesy: Vzdělávání zaměstnanců;Popis procesu v organizačním řádu OPZ: Objednává a fakturuje vzdělávací služby externích dodavatelů.;Popis na základě rozhovoru: Platí."
+    },
+    {
+        "chunk_id": "OPZ_41",
+        "utvar": "Oddělení vzdělávání a péče o zaměstnance",
+        "chunk": "Útvar/oddělení: Oddělení vzdělávání a péče o zaměstnance;Procesy: Akreditace vzdělávací instituce;Popis procesu v organizačním řádu OPZ: Vytváří podmínky pro naplňování funkce FN Brno jako akreditované vzdělávací instituce, vede průkaznou evidenci v souladu s platnými právními předpisy.;Popis na základě rozhovoru: OVPZ zajišťuje agendu akreditací vzdělávacích programů specializačního vzdělávání a certifikovaných kurzů a akreditovaných kurzů. OVPZ administrativně zajišťuje veškeré související činnosti, včetně chodu kurzů a pracovišť, kam účastníci docházejí na praxi, ve většině případů u MZ. Od ledna má být vše prováděno prostřednictvím centra akreditace; OVPZ čeká na rozpis školení od MZ a IPVZ, která budou zahájena."
+    },
+    {
+        "chunk_id": "OPZ_42",
+        "utvar": "Oddělení vzdělávání a péče o zaměstnance",
+        "chunk": "Útvar/oddělení: Oddělení vzdělávání a péče o zaměstnance;Procesy: Vzdělávání zaměstnanců;Popis procesu v organizačním řádu OPZ: Navrhuje optimalizace modulů informační soustavy týkající se přípravy, vzdělávání a hodnocení zaměstnanců.;Popis na základě rozhovoru: OVPZ organizuje a administruje vstupní školení a všechna povinná školení (KPR, referenční). Některé povinné kurzy (např. mytí rukou) zajišťují kliniky samy; jejich absolvování se propisuje do systému NAVISION ke konkrétnímu zaměstnanci."
+    },
+    {
+        "chunk_id": "OPZ_43",
+        "utvar": "Oddělení vzdělávání a péče o zaměstnance",
+        "chunk": "Útvar/oddělení: Oddělení vzdělávání a péče o zaměstnance;Procesy: Akreditace vzdělávací instituce;Popis procesu v organizačním řádu OPZ: Zajišťuje e-learningové vzdělávání zaměstnanců a eviduje je v PMS.;Popis na základě rozhovoru: Platí."
+    },
+    {
+        "chunk_id": "OPZ_44",
+        "utvar": "Oddělení vzdělávání a péče o zaměstnance",
+        "chunk": "Útvar/oddělení: Oddělení vzdělávání a péče o zaměstnance;Procesy: Kvalifikační dohody;Popis procesu v organizačním řádu OPZ: Odpovídá za aktualizaci uzavřených kvalifikačních dohod v oblasti vzdělávání.;Popis na základě rozhovoru: Platí."
+    },
+    {
+        "chunk_id": "OPZ_45",
+        "utvar": "Oddělení vzdělávání a péče o zaměstnance",
+        "chunk": "Útvar/oddělení: Oddělení vzdělávání a péče o zaměstnance;Procesy: Stáže a praxe;Popis procesu v organizačním řádu OPZ: Podílí se a spolupracuje s útvary na zajišťování stáží, praxí, exkurzí škol, jiných PZS a dalších osob.;Popis na základě rozhovoru: OVPZ administruje smlouvy na praxe a stáže studentů SŠ, VŠ a VOŠ ve spolupráci s NLZP. V případě, že neexistuje smlouva se školou (rámcová), připravuje nové smlouvy pro jednotlivé studenty (cca 5000 smluv). \nPraxi zpravidla domlouvá klinika, která předává OVPZ formulář s termínem a školitelem; OVPZ tyto údaje ověřuje s klinikou. Po potvrzení OVPZ smlouvu vypracuje, odešle ji e-mailem zájemci, který ji v požadovaném počtu vytiskne a podepíše, případně ji podepisuje i jeho zaměstnavatel. OVPZ smlouvu předává právnímu oddělení a vede evidenci v tabulkách (XLS). \n\nOVPZ také administruje podklady pro akreditaci v případě, kdy FN Brno plní funkci klinického pracoviště pro praxe ve vzdělávací akci – jako zdravotnické akreditované zařízení."
+    },
+    {
+        "chunk_id": "OPZ_46",
+        "utvar": "Oddělení vzdělávání a péče o zaměstnance",
+        "chunk": "Útvar/oddělení: Oddělení vzdělávání a péče o zaměstnance;Procesy: Stáže a praxe;Popis procesu v organizačním řádu OPZ: Spolupracuje s NCO NZO, spolupracuje se SZŠ, VOZŠ a VŠ při zajišťování praktické výuky studentů.;Popis na základě rozhovoru: Platí."
+    },
+    {
+        "chunk_id": "OPZ_47",
+        "utvar": "Oddělení vzdělávání a péče o zaměstnance",
+        "chunk": "Útvar/oddělení: Oddělení vzdělávání a péče o zaměstnance;Procesy: Stáže a praxe;Popis procesu v organizačním řádu OPZ: Vede evidenci externích stážistů a s tím spojených služeb (např. vygenerování osobního čísla a vydávání identifikačních karet).;Popis na základě rozhovoru: Platí."
+    },
+    {
+        "chunk_id": "OPZ_48",
+        "utvar": "Oddělení vzdělávání a péče o zaměstnance",
+        "chunk": "Útvar/oddělení: Oddělení vzdělávání a péče o zaměstnance;Procesy: Stáže a praxe;Popis procesu v organizačním řádu OPZ: Zpracovává dohody o stipendiu studentů SZŠ, VOŠZ a VŠ v rámci stipendijního programu FN Brno.;Popis na základě rozhovoru: Platí."
+    },
+    {
+        "chunk_id": "OPZ_49",
+        "utvar": "Oddělení vzdělávání a péče o zaměstnance",
+        "chunk": "Útvar/oddělení: Oddělení vzdělávání a péče o zaměstnance;Procesy: Adaptační proces;Popis procesu v organizačním řádu OPZ: Zajišťuje agendu adaptačního programu lékařů (po jejich uzavření pracovního poměru ve FN Brno), nastavuje adaptační proces a doškolení lékařů, kteří nově uzavírají pracovní poměr ve FN Brno v souladu s platnou IŘD.;Popis na základě rozhovoru: Je spíše v režii klinik, protože adaptační proces se týká hlavně odborné stránky pracovní náplně."
+    },
+    {
+        "chunk_id": "OPZ_50",
+        "utvar": "Oddělení vzdělávání a péče o zaměstnance",
+        "chunk": "Útvar/oddělení: Oddělení vzdělávání a péče o zaměstnance;Procesy: Vzdělávací akce FN Brno;Popis procesu v organizačním řádu OPZ: Organizuje akreditované kvalifikační kurzy, certifikované kurzy a specializační vzdělávání pro klienty.;Popis na základě rozhovoru: U certifikovaných kurzů OVPZ zajišťuje kompletní administrativu – třídní knihu, docházku, školitele, rozvrhy, učebny a související dokumentaci. OVPZ připravuje podklady pro akreditaci a certifikaci v souladu s klinikami a ve spolupráci s nimi. Spolupráce s klinikami je dobrá."
+    },
+    {
+        "chunk_id": "OPZ_51",
+        "utvar": "Oddělení vzdělávání a péče o zaměstnance",
+        "chunk": "Útvar/oddělení: Oddělení vzdělávání a péče o zaměstnance;Procesy: Rezidenční místa;Popis procesu v organizačním řádu OPZ: Zajišťuje dotační program rezidenčních míst příslušného kalendářního roku ve spolupráci s jednotlivými útvary FN Brno.;Popis na základě rozhovoru: V systému NAVISION jsou rezidenční místa označena zkratkou RM. OVPZ pro tato místa provádí rozpočtování a změny finančního plánu. OVPZ aktivně hlídá plány rezidentů v systému administrátora tak, aby bylo možné včas upravit finanční plány."
+    },
+    {
+        "chunk_id": "OPZ_52",
+        "utvar": "Oddělení vzdělávání a péče o zaměstnance",
+        "chunk": "Útvar/oddělení: Oddělení vzdělávání a péče o zaměstnance;Procesy: Personální a mzdový systém;Popis procesu v organizačním řádu OPZ: Eviduje a skenuje dokumenty zaměstnanců FN Brno o ukončeném vzdělávání v PMS. Eviduje e-learningové vzdělávání zaměstnanců v PMS.;Popis na základě rozhovoru: Platí."
+    },
+    {
+        "chunk_id": "OPZ_53",
+        "utvar": "Oddělení vzdělávání a péče o zaměstnance",
+        "chunk": "Útvar/oddělení: Oddělení vzdělávání a péče o zaměstnance;Procesy: Atestace;Popis procesu v organizačním řádu OPZ: Zajišťuje atestační zkoušky jako pověřená organizace MZ pro nelékařské zdravotnické pracovníky v souladu s platnými právními předpisy, zajišťuje jmenovací dekrety členů atestačních zkoušek a praktických zkoušek k získání odbornosti.;Popis na základě rozhovoru: Platí."
+    },
+    {
+        "chunk_id": "OPZ_54",
+        "utvar": "Oddělení vzdělávání a péče o zaměstnance",
+        "chunk": "Útvar/oddělení: Oddělení vzdělávání a péče o zaměstnance;Procesy: Dotace;Popis procesu v organizačním řádu OPZ: Podílí se na správě dotací.;Popis na základě rozhovoru: Pokud získá FN Brno nad rámec dotací na RM další dotace v oblasti vzdělávání, administruje je. Může se jednat např.o programy typu o OP Zaměstnanost. V současné době není realizovaný žádný projekt financování ESIF nebo jiným poskytovatelem podpory."
+    },
+    {
+        "chunk_id": "OPZ_55",
+        "utvar": "Oddělení vzdělávání a péče o zaměstnance",
+        "chunk": "Útvar/oddělení: Oddělení vzdělávání a péče o zaměstnance;Procesy: Spokojenost zaměstnanců;Popis procesu v organizačním řádu OPZ: Zpracovává agendu, koordinuje a zajišťuje proces zjišťování spokojenosti zaměstnanců FN Brno.;Popis na základě rozhovoru: Platí. Rozesílá dotazníky spokojenosti, vyhodnocuje je."
+    },
+    {
+        "chunk_id": "OPZ_56",
+        "utvar": "Oddělení vzdělávání a péče o zaměstnance",
+        "chunk": "Útvar/oddělení: Oddělení vzdělávání a péče o zaměstnance;Procesy: Zaměstnanecké benefity;Popis procesu v organizačním řádu OPZ: Vede agendu benefitů pro zaměstnance FN Brno, zajišťuje seznamování zaměstnanců s nimi, informuje o změnách, projednává návrhy subjektů na poskytnutí benefitů, které předkládá k vyjádření vedení FN Brno, zpracovává jeden z benefitů – MultiSport kartu a veškerou evidenci k ní, včetně kontrol faktur, úzce spolupracuje s EO.;Popis na základě rozhovoru: Platí."
+    },
+    {
+        "chunk_id": "OPZ_57",
+        "utvar": "Oddělení vzdělávání a péče o zaměstnance",
+        "chunk": "Útvar/oddělení: Oddělení vzdělávání a péče o zaměstnance;Procesy: Akreditace center vysoce specializované péče;Popis procesu v organizačním řádu OPZ: Vede agendu Center superspecializované péče ve spolupráci s vedoucí Kanceláře ředitele.;Popis na základě rozhovoru: Platí."
+    },
+    {
+        "chunk_id": "OPZ_58",
+        "utvar": "Oddělení vzdělávání a péče o zaměstnance",
+        "chunk": "Útvar/oddělení: Oddělení vzdělávání a péče o zaměstnance;Procesy: Master of hospital management (MHM);Popis procesu v organizačním řádu OPZ: Zajišťuje realizaci manažerského studijního programu FN Brno Master of hospital management (MHM).;Popis na základě rozhovoru: Studium MHM je v současnosti ve třetím běhu. OVPZ studium administruje pro vlastní zaměstnance FN Brno. Výuka probíhá v pátek a sobotu; OVPZ má na tuto činnost vyčleněnou zaměstnankyni, která je během výuky přítomna. Program má vlastní akreditaci."
+    },
+    {
+        "chunk_id": "OPZ_59",
+        "utvar": "Oddělení vzdělávání a péče o zaměstnance",
+        "chunk": "Útvar/oddělení: Oddělení vzdělávání a péče o zaměstnance;Procesy: Cestovní příkazy;Poznámka k organizačnímu řádu: Není v OŘ;Popis na základě rozhovoru: Oddělení se vyjadřuje ke každému vystavenému cestovnímu příkazu a posuzuje, zda se jedná o prohlubování nebo zvyšování kvalifikace a zda jde o specializační vzdělávání, nebo ostatní vzdělávání."
+    },
+    {
+        "chunk_id": "OPZ_60",
+        "utvar": "Oddělení vzdělávání a péče o zaměstnance",
+        "chunk": "Útvar/oddělení: Oddělení vzdělávání a péče o zaměstnance;Procesy: Agenda spojená se stipendisty;Popis procesu v organizačním řádu OPZ: Zajišťuje agendu v oblasti uzavírání dohod se stipendisty (spolupráce s OPV);Poznámka k organizačnímu řádu: Není v OŘ;Popis na základě rozhovoru: Oblast prezentována na stránkách FN BRNO https://www.fnbrno.cz/nabor-vseobecnych-sester-a-dalsich-nelekarskych-zdravotnickych-pracovniku-do-fn-brno/t7269. Formulář pro stipendiosty k vyplnění (není elektronizováno)"
+    },
+    {
+        "chunk_id": "OPZ_61",
+        "utvar": "Oddělení organizace řízení",
+        "chunk": "Útvar/oddělení: Oddělení organizace řízení;Procesy: Obecný popis;Popis na základě rozhovoru: Oddělení organizace řízení je tvořeno čtyřmi zaměstnanci, činnosti nejsou duplicitní a jsou mezi nimi dobře rozdělené. \nOddělení má činnosti detailně zmapované. Úzce spolupracuje s personálním oddělením a pracuje s HR částí systému NAVISION. Mzdy a personalistika jsou rozděleny do tří oblastí – vzdělávání, mzdy a personalistika, organizační schémata pro OOŘ. \nOddělení spravuje organizační strukturu, z níž čerpá podklady do systému EISOD. V organizační struktuře barevně rozlišuje pozice, má označená výplatní místa, která se rozpadají na nákladová střediska (NS). \nDíky nastavení číselníků a převodových můstků oddělení pozná vedení kliniky i jednotlivých oddělení. U nákladových středisek se používají dva číselníky, které je potřeba provázat tak, aby se správně propojily mzdové údaje."
+    },
+    {
+        "chunk_id": "OPZ_62",
+        "utvar": "Oddělení organizace řízení",
+        "chunk": "Útvar/oddělení: Oddělení organizace řízení;Procesy: Interní předpisy;Popis procesu v organizačním řádu OPZ: Zajišťuje popis pravidel organizace systémovou, řídicí, pracovní a jinou dokumentací, odpovídá za zavádění nástrojů na podporu systémového a operativního řízení organizace, tvorbu vybraných základních dokumentů organizace včetně statutů (indikačních) komisí, mezioborových pracovních skupin.;Popis na základě rozhovoru: Oddělení organizace řízení řeší nesrovnalosti v systému EISOD a věnuje se připomínkování interních předpisů, které mu jsou předloženy."
+    },
+    {
+        "chunk_id": "OPZ_63",
+        "utvar": "Oddělení organizace řízení",
+        "chunk": "Útvar/oddělení: Oddělení organizace řízení;Procesy: Systemizace;Popis procesu v organizačním řádu OPZ: Zajišťuje koncepci organizačních vztahů a připravuje systemizaci ve FN Brno v souladu se záměry a rozhodnutími vedení FN Brno.;Popis na základě rozhovoru: Oddělení v rámci systemizace vidí u každého pracovního místa obsazení „židlí“ i úvazků, a to včetně situací, kdy jednu „židli“ sdílí více osob, což je běžné. Oddělení vidí i plánované změny do budoucna, například návraty z mateřské dovolené. Upozorňuje, že systemizace je v současnosti nedokonalá – například není možné jednoduše vytisknout přehled ve formě schématu, i když oddělení umí data číst, pro kliniky by bylo vhodné mít přehledné vizuální schéma, které NAVISION neumí. Mimoevidenční stavy řeší personalistky; při přípravě podkladů pro rozpočet a při výplatě dávek (např. mateřská a rodičovská) musí zaměstnanec přechodně naběhnout do stavu, což zkresluje počty zaměstnanců ve stavu – to je významné pro tvorbu rozpočtů. Tito zaměstnanci jsou ve stavu pouze kvůli mateřské nebo přechodu na nemocenskou. Každá klinika má vlastní plán na zaměstnance a nepřekročitelnou systemizaci, kterou krátkodobé nastoupení do stavu narušuje. U dlouhodobé pracovní neschopnosti zůstává zaměstnanec ve stavu, mzdu hradí sociální systém a klinika musí řešit náhradu z vlastních řad. Oddělení se snaží o elektronizaci systému tak, aby pozice a údaje o nich vycházely přímo z NAVISION. Upozorňuje, že celý proces změn a schvalování (např. „židlí“) je časově náročný."
+    },
+    {
+        "chunk_id": "OPZ_64",
+        "utvar": "Oddělení organizace řízení",
+        "chunk": "Útvar/oddělení: Oddělení organizace řízení;Procesy: Personální a mzdový systém;Popis procesu v organizačním řádu OPZ: Zajišťuje v PMS tvorbu a vedení modulu systemizace, včetně tvorby a kontroly pracovních míst a dalších činností s tím souvisejících.;Popis na základě rozhovoru: Oddělení používá pomocné organizační stromy, aby bylo schopno provádět kontroly, například pro ekonomy, kteří mají evidenci všech registrů. Pokud zaměstnanec odchází, oddělení sleduje, aby byl včas odebrán přístup. Prostřednictvím organizačního stromu oddělení provádí kontrolu zaměstnanců. V návaznosti na číselníky a převodové můstky oddělení pracuje s číselníkem výplatních míst, z něhož je patrné, ke kterému útvaru pracovník přísluší (zvlášť upraveno pro EISOD), a s číselníkem nákladových středisek, který sdílí s EO. Protože systém neumí pracovat s písmeny, oddělení tvoří převodníky. Do budoucna má být vše sjednoceno v novém systému NAVISION."
+    },
+    {
+        "chunk_id": "OPZ_65",
+        "utvar": "Oddělení organizace řízení",
+        "chunk": "Útvar/oddělení: Oddělení organizace řízení;Procesy: Personální a mzdový systém;Popis procesu v organizačním řádu OPZ: „Aktualizuje číselníky PMS v návaznosti na organizační změny a úzce spolupracuje s EO. Spolupracuje s personalistkami a útvary při aktualizaci pracovních míst a číselníků výplatních míst, nákladových středisek aj.“;Popis na základě rozhovoru: Oddělení u každého pracovního místa vidí pracovní místo jako takové, nákladové středisko, pracovní pozici, zařazení v katalogu prací, kód nadřízeného a další související údaje, například zachycení e-neschopenek. Personalistka musí zaměstnance na pracovní místo „usadit“ – ručně jej přiřazuje k dané „židli“. Následně se k pracovním místům a pozicím přiřazují odpovědnosti a role (např. role kvalitáře). Tento systém není určen pro nastavování rolí a přístupových práv, k tomu slouží systém IDM pod správou CI. Oddělení může k pracovním místům přiřazovat popisy, které souvisejí spíše s pracovním místem než s přístupovými právy. Oddělení navíc ve spolupráci s CI vede evidenci bezpečnostních rolí primárních aktiv; nově přibudou role technického garanta. Gestory jsou zaměstnanci v podřízenosti ředitele, kteří mají na starosti své systémy. Oddělení čeká na nový zákon o kybernetické bezpečnosti, který role jednoznačně vydefinuje. Jedná se o nové role a úkoly ze zákona, které se budou zapisovat do NAVISION."
+    },
+    {
+        "chunk_id": "OPZ_66",
+        "utvar": "Oddělení organizace řízení",
+        "chunk": "Útvar/oddělení: Oddělení organizace řízení;Procesy: Personální a mzdový systém;Popis procesu v organizačním řádu OPZ: Aktualizuje „organizační stromy“ v PMS v návaznosti na organizační změny a komise, včetně měsíčního informování EO o ukončených pracovních poměrech v návaznosti na e-registry ÚZIS.;Popis na základě rozhovoru: IDM slouží k tomu, aby byly správně přiděleny role a přístupová práva; tuto oblast NAVISION neřeší."
+    },
+    {
+        "chunk_id": "OPZ_67",
+        "utvar": "Oddělení organizace řízení",
+        "chunk": "Útvar/oddělení: Oddělení organizace řízení;Procesy: Studijní agenda;Popis procesu v organizačním řádu OPZ: Zajišťuje agendu poskytování informací pro studijní účely, zpracovává žádosti a spolupracuje se zdravotnickými i nezdravotnickými útvary FN Brno.;Popis na základě rozhovoru: Oddělení na základě avíza od EO sleduje zaměstnance vedené v rejstřících a hlídá je z hlediska studijní agendy. Pro každého zaměstnance vede samostatnou agendu typu „student“. Oddělení zajišťuje celý proces – komunikuje s klinikami a provádí sběr dat pro studijní účely podle stanoveného metodického postupu. Pracuje na vývoji elektronické žádosti, aby byla administrativa minimalizována. Aplikaci připravuje ve spolupráci s CI; do budoucna se plánuje propojení se systémem stáží, který má na starosti OVPZ. Po zavedení bude vše elektronické – žádosti se budou odesílat na kliniky ke schválení, ve druhém kole na náměstky a výstupem bude schválení pro konkrétního studenta a informace na příslušné pracoviště, že pobyt byl schválen. Některé žádosti jsou zpoplatněné; platí zájemci, se kterými není uzavřena smlouva, a cena se řídí platným ceníkem."
+    },
+    {
+        "chunk_id": "OPZ_68",
+        "utvar": "Oddělení organizace řízení",
+        "chunk": "Útvar/oddělení: Oddělení organizace řízení;Procesy: Komise FN Brno;Popis procesu v organizačním řádu OPZ: Vede agendu Komisí v přímé podřízenosti ředitele, odpovídá za tvorbu a aktualizaci statutů komisí, návrhů pro jmenování a odvolání předsedů a členů komisí na základě požadavků předsedů komisí.;Popis na základě rozhovoru: Oddělení vede strom, v němž eviduje, kdo přichází a odchází z komisí, a k tomu potřebuje informace od předsedů. Všechny komise mají statut; oddělení zpracovává formální část, předseda doplňuje specializaci. Předseda určuje, kdo bude členem, a oddělení tuto informaci zanáší do systému NAVISION a dále sleduje. Když pracovník končí, oddělení informuje předsedu. Spolupráce je oboustranná – oddělení i předseda sledují, kdo z komise odchází."
+    },
+    {
+        "chunk_id": "OPZ_69",
+        "utvar": "Oddělení organizace řízení",
+        "chunk": "Útvar/oddělení: Oddělení organizace řízení;Procesy: Komise FN Brno;Popis procesu v organizačním řádu OPZ: Odpovídá za zpracování statutů indikačních komisí, mezioborových pracovních skupin nebo statutů orgánů v podřízenosti členů vedení FN Brno a odpovídá za tvorbu návrhů na jmenování a odvolání předsedů a členů těchto orgánů/komisí/pracovních skupin a dalších činností s tím souvisejících.;Popis na základě rozhovoru: Platí."
+    },
+    {
+        "chunk_id": "OPZ_70",
+        "utvar": "Oddělení organizace řízení",
+        "chunk": "Útvar/oddělení: Oddělení organizace řízení;Procesy: Skupinové adresy;Popis procesu v organizačním řádu OPZ: Zajišťuje požadavky na tvorbu a aktualizaci skupinových adres vedoucích zaměstnanců FN Brno (členů vedení, přednostů, primářů, vedoucích zaměstnanců NLZP), úzce spolupracuje s CI a ÚNP.;Popis na základě rozhovoru: Oddělení spolupracuje na adresáři AD, ve kterém má vyhrazenou část, přestože jej spravuje CI. Oddělení vytváří skupiny pro vedení nemocnice, měsíčně je kontroluje a aktualizuje. Skupiny spravuje také v systému Lotus, využívají se hlavně v Outlooku a ukládají se na SharePoint. Přehled slouží i klinikám. Oddělení skupiny vytváří do úrovně „vedoucí“."
+    },
+    {
+        "chunk_id": "OPZ_71",
+        "utvar": "Oddělení organizace řízení",
+        "chunk": "Útvar/oddělení: Oddělení organizace řízení;Procesy: Skupinové adresy;Popis procesu v organizačním řádu OPZ: Vytváří požadavky na CI na úpravu příslušných skupinových adres (nutných pro správné fungování přístupových práv na LN) v návaznosti na organizační změny, je administrátorem a zajišťuje aktualizace skupinových adres v Outlooku pro skupinové adresy začínající A-….(vedení FN Brno, přednostové, primáři, vrchní sestry, sekretářky).;Popis na základě rozhovoru: Platí."
+    },
+    {
+        "chunk_id": "OPZ_72",
+        "utvar": "Oddělení organizace řízení",
+        "chunk": "Útvar/oddělení: Oddělení organizace řízení;Procesy: Statistiky a reporty;Popis procesu v organizačním řádu OPZ: Vypracovává měsíční přehledy o organizačních změnách v Přehledu klinik a oddělení.;Popis na základě rozhovoru: Platí. Vypracované přehledy měsíčně posílané na stanovené adresy k distrubici dále. Publikované na SharePointu."
+    },
+    {
+        "chunk_id": "OPZ_73",
+        "utvar": "Oddělení organizace řízení",
+        "chunk": "Útvar/oddělení: Oddělení organizace řízení;Procesy: Spokojenost pacientů;Popis procesu v organizačním řádu OPZ: Zajišťuje a zpracovává ve spolupráci z MZ ČR projekt Národní hodnocení spokojenosti pacientů.;Popis na základě rozhovoru: Projekt byl zrušen. Šlo o dotazníky MZ, které se již nevyužívají. Oddělení nyní používá vlastní systém hodnocení a ministerské dotazníky již nezpracovává. Tyto činnosti v současnosti zajišťuje Centrální evidence pacientů (CEP)."
+    },
+    {
+        "chunk_id": "OPZ_74",
+        "utvar": "Oddělení organizace řízení",
+        "chunk": "Útvar/oddělení: Oddělení organizace řízení;Procesy: Statistiky a reporty;Popis procesu v organizačním řádu OPZ: Zpracovává podklady pro datové rozhraní ÚZIS na základě metodických pokynů UZIS a zpracovává data pro roční statistiku DRG-restart.;Popis na základě rozhovoru: Oddělení spolupracuje s ekonomickým úsekem a zpracovává přehled systemizace a úvazků. Tato činnost se provádí pouze kvůli projektu DRG-restart."
+    },
+    {
+        "chunk_id": "OPZ_75",
+        "utvar": "Oddělení organizace řízení",
+        "chunk": "Útvar/oddělení: Oddělení organizace řízení;Procesy: Interní předpisy;Popis procesu v organizačním řádu OPZ: Odpovídá za tvorbu a aktualizaci základní interní řídicí dokumentace FN Brno (Provozní řád FN Brno) a za připomínkování organizačních řádů útvarů FN Brno.;Popis na základě rozhovoru: Spolupráce s OPŘK, řízeno v systému EISOD X. Připomínkuje také všechny OŘ útvarů FN Brno - připomínkovací řízení nastaveno v systému EISOD X automaticky. O zahájení připomínkovacího řízení  je informován prostřednictvím notifikace na email."
+    },
+    {
+        "chunk_id": "OPZ_76",
+        "utvar": "Oddělení organizace řízení",
+        "chunk": "Útvar/oddělení: Oddělení organizace řízení;Procesy: Zastoupení ředitele;Popis procesu v organizačním řádu OPZ: Vystavuje pověření/jmenování/plné moci ředitele FN Brno pro příslušného zaměstnance FN Brno k řešení určitých agend/úkolů/projektů v zastoupení ředitele mimo jmenování/odvolání v souvislosti s pracovněprávní agendou OPZ.;Popis na základě rozhovoru: Oddělení plné moci archivuje. Plné moci s elektronickým podpisem zasílá na kliniky všude tam, kde jsou potřeba. Evidenci vede v šanonech. Do budoucna by nebylo nutné dokumenty tisknout. Agenda je rutinní a funguje."
+    }
+]
