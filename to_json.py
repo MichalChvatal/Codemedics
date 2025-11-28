@@ -40,6 +40,7 @@ department_full_names = {
     "ÚVV": "??? Vědy a Výzkumu"
 }
 
+
 def excel_to_json(excel_files):
     """
     Converts an Excel file to a JSON file.
@@ -48,6 +49,7 @@ def excel_to_json(excel_files):
         excel_file_path (str): The path to the Excel file.
         output_json_path (str): The path to save the JSON output.
     """
+    chunk_id = 0
     data = []
     try:
         for excel_file in excel_files:
@@ -92,7 +94,8 @@ def excel_to_json(excel_files):
                     if match:
                         department_name = match.group(1).strip()
                         utvar_s = row[department_col]
-                        row_dict['chunk_id'] = f"{index}"
+                        row_dict['chunk_id'] = chunk_id
+                        chunk_id += 1
                         row_dict['filename'] = filename
                         row_dict['content'] = ";".join(chunk_list)
                         data.append(row_dict)
