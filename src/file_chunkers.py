@@ -5,6 +5,7 @@ import json
 import mammoth
 import subprocess
 import unicodedata
+from to_json import excel_to_json
 # import pdfplumber
 
 # ------------------------------------------
@@ -86,6 +87,8 @@ def load_document(path: str) -> str:
         return load_csv(path)
     # if ext == ".pdf":
     #     return load_pdf(path)
+    if ext == ".xlsx":
+        return excel_to_json(path)
     if ext == ".doc":
         return load_doc(path)
     if ext == ".docx":
@@ -172,6 +175,12 @@ def process_folder(folder_path: str) -> list[dict]:
         if not text:
             continue
 
+        ext = os.path.splitext(full)[1].lower()
+
+        if ext == ".xlsx":
+            print("we are here")
+            all_chunks.extend(text)
+            return text
         chunks = chunk_document(text, filename)
         all_chunks.extend(chunks)
 

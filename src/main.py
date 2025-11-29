@@ -151,9 +151,16 @@ class SimpleHandler(BaseHTTPRequestHandler):
 
             with open(file_path, "wb") as f:
                 f.write(file_bytes)
+            
+            ext = os.path.splitext(file_path)[1].lower()
 
             document_data = load_document(file_path)
-            chunks = chunk_document(document_data, safe_filename)
+
+            if ext == ".xlsx":
+                chunks = document_data
+            else:
+                chunks = chunk_document(document_data, safe_filename)       
+
             os.makedirs("./chunks", exist_ok=True)
 
             save_chunks(chunks, "./chunks/" +safe_filename + "-chunks.json")
