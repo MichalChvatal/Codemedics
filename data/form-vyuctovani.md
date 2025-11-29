@@ -1,34 +1,51 @@
-# Formulář – Vyúčtování služební cesty
-## Údaje o zaměstnanci
-- Jméno a příjmení
-- Osobní číslo
-- Útvar
-- Telefon/e-mail
+---
+# Příloha 2 — Formulář: Vyúčtování služební cesty
 
-## Skutečné údaje o cestě
-- Datum a čas od–do
-- Odchylky od původního CP
+Tento dokument slouží jako vzor pro vyúčtování nákladů spojených se služební cestou. Pomocí níže uvedených polí nahraďte údaje reálnými daty a přiložte odpovídající doklady (skeny / fotky / elektronické přílohy).
 
-## Náklady – tabulka
+---
 
-| Typ nákladu     | Částka | Doklad                       | Poznámka |
-|-----------------|-------:|:-----------------------------|---------:|
-| Ubytování       |        | soubor (nahraje uzivatel)    |          |
-| Jízdenky        |        | soubor (nahraje uzivatel)    |          |
-| Pohonné hmoty   |        | soubor (nahraje uzivatel)    |          |
-| Parkovné        |        | soubor (nahraje uzivatel)    |          |
-| Ostatní         |        | soubor (nahraje uzivatel)    |          |
+## 1. Údaje o zaměstnanci
 
-## Celková nárokovaná částka
-- Automatický součet
-- Potvrzení zaměstnance
+- **Jméno a příjmení:**
+- **Osobní číslo:**
+- **Útvar:**
+- **Telefon / e‑mail:**
 
-## Prohlášení zaměstnance
-- Prohlašuji, že uvedené náklady jsou skutečné a souvisejí s výkonem SC.
-- Datum, elektronický podpis.
+## 2. Skutečné údaje o cestě
 
-## Schvalovací část - tato část je již úkolem schvalovatele, ne uživatele.
-- Schválit/neschválit
-- Komentář
-- Jméno schvalovatele
-- Elektronický podpis
+- **Datum a čas (od – do):**
+- **Místo odjezdu / příjezdu:**
+- **Účel cesty / poznámky:**
+- **Odchylky od původního CP:**
+
+## 3. Náklady — přehled (tabulka)
+
+| Typ nákladu        | Částka (CZK) | Doklad (soubor)               | Poznámka / popis |
+|--------------------|-------------:|:-----------------------------:|-----------------:|
+| Ubytování          |              | soubor (nahraje uživatel)     |                  |
+| Jízdenky / doprava |              | soubor (nahraje uživatel)     |                  |
+| Pohonné hmoty      |              | soubor (nahraje uživatel)     |                  |
+| Parkovné           |              | soubor (nahraje uživatel)     |                  |
+| Ostatní            |              | soubor (nahraje uživatel)     |                  |
+
+> Tip: Použijte pro každou položku samostatný řádek s jasným popisem, přiložte čitelný doklad a krátkou poznámku, pokud je potřeba.
+
+## 4. Celková nárokovaná částka
+
+- **Součet položek:**  (automatický součet — pole generované systémem)
+- **Potvrzení zaměstnance:** [ ] ano   [ ] ne
+
+## 5. Prohlášení zaměstnance
+
+Prohlašuji, že uvedené náklady jsou skutečné, vynaložené v souvislosti s výkonem služební cesty a že přiložené doklady jsou pravdivé a kompletní.
+
+- **Datum:**
+- **Elektronický podpis:**
+
+## 6. Schvalovací část (vyplňuje schvalovatel)
+
+- **Rozhodnutí schvalovatele:** [ ] Schválit   [ ] Neschválit
+- **Komentář:**
+- **Jméno schvalovatele:**
+- **Elektronický podpis:**
