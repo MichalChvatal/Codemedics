@@ -1,12 +1,8 @@
 # Orchestrator updated to use ORCHESTRATOR_PROMPT for agent reasoning
 
-import os
-import difflib
-from typing import Optional
-from .agents import BaseAgent, FormAgent, ProcessAgent, OrgAgent
+from .agents import FormAgent, ProcessAgent, OrgAgent
 from .rag import RAGEngine
 from openai import OpenAI
-from langchain_openai import ChatOpenAI
 
 # System prompt for orchestrator
 ORCHESTRATOR_PROMPT = """
@@ -79,9 +75,14 @@ class Orchestrator:
         return "PROCESS_AGENT"
 
     # ---------------------- HANDLE QUERY --------------------------
+
     def handle_query(self, query: str) -> str:
         results = self.rag.vector_search(query)
-        rag_context = "\n".join([f"Z dokumentu {fn} -> {content}" for fn, content in results])
+        
+        rag_context = "\n".join([
+            f"Z dokumentu {fn} -> {content}"
+            for fn, content in results
+        ])
 
         agent_name = self.route_agent(query, rag_context)
         agent = self.agents[agent_name]

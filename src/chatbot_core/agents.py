@@ -8,9 +8,23 @@ Key changes:
 
 from typing import Optional, List, Dict, Any
 from openai import OpenAI
-from langchain_openai import ChatOpenAI
 import os
+import difflib
+import os
+import uuid
+from langchain.agents import create_agent
+from langchain.agents.middleware import SummarizationMiddleware
+from langgraph.checkpoint.memory import InMemorySaver
+from openai import OpenAI
 
+from langchain_openai import ChatOpenAI
+from langchain.agents import create_agent
+from langchain.agents.middleware import SummarizationMiddleware
+from langgraph.checkpoint.memory    import InMemorySaver
+from langchain_core.tools import tool
+from docx import Document
+
+from docx.oxml import OxmlElement   
 
 class BaseAgent:
     def __init__(self, name: str, system_prompt: str,llm_client: Optional[OpenAI] = None):
@@ -150,7 +164,7 @@ class FormAgent(BaseAgent):
             self.save_document_as,
         ]
         
-        self.add_tools(self, tools)
+        self.add_tools(tools)
 
 # ------------- WORD DOCUMENT HELPERS ------------- #
     @staticmethod
