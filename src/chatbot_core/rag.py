@@ -20,25 +20,18 @@ class RAGEngine:
         self.embedding_model = SentenceTransformer(embedding_model_name)
         self.docs: List[Tuple[str, str, List[float]]] = []
 
-    def add_document(self, filename: str, content: str):
-        vec = self.embedding_model.encode(content, normalize_embeddings=True).tolist()
-        self.docs.append((filename, content, vec))
+    def vector_search(self, user_prompt: str):
+        search_vector = self.embedding_model.encode(
+            user_prompt,
+            normalize_embeddings=False,
+            show_progress_bar=False,
+        ).tolist()
 
-    @staticmethod
-    def _cosine(a, b):
-        numerator = sum(x * y for x, y in zip(a, b))
-        denom_a = math.sqrt(sum(x * x for x in a))
-        denom_b = math.sqrt(sum(x * x for x in b))
-        if denom_a == 0 or denom_b == 0:
-            return 0.0
-        return numerator / (denom_a * denom_b)
-
-    def vector_search(self, query: str, top_k: int = 5):
-        q_vec = self.embedding_model.encode(query, normalize_embeddings=True).tolist()
-        scored = []
-        for fn, content, vec in self.docs:
-            score = self._cosine(q_vec, vec)
-            scored.append((score, fn, content))
-
-        scored.sort(reverse=True, key=lambda x: x[0])
-        return [(fn, content) for _, fn, content in scored[:top_k]]
+        search_sql = """
+            SELECT TOP 5 filename, content 
+            FROM VectorSearch.ORGstruct
+            ORDER BY VECTOR_COSINE(vector, TO_VECTOR(?,DOUBLE)) DESC
+        """
+        self.cursor.execute(search_sql, [str(search_vector)])
+        results = self.cursor.fetchall()
+        return [f"Text z dokumentu {x} -> {y}" for x, y in results]

@@ -6,6 +6,7 @@ from typing import Optional
 from .agents import BaseAgent, FormAgent, ProcessAgent, OrgAgent
 from .rag import RAGEngine
 from openai import OpenAI
+from langchain_openai import ChatOpenAI
 
 # System prompt for orchestrator
 ORCHESTRATOR_PROMPT = """
@@ -37,13 +38,13 @@ Cíl:
 - Zajistit jednotné chování celého systému.
 """
 
-
 class Orchestrator:
     def __init__(self, doc_root: str = "./data/"):
         self.doc_root = doc_root
-        self.current_doc = None
-        self.current_doc_path = None
-        self.current_doc_name = None
+
+        self.current_doc: Document | None = None
+        self.current_doc_path: str | None = None
+        self.current_doc_name: str | None = None
 
         self.rag = RAGEngine()
         self.llm = OpenAI(api_key="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")
