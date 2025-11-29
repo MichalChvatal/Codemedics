@@ -13,7 +13,7 @@ import os
 
 
 class BaseAgent:
-    def __init__(self, name: str, system_prompt: str, llm_client: Optional[OpenAI] = None):
+    def __init__(self, name: str, system_prompt: str,llm_client: Optional[OpenAI] = None):
         """Base agent wrapper.
 
         Args:
@@ -23,8 +23,17 @@ class BaseAgent:
         """
         self.name = name
         self.system_prompt = system_prompt
+        self.tools = []
         
         self.llm_client = OpenAI(api_key="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")
+
+    def add_tools(self, tools: List[Any]) -> None:
+        """Add tools to the agent.
+
+        Args:
+            tools: list of tool functions
+        """
+        self.tools.extend(tools)
 
     def _prepare_messages(self, user_query: str, rag_context: str) -> List[Dict[str, str]]:
         messages = [{"role": "system", "content": self.system_prompt}]
@@ -41,6 +50,7 @@ class BaseAgent:
         try:
             response = self.llm_client.chat.completions.create(
                 model="gpt-5.1",
+                tools = self.tools,
                 messages=messages,
                 temperature=0.1,
                 max_completion_tokens=1500,
@@ -122,16 +132,25 @@ Cíl:
 
 class ProcessAgent(BaseAgent):
     def __init__(self):
-        super().__init__("PROCESS_AGENT", PROCESS_AGENT_PROMPT)
+        super().__init__("PROCESS_AGENT", PROCESS_AGENT_PROMPT, [])
 
 
 class OrgAgent(BaseAgent):
     def __init__(self):
-        super().__init__("ORG_AGENT", ORG_AGENT_PROMPT)
+        super().__init__("ORG_AGENT", ORG_AGENT_PROMPT, [])
 
 class FormAgent(BaseAgent):
     def __init__(self):
         super().__init__("FORM_AGENT", FORM_AGENT_PROMPT)
+        tools = [
+            self.load_word_document,
+            self.show_current_document,
+            self.fill_placeholder,
+            self.choose_option,
+            self.save_document_as,
+        ]
+        
+        self.add_tools(self, tools)
 
 # ------------- WORD DOCUMENT HELPERS ------------- #
     @staticmethod
@@ -388,129 +407,111 @@ class FormAgent(BaseAgent):
 
     # ------------- AGENT / TOOLS ------------- #
 
-    def create_agent(self):
-        checkpointer = InMemorySaver()
+    @tool
+    def load_word_document(query: str) -> str:
+        """Load a template by name/description and create a working copy."""
+        filename, info = self._find_best_matching_doc(query)
+        if not filename:
+            return info
 
-        llm = ChatOpenAI(
-            model="gpt-5.1",
-            temperature=0.1,
-            api_key=OPENAI_API_KEY,
+        template_path = os.path.join(self.doc_root, filename)
+        try:
+            template_doc = Document(template_path)
+        except Exception as e:
+            return f"Dokument '{filename}' se nepodařilo načíst: {e}"
+
+        working_filename = self._make_working_filename(filename)
+        working_path = os.path.join(self.doc_root, working_filename)
+        template_doc.save(working_path)
+
+        doc = Document(working_path)
+        self.current_doc = doc
+        self.current_doc_path = working_path
+        self.current_doc_name = working_filename
+
+        preview = self._doc_to_text(doc, max_chars=1500)
+        return (
+            f"{info}\n\n"
+            f"Původní šablona '{filename}' byla zkopírována do souboru "
+            f"'{working_filename}', který je nyní připraven k vyplňování.\n\n"
+            f"Náhled obsahu:\n{preview}"
         )
 
-        @tool
-        def load_word_document(query: str) -> str:
-            """Load a template by name/description and create a working copy."""
-            filename, info = self._find_best_matching_doc(query)
-            if not filename:
-                return info
+    @tool
+    def show_current_document() -> str:
+        """Return the text view of the currently loaded document."""
+        if self.current_doc is None:
+            return "Momentálně není načten žádný dokument. Použij nejdřív 'load_word_document'."
+        text = self._doc_to_text(self.current_doc, max_chars=4000)
+        return (
+            f"Aktuálně načtený dokument: {self.current_doc_name}\n\n"
+            f"Text dokumentu:\n{text}"
+        )
 
-            template_path = os.path.join(self.doc_root, filename)
-            try:
-                template_doc = Document(template_path)
-            except Exception as e:
-                return f"Dokument '{filename}' se nepodařilo načíst: {e}"
+    @tool
+    def save_document_as(new_filename: str) -> str:
+        """Save the current working document under a new .docx name."""
+        if self.current_doc is None:
+            return "Není načten žádný dokument, není co ukládat."
 
-            working_filename = self._make_working_filename(filename)
-            working_path = os.path.join(self.doc_root, working_filename)
-            template_doc.save(working_path)
+        if not new_filename.lower().endswith(".docx"):
+            new_filename += ".docx"
 
-            doc = Document(working_path)
-            self.current_doc = doc
-            self.current_doc_path = working_path
-            self.current_doc_name = working_filename
+        new_path = os.path.join(self.doc_root, new_filename)
+        self.current_doc.save(new_path)
+        return (
+            f"Aktualizovaný dokument byl uložen jako '{new_filename}'. "
+            f"Cesta: {new_path}"
+        )
 
-            preview = self._doc_to_text(doc, max_chars=1500)
-            return (
-                f"{info}\n\n"
-                f"Původní šablona '{filename}' byla zkopírována do souboru "
-                f"'{working_filename}', který je nyní připraven k vyplňování.\n\n"
-                f"Náhled obsahu:\n{preview}"
+    @tool
+    def fill_placeholder(field_name: str, value: str) -> str:
+        """
+        Fill a field in the current document:
+        - {{FIELD_NAME}} placeholder, or
+        - Czech label like 'Jméno a příjmení:' / table label.
+        """
+        if self.current_doc is None or self.current_doc_path is None:
+            return "Není načten žádný dokument. Použij nejdřív 'load_word_document'."
+
+        placeholder = f"{{{{{field_name}}}}}"
+        replaced_count = self._replace_placeholder_in_doc(
+            self.current_doc, placeholder, value
+        )
+
+        if replaced_count == 0:
+            filled_by_label = self._fill_field_by_label(
+                self.current_doc, field_name, value
             )
-
-        @tool
-        def show_current_document() -> str:
-            """Return the text view of the currently loaded document."""
-            if self.current_doc is None:
-                return "Momentálně není načten žádný dokument. Použij nejdřív 'load_word_document'."
-            text = self._doc_to_text(self.current_doc, max_chars=4000)
-            return (
-                f"Aktuálně načtený dokument: {self.current_doc_name}\n\n"
-                f"Text dokumentu:\n{text}"
-            )
-
-        @tool
-        def save_document_as(new_filename: str) -> str:
-            """Save the current working document under a new .docx name."""
-            if self.current_doc is None:
-                return "Není načten žádný dokument, není co ukládat."
-
-            if not new_filename.lower().endswith(".docx"):
-                new_filename += ".docx"
-
-            new_path = os.path.join(self.doc_root, new_filename)
-            self.current_doc.save(new_path)
-            return (
-                f"Aktualizovaný dokument byl uložen jako '{new_filename}'. "
-                f"Cesta: {new_path}"
-            )
-
-        @tool
-        def fill_placeholder(field_name: str, value: str) -> str:
-            """
-            Fill a field in the current document:
-            - {{FIELD_NAME}} placeholder, or
-            - Czech label like 'Jméno a příjmení:' / table label.
-            """
-            if self.current_doc is None or self.current_doc_path is None:
-                return "Není načten žádný dokument. Použij nejdřív 'load_word_document'."
-
-            placeholder = f"{{{{{field_name}}}}}"
-            replaced_count = self._replace_placeholder_in_doc(
-                self.current_doc, placeholder, value
-            )
-
-            if replaced_count == 0:
-                filled_by_label = self._fill_field_by_label(
-                    self.current_doc, field_name, value
-                )
-                if not filled_by_label:
-                    return (
-                        f"Nepodařilo se najít ani placeholder '{placeholder}', "
-                        f"ani pole se štítkem odpovídajícím '{field_name}'. "
-                        "Zkontroluj prosím název pole."
-                    )
-
-            self.current_doc.save(self.current_doc_path)
-            return (
-                f"Pole '{field_name}' bylo vyplněno hodnotou '{value}'. "
-                f"Aktualizovaný dokument je uložen jako {self.current_doc_name}."
-            )
-
-        @tool
-        def choose_option(field_label: str, option_text: str) -> str:
-            """Select one checkbox option in the given section and clear others."""
-            if self.current_doc is None or self.current_doc_path is None:
-                return "Není načten žádný dokument. Použij nejdřív 'load_word_document'."
-
-            changed = self._select_option(self.current_doc, field_label, option_text)
-            if not changed:
+            if not filled_by_label:
                 return (
-                    f"Nepodařilo se najít sekci '{field_label}' nebo možnost obsahující "
-                    f"'{option_text}'. Zkontroluj prosím texty v šabloně."
+                    f"Nepodařilo se najít ani placeholder '{placeholder}', "
+                    f"ani pole se štítkem odpovídajícím '{field_name}'. "
+                    "Zkontroluj prosím název pole."
                 )
 
-            self.current_doc.save(self.current_doc_path)
+        self.current_doc.save(self.current_doc_path)
+        return (
+            f"Pole '{field_name}' bylo vyplněno hodnotou '{value}'. "
+            f"Aktualizovaný dokument je uložen jako {self.current_doc_name}."
+        )
+
+    @tool
+    def choose_option(field_label: str, option_text: str) -> str:
+        """Select one checkbox option in the given section and clear others."""
+        if self.current_doc is None or self.current_doc_path is None:
+            return "Není načten žádný dokument. Použij nejdřív 'load_word_document'."
+
+        changed = self._select_option(self.current_doc, field_label, option_text)
+        if not changed:
             return (
-                f"V sekci '{field_label}' byla vybrána možnost '{option_text}'. "
-                f"Ostatní možnosti byly odstraněny nebo vyprázdněny. "
-                f"Aktualizovaný dokument je uložen jako {self.current_doc_name}."
+                f"Nepodařilo se najít sekci '{field_label}' nebo možnost obsahující "
+                f"'{option_text}'. Zkontroluj prosím texty v šabloně."
             )
 
-        tools = [
-            load_word_document,
-            show_current_document,
-            fill_placeholder,
-            choose_option,
-            save_document_as,
-        ]
-
+        self.current_doc.save(self.current_doc_path)
+        return (
+            f"V sekci '{field_label}' byla vybrána možnost '{option_text}'. "
+            f"Ostatní možnosti byly odstraněny nebo vyprázdněny. "
+            f"Aktualizovaný dokument je uložen jako {self.current_doc_name}."
+        )
