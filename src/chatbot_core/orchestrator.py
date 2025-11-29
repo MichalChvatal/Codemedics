@@ -4,7 +4,6 @@ from .agents import FormAgent, ProcessAgent, OrgAgent
 from .rag import RAGEngine
 from openai import OpenAI
 
-# System prompt for orchestrator
 ORCHESTRATOR_PROMPT = """
 Role a poslání:
 - Jsi OrchestratorAgent, ústřední řídicí jednotka asistentů nemocnice.
@@ -51,6 +50,20 @@ class Orchestrator:
             "ORG_AGENT": OrgAgent(),
         }
 
+        # --- NEW: simple in-memory conversation history (user, response) ---
+        self.conversation_history: list[tuple[str, str]] = []
+
+    # --- NEW: tiny helper to turn history into text summary ---
+    def get_or_build_summary(self, max_turns: int = 6) -> str:
+        if not self.conversation_history:
+            return ""
+        last = self.conversation_history[-max_turns:]
+        lines: list[str] = []
+        for user, reply in last:
+            lines.append(f"UŽIVATEL: {user}")
+            lines.append(f"ASISTENT: {reply}")
+        return "\n".join(lines)
+
     # LLM-based routing using orchestrator system prompt
     def route_agent(self, query: str, rag_context: str) -> str:
         messages = [
@@ -77,13 +90,26 @@ class Orchestrator:
     # ---------------------- HANDLE QUERY --------------------------
 
     def handle_query(self, query: str) -> str:
+        # 1) Standard RAG over current query
         results = self.rag.vector_search(query)
         
-        rag_context = "\n".join([
+        docs_context = "\n".join([
             f"Z dokumentu {fn} -> {content}"
             for fn, content in results
         ])
 
+        # 2) Add short conversation summary into rag_context (memory)
+        history_summary = self.get_or_build_summary()
+        if history_summary:
+            rag_context = (
+                docs_context
+                + "\n\nShrnutí předchozí konverzace:\n"
+                + history_summary
+            )
+        else:
+            rag_context = docs_context
+
+        # 3) Route and invoke agent with enriched rag_context
         agent_name = self.route_agent(query, rag_context)
         agent = self.agents[agent_name]
 
@@ -92,5 +118,8 @@ class Orchestrator:
         if results:
             doc_refs = ", ".join([fn for fn, _ in results])
             response += f"\n\nDále se můžete obrátit na dokumenty: {doc_refs}"
+
+        # 4) Store this turn in memory
+        self.conversation_history.append((query, response))
 
         return response
