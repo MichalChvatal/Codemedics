@@ -5,6 +5,7 @@ import os
 import unicodedata
 import mimetypes
 
+from file_chunkers import load_document, chunk_document, save_chunks
 
 UPLOAD_DIR = "/Users/tristandobos/hackathons/Codemedics/src/uploads"
 BASE_URL = "http://localhost:8000/files"
@@ -33,18 +34,8 @@ class SimpleHandler(BaseHTTPRequestHandler):
         # Normalize Unicode (macOS compatibility)
         safe_filename = unicodedata.normalize("NFC", decoded_filename)
 
-        print("===== FILE SERVE DEBUG =====")
-        debug_unicode("URL-encoded", raw_filename)
-        debug_unicode("URL-decoded", decoded_filename)
-        debug_unicode("NFC-normalized", safe_filename)
-
-        print("Files on disk:")
-        for f in os.listdir(upload_dir):
-            debug_unicode(" - Disk file", f)
 
         file_path = os.path.join(upload_dir, safe_filename)
-        print("Looking for path:", file_path)
-        print("============================")
 
         if not os.path.isfile(file_path):
             self.send_response(404)
@@ -156,12 +147,16 @@ class SimpleHandler(BaseHTTPRequestHandler):
             safe_filename = unicodedata.normalize("NFC", filename)
 
             # Always use the ABSOLUTE UPLOAD DIRECTORY
-            os.makedirs(UPLOAD_DIR, exist_ok=True)
-
             file_path = os.path.join(UPLOAD_DIR, safe_filename)
 
             with open(file_path, "wb") as f:
                 f.write(file_bytes)
+
+            document_data = load_document(file_path)
+            chunks = chunk_document(document_data, safe_filename)
+            os.makedirs("./chunks", exist_ok=True)
+
+            save_chunks(chunks, "./chunks/" +safe_filename + "-chunks.json")
 
             print(f"File saved to {file_path}")
 
