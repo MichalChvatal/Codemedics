@@ -100,6 +100,7 @@ class Orchestrator:
 
         # 2) Add short conversation summary into rag_context (memory)
         history_summary = self.get_or_build_summary()
+        rag_context = None
         if history_summary:
             rag_context = (
                 docs_context

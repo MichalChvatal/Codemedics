@@ -24,6 +24,7 @@ from langgraph.checkpoint.memory    import InMemorySaver
 from langchain_core.tools import tool
 from docx import Document
 
+
 from docx.oxml import OxmlElement   
 
 class BaseAgent:
@@ -146,25 +147,47 @@ Cíl:
 
 class ProcessAgent(BaseAgent):
     def __init__(self):
-        super().__init__("PROCESS_AGENT", PROCESS_AGENT_PROMPT, [])
+        super().__init__("PROCESS_AGENT", PROCESS_AGENT_PROMPT)
+        tools = [
+            self.empty_fcn,
+        ]
+        
+        self.add_tools([
+            self.empty_fcn,
+        ])
 
+    @tool
+    def empty_fcn() -> str:
+        """Return nothing."""
+        return ("Nothing to do here.")
 
 class OrgAgent(BaseAgent):
     def __init__(self):
-        super().__init__("ORG_AGENT", ORG_AGENT_PROMPT, [])
+        super().__init__("ORG_AGENT", ORG_AGENT_PROMPT)
+        tools = [
+            self.empty_fcn,
+        ]
+        
+        self.add_tools([
+            self.empty_fcn,
+        ])  
+
+    @tool
+    def empty_fcn() -> str:
+        """Return nothing."""
+        return ("Nothing to do here.")
 
 class FormAgent(BaseAgent):
     def __init__(self):
         super().__init__("FORM_AGENT", FORM_AGENT_PROMPT)
-        tools = [
+        
+        self.add_tools([
             self.load_word_document,
             self.show_current_document,
             self.fill_placeholder,
             self.choose_option,
             self.save_document_as,
-        ]
-        
-        self.add_tools(tools)
+        ])       
 
 # ------------- WORD DOCUMENT HELPERS ------------- #
     @staticmethod
