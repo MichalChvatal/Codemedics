@@ -2,10 +2,16 @@
 # Used for Jupyter Notebooks
 jupyter 
 notebook
+ollama
+langchain
+sentence-transformers
+iris
+langgraph
+langchain-openai
+fhirpy
+fhir.resources
 
 # Others
 pandas
 numpy
-scipy
 tqdm
-matplotlib
