@@ -4,6 +4,7 @@ import base64
 import os
 import unicodedata
 import mimetypes
+from db_insertion import insert_chunks
 
 from file_chunkers import load_document, chunk_document, save_chunks
 
@@ -164,6 +165,7 @@ class SimpleHandler(BaseHTTPRequestHandler):
             os.makedirs("./chunks", exist_ok=True)
 
             save_chunks(chunks, "./chunks/" +safe_filename + "-chunks.json")
+            insert_chunks(chunks)
 
             print(f"File saved to {file_path}")
 

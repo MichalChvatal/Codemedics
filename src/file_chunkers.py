@@ -6,6 +6,7 @@ import mammoth
 import subprocess
 import unicodedata
 from to_json import excel_to_json
+from db_insertion import insert_chunks
 # import pdfplumber
 
 # ------------------------------------------
@@ -152,6 +153,7 @@ def save_chunks(chunks: list[dict], path: str):
 def save_chunks(chunks: list[dict], output_path: str):
     """Saves chunks to JSON."""
     print("output_path for the chunks is " + output_path)
+    
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(chunks, f, ensure_ascii=False, indent=2)
 
@@ -184,6 +186,7 @@ def process_folder(folder_path: str) -> list[dict]:
         chunks = chunk_document(text, filename)
         all_chunks.extend(chunks)
 
+    insert_chunks(all_chunks)
     return all_chunks
 
 
