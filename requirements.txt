@@ -5,11 +5,11 @@ notebook
 ollama
 langchain
 sentence-transformers
-iris
 langgraph
 langchain-openai
 fhirpy
 fhir.resources
+intersystems-irispython
 
 # Others
 pandas
