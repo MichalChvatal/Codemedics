@@ -1,0 +1,3 @@
+[submodule "FHIR-AI-Hackathon-Kit"]
+	path = FHIR-AI-Hackathon-Kit
+	url = https://github.com/intersystems-community/FHIR-AI-Hackathon-Kit.git
