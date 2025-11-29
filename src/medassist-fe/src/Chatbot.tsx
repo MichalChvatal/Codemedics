@@ -9,10 +9,10 @@ import {
   FileVideo,
   FileText,
   FileCode,
-  FileType,
 } from "lucide-react";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import toast from "react-hot-toast";
+import { UserProfile } from "./Profile";
 
 export function useUploadDocument() {
   const queryClient = useQueryClient();
@@ -246,6 +246,36 @@ const FileLink = ({ file }) => {
   );
 };
 
+const translateProfile = (profileData) => {
+  const translations = {
+    fullName: "Jméno a příjmení",
+    personalNumber: "Osobní číslo",
+    department: "Útvar / oddělení",
+    contact: "Telefon / e-mail",
+  };
+
+  const translatedProfile = {};
+
+  for (const key in profileData) {
+    if (!profileData[key]) continue; // skip empty values
+
+    const translatedKey = translations[key] || key;
+    translatedProfile[translatedKey] = profileData[key];
+  }
+
+  return translatedProfile;
+};
+
+function cleanProfile(profile) {
+  const cleaned = Object.fromEntries(
+    Object.entries(profile).filter(([_, value]) => value && value.trim() !== "")
+  );
+
+  const hasAnyFields = Object.keys(cleaned).length > 0;
+
+  return { cleaned, hasAnyFields };
+}
+
 const Chatbot: FC = () => {
   const [messages, setMessages] = useState<Message[]>(initialMessages);
   const [input, setInput] = useState<string>("");
@@ -257,6 +287,13 @@ const Chatbot: FC = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
+  const [profile, setProfile] = React.useState({
+    fullName: "",
+    personalNumber: "",
+    department: "",
+    contact: "",
+  });
+
   useEffect(() => {
     scrollToBottom();
   }, [messages]);
@@ -266,6 +303,14 @@ const Chatbot: FC = () => {
     const trimmedInput = input.trim();
     if (trimmedInput === "" || isLoading) return;
 
+    const { cleaned, hasAnyFields } = cleanProfile(profile);
+    const translatedProfile = translateProfile(cleaned);
+
+    const profileInfo = JSON.stringify(translatedProfile);
+
+    const userInfo = hasAnyFields
+      ? `Uživatel s následujícími přihlašovacími údaji: ${profileInfo} odesílá následující zprávu: `
+      : "";
     const userMessage: Message = {
       id: Date.now(),
       text: trimmedInput,
@@ -293,7 +338,7 @@ const Chatbot: FC = () => {
           "Content-Type": "application/json",
         },
         // Send the message in JSON format as expected by your Python server
-        body: JSON.stringify({ message: trimmedInput }),
+        body: JSON.stringify({ message: userInfo + trimmedInput }),
       });
 
       if (!response.ok) {
@@ -374,6 +419,8 @@ const Chatbot: FC = () => {
             </div>
           ))}
           <FileUpload />
+          <span style={{ padding: 20 }} />
+          <UserProfile profile={profile} setProfile={setProfile} />
         </div>
       </div>
 

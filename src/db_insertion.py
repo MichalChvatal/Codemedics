@@ -14,12 +14,7 @@ from langgraph.checkpoint.memory import InMemorySaver
 model = SentenceTransformer('all-MiniLM-L6-v2') 
 
 def vectorize_content(content):
-    print("the content is ", content)
     embeddings = model.encode([content], normalize_embeddings=True, show_progress_bar=True)
-    return embeddings
-
-def vectorize_filename(filename):
-    embeddings = model.encode([filename], normalize_embeddings=True, show_progress_bar=True)
     return embeddings
 
 
