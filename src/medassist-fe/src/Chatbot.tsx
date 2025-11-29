@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect} from "react";
+import React, { useState, useRef, useEffect } from "react";
 import type { FormEvent, FC } from "react";
 import "./Chatbot.css";
 import { useQuery } from "@tanstack/react-query";
@@ -405,20 +405,25 @@ const Chatbot: FC = () => {
         {/* <div className="new-chat-btn">+ New Chat</div> */}
         <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
           <h3 style={{ paddingBottom: 0, marginBottom: 0 }}>Soubory</h3>
-          {(data?.files ?? []).map((file) => (
-            <div
-              key={file}
-              style={{
-                display: "flex",
-                alignItems: "center",
-                gap: "10px",
-                padding: "6px 0",
-              }}
-            >
-              <span style={{ fontSize: "24px" }}>{getFileIcon(file.name)}</span>
-              <FileLink file={file} />
-            </div>
-          ))}
+          <div style={{ maxHeight: "400px", overflowY: "auto" }}>
+            {(data?.files ?? []).map((file) => (
+              <div
+                key={file}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "10px",
+                  padding: "6px 0",
+                }}
+              >
+                <span style={{ fontSize: "24px" }}>
+                  {getFileIcon(file.name)}
+                </span>
+                <FileLink file={file} />
+              </div>
+            ))}
+          </div>
+
           <FileUpload />
           <span style={{ padding: 20 }} />
           <UserProfile profile={profile} setProfile={setProfile} />
