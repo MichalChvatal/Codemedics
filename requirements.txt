@@ -2,10 +2,14 @@
 # Used for Jupyter Notebooks
 jupyter 
 notebook
+ollama
+langchain
+langchain_ollama
+sentence-transformers
+iris
+langgraph
 
 # Others
 pandas
 numpy
-scipy
 tqdm
-matplotlib
