@@ -172,7 +172,7 @@ type Sender = "user" | "bot";
 
 interface Message {
   id: number;
-  text: string;
+  message: string;
   sender: Sender;
 }
 
@@ -180,7 +180,7 @@ interface Message {
 const initialMessages: Message[] = [
   {
     id: 1,
-    text: "Hello! I'm connected to your Python server.",
+    message: "Hello! I'm connected to your Python server.",
     sender: "bot",
   },
 ];
@@ -209,7 +209,7 @@ const MessageComponent: FC<MessageProps> = ({ message }) => (
     <div className={`message-bubble ${message.sender}`}>
       <span
         dangerouslySetInnerHTML={{
-          __html: message.text.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>"),
+          __html: message.message,
         }}
       />
     </div>
@@ -308,7 +308,7 @@ const Chatbot: FC = () => {
 
     const userMessage: Message = {
       id: Date.now(),
-      text: trimmedInput, // Display only the user text to UI, not the profile header
+      message: trimmedInput, // Display only the user text to UI, not the profile header
       sender: "user",
     };
 
@@ -319,7 +319,7 @@ const Chatbot: FC = () => {
 
     const thinkingMessage: Message = {
       id: Date.now() + 1,
-      text: "...",
+      message: "...",
       sender: "bot",
     };
     setMessages((prev) => [...prev, thinkingMessage]);
@@ -347,7 +347,7 @@ const Chatbot: FC = () => {
 
       // 5. Handle Response
       const data = await response.json();
-      const botResponseText = data.response; // Assuming BE returns { response: "..." }
+      const botResponseText = data.message; // Assuming BE returns { response: "..." }
 
       // Update Local Storage with new pair
       const updatedContext = [
@@ -367,12 +367,12 @@ const Chatbot: FC = () => {
         if (thinkingIndex !== -1) {
           newMessages[thinkingIndex] = {
             ...thinkingMessage,
-            text: botResponseText,
+            message: botResponseText,
           };
         } else {
           newMessages.push({
             id: Date.now() + 2,
-            text: botResponseText,
+            message: botResponseText,
             sender: "bot",
           });
         }
@@ -384,7 +384,7 @@ const Chatbot: FC = () => {
       setMessages((prev) => {
         const errorMessage: Message = {
           id: Date.now() + 3,
-          text: `**ERROR:** Could not connect to the backend server.`,
+          message: `**ERROR:** Could not connect to the backend server.`,
           sender: "bot",
         };
         const filtered = prev.filter((msg) => msg.id !== thinkingMessage.id);

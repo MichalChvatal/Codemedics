@@ -178,7 +178,7 @@ class SimpleHandler(BaseHTTPRequestHandler):
         # ---- Default POST behavior ----
         message = data.get("message", "")
         llm_response = rag_chatbot.return_response(query=message)
-        response = {"message": llm_response}
+        response = {"id": 99, "message": llm_response, "sender": "bot"}
 
         self.send_response(200)
         self._send_cors_headers()
