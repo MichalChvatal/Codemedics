@@ -5,3 +5,4 @@ out/
 data/sample/*
 .venv
 my-iris-env
+src/medassist-fe/build
