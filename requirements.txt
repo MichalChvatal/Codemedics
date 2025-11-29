@@ -17,3 +17,4 @@ intersystems-irispython
 pandas
 numpy
 tqdm
+python-dotenv
