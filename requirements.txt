@@ -12,6 +12,7 @@ fhir.resources
 python-docx
 openai
 difflib
+python-dotenv
 # Others
 pandas
 numpy

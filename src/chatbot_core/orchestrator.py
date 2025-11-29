@@ -1,18 +1,41 @@
-"""Orchestrator glue code.
+# Orchestrator updated to use ORCHESTRATOR_PROMPT for agent reasoning
 
-This orchestrator merges the document helpers and the routing logic
-from the large notebook with the lightweight agent/orchestrator CLI
-approach used by the separate script.
-
-The goal is to preserve the notebook's document helper functions and the
-RAG integration while centralising routing and agent invocation here.
-"""
 import os
 import difflib
 from typing import Optional
 from .agents import BaseAgent, FormAgent, ProcessAgent, OrgAgent
 from .rag import RAGEngine
-# import docx locally where needed (avoid hard dependency at module import time)
+from openai import OpenAI
+
+# System prompt for orchestrator
+ORCHESTRATOR_PROMPT = """
+Role a poslání:
+- Jsi OrchestratorAgent, ústřední řídicí jednotka asistentů nemocnice.
+- Tvým úkolem je pomoci uživateli vyřešit jeho dotaz co nejefektivněji a bezpečně — správným výběrem specializovaného agenta.
+- Dotazy se týkají pracovních úkonů, administrativy, procesů, formulářů a orientace v organizační struktuře nemocnice.
+- Všechny odpovědi musí být založené na informacích z RAG dokumentů poskytnutých systémem.
+Jak pracuješ:
+- Přečti si uživatelův dotaz a dostupný RAG kontext.
+- Urči, jaký typ problému uživatel řeší:
+  - Formulář / šablona → FORM_AGENT
+  - Proces / postup → PROCESS_AGENT
+  - Organizační informace / kontakty / oddělení → ORG_AGENT
+- Nerozhoduj podle jednoslovných klíčových slov. Posuzuj záměr uživatele:
+  - „Jedeme na služební cestu, co mám dělat?“ = PROCES
+  - „Chci ohlásit škodu, kam se obrátit?“ = ORGANIZACE
+  - „Potřebuji žádost o dovolenou.“ = FORMULÁŘ
+- Pokud záměr není zcela jasný, ptej se na jediné kritické upřesnění.
+- Vždy vybírej agenta, který nejlépe dokáže uživateli pomoci dosáhnout jeho cíle krok po kroku.
+Co nesmíš dělat:
+- Nevymýšlej interní směrnice nebo postupy, pokud nejsou v RAG.
+- Nevytvářej umělé procesy, které v dokumentech neexistují.
+- Nevyplňuj formuláře — to dělá FORM_AGENT.
+- Nedávej rady mimo oblast nemocniční administrativy.
+Cíl:
+- Vyber správného agenta.
+- Předat mu dotaz a RAG kontext.
+- Zajistit jednotné chování celého systému.
+"""
 
 
 class Orchestrator:
@@ -22,123 +45,50 @@ class Orchestrator:
         self.current_doc_path = None
         self.current_doc_name = None
 
-        # in-memory RAG engine (documents can be added, or this can be bypassed)
         self.rag = RAGEngine()
+        self.llm = OpenAI(api_key="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")
 
-        # agent registry
         self.agents = {
             "FORM_AGENT": FormAgent(),
             "PROCESS_AGENT": ProcessAgent(),
             "ORG_AGENT": OrgAgent(),
         }
 
-    # ----------------- DOCUMENT HELPERS (kept from the notebook) -----------------
-
-    @staticmethod
-    def _replace_in_paragraph(paragraph, placeholder: str, value: str):
-        if placeholder not in paragraph.text:
-            return
-        full_text = "".join(run.text for run in paragraph.runs)
-        new_text = full_text.replace(placeholder, value)
-        for run in paragraph.runs:
-            run.text = ""
-        if paragraph.runs:
-            paragraph.runs[0].text = new_text
-
-    def _replace_placeholder_in_doc(self, doc: object, placeholder: str, value: str):
-        for paragraph in doc.paragraphs:
-            self._replace_in_paragraph(paragraph, placeholder, value)
-        for table in doc.tables:
-            for row in table.rows:
-                for cell in row.cells:
-                    for paragraph in cell.paragraphs:
-                        self._replace_in_paragraph(paragraph, placeholder, value)
-
-    def _doc_to_text(self, doc: object, max_chars: int = 4000) -> str:
-        parts = [p.text.strip() for p in doc.paragraphs if p.text.strip()]
-        text = "\n".join(parts)
-        if len(text) > max_chars:
-            text = text[:max_chars] + "\n\n[Text zkrácen kvůli délce…]"
-        return text
-
-    def _list_docx_files(self):
-        if not os.path.isdir(self.doc_root):
-            return []
-        return [
-            f for f in os.listdir(self.doc_root)
-            if f.lower().endswith(".docx") and os.path.isfile(os.path.join(self.doc_root, f))
+    # LLM-based routing using orchestrator system prompt
+    def route_agent(self, query: str, rag_context: str) -> str:
+        messages = [
+            {"role": "system", "content": ORCHESTRATOR_PROMPT},
+            {"role": "assistant", "content": f"RAG informace:\n{rag_context}"},
+            {"role": "user", "content": query},
         ]
 
-    def _find_best_matching_doc(self, query: str) -> tuple[Optional[str], str]:
-        files = self._list_docx_files()
-        if not files:
-            return None, "V adresáři šablon nejsou žádné .docx soubory."
-
-        q = query.strip().lower()
-        if not q:
-            return None, "Dotaz je prázdný."
-
-        for f in files:
-            if f.lower() == q:
-                return f, f"Použit přesný název souboru '{f}'."
-
-        contains = [f for f in files if q in f.lower()]
-        if len(contains) == 1:
-            return contains[0], f"Nalezeno podle podřetězce v názvu souboru '{contains[0]}'."
-        if len(contains) > 1:
-            main = contains[0]
-            alts = ", ".join(contains[1:])
-            return main, (
-                f"Nalezeno více souborů podle popisu. Vybrán '{main}'. "
-                f"Další možné: {alts}"
-            )
-
-        matches = difflib.get_close_matches(q, files, n=3, cutoff=0.3)
-        if not matches:
-            available = ", ".join(files)
-            return None, (
-                "Nepodařilo se najít vhodný dokument podle popisu. "
-                f"Dostupné šablony: {available}"
-            )
-
-        main = matches[0]
-        if len(matches) == 1:
-            return main, f"Dokument přibližně odpovídá popisu: '{main}'."
-        alts = ", ".join(matches[1:])
-        return main, (
-            f"Dokument nejlépe odpovídající popisu: '{main}'. "
-            f"Další kandidáti: {alts}"
+        resp = self.llm.chat.completions.create(
+            model="gpt-5.1",
+            messages=messages,
+            temperature=0.0,
+            max_completion_tokens=300,
         )
 
-    # ----------------- RAG / VECTOR SEARCH -----------------
-    def add_local_document(self, filename: str, content: str):
-        """Add a document to the in-memory RAG store."""
-        self.rag.add_document(filename, content)
+        text = resp.choices[0].message.content.strip().upper()
 
-    # ----------------- AGENT ROUTING / INVOCATION -----------------
-    def route_agent(self, query: str) -> str:
-        q = query.lower()
-        if any(k in q for k in ['formulář', 'vyplnit', 'přihláška']):
-            return 'FORM_AGENT'
-        if any(k in q for k in ['oddělení', 'kontakt', 'ústav']):
-            return 'ORG_AGENT'
-        return 'PROCESS_AGENT'
+        if "FORM" in text:
+            return "FORM_AGENT"
+        if "ORG" in text:
+            return "ORG_AGENT"
+        return "PROCESS_AGENT"
 
+    # ---------------------- HANDLE QUERY --------------------------
     def handle_query(self, query: str) -> str:
-        # 1) RAG search
         results = self.rag.vector_search(query)
-        rag_context = '\n'.join([f'Z dokumentu {fn} -> {content}' for fn, content in results])
+        rag_context = "\n".join([f"Z dokumentu {fn} -> {content}" for fn, content in results])
 
-        # 2) Route to agent
-        agent_name = self.route_agent(query)
+        agent_name = self.route_agent(query, rag_context)
         agent = self.agents[agent_name]
 
-        # 3) Invoke agent
         response = agent.invoke(query, rag_context)
 
-        # 4) Append doc references
         if results:
-            doc_refs = ', '.join([fn for fn, _ in results])
-            response += f'\n\nDále se můžete obrátit na dokumenty: {doc_refs}'
+            doc_refs = ", ".join([fn for fn, _ in results])
+            response += f"\n\nDále se můžete obrátit na dokumenty: {doc_refs}"
 
         return response
