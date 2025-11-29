@@ -4,7 +4,6 @@ jupyter
 notebook
 langchain
 sentence-transformers
-iris
 langgraph
 langchain-openai
 fhirpy
@@ -12,6 +11,7 @@ fhir.resources
 python-docx
 openai
 difflib
+intersystems-irispython
 
 # Others
 pandas
