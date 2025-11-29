@@ -1,4 +1,5 @@
-import React, { useState, useRef, useEffect, FC, FormEvent } from "react";
+import React, { useState, useRef, useEffect} from "react";
+import type { FormEvent, FC } from "react";
 import "./Chatbot.css";
 
 // --- TYPES (Same as before) ---
