@@ -3,3 +3,4 @@ __pycache__/
 out/
 .ipynb_checkpoints/
 data/sample/*
+src/medassist-fe/build/
