@@ -459,9 +459,6 @@ const Chatbot: FC = () => {
               <SendIcon />
             </button>
           </form>
-          <p className="disclaimer">
-            This UI communicates with your Python server on **port 8000**.
-          </p>
         </div>
       </div>
     </div>
