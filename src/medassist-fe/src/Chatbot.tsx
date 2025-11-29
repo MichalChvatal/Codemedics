@@ -1,5 +1,179 @@
 import React, { useState, useRef, useEffect, FC, FormEvent } from "react";
 import "./Chatbot.css";
+import { useQuery } from "@tanstack/react-query";
+import axios from "axios";
+import {
+  File,
+  FileImage,
+  FileArchive,
+  FileVideo,
+  FileText,
+  FileCode,
+  FileType,
+} from "lucide-react";
+import { useMutation, useQueryClient } from "@tanstack/react-query";
+import toast from "react-hot-toast";
+
+export function useUploadDocument() {
+  const queryClient = useQueryClient();
+
+  return useMutation({
+    mutationFn: async (payload: any) => {
+      const res = await fetch("http://localhost:8000/upload-document", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+      });
+
+      if (!res.ok) {
+        throw new Error("Upload failed");
+      }
+
+      return res.json();
+    },
+
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ["uploaded-files"] });
+    },
+  });
+}
+
+function FileUpload() {
+  const [file, setFile] = useState(null);
+  const [uploading, setUploading] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement>(null);
+
+  const uploadDocument = useUploadDocument(); // <-- USE THE MUTATION HERE
+
+  const handleFileChange = (e) => {
+    setFile(e.target.files[0]);
+  };
+
+  const handleUpload = async () => {
+    if (!file) return;
+
+    setUploading(true);
+
+    const reader = new FileReader();
+
+    reader.onload = () => {
+      const base64 = reader.result.split(",")[1];
+
+      const payload = {
+        filename: file.name,
+        dateOfCreation: new Date().toISOString(),
+        content: base64,
+      };
+
+      // 🔥 Use the mutation instead of fetch()
+      uploadDocument.mutate(payload, {
+        onSuccess: () => {
+          setUploading(false);
+
+          // reset component
+          setFile(null);
+          if (fileInputRef.current) {
+            fileInputRef.current.value = "";
+          }
+          toast.success("File uploaded successfully!");
+        },
+        onError: (err) => {
+          console.error(err);
+          setUploading(false);
+        },
+      });
+    };
+
+    reader.readAsDataURL(file);
+  };
+
+  return (
+    <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+      <input type="file" onChange={handleFileChange} ref={fileInputRef} />
+      {/* {file && (
+        <p>
+          Selected: <b>{file.name}</b>
+        </p>
+      )} */}
+
+      {file && (
+        <button
+          onClick={handleUpload}
+          disabled={!file || uploading || uploadDocument.isPending}
+          style={{
+            padding: "8px 14px",
+            background: "#0077ff",
+            color: "white",
+            border: "none",
+            borderRadius: "4px",
+            cursor:
+              !file || uploading || uploadDocument.isPending
+                ? "default"
+                : "pointer",
+          }}
+        >
+          {uploading ? "Uploading..." : "Upload"}
+        </button>
+      )}
+    </div>
+  );
+}
+
+const getFileIcon = (filename) => {
+  const ext = filename.split(".").pop().toLowerCase();
+
+  switch (ext) {
+    case "pdf":
+      return <FileText size={22} />;
+    case "jpg":
+    case "jpeg":
+    case "png":
+    case "gif":
+      return <FileImage size={22} />;
+    case "zip":
+    case "rar":
+      return <FileArchive size={22} />;
+    case "mp4":
+    case "mov":
+      return <FileVideo size={22} />;
+    case "doc":
+    case "docx":
+      return <FileText size={22} />;
+    case "js":
+    case "ts":
+    case "json":
+    case "html":
+      return <FileCode size={22} />;
+    default:
+      return <File size={22} />;
+  }
+};
+
+export const api = axios.create({
+  baseURL: "http://localhost:8000", // 👈 default URL here
+});
+
+export interface UploadedFile {
+  id: string;
+  url: string;
+  name: string;
+  size: number;
+  createdAt: string;
+}
+
+async function fetchUploadedFiles(): Promise<UploadedFile[]> {
+  const res = await api.get("/uploaded-files");
+  return res.data;
+}
+
+export function useUploadedFiles() {
+  return useQuery({
+    queryKey: ["uploaded-files"],
+    queryFn: fetchUploadedFiles,
+  });
+}
 
 // --- TYPES (Same as before) ---
 type Sender = "user" | "bot";
@@ -52,6 +226,26 @@ const MessageComponent: FC<MessageProps> = ({ message }) => (
 
 // --- MAIN CHATBOT COMPONENT ---
 
+const FileLink = ({ file }) => {
+  const [hover, setHover] = React.useState(false);
+
+  return (
+    <a
+      href={file.link}
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
+      style={{
+        fontSize: "18px",
+        color: hover ? "gray" : "#fff",
+        textDecoration: "none",
+        cursor: "pointer",
+      }}
+    >
+      {file.name}
+    </a>
+  );
+};
+
 const Chatbot: FC = () => {
   const [messages, setMessages] = useState<Message[]>(initialMessages);
   const [input, setInput] = useState<string>("");
@@ -101,7 +295,6 @@ const Chatbot: FC = () => {
         // Send the message in JSON format as expected by your Python server
         body: JSON.stringify({ message: trimmedInput }),
       });
-      console.log("the response is ", response);
 
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
@@ -157,13 +350,32 @@ const Chatbot: FC = () => {
     }
   };
 
+  const { data } = useUploadedFiles();
+
   return (
     <div className="chatbot-container">
       {/* --- Header (Left Sidebar Look) --- */}
-      {/* <div className="sidebar-header">
-        <div className="new-chat-btn">+ New Chat</div>
-        <div className="title">React TSX / Python Chat</div>
-      </div> */}
+      <div className="sidebar-header">
+        {/* <div className="new-chat-btn">+ New Chat</div> */}
+        <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+          <h3 style={{ paddingBottom: 0, marginBottom: 0 }}>Soubory</h3>
+          {(data?.files ?? []).map((file) => (
+            <div
+              key={file}
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: "10px",
+                padding: "6px 0",
+              }}
+            >
+              <span style={{ fontSize: "24px" }}>{getFileIcon(file.name)}</span>
+              <FileLink file={file} />
+            </div>
+          ))}
+          <FileUpload />
+        </div>
+      </div>
 
       {/* --- Main Chat Area --- */}
       <div className="chat-main">
