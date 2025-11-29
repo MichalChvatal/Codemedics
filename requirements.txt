@@ -2,7 +2,6 @@
 # Used for Jupyter Notebooks
 jupyter 
 notebook
-ollama
 langchain
 sentence-transformers
 iris
@@ -10,7 +9,9 @@ langgraph
 langchain-openai
 fhirpy
 fhir.resources
-
+python-docx
+openai
+difflib
 # Others
 pandas
 numpy
