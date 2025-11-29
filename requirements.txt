@@ -2,13 +2,15 @@
 # Used for Jupyter Notebooks
 jupyter 
 notebook
-ollama
 langchain
 sentence-transformers
 langgraph
 langchain-openai
 fhirpy
 fhir.resources
+python-docx
+openai
+difflib
 intersystems-irispython
 
 # Others

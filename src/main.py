@@ -1,18 +1,8 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
-import base64
-import os
-import unicodedata
-import mimetypes
-from db_insertion import insert_chunks
+from model.main import RAGChatbot
 
-from file_chunkers import load_document, chunk_document, save_chunks
-
-UPLOAD_DIR = "/Users/tristandobos/hackathons/Codemedics/src/uploads"
-BASE_URL = "http://localhost:8000/files"
-def debug_unicode(label, s):
-    print(f"{label}: {s!r}")
-    print("Codepoints:", [hex(ord(c)) for c in s])
+rag_chatbot = RAGChatbot()
 
 class SimpleHandler(BaseHTTPRequestHandler):
 
@@ -22,165 +12,45 @@ class SimpleHandler(BaseHTTPRequestHandler):
         self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
         self.send_header("Access-Control-Allow-Headers", "Content-Type")
 
-    # ---- Static file serving ----
-    def handle_file_serve(self):
-        upload_dir = UPLOAD_DIR
-
-        raw_filename = self.path.replace("/files/", "")
-
-        # NEW: decode %CC%81 etc.
-        from urllib.parse import unquote
-        decoded_filename = unquote(raw_filename)
-
-        # Normalize Unicode (macOS compatibility)
-        safe_filename = unicodedata.normalize("NFC", decoded_filename)
-
-
-        file_path = os.path.join(upload_dir, safe_filename)
-
-        if not os.path.isfile(file_path):
-            self.send_response(404)
-            self._send_cors_headers()
-            self.send_header("Content-Type", "text/plain")
-            self.end_headers()
-            self.wfile.write(b"File not found")
-            return
-
-        mime, _ = mimetypes.guess_type(file_path)
-        mime = mime or "application/octet-stream"
-
-        with open(file_path, "rb") as f:
-            content = f.read()
-
-        self.send_response(200)
-        self._send_cors_headers()
-        self.send_header("Content-Type", mime)
-        self.send_header("Content-Length", str(len(content)))
-        self.end_headers()
-        self.wfile.write(content)
-
-    # ---- OPTIONS (CORS) ----
+    # Handle preflight OPTIONS request
     def do_OPTIONS(self):
         self.send_response(200)
         self._send_cors_headers()
         self.end_headers()
 
-    # ---- List uploaded files ----
-    def handle_uploads_get(self):
-        # Ensure upload folder exists
-        os.makedirs(UPLOAD_DIR, exist_ok=True)
-
-        files = []
-        for filename in os.listdir(UPLOAD_DIR):
-            path = os.path.join(UPLOAD_DIR, filename)
-            if os.path.isfile(path):
-                files.append({
-                    "name": filename,
-                    "link": f"{BASE_URL}/{filename}"
-                })
-
-        self.send_response(200)
-        self._send_cors_headers()
-        self.send_header("Content-Type", "application/json")
-        self.end_headers()
-        self.wfile.write(json.dumps({"files": files}).encode())
-
-    # ---- GET Router ----
     def do_GET(self):
-        if self.path.startswith("/files/"):
-            return self.handle_file_serve()
-
-        if self.path == "/uploaded-files":
-            return self.handle_uploads_get()
-
-        # Fallback
-        resp = b"<h1>Hello from Python HTTP Server!</h1>"
-        content_type = "text/html"
-
         self.send_response(200)
         self._send_cors_headers()
-        self.send_header("Content-Type", content_type)
+        self.send_header("Content-Type", "text/html")
         self.end_headers()
-        self.wfile.write(resp)
+        self.wfile.write(b"<h1>Hello from Python HTTP Server!</h1>")
 
-    # ---- POST Router ----
     def do_POST(self):
+        # 1. Read content length
         content_length = int(self.headers.get("Content-Length", 0))
+        
+        # 2. Read body
         body = self.rfile.read(content_length)
+        print("Received body:", body)
 
+        # 3. Parse JSON
         try:
             data = json.loads(body)
-        except:
+            message = data.get("message", "")
+        except Exception as e:
+            print("JSON parse error:", e)
             self.send_response(400)
             self._send_cors_headers()
+            self.send_header("Content-Type", "application/json")
             self.end_headers()
             self.wfile.write(b'{"error":"invalid JSON"}')
             return
 
-        print("POST data:", data)
-        content_type = self.headers.get("Content-Type", "")
+        # 4. Process the message
+        llm_response = rag_chatbot.return_response(query=message)
+        response = {"message": "server response: " + llm_response}
 
-        if self.path == "/upload-document":
-            print("Uploading a document...")
-
-            filename = data.get("filename")
-            dateOfCreation = data.get("dateOfCreation")
-            content_base64 = data.get("content")
-
-            # Normalize filename for macOS
-            raw_filename = self.path.replace("/files/", "")
-
-            # 1. URL-decode
-            decoded = raw_filename
-
-            # 2. Normalize to NFC (match macOS-friendly form)
-            safe_filename = unicodedata.normalize("NFC", decoded)
-
-            print(f"Saving '{safe_filename}' created at {dateOfCreation}")
-
-            # Decode data
-            file_bytes = base64.b64decode(content_base64)
-
-            # Ensure upload directory exists
-            os.makedirs(UPLOAD_DIR, exist_ok=True)
-
-            # Save file
-            safe_filename = unicodedata.normalize("NFC", filename)
-
-            # Always use the ABSOLUTE UPLOAD DIRECTORY
-            file_path = os.path.join(UPLOAD_DIR, safe_filename)
-
-            with open(file_path, "wb") as f:
-                f.write(file_bytes)
-            
-            ext = os.path.splitext(file_path)[1].lower()
-
-            document_data = load_document(file_path)
-
-            if ext == ".xlsx":
-                chunks = document_data
-            else:
-                chunks = chunk_document(document_data, safe_filename)       
-
-            os.makedirs("./chunks", exist_ok=True)
-
-            save_chunks(chunks, "./chunks/" +safe_filename + "-chunks.json")
-            insert_chunks(chunks)
-
-            print(f"File saved to {file_path}")
-
-            self.send_response(200)
-            self._send_cors_headers()
-            self.send_header("Content-Type", "application/json")
-            self.end_headers()
-            self.wfile.write(b'{"status":"OK"}')
-            return
-
-        # ---- Default POST behavior ----
-        message = data.get("message", "")
-        upper_message = message.upper()
-        response = {"message": "server response: " + upper_message}
-
+        # 5. Send response
         self.send_response(200)
         self._send_cors_headers()
         self.send_header("Content-Type", "application/json")
