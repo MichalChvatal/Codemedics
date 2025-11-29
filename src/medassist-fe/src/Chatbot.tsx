@@ -189,7 +189,7 @@ interface Message {
 const initialMessages: Message[] = [
   {
     id: 1,
-    text: "Hello! I'm connected to your Python server. Send a message to see it returned in **UPPERCASE**.",
+    text: "Ahoj, jsem tady pro tebe, s čím potřebuješ pomoci?",
     sender: "bot",
   },
 ];
