@@ -3,3 +3,5 @@ __pycache__/
 out/
 .ipynb_checkpoints/
 data/sample/*
+.venv
+my-iris-env
