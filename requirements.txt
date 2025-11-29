@@ -4,10 +4,10 @@ jupyter
 notebook
 ollama
 langchain
-langchain_ollama
 sentence-transformers
 iris
 langgraph
+langchain-openai
 
 # Others
 pandas
