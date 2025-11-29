@@ -8,6 +8,8 @@ sentence-transformers
 iris
 langgraph
 langchain-openai
+fhirpy
+fhir.resources
 
 # Others
 pandas
