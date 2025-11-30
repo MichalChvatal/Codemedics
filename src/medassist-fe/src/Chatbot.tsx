@@ -20,7 +20,7 @@ export function useUploadDocument() {
 
   return useMutation({
     mutationFn: async (payload: any) => {
-      const res = await fetch("http://localhost:8000/upload-document", {
+      const res = await fetch("http://cuda1.ubmi.feec.vutbr.cz:8000/upload-document", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -46,7 +46,7 @@ function FileUpload() {
   const [uploading, setUploading] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  const uploadDocument = useUploadDocument(); // <-- USE THE MUTATION HERE
+  const uploadDocument = useUploadDocument();
 
   const handleFileChange = (e) => {
     setFile(e.target.files[0]);
@@ -68,12 +68,9 @@ function FileUpload() {
         content: base64,
       };
 
-      // 🔥 Use the mutation instead of fetch()
       uploadDocument.mutate(payload, {
         onSuccess: () => {
           setUploading(false);
-
-          // reset component
           setFile(null);
           if (fileInputRef.current) {
             fileInputRef.current.value = "";
@@ -93,12 +90,6 @@ function FileUpload() {
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
       <input type="file" onChange={handleFileChange} ref={fileInputRef} />
-      {/* {file && (
-        <p>
-          Selected: <b>{file.name}</b>
-        </p>
-      )} */}
-
       {file && (
         <button
           onClick={handleUpload}
@@ -153,7 +144,7 @@ const getFileIcon = (filename) => {
 };
 
 export const api = axios.create({
-  baseURL: "http://localhost:8000", // 👈 default URL here
+  baseURL: "http://cuda1.ubmi.feec.vutbr.cz:8000",
 });
 
 export interface UploadedFile {
@@ -165,8 +156,8 @@ export interface UploadedFile {
 }
 
 async function fetchUploadedFiles(): Promise<UploadedFile[]> {
-  const res = await api.get("/uploaded-files");
-  return res.data;
+  //const res = await api.get("/uploaded-files");
+  //return res.data;
 }
 
 export function useUploadedFiles() {
@@ -176,16 +167,16 @@ export function useUploadedFiles() {
   });
 }
 
-// --- TYPES (Same as before) ---
+// --- TYPES ---
 type Sender = "user" | "bot";
 
 interface Message {
   id: number;
-  text: string;
+  message: string;
   sender: Sender;
 }
 
-// --- MOCK DATA & ICONS (Same as before) ---
+// --- MOCK DATA & ICONS ---
 const initialMessages: Message[] = [
   {
     id: 1,
@@ -205,7 +196,7 @@ const SendIcon: FC = () => (
   </svg>
 );
 
-// --- MESSAGE SUB-COMPONENT (Same as before) ---
+// --- MESSAGE SUB-COMPONENT ---
 interface MessageProps {
   message: Message;
 }
@@ -218,7 +209,7 @@ const MessageComponent: FC<MessageProps> = ({ message }) => (
     <div className={`message-bubble ${message.sender}`}>
       <span
         dangerouslySetInnerHTML={{
-          __html: message.text.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>"),
+          __html: message.message,
         }}
       />
     </div>
@@ -258,8 +249,7 @@ const translateProfile = (profileData) => {
   const translatedProfile = {};
 
   for (const key in profileData) {
-    if (!profileData[key]) continue; // skip empty values
-
+    if (!profileData[key]) continue;
     const translatedKey = translations[key] || key;
     translatedProfile[translatedKey] = profileData[key];
   }
@@ -280,7 +270,7 @@ function cleanProfile(profile) {
 const Chatbot: FC = () => {
   const [messages, setMessages] = useState<Message[]>(initialMessages);
   const [input, setInput] = useState<string>("");
-  const [isLoading, setIsLoading] = useState<boolean>(false); // New loading state
+  const [isLoading, setIsLoading] = useState<boolean>(false);
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
@@ -304,53 +294,71 @@ const Chatbot: FC = () => {
     const trimmedInput = input.trim();
     if (trimmedInput === "" || isLoading) return;
 
+    // 1. Prepare user data
     const { cleaned, hasAnyFields } = cleanProfile(profile);
     const translatedProfile = translateProfile(cleaned);
-
     const profileInfo = JSON.stringify(translatedProfile);
 
     const userInfo = hasAnyFields
       ? `Uživatel s následujícími přihlašovacími údaji: ${profileInfo} odesílá následující zprávu: `
       : "";
+
+    // The actual prompt sent to backend
+    const fullPrompt = userInfo + trimmedInput;
+
     const userMessage: Message = {
       id: Date.now(),
-      text: trimmedInput,
+      message: trimmedInput, // Display only the user text to UI, not the profile header
       sender: "user",
     };
 
-    // 1. Add user message and set loading
+    // 2. Update UI
     setMessages((prev) => [...prev, userMessage]);
     setInput("");
     setIsLoading(true);
 
-    // 2. Prepare bot response placeholder (optional, but good for UI feedback)
     const thinkingMessage: Message = {
       id: Date.now() + 1,
-      text: "...",
+      message: "...",
       sender: "bot",
     };
     setMessages((prev) => [...prev, thinkingMessage]);
 
     try {
-      // --- BACKEND API CALL ---
-      const response = await fetch("http://localhost:8000", {
+      // 3. Get Context from Local Storage
+      const storedContext = localStorage.getItem("conversationContext");
+      const currentContext = storedContext ? JSON.parse(storedContext) : [];
+
+      // 4. Call Backend with Context + Prompt
+      const response = await fetch("http://cuda1.ubmi.feec.vutbr.cz:8000/generate", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        // Send the message in JSON format as expected by your Python server
-        body: JSON.stringify({ message: userInfo + trimmedInput }),
+        body: JSON.stringify({
+            message: fullPrompt,
+            context: currentContext
+        }),
       });
 
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
 
-      const data: { message: string } = await response.json();
+      // 5. Handle Response
+      const data = await response.json();
+      const botResponseText = data.message; // Assuming BE returns { response: "..." }
 
-      // 3. Update the last (thinking) message with the actual response
+      // Update Local Storage with new pair
+      const updatedContext = [
+          ...currentContext,
+          { role: "user", content: fullPrompt },
+          { role: "assistant", content: botResponseText }
+      ];
+      localStorage.setItem("conversationContext", JSON.stringify(updatedContext));
+
+      // Update UI Message
       setMessages((prev) => {
-        // Find the thinking message and replace it
         const newMessages = [...prev];
         const thinkingIndex = newMessages.findIndex(
           (msg) => msg.id === thinkingMessage.id
@@ -359,28 +367,26 @@ const Chatbot: FC = () => {
         if (thinkingIndex !== -1) {
           newMessages[thinkingIndex] = {
             ...thinkingMessage,
-            text: data.message, // The UPPERCASE message from the BE
+            message: botResponseText,
           };
         } else {
-          // If somehow the thinking message wasn't found, just append the new one
           newMessages.push({
             id: Date.now() + 2,
-            text: data.message,
+            message: botResponseText,
             sender: "bot",
           });
         }
         return newMessages;
       });
+
     } catch (error) {
       console.error("Fetch error:", error);
-      // Display error message to the user
       setMessages((prev) => {
         const errorMessage: Message = {
           id: Date.now() + 3,
-          text: `**ERROR:** Could not connect to the backend server. Is the Python server running on **http://localhost:8000**?`,
+          message: `**ERROR:** Could not connect to the backend server.`,
           sender: "bot",
         };
-        // Remove the 'thinking' message and add the error
         const filtered = prev.filter((msg) => msg.id !== thinkingMessage.id);
         return [...filtered, errorMessage];
       });
@@ -400,9 +406,8 @@ const Chatbot: FC = () => {
 
   return (
     <div className="chatbot-container">
-      {/* --- Header (Left Sidebar Look) --- */}
+      {/* --- Header --- */}
       <div className="sidebar-header">
-        {/* <div className="new-chat-btn">+ New Chat</div> */}
         <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
           <h3 style={{ paddingBottom: 0, marginBottom: 0 }}>Soubory</h3>
           <div style={{ maxHeight: "400px", overflowY: "auto" }}>
@@ -432,15 +437,13 @@ const Chatbot: FC = () => {
 
       {/* --- Main Chat Area --- */}
       <div className="chat-main">
-        {/* --- Message Display --- */}
         <div className="message-list">
           {messages.map((msg) => (
             <MessageComponent key={msg.id} message={msg} />
           ))}
-          <div ref={messagesEndRef} /> {/* Scroll target */}
+          <div ref={messagesEndRef} />
         </div>
 
-        {/* --- Input Area --- */}
         <div className="input-area-wrapper">
           <form onSubmit={handleSend} className="input-form">
             <textarea
@@ -449,7 +452,7 @@ const Chatbot: FC = () => {
               placeholder="Message React TSX GPT Clone..."
               rows={1}
               onKeyDown={handleKeyDown}
-              disabled={isLoading} // Disable input while waiting for response
+              disabled={isLoading}
             />
             <button
               type="submit"

@@ -196,7 +196,7 @@ class SimpleHandler(BaseHTTPRequestHandler):
 
 def main():
     print("Starting server at http://localhost:8000")
-    server = HTTPServer(("localhost", 8000), SimpleHandler)
+    server = HTTPServer(("0.0.0.0", 8000), SimpleHandler)
     server.serve_forever()
 
 

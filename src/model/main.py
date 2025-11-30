@@ -13,14 +13,22 @@ from langchain.agents.middleware import SummarizationMiddleware
 from langgraph.checkpoint.memory import InMemorySaver
 from langchain_core.tools import tool
 from docx import Document
+from dotenv import load_dotenv
+
 import difflib
+import os
+
 
 from openai import OpenAI
 
 client = OpenAI(
-  api_key="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"
+  api_key=api_key
 )
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = api_key
+
+load_dotenv()
+
+api_key = os.getenv("API_KEY")
 
 class RAGChatbot:
     def __init__(self):
