@@ -11,10 +11,11 @@ from file_chunkers import load_document, chunk_document, save_chunks
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
 from model.main import RAGChatbot
+from dotenv import load_dotenv
 
 rag_chatbot = RAGChatbot()
 
-UPLOAD_DIR = "/Users/tristandobos/hackathons/Codemedics/src/uploads"
+UPLOAD_DIR = os.getenv("FILES_PATH")
 BASE_URL = "http://localhost:8000/files"
 def debug_unicode(label, s):
     print(f"{label}: {s!r}")

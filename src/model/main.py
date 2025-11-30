@@ -18,6 +18,9 @@ from dotenv import load_dotenv
 import difflib
 import os
 
+load_dotenv()
+
+api_key = os.getenv("API_KEY")
 
 from openai import OpenAI
 
@@ -26,9 +29,6 @@ client = OpenAI(
 )
 OPENAI_API_KEY = api_key
 
-load_dotenv()
-
-api_key = os.getenv("API_KEY")
 
 class RAGChatbot:
     def __init__(self):
