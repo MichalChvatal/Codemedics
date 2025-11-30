@@ -156,8 +156,8 @@ export interface UploadedFile {
 }
 
 async function fetchUploadedFiles(): Promise<UploadedFile[]> {
-  //const res = await api.get("/uploaded-files");
-  //return res.data;
+  const res = await api.get("/uploaded-files");
+  return res.data;
 }
 
 export function useUploadedFiles() {
