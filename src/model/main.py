@@ -33,7 +33,7 @@ class RAGChatbot:
     def __init__(self):
 
         # Directory with .docx templates
-        self.doc_root = r"./data/"
+        self.doc_root = os.getenv("DATA_PATH")
 
         self.current_doc: Document | None = None
         self.current_doc_path: str | None = None
