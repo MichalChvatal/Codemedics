@@ -185,7 +185,7 @@ class SimpleHandler(BaseHTTPRequestHandler):
 
         # ---- Default POST behavior ----
         message = data.get("message", "")
-        llm_response = rag_chatbot.return_response(query=message)
+        llm_response = rag_chatbot.return_response()
         response = {"message": llm_response}
 
         self.send_response(200)
