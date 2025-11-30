@@ -1,0 +1,497 @@
+[
+  {
+    "id": 0,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Kancelář ředitele; vazba na esrs (esg): ESRS G1; procesy: Interní korespondence"
+  },
+  {
+    "id": 1,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Sekretariát ředitelství; vazba na esrs (esg): ESRS S4; procesy: Schvalování směrnic"
+  },
+  {
+    "id": 2,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Oddělení pověřence; procesy: Ochrana osobních údajů (GDPR)"
+  },
+  {
+    "id": 3,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Oddělení spisové služby; procesy: Spisová služba"
+  },
+  {
+    "id": 4,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Centrum komunikace a marketingu; vazba na esrs (esg): ESRS S4; procesy: Interní/externí komunikace"
+  },
+  {
+    "id": 5,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Oddělení komunikace; vazba na esrs (esg): ESRS S3; procesy: Tiskové zprávy"
+  },
+  {
+    "id": 6,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Oddělení marketingu; vazba na esrs (esg): ESRS G1; procesy: Správa médií"
+  },
+  {
+    "id": 7,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Manažer pro kybernetickou bezpečnost; vazba na esrs (esg): ESRG G1; procesy: Řízení bezpečnostních politik"
+  },
+  {
+    "id": 8,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "vazba na esrs (esg): ESRS S4; procesy: Řešení incidentů"
+  },
+  {
+    "id": 9,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "procesy: Školení"
+  },
+  {
+    "id": 10,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Útvar náměstka pro vědu a výzkum; vazba na esrs (esg): ESRS G1; procesy: Správa grantů"
+  },
+  {
+    "id": 11,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Oddělení vědy a výzkumu; vazba na esrs (esg): ESRS S4; procesy: Klinické studie"
+  },
+  {
+    "id": 12,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Lékařská knihovna a výuka mediků"
+  },
+  {
+    "id": 13,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Oddělení klinických studií"
+  },
+  {
+    "id": 14,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Etická komise; vazba na esrs (esg): ESRS G1; procesy: Etická schválení"
+  },
+  {
+    "id": 15,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "vazba na esrs (esg): ESRS S4"
+  },
+  {
+    "id": 16,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Oddělení krizové připravenosti; vazba na esrs (esg): ESRS S1,2,3,4; procesy: Tvorba krizových plánů"
+  },
+  {
+    "id": 17,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Koordinační středisko Medicíny katastrof (MEKA); vazba na esrs (esg): ESRS G1; procesy: Evidence mimořádných událostí"
+  },
+  {
+    "id": 18,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Oddělení právních věcí; vazba na esrs (esg): ESRS G1; procesy: Legislativa (právní poradenství, soudní agendy)"
+  },
+  {
+    "id": 19,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "vazba na esrs (esg): ESRS S1 (zaměstnanci); procesy: Smlouvy"
+  },
+  {
+    "id": 20,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "vazba na esrs (esg): ESRS S4 (klienti); procesy: včetně klinických studií"
+  },
+  {
+    "id": 21,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "vazba na esrs (esg): ESRS S2 (dodavatelé); procesy: Řešení stížností"
+  },
+  {
+    "id": 22,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "procesy: Agenda zákona č. 106/1999 Sb., o svobodném přístupu k informacím"
+  },
+  {
+    "id": 23,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Odbor personálních záležitostí; vazba na esrs (esg): ESRS S1; procesy: Nábor"
+  },
+  {
+    "id": 24,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Sekretariát OPZ; vazba na esrs (esg): ESRS G1 (řízení zam-ců); procesy: Vzdělávání"
+  },
+  {
+    "id": 25,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Personální oddělení; procesy: Mzdová agenda a benefity"
+  },
+  {
+    "id": 26,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Analytické oddělení; procesy: Vedení osobních spisů"
+  },
+  {
+    "id": 27,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Oddělení vzdělávání a péče o zam-ce"
+  },
+  {
+    "id": 28,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Oddělení organizace řízení"
+  },
+  {
+    "id": 29,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Oddělení pro radiační dohled; vazba na esrs (esg): ESRS S1; procesy: Radiační ochrana a bezpečnost práce včetně legislativy"
+  },
+  {
+    "id": 30,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "vazba na esrs (esg): ESRS E2"
+  },
+  {
+    "id": 31,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Oddělení interního auditu a kontroly; vazba na esrs (esg): ESRS S1; procesy: Provádění auditů"
+  },
+  {
+    "id": 32,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "vazba na esrs (esg): ESRS S2; procesy: Stížnosti"
+  },
+  {
+    "id": 33,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "vazba na esrs (esg): ESRS G2; procesy: Ombudsman"
+  },
+  {
+    "id": 34,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Ekonomický odbor; vazba na esrs (esg): ESRS G1; procesy: Rozpočtování (tvorba a kontrola rozpočtu)"
+  },
+  {
+    "id": 35,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Sekretariát EO; vazba na esrs (esg): ESRS E1-6,7,8 (uhlíkové kredity); procesy: včetně klinických studií"
+  },
+  {
+    "id": 36,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Odd. vnitronemocničního účetnictví a financí; procesy: Fakturace"
+  },
+  {
+    "id": 37,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Oddělení controllingu; procesy: Kontrola nákladů"
+  },
+  {
+    "id": 38,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Oddělení operativní evidence; procesy: včetně klinických studií"
+  },
+  {
+    "id": 39,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; procesy: Výkazy a datové výstupy pro pojišťovny"
+  },
+  {
+    "id": 40,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Oddělení zdravotních pojišťoven; procesy: Vedení účetnictví"
+  },
+  {
+    "id": 41,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Kodérské oddělení"
+  },
+  {
+    "id": 42,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Odd. správy ekonom. informačního systému"
+  },
+  {
+    "id": 43,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Investiční odbor; vazba na esrs (esg): ESRS E1; procesy: Řízení investic"
+  },
+  {
+    "id": 44,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Sekretariát IO; vazba na esrs (esg): ESRS E2; procesy: Žádosti o dotace (bez VVV)"
+  },
+  {
+    "id": 45,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Obchodní oddělení; vazba na esrs (esg): ESRS E3; procesy: Administrace dotací (bez VVV)"
+  },
+  {
+    "id": 46,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Oddělení rozvojových investic; vazba na esrs (esg): ESRS E4; procesy: Nájmy a nájemní smlouvy"
+  },
+  {
+    "id": 47,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Oddělení pro řízení projektů; vazba na esrs (esg): ESRS E5; procesy: Veřejné zakázky a výběrová řízení"
+  },
+  {
+    "id": 48,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Oddělení zdravotnické techniky; vazba na esrs (esg): ESRS G1; procesy: Digitalizace"
+  },
+  {
+    "id": 49,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Oddělení provozních investic; procesy: Udržitelnost a společenská odpovědnost"
+  },
+  {
+    "id": 50,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Centrum informatiky; vazba na esrs (esg): ESRS S4 (pacientská data); procesy: IT helpdesk"
+  },
+  {
+    "id": 51,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Sekretariát CI; vazba na esrs (esg): ESRS G1; procesy: Správa systémů"
+  },
+  {
+    "id": 52,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Oddělení infrastruktury; procesy: IT strategie"
+  },
+  {
+    "id": 53,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Oddělení koncových stanic; procesy: Bezpečnost"
+  },
+  {
+    "id": 54,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Oddělení projektů IT; procesy: Digitalizace"
+  },
+  {
+    "id": 55,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Oddělení organizačních služeb; procesy: Kyberbezpečnost"
+  },
+  {
+    "id": 56,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Oddělení systémů"
+  },
+  {
+    "id": 57,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Oddělení kybernetické bezpečnosti"
+  },
+  {
+    "id": 58,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Odbor hospodářsko-technické správy; vazba na esrs (esg): ESRS E1; procesy: Zajištění provozu"
+  },
+  {
+    "id": 59,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Sekretariát OHTS; vazba na esrs (esg): ESRS E2; procesy: Údržba"
+  },
+  {
+    "id": 60,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Doprava; vazba na esrs (esg): ESRS E3; procesy: Přeprava"
+  },
+  {
+    "id": 61,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Energetika; vazba na esrs (esg): ESRS E4; procesy: Energetika"
+  },
+  {
+    "id": 62,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Prádelna; vazba na esrs (esg): ESRS E5; procesy: BOZP"
+  },
+  {
+    "id": 63,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Správa budov NBP; vazba na esrs (esg): ESRS S4; procesy: Zásobování"
+  },
+  {
+    "id": 64,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Správa budov DN; procesy: Obchodování s emisními povolenkami (EU ETS)"
+  },
+  {
+    "id": 65,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Stravovací provoz"
+  },
+  {
+    "id": 66,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Oddělení bezpečnostních a požárních techniků"
+  },
+  {
+    "id": 67,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Materiálně-technické zásobování"
+  },
+  {
+    "id": 68,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "útvar/oddělení: Centrální velín"
+  },
+  {
+    "id": 69,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oddělení: Náměstek pro informatiku; oblast: Strategické řízení; název procesu: Strategie FN Brno; vazba na organizační řád io: Vytváří aktivní podporu strategie FN Brno v oblasti IT, poskytuje informace pro rozhodování při zavádění a rozvoji IT ve FN Brno, poskytuje odborné podklady pro obchodní a investiční SW a HW politiku FN Brno a pro výběrová řízení na dodavatele programového a technického vybavení.\nVedení odboru CI má definovanou odpovědnost za strategická rozhodnutí v oblasti IT, poskytuje v této oblasti podklady a informace pro rozhodování vedení FN Brno."
+  },
+  {
+    "id": 70,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oddělení: Náměstek pro informatiku; oblast: Strategické řízení; název procesu: Schvalovací proces výdajů / nákupů; vazba na organizační řád io: Je příkazcem operace v rozsahu pověření ředitele."
+  },
+  {
+    "id": 71,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oddělení: Sekretariát Centra informatiky; oblast: Podpora řízení a provozu; název procesu: Podpora řízení a provozu; vazba na organizační řád io: Řízení služeb, provozu a správy IT pro FN Brno v odpovědnosti CI, podíl na strategickém řízení v oblasti IT celé FN Brno.\nAsistentka zajišťuje následující činnosti:\n1.\tSamostatnou činnost podle pokynů a příkazů NI - řízení služeb, provozu a správy IT pro FN Brno v odpovědnosti CI, podílejí na strategickém řízení v oblasti IT celé FN Brno. \n2.\tKoordinují Koordinuje externí a interní komunikaci CI písemnou, elektronickou, telefonickou a osobní formou. \n3.\tPodporují činnost NI, centralizují podklady pro jednání NI.\n4.\tZajišťují svolávání porad NI s vedoucími jednotlivých oddělení CI, včetně vyhotovení a distribuce zápisů z porad.\n5.\tZajišťují předávání informací vedoucím jednotlivých oddělení CI.\n6.\tZajišťuje prezentaci CI při vstupních školeních nových zaměstnanců FN Brno. \n7.\tZajišťuje agentu spojenou s BOZP a PO pro CI.\n8.\tSpravuje rezervace meetingových a školících místností ve správě CI\n9.\tKoordinuje pohovory s kandidáty na pozice v rámci CI"
+  },
+  {
+    "id": 72,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oddělení: Sekretariát Centra informatiky; úsek: Úsek kybernetické bezpečnosti (UKB); oblast: Kybernetická bezpečnost; název procesu: Posuzování aktiv z pohledu kybernetické bezpečnosti; vazba na organizační řád io: Analyzuje požadavky z pohledu Kybernetické bezpečnosti na zapojení nových aktiv (informační systémy, zdravotnická technika, aplikace) v datové síti FN Brno.\nJiž provozovaná aktiva periodicky kontroluje na přítomnost nových bezpečnostních zranitelností. Provozují systémy na monitoring nežádoucích aktivit v infrastruktuře FN Brno. UKB metodicky spolupracuje s manažerem kybernetické bezpečnosti i architektem KB.\nProvozují systémy na monitoring nežádoucích aktivit v infrastruktuře FN Brno. UKB metodicky spolupracuje s manažerem kybernetické bezpečnosti i architektem KB."
+  },
+  {
+    "id": 73,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oddělení: Oddělení systémové infrastruktury a Telco (OSIT); oblast: telefonní a datová infrastruktura; název procesu: Správa a provoz datové a telefonní infrastruktury; vazba na organizační řád io: Zajišťuje administraci síťové a telefonní infrastruktury v celé FN Brno. Zabezpečuje efektivní provoz datové a telefonní sítě FN Brno a odpovídá za její funkčnost. Zajišťuje připojení FN Brno do internetu a neveřejných sítí v rámci ČR. Zajišťuje agendu služebních tarifů zaměstnanců FN Brno.; popis procesu: Komunikační schéma zahrnuje \"síťařinu\" a vnitřní firewall a ústředny a telefony. \nOtázka je především, kdo se stará o jednotlivé místnosti a jejich zabezpečení. U našeho HW, který je umístěn v jiných prostorách, nemáCI možnost jej nijak ovlivnit a s tím je nutné počítat.\nJe nutné jasně vymezit role mezi právním, zakázkami apod. My jsme technici a neumíme posoudit například právní stránku věci, ale požaduje se to po nás. Místo toho, abychom se věnovali IT, vykonáváme práci, která do naší působnosti nepatří. Pokud někdo něco potřebuje, musí být schopen definovat své požadavky na IT. Nemocnice se domnívala, že IT zná interní procesy, ale IT skutečně není věcný garant.\nObjevují se přístroje, které se neumí napojit na stávající síť – je nutné eliminovat systémy, které už ze své podstaty nelze napojit do infrastruktury. Je potřeba silnější koordinační role ze strany zdravotnické techniky. Pokud se řeší přenos dat, musí být požadavkem na každý nový systém posouzení ze strany IT, zda se má, nebo nemá připojovat do sítě.\nKapacitu sítí a jističů si řeší kliniky samostatně a nikdo neposuzuje, zda je to v souladu s reálnými potřebami. Pokud například ukládáme velké objemy dat (v řádech gigabajtů)\nBuď bude IT řízeno náměstkem, nebo ať se neřídí vůbec. Není definována odpovědnost a kompetence – je nutné to nastavit."
+  },
+  {
+    "id": 74,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oddělení: Oddělení systémové infrastruktury a Telco (OSIT); oblast: telefonní a datová infrastruktura; název procesu: Rozvoj a modernizace síťové a telefonní infrastruktury; vazba na organizační řád io: Zajišťuje správu, rozvoj a dozorování síťové a telefonní infrastruktury FN Brno.; popis procesu: Při plánování rozpočtu například nevíme, co nemocnice potřebuje – nemáme žádný plán dalšího rozvoje. CI není drahé, ale IT je drahé, a je nutné si uvědomit, kdo je vlastně garantem a zadavatelem.\nNejvíc mě frustruje, když například lékař řekne, že chce určitý systém. Ten systém schválí kybernetika, schválí ho finance – ale dál se neřeší souvislosti. Čím více malých systémů se řeší, tím větší chaos to způsobuje. Někdo by měl být schopen rozhodnout, zda má koncový uživatel skutečně potřebu, nebo právo daný systém používat. Příkladem mohou být informační systémy pro projektové řízení – někdo používá MS Project, jiný Redmine.\nV rámci přístrojové komise je třeba diskutovat ekonomickou návratnost nebo výhodnost investice."
+  },
+  {
+    "id": 75,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oddělení: Oddělení koncových stanic a podpory (OKOS); oblast: ICT infrastruktura; název procesu: Správa a provoz ICT infrastruktury; vazba na organizační řád io: Oddělení koncových stanic a podpory (OKOS) zajišťuje efektivní a bezpečný provoz HW a SW vybavení pracovních stanic ve FN Brno a odpovídá za jejich řádný a bezchybný provoz."
+  },
+  {
+    "id": 76,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oddělení: Oddělení koncových stanic a podpory (OKOS); oblast: ICT infrastruktura; název procesu: Odstraňování závad; vazba na organizační řád io: Odstraňuje závady hlášené uživateli nebo zprostředkovává kontakt a servis u externích firem, a to u takových oprav, které nejsou v rámci OKOS možné realizovat vlastními prostředky CI."
+  },
+  {
+    "id": 77,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oddělení: Oddělení koncových stanic a podpory (OKOS); oblast: ICT infrastruktura; název procesu: Instalace IS a SW; vazba na organizační řád io: Zabezpečuje instalaci IS a SW na pracovní stanice FN Brno, podílí se na kontrole dodržování autorských práv."
+  },
+  {
+    "id": 78,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oddělení: Oddělení koncových stanic a podpory (OKOS); oblast: ICT infrastruktura; název procesu: Evidence a vyřazování; vazba na organizační řád io: Pravidelně provádí evidenci koncových pracovišť IT, vydává odborné posudky k vyřazení HW a projektuje a řeší požadavky na HW s ohledem na provoz FN Brno."
+  },
+  {
+    "id": 79,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oddělení: Oddělení koncových stanic a podpory (OKOS); oblast: Rozpvoj a spolupráce; název procesu: Plánování rozvoje výpočetní techniky; vazba na organizační řád io: Navrhuje směr budoucího rozvoje VT ve FN Brno a podílí se tak na plánování a strategii vybavení IT ve FN Brno.; popis procesu: Problém je soutěžení, které trvá neúměrně dlouho. Navíc nejednoznačné věci je těžké soutěžit. Velký problém je také slabá pozice CI. S tím souvisí průtahy v zadávání, které způsobují neaktuálnost zadání. CI pak zbytečně plýtvá kapacity. Zakázky by měla hlídat a realizovat příslušná oddělení/odbory, nikolv CI."
+  },
+  {
+    "id": 80,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oddělení: Oddělení koncových stanic a podpory (OKOS); oblast: Rozpvoj a spolupráce; název procesu: Spolupráce s ostatními IT útvary; vazba na organizační řád io: Aktivně spolupracuje s ostatní správou IT ve FN Brno."
+  },
+  {
+    "id": 81,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oddělení: Oddělení koncových stanic a podpory (OKOS); oblast: Rozpvoj a spolupráce; název procesu: Provoz a zabezpečení IT Helpdesku; vazba na organizační řád io: Oddělení je zodpovědné za provoz a zabezpečení IT Helpdesku nemocnice.; popis procesu: Oddělení je zodpovědné za provoz a zabezpečení IT Helpdesku nemocnice.\nHelpd deks je podpora koncového zařízení"
+  },
+  {
+    "id": 82,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oddělení: Oddělení systémové infrastruktury (OSI); oblast: ICT infrastruktura; název procesu: Správa a provoz ICT infrastruktury; vazba na organizační řád io: Oddělení zabývající se správou a údržbou serverové infrastruktury, operačních systémů a nezdravotnických systémů a aplikací.; popis procesu: OSI spravuje většinu serverů (kromě některých pod správou zdravotnické techniky).\nActive Directory a vzdálené připojení jsou v gesci OSI.\nPerimetrické firewally (výstupní) spadají pod OSI.\nVirtualizační prostředí (včetně NSX) je spravováno externí firmou pod smlouvou, která je fyzicky přítomna v organizaci.\nPod OSI spadají také systémy MAR a kamerové systémy.\nTechnickou část IT infrastruktury lékáren a laboratoří zajišťuje pod OSI kolega Mateovič. Nové nezdravotnické systémy jsou předávány paní Kodýtkové."
+  },
+  {
+    "id": 83,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oddělení: Oddělení systémové infrastruktury (OSI); oblast: ICT infrastruktura; název procesu: Zálohování a archivace; vazba na organizační řád io: OSI zabezpečuje zálohování a archivaci dat z provozovaných aplikací na základě požadavků správců aplikací.; popis procesu: Zálohování řeší OSI\nZůstává v odpovědnosti OSI i při nových implementacích.\nOdpovědnost za zdravotnická data u menších aplikací zůstává u OSI, pokud nespadají do hlavních nemocničních IS."
+  },
+  {
+    "id": 84,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oddělení: Oddělení systémové infrastruktury (OSI); oblast: ICT infrastruktura; název procesu: Externí aplikace; vazba na organizační řád io: OSI také zpravuje externí aplikace v rámci tenantu M365.; popis procesu: OSI spravuje aplikace v rámci tenantu Microsoft 365 – konkrétně SharePoint a Teams.\nNěkteré nové nezdravotnické aplikace už přechází pod jiný útvar (paní Kodýtková)."
+  },
+  {
+    "id": 85,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oddělení: Oddělení systémové infrastruktury (OSI); oblast: Rozpvoj a spolupráce; název procesu: Spolupráce s ostatními IT útvary; vazba na organizační řád io: Spolupracuje se všemi odděleními zodpovědnými za provoz aplikací a připravuje jim podmínky pro provoz.; popis procesu: OSI spolupracuje s ostatními IT útvary a předává agendu dle domluvy (např. nezdravotnické systémy).\nNa začátku projektů se ad hoc určuje, kdo bude odpovědnou osobou.\nV systému ALVAO je veden přehled („pavouk“) odpovědných osob a jejich rolí v rámci projektů i systémů.\nJe požadavek na přehled osob odpovědných za jednotlivé IS."
+  },
+  {
+    "id": 86,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oddělení: Oddělení nezdravotnických aplikací (ONA); oblast: ICT infrastruktura; název procesu: Vývoj aplikací; vazba na organizační řád io: Zajišťuje podporu, analýzu, řešení a koordinaci projektů vyvíjených v on-line prostředí na platformě M365 a udržuje agendy v systému Lotus Notes, do jeho uzavření. \nPodílí se na tvorbě webového prostředí. V\nývoj aplikací na vybraných cloudových prostředcích od společnosti Microsoft, koordinace činnosti spojených s vývojem, implementací aplikací. Podílí se na zpracování plánů, metodických postupů pro jejich vývoj a údržbu. Zajišťuje podporu uživatelům, spolupracuje s CI a ostatními útvary FN Brno, případně externími dodavateli. Organizuje práci týmu vývojářů a řídí jejich odborný rozvoj.; popis procesu: Podpstata oddělení je vývoj aplikací –  od vývoje až po testování. Hlavní činnost je převod databází z LOTUS a tam, kde to dává smysl, se databáze převádí. Máme to podle důležisti, kdy kontaktujeme správce databáze. My se snažíme vzít databázi, aplikaci a máme možnost. Tzn pokud je kdekoliv potřeba exportovat data z LOTUS, tak chystáme podklady my. Pak začíná vývoj a pokud je to složité, tak děláme externě. \nMáme pár kolegů, kteří jsou na plný úvazek a část na DPP. \nVytvoří se zadávací dokumentace, tato se oboustranně odsouhlasí. Pak se vyvíjí, velmi často trvá samotný vývoj aplikace – je dáno především dlouhými procesy. Máme kolegu, který je testr. Aplikace změna platu. Správace databáze v LOTUS je ten zadavatel. Na začátku když jsem práci přebírala, tak bylo 144 databází k převodu a k dnešnímu dni máme ještě převádět 39 databází. Jsou tam i další požadavky. Máme například vyvinutou burzu interní, ale není nasazeno. Rezervační systém na přístroje na IHOK. \nNyní děláme převod licencí – od 1.8. bude změna licencí podle pracovní pozice. \"Ečková\" pozice, kdy máme oba pohledy jak cloud, tak desktop, a druhá bude moct jen cloud."
+  },
+  {
+    "id": 87,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oddělení: Oddělení nezdravotnických aplikací (ONA); oblast: Rozpvoj a spolupráce; název procesu: Podpora útvarů/helpdesk; vazba na organizační řád io: Komunikuje s představiteli zdravotnických a nezdravotnických útvarů a zajišťuje podporu, analýzu, řešení a koordinaci projektů vyvíjených v on-line prostředí na platformě M365. Garantům prezentuje nově vyvinuté aplikace, provádí jejich zaškolení.; popis procesu: Úsek nezdravotnických systémů řeší v rámci helpdesku. První stupeň po požadavku v helpdesk je vedoucí oddělení, která třídí požadavky. Vše řeší přes ALVAO.  Pokud je to větší systém, tak řeší s projektovým."
+  },
+  {
+    "id": 88,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oddělení: Oddělení nezdravotnických aplikací (ONA); oblast: Rozpvoj a spolupráce; název procesu: Školení; vazba na organizační řád io: Zaškoluje uživatele do redakčního systému v Sharepoint Online. ONA vytváří dokumentace k aplikacím včetně návodů pro uživatele a provádí dle potřeby uživatelská školení v rámci FN Brno.; popis procesu: Úsek návodů na aplikace školí na MS WORD atp. Plus děláme osvětu o práci se systémy."
+  },
+  {
+    "id": 89,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oddělení: Oddělení nezdravotnických aplikací (ONA); oblast: ICT infrastruktura; název procesu: Dokumentace; vazba na organizační řád io: ONA vytváří dokumentace k aplikacím včetně návodů pro uživatele a provádí dle potřeby uživatelská školení v rámci FN Brno. Úsek návodů na aplikace školí na MS WORD atp.\nOddělení má kompletní přehled v dokumentaci ke kybernetice.; popis procesu: Máme komplet přehled v kyber dokumentaci."
+  },
+  {
+    "id": 90,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oddělení: Oddělení projektů a služeb IT (OPSIT); oblast: ICT infrastruktura; název procesu: ICT projekty; vazba na organizační řád io: Oddělení projektů a služeb (OPSIT) se zabývá koordinací, zpracováváním a řízením ICT projektů v rámci celé FN Brno, plní úkoly na úseku zpracovávání VZMR, klinických studií a hodnocení a další organizační služby pro zabezpečení chodu CI a FN Brno.; popis procesu: Oddělení projektů a služeb (OPSIT) se zabývá koordinací, zpracováváním a řízením ICT projektů v rámci celé FN Brno, plní úkoly na úseku zpracovávání VZMR, klinických studií a hodnocení a další organizační služby pro zabezpečení chodu CI a FN Brno.\nSoučástí OPSIT je Úsek ekonomických agend, který se zabývá zpracováním ekonomické administrativní agendy CI, zejména zpracováním a vedením rozpočtu Centra informatiky a sledováním čerpání rozpočtovaných částek, včetně řešení nadlimitních položek a předávání podkladů vedení CI k dalšímu rozhodování, vystavováním požadavků v příslušném informačním systému, vystavováním objednávek a likvidací faktur.\nProjektový tým zahrnuje 6 osob. Jeden pracovník řeší odporu DOCTIS. Agenda není systémově uchopena, což je především z důvodu historického nastavení jednotlivých oddělení. \nOddělení pracuje s tabulkou projektů. Projekty ale nejsou většinou řešeny PM ve všech fázích projektu. Naopak od počátku jsou řešeny například cestovní příkazy, kdy shromažďujeme požadavky uživatelů.\nProjekty, které jsou řešen, zahrnují především: \n1) Odesílání do registru smluv přes spisovou službu\n2) Modul OZT ve FAMA"
+  },
+  {
+    "id": 91,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oddělení: Oddělení projektů a služeb IT (OPSIT); úsek: Úsek ekonomických agend; oblast: Ekonomická agenda; název procesu: Administrace ekonomické agendy CI; vazba na organizační řád io: Součástí OPSIT je Úsek ekonomických agend, který se zabývá zpracováním ekonomické administrativní agendy CI, zejména zpracováním a vedením rozpočtu Centra informatiky a sledováním čerpání rozpočtovaných částek, včetně řešení nadlimitních položek a předávání podkladů vedení CI k dalšímu rozhodování, vystavováním požadavků v příslušném informačním systému, vystavováním objednávek a likvidací faktur.; popis procesu: Součástí OPSIT je úsek ekonomických agend, kde je řešena agenda faktur za IC (momentálně agendu spravuje Jan Kunetka). V rámci celého úseku momentálně prauje 5 osob (na dámec personálního obsazení je jedna osoba na rodičovské dovolené).\nAgenda zahrnuje především:\n- fakturaci a objednávání\n- výdej průkazek zaměstnanců\n- předání zdravotnické dokumentace – ePacs a Redimet - předávání zdravotnické dokumentace na jiná zdravotnická zařízení\n- agendu ekonomik CI\n- vyjadřování se k zadávacím dokumentacím za CI."
+  },
+  {
+    "id": 92,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oddělení: Oddělení zdravotnických aplikací (OZA); oblast: ICT infrastruktura; název procesu: Klinické informační systémy a zdravotnické aplikace; vazba na organizační řád io: Spravuje klinické informační systémy, PACS a předané zdravotnické aplikace pod správu OZA v rámci nemocnice.  OZA také zabezpečuje komunikaci zdravotnických dat (zdravotnické dokumentace) od/k jiným poskytovatelům zdravotní péče a pacientům.; popis procesu: Vedoucí oddělení aplikací upozorňuje, že chybí celková architektura. Analytik oddělení je aktuálně vytížen deseti paralelně probíhajícími projekty. Celé oddělení má 17 zaměstnanců, vedoucí oddělení spravuje aplikace, které využívá více než 20 uživatelů.\nAgenda zarhnuje:\n1) Zdravotnické Aplikace – zajišťuje především správu aplikací a analytickou podporu – tedy navrhování řešení, jak by šlo co vymyslet, a zajišťují případně komunikaci s dodavateli. Při zavádění DoctIS se však často setkává s odporem uživatelů, a to zejména z důvodu jejich neznalosti.\n- Úsek NIS – zodpovědný za aplikace AMIS a DoctIS\n- Mediox – samostatná oblast správy a rozvoje\n- Rozvojové požadavky eHealth – představují přibližně 20 % pracovního času, který je nutné věnovat v rámci zdravotnických systémů\n2) Integrační platforma – řeší ji aktuálně 1 pracovník, cílově 4 (Intersystems) a spravuje integrace na 12 serverech.\n3) Datová centra – Datové centrum je klíčovým prvkem celé architektury. Je využíván koncept Enterprise Service Bus (ESB): Master Patient Index, Identity Management (IDM – navázán na více struktur), registr dokumentů (EHR) s napojením na státní eHealth, číselníky a napojení na B2B služby. Nechceme aby systém přímo posílal data na SUKL, ale řešíme my přes naší platformu.\n4) Podpora laboratovních provozů\n5) Lékárna – probíhá mimo útvar vedoucího (p. Čačíka). Z organizačního hlediska by dávalo smysl začlenění pod oddělení.\n6) PEXové systémy – úsek 90 pracovních stanic"
+  },
+  {
+    "id": 93,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oddělení: Oddělení zdravotnických aplikací (OZA); oblast: ICT infrastruktura; název procesu: Zdavotnická technika; vazba na organizační řád io: OZA spolupracuje s oddělením zdravotnické techniky na připojování přístrojů a sběr a ukládání dat z těchto přístrojů.; popis procesu: Komunikace v rámci FN Brno i mimo síť zahrnuje:\n- Zpracování záznamů z EKG a dalších velkých modalit (cca 150).\n- Správa ukládání dat ve velkých objemech.\n- Zahrnuje také kamery a přenosy dat z operačních sálů."
+  },
+  {
+    "id": 94,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oddělení: Oddělení zdravotnických aplikací (OZA); oblast: ICT infrastruktura; název procesu: Propojení zdravotnických a nezdravotnických aplikací; vazba na organizační řád io: OZA spravuje a rozvíjí systém integrační platformy a je zodpovědné za napojování zdravotnických i nezdravotnických aplikací pomocí této platformy."
+  },
+  {
+    "id": 95,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oddělení: Oddělení zdravotnických aplikací (OZA); oblast: ICT infrastruktura; název procesu: Enterprise Architekta; vazba na organizační řád io: Součástí OZA je také role Enterprise Architekta."
+  },
+  {
+    "id": 96,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oddělení: Oddělení zdravotnických aplikací (OZA); oblast: ICT infrastruktura; název procesu: Propojení IT na pracoviště klinik; popis procesu: Problém vidím u dlouhodobého financování a plánování. Je nutné provést selekci sálů vhodných pro videopřenosy a související technologie. Záznamy a konferenční sál, stejně jako komunikace mezi přednáškovými místnostmi a sály, jsou další oblastí, kterou je třeba řešit.\nNa některých odděleních je vyžadován forenzní záznam, který musí být kompletní. To je však mimořádně náročné na datové kapacity.\nExistují také ostrovní systémy, kde jsou data ukládána lokálně na serverech. U monitoringu pacientů funguje sběrné místo, které následně komunikuje s centrálním serverem.\nInfrastrukturu má na starosti kolega Bradáček. Celkově však chybí jednotný koncept a strategie. Probíhá převod všech integrací do nového prostředí.\nNedokážeme vystavovat worklisty z NIS – je potřeba prověřit, jak to funguje a jak je to nastaveno.\nJe nutná revize zakázek tak, aby bylo zajištěno jejich začlenění do celkového konceptu řešení FN Brno.\nMáme licence od společnosti Steiner – je potřeba prověřit jejich aktuální stav a zvážit případnou náhradu stávajícího řešení.\nOd roku 2019 není stanoveno zadání pro směřování v oblasti IT. Je nutné vytvořit a dokončit velké projekty.\nMusí soutěžit IT zakázky v rámci OPCE."
+  },
+  {
+    "id": 97,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oblast: Strategické řízení; název procesu: Strategie FN Brno; vazba na organizační řád io: Vytváří aktivní podporu strategie FN Brno v oblasti IT, poskytuje informace pro rozhodování při zavádění a rozvoji IT ve FN Brno, poskytuje odborné podklady pro obchodní a investiční SW a HW politiku FN Brno a pro výběrová řízení na dodavatele programového a technického vybavení.\nVedení odboru CI má definovanou odpovědnost za strategická rozhodnutí v oblasti IT, poskytuje v této oblasti podklady a informace pro rozhodování vedení FN Brno."
+  },
+  {
+    "id": 98,
+    "filename": "Zhodnocení procesů CI.xlsx",
+    "content": "oblast: Strategické řízení; název procesu: Schvalovací proces výdajů / nákupů; vazba na organizační řád io: Je příkazcem operace v rozsahu pověření ředitele."
+  }
+]

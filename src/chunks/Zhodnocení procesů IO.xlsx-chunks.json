@@ -1,0 +1,1092 @@
+[
+  {
+    "id": 0,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Kancelář ředitele; vazba na esrs (esg): ESRS G1; procesy: Interní korespondence"
+  },
+  {
+    "id": 1,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Sekretariát ředitelství; vazba na esrs (esg): ESRS S4; procesy: Schvalování směrnic"
+  },
+  {
+    "id": 2,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Oddělení pověřence; procesy: Ochrana osobních údajů (GDPR)"
+  },
+  {
+    "id": 3,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Oddělení spisové služby; procesy: Spisová služba"
+  },
+  {
+    "id": 4,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Centrum komunikace a marketingu; vazba na esrs (esg): ESRS S4; procesy: Interní/externí komunikace"
+  },
+  {
+    "id": 5,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Oddělení komunikace; vazba na esrs (esg): ESRS S3; procesy: Tiskové zprávy"
+  },
+  {
+    "id": 6,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Oddělení marketingu; vazba na esrs (esg): ESRS G1; procesy: Správa médií"
+  },
+  {
+    "id": 7,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Manažer pro kybernetickou bezpečnost; vazba na esrs (esg): ESRG G1; procesy: Řízení bezpečnostních politik"
+  },
+  {
+    "id": 8,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "vazba na esrs (esg): ESRS S4; procesy: Řešení incidentů"
+  },
+  {
+    "id": 9,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "procesy: Školení"
+  },
+  {
+    "id": 10,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Útvar náměstka pro vědu a výzkum; vazba na esrs (esg): ESRS G1; procesy: Správa grantů"
+  },
+  {
+    "id": 11,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Oddělení vědy a výzkumu; vazba na esrs (esg): ESRS S4; procesy: Klinické studie"
+  },
+  {
+    "id": 12,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Lékařská knihovna a výuka mediků"
+  },
+  {
+    "id": 13,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Oddělení klinických studií"
+  },
+  {
+    "id": 14,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Etická komise; vazba na esrs (esg): ESRS G1; procesy: Etická schválení"
+  },
+  {
+    "id": 15,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "vazba na esrs (esg): ESRS S4"
+  },
+  {
+    "id": 16,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Oddělení krizové připravenosti; vazba na esrs (esg): ESRS S1,2,3,4; procesy: Tvorba krizových plánů"
+  },
+  {
+    "id": 17,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Koordinační středisko Medicíny katastrof (MEKA); vazba na esrs (esg): ESRS G1; procesy: Evidence mimořádných událostí"
+  },
+  {
+    "id": 18,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Oddělení právních věcí; vazba na esrs (esg): ESRS G1; procesy: Legislativa (právní poradenství, soudní agendy)"
+  },
+  {
+    "id": 19,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "vazba na esrs (esg): ESRS S1 (zaměstnanci); procesy: Smlouvy"
+  },
+  {
+    "id": 20,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "vazba na esrs (esg): ESRS S4 (klienti); procesy: včetně klinických studií"
+  },
+  {
+    "id": 21,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "vazba na esrs (esg): ESRS S2 (dodavatelé); procesy: Řešení stížností"
+  },
+  {
+    "id": 22,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "procesy: Agenda zákona č. 106/1999 Sb., o svobodném přístupu k informacím"
+  },
+  {
+    "id": 23,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Odbor personálních záležitostí; vazba na esrs (esg): ESRS S1; procesy: Nábor"
+  },
+  {
+    "id": 24,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Sekretariát OPZ; vazba na esrs (esg): ESRS G1 (řízení zam-ců); procesy: Vzdělávání"
+  },
+  {
+    "id": 25,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Personální oddělení; procesy: Mzdová agenda a benefity"
+  },
+  {
+    "id": 26,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Analytické oddělení; procesy: Vedení osobních spisů"
+  },
+  {
+    "id": 27,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Oddělení vzdělávání a péče o zam-ce"
+  },
+  {
+    "id": 28,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Oddělení organizace řízení"
+  },
+  {
+    "id": 29,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Oddělení pro radiační dohled; vazba na esrs (esg): ESRS S1; procesy: Radiační ochrana a bezpečnost práce včetně legislativy"
+  },
+  {
+    "id": 30,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "vazba na esrs (esg): ESRS E2"
+  },
+  {
+    "id": 31,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Oddělení interního auditu a kontroly; vazba na esrs (esg): ESRS S1; procesy: Provádění auditů"
+  },
+  {
+    "id": 32,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "vazba na esrs (esg): ESRS S2; procesy: Stížnosti"
+  },
+  {
+    "id": 33,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "vazba na esrs (esg): ESRS G2; procesy: Ombudsman"
+  },
+  {
+    "id": 34,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Ekonomický odbor; vazba na esrs (esg): ESRS G1; procesy: Rozpočtování (tvorba a kontrola rozpočtu)"
+  },
+  {
+    "id": 35,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Sekretariát EO; vazba na esrs (esg): ESRS E1-6,7,8 (uhlíkové kredity); procesy: včetně klinických studií"
+  },
+  {
+    "id": 36,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Odd. vnitronemocničního účetnictví a financí; procesy: Fakturace"
+  },
+  {
+    "id": 37,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Oddělení controllingu; procesy: Kontrola nákladů"
+  },
+  {
+    "id": 38,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Oddělení operativní evidence; procesy: včetně klinických studií"
+  },
+  {
+    "id": 39,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; procesy: Výkazy a datové výstupy pro pojišťovny"
+  },
+  {
+    "id": 40,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Oddělení zdravotních pojišťoven; procesy: Vedení účetnictví"
+  },
+  {
+    "id": 41,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Kodérské oddělení"
+  },
+  {
+    "id": 42,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Odd. správy ekonom. informačního systému"
+  },
+  {
+    "id": 43,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Investiční odbor; vazba na esrs (esg): ESRS E1; procesy: Řízení investic"
+  },
+  {
+    "id": 44,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Sekretariát IO; vazba na esrs (esg): ESRS E2; procesy: Žádosti o dotace (bez VVV)"
+  },
+  {
+    "id": 45,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Obchodní oddělení; vazba na esrs (esg): ESRS E3; procesy: Administrace dotací (bez VVV)"
+  },
+  {
+    "id": 46,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Oddělení rozvojových investic; vazba na esrs (esg): ESRS E4; procesy: Nájmy a nájemní smlouvy"
+  },
+  {
+    "id": 47,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Oddělení pro řízení projektů; vazba na esrs (esg): ESRS E5; procesy: Veřejné zakázky a výběrová řízení"
+  },
+  {
+    "id": 48,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Oddělení zdravotnické techniky; vazba na esrs (esg): ESRS G1; procesy: Digitalizace"
+  },
+  {
+    "id": 49,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Oddělení provozních investic; procesy: Udržitelnost a společenská odpovědnost"
+  },
+  {
+    "id": 50,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Centrum informatiky; vazba na esrs (esg): ESRS S4 (pacientská data); procesy: IT helpdesk"
+  },
+  {
+    "id": 51,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Sekretariát CI; vazba na esrs (esg): ESRS G1; procesy: Správa systémů"
+  },
+  {
+    "id": 52,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Oddělení infrastruktury; procesy: IT strategie"
+  },
+  {
+    "id": 53,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Oddělení koncových stanic; procesy: Bezpečnost"
+  },
+  {
+    "id": 54,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Oddělení projektů IT; procesy: Digitalizace"
+  },
+  {
+    "id": 55,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Oddělení organizačních služeb; procesy: Kyberbezpečnost"
+  },
+  {
+    "id": 56,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Oddělení systémů"
+  },
+  {
+    "id": 57,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Oddělení kybernetické bezpečnosti"
+  },
+  {
+    "id": 58,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Odbor hospodářsko-technické správy; vazba na esrs (esg): ESRS E1; procesy: Zajištění provozu"
+  },
+  {
+    "id": 59,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Sekretariát OHTS; vazba na esrs (esg): ESRS E2; procesy: Údržba"
+  },
+  {
+    "id": 60,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Doprava; vazba na esrs (esg): ESRS E3; procesy: Přeprava"
+  },
+  {
+    "id": 61,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Energetika; vazba na esrs (esg): ESRS E4; procesy: Energetika"
+  },
+  {
+    "id": 62,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Prádelna; vazba na esrs (esg): ESRS E5; procesy: BOZP"
+  },
+  {
+    "id": 63,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Správa budov NBP; vazba na esrs (esg): ESRS S4; procesy: Zásobování"
+  },
+  {
+    "id": 64,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Správa budov DN; procesy: Obchodování s emisními povolenkami (EU ETS)"
+  },
+  {
+    "id": 65,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Stravovací provoz"
+  },
+  {
+    "id": 66,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Oddělení bezpečnostních a požárních techniků"
+  },
+  {
+    "id": 67,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Materiálně-technické zásobování"
+  },
+  {
+    "id": 68,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "útvar/oddělení: Centrální velín"
+  },
+  {
+    "id": 69,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: Metodik; oblast: Řízení kvality IO; číslo procesu: 1_Met; název procesu: Celonemocniční vnitřní předpisy; vazba na organizační řád io: Není specifikováno v Org. řádu IO; popis procesu: Celonemocniční vnitřní předpisy (a předpisy jiných útvarů, které se dotýkají IO) se v průběhu roku aktualizují, případně se ruší nebo vznikají nové. Metodik informuje na pravidelných poradách o změnách a plánovaných změnách celonemocničních předpisů investičního náměstka a vedoucí oddělení IO, kteří následně se změnami seznamují členy svých týmů. Metodik je tak kontaktem IO za agendu celonemocničních předpisů."
+  },
+  {
+    "id": 70,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: Metodik; oblast: Řízení kvality IO; číslo procesu: 2_Met; název procesu: Vnitřní předpisy IO; vazba na organizační řád io: Vypracovává a podílí se na tvorbě dokumentace systému kvality IO. Ukládá ostatním zaměstnancům IO úkoly související s budováním, údržbou a zlepšováním systému řízení kvality.\nTvorba směrnic a metodických pokynů pro nastavení pravidel k zajištění efektivní organizace práce, řízení a odbornému provádění činností v rámci fungování Investičního odboru.; popis procesu: Tvorbu a aktualizaci dokumentace systému kvality IO iniciuje vestiční náměstek, metodik, nebo samotná oddělení IO. Jedná se podněty vyplývající například ze změn požadavků zřizovatele, změny v legislativě apod. Jedná se o: \n1. tvorbu nových vnitřních předpisů IO, \n2. ad hoc změny stávajících předpisů,\n3. pravidelné každoroční aktualizace vnitřních předpisů, které se týkají i traumaplánů (k zajištění bezpečnosti a ochrany zdraví při práci) na pracovištích IO.\nMetodik vždy vytvoří návrh předpisu nebo návrh změny, které připomínkují dotčené osoby IO (vedoucí oddělení IO) a investiční náměstek. Po schválení ze strany investičního náměstka je předpis umístěn na sdílené úložistě IO. Akzualizace a změn jsou zaznamenány protřednictvím záznamů úprav a číslováním verzí předpisů. \nO změnách, podnětech apod. informuje metodik vedoucí oddělení a investičního náměstska prostřednictvím porad IO. Vedoucí jednotlivých oddělení následně informují členy svých týmů."
+  },
+  {
+    "id": 71,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: Metodik; oblast: Řízení kvality IO; číslo procesu: 3_Met; název procesu: Školení zaměstnanců IO v oblasti řízení kvality; vazba na organizační řád io: Organizuje interní školení zaměstnanců IO o problematice kvality; popis procesu: Metodik pravidelně informuje vedoucí oddělení IO o změnách v oblasti řízení kvality, vnitřních předpisů IO i celonemocničních vnitřních předpisů. Neprobíhá pravidelné školení, pouze ad hoc poskytování informací o novinkách a odpovědi na případné dotazy."
+  },
+  {
+    "id": 72,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: Metodik; oblast: Řízení kvality IO; číslo procesu: 4_Met; název procesu: Interní audit; vazba na organizační řád io: Plánuje, provádí a vyhodnocuje interní audity.; popis procesu: Není realizováno"
+  },
+  {
+    "id": 73,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: Metodik; oblast: Řízení kvality IO; číslo procesu: 5_Met; název procesu: Interní audit; vazba na organizační řád io: Není specifikováno v Org. řádu IO; popis procesu: Pokud v rámci auditní činnosti Oddělení interního auditu vznikne potřeba realizovat nápravná opatření v rámci IO, metodik koordinuje jejich realizaci a zajišťuje, aby se v případě potřeby zahrnula do příslušných vnitřních předpisů IO (pak je zahájen proces 2_Met)."
+  },
+  {
+    "id": 74,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: Metodik; oblast: Přístrojová komise; číslo procesu: 6_Met; název procesu: Podklady pro jednání Přístrojové komise (PK); vazba na organizační řád io: Příprava podkladů pro jednání Přístrojové komise a vedení související agendy; popis procesu: Přístrojová komise FN Brno se schází kjednání 4x za rok, je součástí IO a spadá přímo po investičního náměstka. Přípravu podkladů pro jednání PK koordinuje metodik IO. Potřeba pořízení nového přístroje vzniká na úrovni klinik/ústavů, které ji zadávají do systému FAMA (nejpozději 1,5 měsíce před konáním zasedání PK). Zde (pokud se jedná o investici) vyplňuje zadavatel požadavku také formulář \"investiční námět\", čímž se zařazuje potenciální investice do procesu schvalování ze strany PK. Formulář zahrnuje údaje o samotném přístroji, ale také další informace, které se týkají potřebného spotřebního materiálu, personálních požadaků apod. Jedná se o požadavky v celém životním cyklu přístroje, které představují náklady spojené s jeho pořízením, provozem, likvidací. \nVšechny tyto informace sbírá a kompletuje metodik IO, který je po jejich kompletaci předkládá dotčeným náměstkům FN Brno, kteří se k investičnímu námětu vyjadřují. Námět je náměstkům útvarů předkládán elektornicky v systému ALVAO. Ti zde přikládají své stanovisko. \nVyjádření náměstků (případně dalších dotčených/pověřených/kompetentních osob s ohledem na typ přístroje) je vedle informací v investičním námětu dalším podkladem pro jednání PK. Metodik pak kompletuje podklady pro PK, které členům PK zašle před konáním zasedání PK. Z jednání PK vytvoří metodik zápis, který obsahuje mimo jiné i rozhodntí PK a její doporučení. Metodik průběžně spravuje intranetové stránky PK, kde jsou informace o zasedáních PK, rozhodnutích PK, členech PK a další informace spadající do agendy PK. \nPokud je schválen nákup přístroje, agenda se přesouvá do Obchodního oddělení IO.; doporučení: Podklady pro PK nově využívají formulář \"investiční námět\", který je vytvořen v excelu. Do budoucna by bylo vhodné využívat formulář vytvořený v jiném programu a zároveň automatizovat sběr požadavků ze strany klinik do formy, která je vhodná a efektivní pro účely jednání PK s připomínkováním ze strany náměstků dotčených útvarů."
+  },
+  {
+    "id": 75,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OZT; oblast: Nákup zdravotnické techniky; číslo procesu: 1_OZT; název procesu: Podklady pro veřejnou zakázku; vazba na organizační řád io: Zajištění odborné technické specifikace pro veřejné zakázky včetně informací potřeby stavební připravenosti; popis procesu: Proces začíná schválením PK požadavku na pořízení přístroje ze strany kliniky/ústavu/útvaru. Po té, co je schválen požadavek PK, OBO zakládá zakázku a předává požadavek na OZT, které při nákupu zajišťuje odbornou specifikaci. OZT v první řadě konzultuje potřeby s uživatelem (klinika/ústav, který vytvořil požadavek) a společně vytáří technickou specifikaci přístroje. \nPro OBO, které je administrátorem nákupu, připraví OZT podkaldy, které zahrnují: \n1. dokumenty k technické specifikaci předmětné zdravotnické techniky včetně potřeby servisní smlouvy,\n2. odhad ceny zdravotnické techniky, \n3. návrh dodavatelů, které oslovit (pokud se jedná o veřejnou zakázku v režimu, která umožňuje oslovení dodavatelů, případně vyžaduje tržní konzultace před realizací výběrového řízení),\n4. doporučení, zda oslovit další útvary, jako je například IT kvůli SW, připojení do sítě apod., ORI stran stavební připravenosti, lékárnu stran léčívých přípravků a spotřebního materiálu apod."
+  },
+  {
+    "id": 76,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OZT; oblast: Nákup zdravotnické techniky; číslo procesu: 2_OZT; název procesu: Vyhodnocení veřejné zakázky; vazba na organizační řád io: Odborné vyhodnocení nabídek, odpovědí na dotazy a vysvětlení nabídek.; popis procesu: V průběhu realizace veřejné zakázky, kdy mají potenciální dodavatelé možnost dotazů, odpovídá OZT na dotazy ve spoluprácí s klinikou/ústavem, který vytvořil požadavek na zdravotnickou techniku. Ekonomickou výhodnost nabídek OZT nevyhodnocuje, pouze participuje na ověření splnění technických parametrů a ověření dokumentace."
+  },
+  {
+    "id": 77,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OZT; oblast: Nákup zdravotnické techniky; číslo procesu: 3_OZT; název procesu: Podklady pro uzavírání smluv; vazba na organizační řád io: Schvalování podkladů pro uzavírání smluv a smluv na servis a údržbu zdravotnické a laboratorní techniky a měřidel.; popis procesu: OZT spolupracuje při tvorbě podkladů pro uzavírání smluv a smluv na servis a údržbu zdravotnické a laboratorní techniky a měřidel. Zajišťuje v tomto ohledu technickou stránku podkladů, které předává OBO."
+  },
+  {
+    "id": 78,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OZT; oblast: Předání zdravotnické techniky; číslo procesu: 4_OZT; název procesu: Příprava instalace zdravotnické techniky; vazba na organizační řád io: Není specifikováno v Org. řádu IO; popis procesu: OZT připravuje dané pracoviště (kliniku/ústav) na instalaci přístroje, koordinuje a zajišťje součinnost dalších dotčených útvarů, a to například OPI, ORI, CI (podle specifik zravotnické techniky), které se podílejí na přípravě pracoviště pro instalaci zdravotnické techniky."
+  },
+  {
+    "id": 79,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OZT; oblast: Předání zdravotnické techniky; číslo procesu: 5_OZT; název procesu: Příprava, předání a instalace zdravotnické techniky; vazba na organizační řád io: V Org. řádu IO specifikováno částečně\nZajištění účasti podřízených zaměstnanců OZT na předání a převzetí zdravotnické techniky a kontrola zápisů o převzetí zdravotnických prostředků; popis procesu: Při doručení zdravotnické techniky OZT přebírá přístroj a kontroluje, zda jsou splněny všechny podmínky a je k dispozici dokumentace. Patří sem všechny zdravotnické prostředky a SW, který je součástí zdravotnického prostředku (za SW, který je dodán samostatně a není součástí zdravotnického prostředku, zodpovídá CI). OZT koordinuje další útvary, které se účastní předání zdravotnické techniky (podle specifik zdravotnické techniky).\nPři předání zdravotnické techniky OZT koordinuje také technickou a další dokumentaci, kontroluje, zda je dokumentace v  pořádku, zda odpovídá smluvním požadavků. Zajišťuje zápis o převzetí zdravotnických prostředků a o proškolení personálu, které probíhá podle podmínek daných ve smluvní a/nebo technické dokumentaci (školení personálu může proběhnout ze strany OZT, nebo ze strany dodavatele zdravotnické techniky)."
+  },
+  {
+    "id": 80,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OZT; oblast: Provoz zdravotnické techniky; číslo procesu: 6_OZT; název procesu: Technická, provozní a servisní činnost zdravotnické techniky; vazba na organizační řád io: Provoz zdravotnické a laboratorní techniky a měřidel; výkon správy značně rozsáhlých a různorodých souborů zdravotnické a laboratorní techniky.\nKoordinace technické, provozní a servisní činnosti v oblasti zdravotnické a laboratorní techniky, zajišťuje provoz přístrojů a zařízení pro diagnostický a léčebný proces.; popis procesu: Po předání přístroje (zdravotnické techniky) zajišťuje OZT činnost týkající se provozu.  Pracovníci OZT mají rozdělené kliniky/ústavy, pro které jsou kontaktními osobami v oblasti provozu zdravotnické techniky. V rámci provozu zdravotnické techniky pracovníci zajišťují:\n1. konzultace a odpovědi na dotazy ze strany kliniky/ústavu,\n2. servis přístrojů, který často pracovníci OZT zajišťují sami, v některých případech (např. pokud to vyžaduje servisní smlouva, nebo pokud je oprava natolik náročná, že vyžaduje spolupráci externího odborníka) zajišťují servis externí společností,\n3. školení personálu kliniky, pokud to vyžaduje situace nebo je to povinností vyplývající ze smlouvy,\n4. pravidelné kontroly přístrojů podle harmonogramu stanoveném v technické a/nebo smluvní dokumentaci dané zdravotnické techniky; v některých případech je realizují pracovníci OZT sami, pokud to vyžaduje smlouva, jsou realizovány externí společností. \nPodmínky kontroly, školení personálu  a servisů zdravotnické techniky jsou definovány již před uvedením přístroje do provozu a jsou součástí smluvní a/nebo technické dokumentace. Cílem OZT je zajistit maximum činností vlastními zdroji a snížit tak náklady na provoz dané zdravotnické techniky. Z tohoto důvodu vypracovává vedoucí OZT přehled činností ve vlastní režii OZT s vyčíslením odhadu realizované úspory (také viz 15_OZT).; doporučení: Zavést mechanismus (proces), který by umožnil optimalizovat poměr vlastní práce a externích dodavatelů bez opakovaného obhajování a vysvětlování zestrany OZT."
+  },
+  {
+    "id": 81,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OZT; oblast: Likvidace zdravotnické techniky; číslo procesu: 7_OZT; název procesu: Likvidace zdravotnické techniky; vazba na organizační řád io: Přípravu podkladů pro likvidaci zdravotnické a laboratorní techniky a měřidel včetně zpracování odborných posudků.; popis procesu: OZT připravuje podklady pro likvidaci zdravotnické a laboratorní techniky a měřidel. Pro tento účel vydává odborný posudek k likvidaci (formář v Navision,) na základě vlastní informací, nebo informací od servisní společnosti. Odborný posudek k likvidaci je postoupen odpovědné osobě za majetek (např. staniční sestra kliniky), která jej postupuje dále na EO k následnému vyřazení z majetku."
+  },
+  {
+    "id": 82,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OZT; oblast: Metrologie; číslo procesu: 8_OZT; název procesu: Metrologie a kalibrace; vazba na organizační řád io: Zajištění agendy metrologie ve FN Brno. Činnosti souvisejících s měřením, kontrolou a zajištěním přesnosti a správnosti měřicích přístrojů, které se používají při diagnostice, léčbě a monitorování pacientů. \nZajišťuje uplatnění a plnění požadavků, které stanovuje zákon č. 505/1990 Sb., o metrologii, v procesech útvarů FN Brno; popis procesu: OZT realizuje všechny činnosti, které se týkají metrologie. Procesy výběru a pořízení měřících přístrojů odpovídajů procesům výběru a pořizování ostatní zdravotnické techniky (viz 1_OZT, 2_OZT, 3_OZT).\nKromě souladu se zákonem č. 505/1990 Sb., o metrologii, zajišťuje také soulad vnitřní směrnicí FN Brno a ČSN EN ISO/IEC 17025 ."
+  },
+  {
+    "id": 83,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OZT; oblast: Metrologie; číslo procesu: 9_OZT; název procesu: Provoz měřících přístrojů; vazba na organizační řád io: Provádí kategorizaci měřidel, přístrojů a zařízení a navrhuje lhůty kalibrací pracovních měřidel, spolupracuje na přípravě a předkládání měřidel, přístrojů a zařízení ke stanoveným a plánovaným metrologickým úkonům. Zabezpečuje kontrolu evidence měřidel a přístrojů. \nDodržování a plnění požadavků normy ČSN EN ISO/IEC 17025 a správnost kalibračních listů; popis procesu: OZT zajišťuje provoz měřících přístrojů v souladu s legislativou, interní směrnicí a ČSN EN ISO/IEC 17025. Měřící přítroje jsou umístěné na klinikách/ústavech, které mají vždy svého metrologa (metrology jmenuje ředitel FN Brno), který je pro OZT hlavní kontaktní osobou v oblasti metrologie. Jemu poskytuje OZT informace, proškoluje ho v novinkách v oblasti metrologie a souvisejících oblastech, odpovídá na jeho dotazy. \nMetrolog kliniky/ústavu sám hlídá lhůty kalibrací, kontroluje a zajišťuje provoz měřících přístrojů. OZT v této oblasti funguje jako kontrola druhé instance v případě, že metrolog neplní stanovené termíny."
+  },
+  {
+    "id": 84,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OZT; oblast: Metrologie; číslo procesu: 10_OZT; název procesu: Školení metrologů; vazba na organizační řád io: Odborná školení metrologů útvarů; popis procesu: OZT zajišťuje odborná školení metrologů FN Brno. Jedná se především o školení o novinkách v dané oblasti a realizuje se ad hoc. Kromě toho je OZT k dispozici metrologům klinik a ústavů jako konzultant v otázkách a při problémech, které metrologům při jejich činnosti vzhnikají (viz 9_OZT)."
+  },
+  {
+    "id": 85,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OZT; oblast: Metrologie; číslo procesu: 11_OZT; název procesu: Zpráva o stavu metrologie; vazba na organizační řád io: 1x ročně v prosinci předkládá vedoucímu OZT zprávu o stavu metrologie ve FN Brno, o potřebách a požadavcích v oblasti metrologie spolu s případnými návrhy na řešení a navrhuje postihy za porušování metrologické kázně.; popis procesu: 1x ročně vedoucí OZT vypracuje zprávu o stavu metrologie ve FN Brno, kterou předkládá investičnímu náměstkovi. Je to zásadní oficální výstup agendy metrologie v nemocnici. Zpráva obsahuje informace o potřebách a požadavcích v oblasti metrologie, návrhy na řešení a případně také postihy za porušování metrologické kázně."
+  },
+  {
+    "id": 86,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OZT; oblast: Metrologie; číslo procesu: 12_OZT; název procesu: Metrologický řád; vazba na organizační řád io: Pomáhá metrologům útvarů formulovat obsah metrologického řádu útvaru.; popis procesu: OZT vytváří Metrologický řád FN Brno, který je pro metrology klinik a ústavů \"vodítkem\" v oblasti metrologie a kalibrace. Řád je sestaven na obecnější úrovni, což znamená, že ve specifických případech se metrologové setkávají s otázkami a problémy, které řád neřeší, popřípadě je nelze vyřešit v souladu s ním. V takových případech jsou dílčí otázky a problémy řešeny ad hoc formou konzultací, kdy OZT ve spolupráci s metrologem dílčí problémy a otázky řeší, aby bylo vše v souladu s legislativou (více viz X_OZT)."
+  },
+  {
+    "id": 87,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OZT; oblast: Technologické inovace; číslo procesu: 13_OZT; název procesu: Realizace inovačních projektů; vazba na organizační řád io: Zajištění koordinační, výkonné a administrativní činnosti spojené se zaváděním technologických inovací ve FN Brno.\nKoordinace a administrativní podpora zavádění nových technologií, postupů a metod do hlavních, řídících a podpůrných procesů FN Brno, a to formou realizace schválených dílčích projektů. Zodpovídá za řízení těchto projektů ve všech jejich fázích – inicializace, plánování, realizace, monitoring a reporting, prezentace výstupů, vyhodnocení. V rámci projektů úzce spolupracuje s klinickými a dalšími pracovišti FN Brno.; popis procesu: OZT koordinuje a administrativně zajišťuje inovační projekty FN Brno. Jedná se o činnost, která je realizována projektově. V současné chvíli Jsou ve fázi realizace tři inovační projekty, jejichž výsledky budou využity na pracovištích nemocnice. \nNáměty na inovační projekty získává OZT od klinických pracovišť a ústavů, případně daších pracovišť. Námět na inovační projekt je následně předán investičnímu náměstkovi, který jej projednává s vedením nemocnice. Součástí námětu je také analýza možností financování projektu, využitelnost výstupů a výsledků, rozpočet, dotčená pracoviště, přínosy pro FN Brno.  V případě schválení projektu ze strany vedení nemocnice zahájí OZT jeho realizaci ve spolupráci s dotčenými pracovišti .; doporučení: V současné chvíli chybí jasný proces podávání a schvalování námětu (např. v režimu shcvalování zdravotnické techniky Přístrojovou komisí.). Proces by měl být transparentní, s jasnými pravidly a spravedlivý tak, aby mělo každé pracoviště možnost \"přihlásit\" svůj námět (například vytvoření \"zaměstnaneckého inkubátoru\" s jasným postupem)."
+  },
+  {
+    "id": 88,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OZT; oblast: Technologické inovace; číslo procesu: 14_OZT; název procesu: Sledování nových trendů ve zdravotnictví; vazba na organizační řád io: Sledování vývoje nových zdravotnických a laboratorních přístrojů a zařízení; popis procesu: Proces sledování vývoje nových zdravotnických technologií je postaven na ad hoc činnostech:\n1. komunikace s výrobci/dovozci/distributory zdravotnické techniky, a to formou prezentací novinek na trhu,\n2. komunikací s klinikami/ústavy, které mají požadavky na nová zařízení,\n3. vlastním průzkumem trhu pracovníky OZT, kteří musí mít v dané oblasti přehled.\nSledování vývoje na trhu přichází tedy ad hoc, odráží požadavky klinik, nabídku dodavatelů, ale také změny v legislativě apod."
+  },
+  {
+    "id": 89,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OZT; oblast: Účetní doklady; číslo procesu: 15_OZT; název procesu: Zpracování faktur; vazba na organizační řád io: V Org. řádu IO není definováno správně\nLikvidace faktur za servis a údržbu ZP; popis procesu: V rámci OZT se zpracovávají účetní doklady týkající se faktur externích firem za údržbu a servis. Nedochází zde přímo k likvidaci faktur, ale rozpočtení nákladů na nákladová střediska a potvrzení potřeby servisu/údržby a jeho realizace. Doklad je pak fyzicky doručen na EO (přidělena referentka účtárny, která přináší a odnáší účetní doklady). Samotná likvidace faktury a archivace pak probíhá na EO. Interní činnost (servisy a údržba prováděná pracovníky OZT) není oficiálně vedena, neexistují interní doklady o provedení servisu a údržby, aby mohlo dojít k vnitropodnikovému přeúčtování nákladů. OZT pouze připravuje přehledy pro investičního náměstka, informující o měsíčních (ročních) úsporách, které jsou realizovány, když je servis/údržba provrdena pracovníky OZT nikoliv externí firmou (také viz 6_OZT).; doporučení: Vzhledem ke skutečnosti, že podstatná část servisů a údržby je realizována pracovníky OZT a dochází tak k významné úspoře nákladů, měly by být oficiální vedeny interní doklady o realizaci těchto čiností."
+  },
+  {
+    "id": 90,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OŘP; oblast: Projektový management investičních projektů; číslo procesu: 1_OŘP; název procesu: Příprava dotačního projektu; vazba na organizační řád io: Projektový záměr (Příkaz ministra zdravotnictví č. 11/2022). Zajištění souhlasu s realizací a financováním projektu (interní souhlas, souhlas zřizovatele (MZ ČR)); popis procesu: Všechny projekty, na kterých participuje OŘP, jsou projekty financované, nebo spolufinancované dotacemi. Příprava projektu začíná již v okamžiku, kdy jsou informace o dotační výzvě (aktuální/plánované) poskytnuty relevatním útvarům (klinikám/ústavům/nezdravotnickým útvarům). Zároveň je o výzvě informován investiční náměstek, který s námětem projektu seznámí vedení nemocnice, a potenciálně dotčené útvary, jako je OBO, ORI apod. OŘP koordinuje zapojené útvary a konsoliduje potřebné podklady k vytvoření záměru projektu, který zpracovává podle Příkazu ministra zdravotnictví č. 11/2022. Finální záměr je podepsán statutární orgánem (Ředitel FN Brno), což představuje oficiální interní schválení projektu. Projektový záměr je pak odeslán zřizovateli (MZ ČR), kterým musí být schálen k realizaci."
+  },
+  {
+    "id": 91,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OŘP; oblast: Projektový management investičních projektů; číslo procesu: 2_OŘP; název procesu: Podání žádosti o dotaci; vazba na organizační řád io: Zpracování žádosti v systému MS2021+ (MS2014+), příprava příloh (rozpočet, popis investice, veřejné zakázky, technická dokumentace apod.), spolupráce s interními subjekty (klinikami a dalšími útvary FN Brno) a spolupráce s externími subjekty (projektanty, poradenskými společnostmi apod.).; popis procesu: Po schálení záměru ze strany zřizovatele je zahájeno zpracování žádosti. Obvykle probíhá v systému MS2021+ (MS2014+), výjímečně v jiných systémech. \nPodklady pro registraci žádosti koordinuje a konsoliduje OŘP vždy v souladu s podmínkami dotační výzvy. V této fázi projektu spolupracuje OŘP s ostatními odděleními IO a s relevantními klinikami/útvary, ve spolupráci s nimiž navrhuje harmonogram, rozpočet popis investic, technickou dokumentaci a další potřebné informace a dokumenty.\nPokud to vyžadují specifika projektu a/nebo podmínky dotační výzvy, spolupracuje již v této fázi OŘP s externími subjekty, jako jsou například projektanti nebo poradenské společnosti v předmětné oblasti (s projektanty spolupracuje OŘP prostřednictvím ORI).\nŽádost o podporu podepisuje Vedoucí OŘP na základě plné moci statutárního orgánů. Některé dokumenty, jako jsou čestná prohlášení, nemohou být podepsána v zastoupení na základě plné moci, ale musí být podepsána samotným statutárním orgánem."
+  },
+  {
+    "id": 92,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OŘP; oblast: Projektový management investičních projektů; číslo procesu: 3_OŘP; název procesu: Podání žádosti o dotaci; vazba na organizační řád io: Zajištění spolufinancování (vlastní zdroje); popis procesu: V případě, že podmínky dotace vyžadují spolufinancování projektu z vlastních zdrojů, ověřuje OŘP, že je FN Brno schopna nést náklad spolufinancování. Stejně tak v případě spolufinancování z vlastních zdrojů nebo při způsobu čerpání dotace EX-POST, ověřuje OŘP disponibilitu prostředků k financování akce (cash-flow). Spolufinancování schvaluje EO, kdy je přímo ekonomickému náměstkovi zaslána informace o projektu, který spolufinancování schvaluje.\nVe většině případů však dotace pokrývá 100 % výdajů projektu, což vyplývá ze statusu FN Brno jako příspěvkové organizace  zřizované MZ ČR."
+  },
+  {
+    "id": 93,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OŘP; oblast: Projektový management investičních projektů; číslo procesu: 4_OŘP; název procesu: Realizace dotačního projektu; vazba na organizační řád io: Koordinace činností při realizaci investičních projektů (Příkaz ministra zdravotnictví č. 11/2022). Konzultace s poskytovatelem dotace.; popis procesu: Při fyzické realizaci projektu probíhá paralelně také jeho administrace v dotačním systému, hlídání deklarovaných termínů, koordinace činností s dalšími členy týmu, podílení se na realizaci veřejných zakázek projektu, monitoring podkladů a zajištění souladu s dotací. Pokud dojde ke změnán projektu, tvoří a administruje změnová řízení. Pravidelně podle podmínek programu vytváří monitorovací zprávy, závěrečnou zprávu o realizaci a žádosti o platbu.\nV průběhu realizace projektu (a v době udržitelnosti - viz 8_OŘP) je OŘP také kontaktním subjektem pro případné kontroly (MZ, EK, MF, CRR) . V rámci této agedny OŘP shromažďuje a připravuje podklady ke kontrolám, komunikuje s kontrolujícím subjektem, provází jej po dotčených pracovištích a zajištuje dodatečné podklady. \nVšechny projekty a jejich dokumentace jsou uloženy na interním úložisti, které OŘP spravuje a které je hlavním zdrojem informací a dokumentů při probíhající kontrole.\nV průběhu celého projektu (od plánování až po ukončení) probíhá dle potřeby konzultace s poskytovatelem dotace, a to prostřednctvím depeší v dotačním systému, emailem nebo telefonicky v závislosti na povaze dotazu. Z hlediska časové náročnosti se jedná se o podstatnou část agendy OŘP."
+  },
+  {
+    "id": 94,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OŘP; oblast: Projektový management investičních projektů; číslo procesu: 5_OŘP; název procesu: Realizace dotačního projektu; vazba na organizační řád io: Zajištění publicity dle pravidel EU (loga, cedule); popis procesu: Podle pravidel dotačního programu zajišťuje OŘP také publicitu, kdy spolupracuje s dalšími pracovišti na jejím zajištění (OBO, Centrum komunikace a marketingu apod.). Pokud je zapojeno více pracovišť, pak jejich činnost koordinuje."
+  },
+  {
+    "id": 95,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OŘP; oblast: Projektový management investičních projektů; číslo procesu: 6_OŘP; název procesu: Vypořádání se státním rozpočtem; vazba na organizační řád io: Zpracování dokumentace v elektronickém nástroji SMVS; popis procesu: V rámci každého projektu, který je financován/spolufinancován formou dotace z fondů EU, zajišťujeJe OŘP vypořádání se státním rozpočtem. Jedná se o zpracování podkladů v nástroji SMVS, a to vždy před začátkem projektu, při ročním vyúčtování a při vypořádání akce."
+  },
+  {
+    "id": 96,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OŘP; oblast: Projektový management investičních projektů; číslo procesu: 7_OŘP; název procesu: Monitoring dotačního projektu; vazba na organizační řád io: Archivace dokumentace; popis procesu: Archivace originálů dokumentů, které se týkají projektu, probíhá na příslušných pracovištích (faktury na EO, VZMR na ORI apod.). OŘP v tomto ohledu kompletuje informace pro případné kontroly."
+  },
+  {
+    "id": 97,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OŘP; oblast: Projektový management investičních projektů; číslo procesu: 8_OŘP; název procesu: Udržitelnost projektu; vazba na organizační řád io: Zajištění udržitelnosti projektu a podávání zpráv o udržitelnosti. Sledování indikátorů projektu ve spolupráci s klinikami a ústavy a monitoring dalších náležitostí souvisejících s udržiteoností.; popis procesu: Poslední fází projektu je pro OŘP udržitelnost projektu, v rámci které administruje projekt v dotačním systému, dokldá potřebné informace a dokumenty. Ve spolupráci s klinikami dokládá plnění indikátorů projektu a další náležitosti podle podmínek dotačního programu. Také v této fázi projektového řízení je OŘP kontaktním subjektem pro případné kontroly."
+  },
+  {
+    "id": 98,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OŘP; oblast: Monitoring možností dotační podpory; číslo procesu: 9_OŘP; název procesu: Monitoring dotačních titulů; vazba na organizační řád io: Sledování výzev a identifikace hvodných dotačních příležitostí a dalších možností podpory včetně analýzy podmínek výzvy a reportování a informování vedení nemocnice a relevantních útvarů o možnosti  podpory.; popis procesu: OŘP sleduje možnosti dotačního financování. Monnitoring probíhá průběžně a primárně se týká dotačních titulů evropských fondů, národní dotační tituly (např. MZČR, MŠMT, MPO) jsou v gesci ORI, mezinárodní programy a bilaterální dohody pak realizují kliniky a ústavy., OŘP pravidelně informuje investičního náměstkách o aktuálních a plánovaných dotačních  možnostech. Nedochází však k pravidelnému zpracování reportu (dokumentu) o všech aktuálních a plánovaných výzvách.; doporučení: Nad rámec velkých projektů a velkých investic OŘP nemá dostatečné informace o potřebách pracovišť, které by potenciálně mohly být financované/spolufinancované formou dotace. Kapacitně pak není OŘP schopno zajistit monitoring v celém spektru všech dotačních titulů. Řešením by mohl být sběr požadavků pracovišť, tedy úložiště námětů, kam by se soustředily potřeby pracovišť. OŘP by pak mohlo cíleně prověřit, zda je možné danou potřebu financovat/spolufinancovat dotačně. To by mohlo být zajištěno emailovou schránkou vyhrazenou výlučně na spěr potřeb a námětů, propojenou také inovačními projekty OZT, kam by měli přístup pracovníci OŘP a OZT."
+  },
+  {
+    "id": 99,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OŘP; oblast: Monitoring možností dotační podpory; číslo procesu: 10_OŘP; název procesu: Monitoring dotačních titulů; vazba na organizační řád io: Posouzení souladu se strategií FN Brno, možnostmi spolufinancování a kapacitami; popis procesu: Takto doposud neprobíhá, strategie není v takovém detailu a struktuře, kerá by mohla být vodítkem efektivního monitoringu možností podpory."
+  },
+  {
+    "id": 100,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: ORI; oblast: Ivestiční akce; číslo procesu: 1_ORI; název procesu: Plánování investiční akce; vazba na organizační řád io: Není specifikováno v Org. řádu IO; popis procesu: Námět na realizaci investiční akce přichází od vedení FN Brno. Je zaznamenán v tabulce návrhů na investici a čeká na definitivní schválení ze strany vedení. Již v této fázi však ORI začíná pracovat na studii proveditelnosti (SP). Ta je zpracovávána externím subjektem, který je vybrán prostřednictvím realizace veřejné zakázky. Pokud se jedná o režim VZMR, realizuje výběr dodavatele ORI, pokud se jedná o VZVR, realizuje výběr dodavatele OPV (více viz 7_ORI, 8_ORI). \nZpracování SP trvá přibližné 3 měsíce. V průběhu zpracování jsou každých 14 dní realizovány kontrolní dny, v rámci kterých ORI koordinuje další dotčené útvary (OBO, a OZT, HTS).  V rámci kontrolního dne je prezentováno, jak se posunuly práce, co je hotovo, co je v plánu a stanoví se úkoly. Projektant komunikuje pouze s ORI, které je koordinátorem celé akce. \nPo dokončení SP je dílo představeno vedení nemocnice. Na základě informací SP vedení nemocnice rouhodne, zda bude akce realizována, zda nebude realizována, nebo bude její realizace posunuta. V některých případech si vedení vyžádá další podklady, které se týkají ekonomických ukazatelů a návratnosti investice. Pokud je plánováno financovat/spolufinancovat akci formou dotací, není ve většině potřeba poskytovat další podklady k rozhodnutí o realizaci akce."
+  },
+  {
+    "id": 101,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: ORI; oblast: Ivestiční akce; číslo procesu: 2_ORI; název procesu: Tvorba projektové dokumentace; vazba na organizační řád io: V souladu s platnou legislativou činnosti související s povolováním staveb, jejich změn a kolaudací, které má ve své gesci. Koordinace realizace stavebních akcí. Spolupracuje s OZT, Obo, OŘP a OPI.; popis procesu: Pokud je na základě SP a případně dalších podkladů rozhodnuto o realizaci akce, začne další fáze projektu, v rámci které ORI vybírá zhotovitele projektové dokumentace (PD). Pokud se jedná o režim VZMR, realizuje výběr dodavatele ORI, pokud se jedná o VZVR, realizuje výběr dodavatele OPV  (více viz 7_ORI, 8_ORI). \nVysoutěžený dodavatel PD začne pracovat na tvorbě PD, která trvá cca 9 měsíců. ORI koordinuje s tím spojené činnosti, zapojuje dotčená pracoviště a externího dodavatele. Každých 14 jsou realizovány kontrolní dny, v rámci kterých jsou prezentovány dílčí výsledky, stanovovány úkoly a plánován další postup. Když je PD hotova, proběhne připomínkové řízení. ORI provádí kontrolu dokumentace a zasílá na všechna dotčená pracoviště, aby se k PD vyjádřila. Po skončení připomínkového řízení je dílo finálně předáno a dodavateli je proplacena faktura. PD se podává na stavební úřad spolu s vyjádřením krajské hygienické stanice a Hasičského záchranného sboru s žádostí o stavební povolení (někdy je doplněno vyjádřením Národního památkového ústavu).\nZačíná další fáze projektu, v rámci které se vytváří PD pro provedení stavby, a to dodavatelem, který zhotovil PD pro stavební řízení."
+  },
+  {
+    "id": 102,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: ORI; oblast: Ivestiční akce; číslo procesu: 3_ORI; název procesu: Realizace investiční akce; vazba na organizační řád io: Realizace stavebních investic v hodnotě nad 6 mil. Kč bez DPH, včetně stavebních investic hrazených z dotace v souladu s pravidly pro poskytnutí dotace. Řádné vedení dokumentace akce. Spolupracuje s OZT, Obo, OŘP a OPI.; popis procesu: Když je k dispozici PD pro provedení stavby a je vydáno stavební povolení, začíná samotná realizace investiční akce. Výběrové řízení na zhotovitele, které probíhá v režimu VZMR, je realizováno ORI, výběrové řízení na zhotovitele stavby v režimu VZVR je realizováno ve spolupráci s OPV (více viz 7_ORI, 8_ORI). \nSamostatně stojící vybavení je vyjmuto z VZ v rámci ORI a je postoupeno OBO, které tyto zakázky realizuje. \nNásledně je vybraný zhotovitel je vyzván k zahájení stavby. ORI koordinuje přípravu staveniště a zajistí, aby byl minimálně omezen provoz nemocnice. Při přípravě staveniště ORI koordinuje HTS a další relevantní útvary.\nPo zahájení stavby vybraným zhotovitelem ORI koordinuje činnosti a realizuje 1x týdně kontrolní den, kdy je prezentován dosavadní průběh prací, plán dalších kroků, úkoly. Ad hoc jsou pak řešeny problémy, které vyvstanou až v průběhu realizace akce. K těmto ORI vytváří změnové listy (pro změny v projektu, které vzniknou v průběhu realizace)."
+  },
+  {
+    "id": 103,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: ORI; oblast: Ivestiční akce; číslo procesu: 4_ORI; název procesu: Dokončení investiční akce; vazba na organizační řád io: Řádné předání a převzetí staveb; popis procesu: Když je investiční akce dokončena, je řádně předána klinice, případně jinému útvaru, který ji bude využívat, a odboru HTS, který bude realizovat jeho správu. ORI převezme dokumentaci provedení, kolaudační řízení je v kompetenci zhotovitele. \nV případě reklamace, komunikuje ORI se zhotovitelem a koordinuje realizaci reklamační akce."
+  },
+  {
+    "id": 104,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: ORI; oblast: Rozpočtový a plánovací proces; číslo procesu: 5_ORI; název procesu: Plán investic; vazba na organizační řád io: Stanovení plánu stavebních investic a plánu oprav (po odsouhlasení poradou vedení) v minimální hodnotě nad 6 mil. Kč bez DPH, který vytváří koncem roku na následující rok a průběžně ho aktualizuje.; popis procesu: V rámci FN Brno jsou ve spolupráci ORI a EO zhotovovány tříleté investiční plány, které jsou pravidelně aktualizovány. Plán je postoupen na poradu vedení k jeho odsouhlasení."
+  },
+  {
+    "id": 105,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: ORI; oblast: Rozpočtový a plánovací proces; číslo procesu: 6_ORI; název procesu: Vypořádání se státním rozpočtem; vazba na organizační řád io: Pravidelné roční finanční vypořádání vztahů se státním rozpočtem v souladu s pokyny MZ ČR; popis procesu: U akcí, které jsou financováné/spolufinancované z národních dotací (MZ ČR) je nutné realizovat vypořádání se státním rozpočtem. To probíhá každoročně prostřednictví systému SMVS. Vedle toho ORI vyplňuje formulář SMVS pro každou investiční dotovanou akci,a to před jejím zahájením, při jakékoliv změně a po jejím ukončení akce."
+  },
+  {
+    "id": 106,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: ORI; oblast: Veřejné zakázky; číslo procesu: 7_ORI; název procesu: Realizace VZMR; vazba na organizační řád io: Příprava podkladů pro realizaci veřejných zakázek spojených s činností oddělení.  Připravuje podklady pro OPV k realizaci veřejných zakázek stavebního charakteru, které jsou vyhlašovány v režimu zákona č. 134/2016 Sb. o zadávání veřejných zakázek ve finančním limitu nad 6 mil. Kč bez DPH; popis procesu: Při realizaci VZMR je výběr dodavatele plně v režii ORI, jehož pracovníci připraví podklady do systému EZAK. Po vyhlášení VZMR odpovídá ORI na dotazy, realizuje prohlídky místa plnění, vyhodnocuje nabídky. Po výběru dodavatele postupuje návrh smlouvy OPV, které zajistí podpis statutárního orgánu a smlouvu eviduje a archivuje.\nVeškeré dokumenty,které se týkají realizace VZMR jsou k dispozici na ORI v samostatných složkách pro případnou kontrolu."
+  },
+  {
+    "id": 107,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: ORI; oblast: Veřejné zakázky; číslo procesu: 8_ORI; název procesu: Realizace VZVR; vazba na organizační řád io: Příprava podkladů pro realizaci veřejných zakázek spojených s činností oddělení.  Připravuje podklady pro OPV k realizaci veřejných zakázek stavebního charakteru, které jsou vyhlašovány v režimu zákona č. 134/2016 Sb. o zadávání veřejných zakázek ve finančním limitu nad 6 mil. Kč bez DPH; popis procesu: V případě VZVR připravuje ORI podklady pro OPV, které veřejnou zakázku realizuje. Všechny podklady včetně interního formuláře pro VZVR vkládá ORI na sdílené úložiště (MS Teams). OPV je v průběhu realizace veřejné zakázky neustále k dispozici. Na základě podkladů zpracuje OPV zadávací dokumentaci a návrh smlouvy, které ORI (a případně další dotčené útvary) připomínkují. Po podpisu statutárním orgánem je veřejná zakázka vyhlášena v systému EZAK. ORI následně pomáhá OPV s odpověďmi na dotazy, s prohlídkou místa plnění a s ověřování referencí.  Při hodnocení nabídek jsou pracovníci ORI součástí hodnotící komise a po celou dobu realizace veřejné zakázky vystupují jako odborný a technický pomocník.; doporučení: Bylo by efektivnější ejednotit postup, kdy VZMR i VZVR budou v kompetenci OPV, nebo naopak ORI. Takto jsou postupy roztříštěné."
+  },
+  {
+    "id": 108,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: ORI; oblast: Veřejné zakázky; číslo procesu: 9_ORI; název procesu: Evidence veřejných zakázek; vazba na organizační řád io: Vedení evidence rozpracovanosti veřejných zakázek na stavby; popis procesu: Rozpracované investiční akce mají své složky na sdíleném úložišti MS Teams a na disku N, kam se vkládají všechny podklady. Dotčená pracoviště mají přístup k těm podkladů, které jsou pro ně relevantní. V papírové podobě jsou pak podklady a dokumentace k akcím vedena na ORI.  \nStejně tak jsou zvlášť vedeny VZMR pro případnou kontrolu. VZVR jsou vedeny na OPV.; doporučení: Ve FN Brno není stanoveno, kde a jak má být vedena evidence. ORI naráží na omezení MS Teams stran kapacity. Do budoucna nutné vyřešit, jak a kde tuto evidenci bezpečně vést."
+  },
+  {
+    "id": 109,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: ORI; oblast: Dotace; číslo procesu: 10_ORI; název procesu: Zpracování a administrace národních dotací; vazba na organizační řád io: Ve spolupráci s OŘP realizovat agendu spojenou se získáváním dotací a realizací nákupů stavebních investic spolufinancovaných ze státního rozpočtu a fondů EU, vyjma činností spadající pod jiné útvary FN Brno nebo zajišťování těchto činností externím dodavatelem; popis procesu: V případě investičních akcí s financováním/spolufinancováním dotačním titulem evropských fondů vstupuje do procesu OŘP, které realizuje celou dotační agendu. V případě národních dotačních titulů je agenda v kompetenci ORI, které připraví ve spolupráci s dotčenými útvary projektový záměr investiční akce dle Příkazu ministra zdravotnictví č. 11/2022. Po schválení záměru ze strany zřizovatele ORI registruje žádost o dotaci a připraví všechny podklady podle podmínek dotační výzvy a formulář SMVS. S každou změnou aktualizuje ORI formulář SMVS, stejně tak pro závěrečné vyhodnocení akce. Faktura je zhotoviteli proplacena vždy až po připsání dotace FN Brno. \nDokumentace k dotovaným akcím je vedena odděleně a podle pravidel dotační výzvy."
+  },
+  {
+    "id": 110,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: ORI; oblast: Zpracování účetních dokladů; číslo procesu: 11_ORI; název procesu: Zpracování účetních dokladů; vazba na organizační řád io: Zpracování podkladů pro zavedení pořizovaného majetku do operativní evidence; popis procesu: I když je uzavřená smlouva s dodavatelem, je vytvořena ve Navisoin objednávka, čímž se případ zaeviduje. Po dokončení díla a vystavení faktury, je faktura fyzicky doručena z EO na ORI, kde je faktura doplněna o košilku. Zároveň dojde k rozdělení nákladu na NS, aby mohly být správně rozděleny náklady a zařazeno do majetku. ORI podepisuje doklad jako příkazce a faktura se vrací na EO, které ji proplatí dodavateli. EO následně fakturu zaeviduje.; doporučení: Extrémně zdlouhavý proces, (nejen) kvůli kterému je délka splatnost faktur ve FN Brno 60 dní."
+  },
+  {
+    "id": 111,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: ORI; oblast: Dodavatelský řetězec; číslo procesu: 12_ORI; název procesu: Dodavatelský řetězec; vazba na organizační řád io: Pravidelné roční hodnocení dodavatelů; popis procesu: ORI se účastní pravidelného ročního hodnocení dodavatelů. Výsledky hodnocení, které probíhá na úrovni všech relevantních útvarů, jsou následně EO zaslány jako zpětná vazba dodavatelům."
+  },
+  {
+    "id": 112,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: ORI; oblast: Archivace; číslo procesu: 13_ORI; název procesu: Archivace; vazba na organizační řád io: Archivace dokumentace související s činností oddělení; oddělená archivace dokumentace související s dotačními akcemi po celou dobu udržitelnosti v souladu s pravidly pro přidělení dotace; popis procesu: Archivace dokumentů ORI probíhá vždy papírově i elektronicky (MS Teams, disk N). Odděleně je vedena agenda VZMR pro potřeby případné kontroly."
+  },
+  {
+    "id": 113,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OBO; oblast: Nákup investičního majetku; číslo procesu: 1_OBO; název procesu: Realizace nákupu; vazba na organizační řád io: Realizace nákupů, kontrola jejich průběhu a plnění. Pořizování veškerého investičního majetku ve FN Brno s výjimkou stavebních investic a těch, které spadají do činností jiných útvarů FN Brno.; popis procesu: Nákup komodity v kompetenci OBO zahrnuje pořizování veškerého investičního majetku s výjimkou stavebních investic a těch, které spadají do činností jiných útvarů FN Brno, nákup vybraných služeb a spotřebního materiálu (ve vymezených případech). Nepatří sem nákup LP a potravin, který součástí agendy jiných útvarů FN Brno.\nNa začátku realizace je založena zakázka. Pokud se jedná o zdravotnickou techniku, jejíž nákup vyžaduje spolupráci OZT, pak OZT dodává OBO podklady a další informace, které zahrnují především:\n1. dokumenty k technické specifikaci předmětné zdravotnické techniky včetně potřeby servisní smlouvy,\n2. odhad ceny zdravotnické techniky, \n3. návrh dodavatelů, které oslovit (pokud se jedná o veřejnou zakázku v režimu, která umožňuje oslovení dodavatelů, případně vyžaduje tržní konzultace před realizací výběrového řízení),\n4. doporučení, zda oslovit další útvary, jako je například IT kvůli SW, připojení do sítě apod., ORI stran stavební připravenosti, lékárnu stran léčívých přípravků a spotřebního materiálu apod.\nOBO na základě podkladů a doporučení konsoliduje podklady OZT a doplňuje další informace, potřebné k realizaci zakázky. Postup se pak liší podle režimu realizace zakázky VZMR, nebo VZVR (viz 6_OBO, 7_OBO).\nV NAVISION se vždy vytvoří a pokud je nákup komodity postaven jen objednávce (není zasmluvněn), bude objednávka zaslána na dodavatele. Pokud je nákup postaven na smlouvě, je objednávka vedena pouze pro interní potřeby.\nOBO vede ke každé zakázce složku od jejího vzniku až po likvidaci faktur s tím, že dokumenty, které jsou v originále archivovány v rámci jiného útvaru, jsou na OBO uchovávány v kopiích. Součástí evidence jednotlivých zakázek jsou veškeré podklady a dokumenty včetně emailových komunikací s dodavateli a vždy v souladu se smluvní a technickou dokumentací zakázky/komodity.; doporučení: Voučasné době velká roztříštěnost pracovních postupů v oblasti nákupů v celé FN. Rozdíly existují i v rámci IO mezi OZT, ORI, OPI, kde všichni dělají totéž, ale každý jinak. \nVhodné by bylo vytvořit mapy procesů nákupu, která by zaznamenala procesy (podle typů komodit) a ukázala, co a v jaké fázi který útvar řeší a jak  přechází plnění a čerpání smlouvy mezi útvay.\nU drobnějších nákupů by mohlo být schvalování v kompetenci vedoucího OBO, což časovou náročnost schvalování ze strany vedení nemocnice."
+  },
+  {
+    "id": 114,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OBO; oblast: Nákup investičního majetku; číslo procesu: 2_OBO; název procesu: Předání a převzetí zdravotnické techniky; vazba na organizační řád io: Předání a převzetí pořizované technologie, kterého se účastní současně se zástupcem kliniky a odborného útvaru (CI, OZT).; popis procesu: Dodavatel musí vždy informovat 5 dní před dodávkou o plánovaném dodání komodity. OBO ale již týden před termínem plánovaného dodání dle smlouvy dodavatele kontaktuje samo. Důvodem je minimalizace rizika zpoždění dodávky, na kterou se váží další činnosti jiných útvarů a externích dodavatelů.  \nPři dodávání zdravotnické techniky se OBO účastní předání komodity a převzetí na pracoviště, kterého se účastní spolu s OZT a případně dalšími relevantními útvary, pokud to vyžadují specifika zakázky/komodity.\nKaždá zakázka disponuje vlastní složkou, kde se shromažďují dokumenty od založení zakázky po předání dodávky. Součástí jsou tedy i předávací protokoly a protokoly o školení personálu. \nFaktura je dodána poštou, datovou schránkou, emailem, a to na OBO, nebo na EO. I když je uvedeno ve smlouvě, kam fakturu zaslat, není proces sjednocen, protože dodavatelé volí různé cesty zaslání faktury. Faktura se bez ohledu na cestu přijetí dostane na OBO, kde je rozdělen náklad na příslušná nákladová střediska, je k ní přiložena objednávka (uložena v Navision). Faktura je následně papírově předána na EO, kde je proplacena. V registru smluv je zveřejněno Správou budov.; doporučení: Správa budov zveřejňuje v registru smluv, což je pravděpodobně dáno historicky, i když do celého procesu nění jinak zapojena."
+  },
+  {
+    "id": 115,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OBO; oblast: Evidence majetku; číslo procesu: 3_OBO; název procesu: Evidence majetku; vazba na organizační řád io: Zpracování podkladů pro zařazení nově pořízené technologie a darů do majetku FN Brno; popis procesu: Při zářazení nově pořízené technologie do majetku spolupracuje OBO s Oddělením operativní evidence, pro které OBO zajišťuje podklady a Oddělení operativní evidence přiděluje majetku číslo. Při připravě podkladů pro zařazení do majetku spoluiepracuje OBO s OZT a dotčenými klinikami."
+  },
+  {
+    "id": 116,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OBO; oblast: Dotace; číslo procesu: 4_OBO; název procesu: Nákup dotovaných komodit; vazba na organizační řád io: Nákup investičního majetku hrazeného z dotace Ministerstva zdravotnictví ČR, strukturálních fondů EU, grantů a jiných zdrojů. V případě realizace nákupu hrazených z dotací za soulad s pravidly pro poskytnutí dotace. Ve spolupráci s OŘP realizuje činnosti za agendu spojenou se získáváním dotací a realizací nákupů spolufinancovaných ze státního rozpočtu a fondů EU, včetně kompletace, vyjma činností spadající pod jiné útvary FN Brno nebo zajišťovaní těchto činností externím dodavatelem.; popis procesu: OBO realizuje nákup komodit,které nejsou součástí stavby. Pokud se jedná komoditu, která je financována formou dotace, spolupracuje OBO s OŘP (v případě dotací z evropských fondů) nebo s ORI (v případě národních dotací). Veřejné zakázky musí být realizovány v souladu s pravidly dotační výzvy, a proto je nutná součinnost s pracovištěm, který podává žádost o dotaci a projekt administruje.\nPři příprave podkladů pro registraci žádostí (OŘP, ORI) participuje OBO na specifikaci zdravotnické techniky, která může být podle pravidel programu do žádosti o dotaci zařazena. Vyhledávání probíhá v seznamech komodit (FAMA). Vzhledem k časové náročnosti procesu a nutnosti blíže zdravotnickou techniku specifikovat, spolupracuje v této fázi přípravy žádosti o dotaci s OZT. Kliniky/ústavy do této fáze vstupují minimálně.; doporučení: Monitoring komodit, které lze zařadit do dotačního programu by měl být realizován do větší hloubky a s podrobnější specifikací zdravotnické techniky. OBO nemá k takovému monitoringu dostatek kapacit a odbornost. Tento průzkum by měl být realizován ve spolupráci s klinikami/ústavy a pod vedením OZT."
+  },
+  {
+    "id": 117,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OBO; oblast: Dotace; číslo procesu: 5_OBO; název procesu: Vypořádání se státním rozpočtem; vazba na organizační řád io: Zpracování dokumentace dotační akce v elektronickém nástroji SMVS; popis procesu: Tuto činnost OBO nevykonává, součástí jeho agendy nejsou žádostio dotace a administrace dotací."
+  },
+  {
+    "id": 118,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OBO; oblast: Veřejné zakázky; číslo procesu: 6_OBO; název procesu: VZMR; vazba na organizační řád io: Agenda v oblasti veřejných zakázek malého rozsahu a s využitím elektronických nástrojů pro zadávání veřejných zakázek. Vedení evidence rozpracovanosti veřejných zakázek.; popis procesu: Při realizaci VZMR je výběr dodavatele plně v režii OBO, jehož pracovníci připraví podklady do systému EZAK. OBO na základě podkladů a doporučení konsoliduje podklady OZT a doplňuje je o další informace, potřebné k realizaci zakázky. Na základě všech podkladů vytvoří návrh zadávací dokumentace, který schvaluje investiční náměstek.\nPo schválení investičním náměstkem je zahájena veřejná zakázka prostřednictvím systému EZAK. S odpověďmi na dotazy pomáhají OBO po stránce technické pracovníci OZT. \nVyhodnocení nabídek probíhá podle ekonomické výhodnosti, kdy se všechny dotčené útvary vyjadřují k podaným nabídkám. Těmto útvarům posílá podklady k vyjádření nabídky OBO, a to postupně od nejvýhodnější nabídky. Na základě výsledků hodnocení vzniká na OBO finální doporučení pro investičního náměstka k výběru dodavatele. \nPo finálním potvrzení (schválení) výběru dodavatele investičním náměstkem vytvoří OBO rozhodnutí o výběru dodavatele, které oznámí prostřednictvím systému EZAK. Komunikace s vybraným dodavatelem pak probíhá přímo mezi OBO a dodavatelem, který zašle návrh smlouvy. Výsledek výběru a návrh smlouvy pak OBO postupuje na OPV, které smlouvu finalizuje  a zajistí podpis statutárního orgánu. OPV podává OBO informace, že byla podepsaná smlouva. \nVeškeré dokumenty,které se týkají realizace VZMR jsou k dispozici na OBO v samostatných složkách pro případnou kontrolu. Smlouva je evidována a archivována v originále na OPV."
+  },
+  {
+    "id": 119,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OBO; číslo procesu: 7_OBO; název procesu: VZVR; vazba na organizační řád io: Spolupracuje s OPV v oblasti veřejných zakázek v režimu zákona, podílí se na přípravě podkladů potřebných pro vyhlášení VZVZ,; popis procesu: V případě VZVR připravuje OBO podklady pro OPV, které veřejnou zakázku realizuje. OBO je OPV v průběhu realizace veřejné zakázky neustále k dispozici. Na základě podkladů zpracuje OPV zadávací dokumentaci a návrh smlouvy, které OBO (a případně další dotčené útvary) připomínkují. Po podpisu statutárním orgánem je veřejná zakázka vyhlášena v systému EZAK."
+  },
+  {
+    "id": 120,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OBO; oblast: Archivace; číslo procesu: 8_OBO; název procesu: Archivace; vazba na organizační řád io: Archivace dokumentace související s činností oddělení. Dbá na oddělenou archivaci dokumentace související s dotačními akcemi po celou dobu udržitelnosti v souladu s pravidly pro přidělení dotace; popis procesu: Každá zakázka, která je realizována OBO, má svou vlastní složku, kde je evidována a archivována veškerá dokumentace. Vedle toho probíhá evidence a archivace v elektronické podobě. V některých případech nejsou archivovány originály dokumentů, protože jejich archivace probíhá na jiném útvaru (např. originály faktur jsou archivovány na EO, originály smluv jsou archivovány na OPV). \nDokumentace související s dotacemi je archivována na OŘP a ORI.; doporučení: Pro archivaci dokumentů v papírové formě by měl stanoven udržitelný postup, který by například zahrnovat tisk dokumentů oboustraně v počtu dvou stránek textu na jednu stranu listu, tj. čtyři stránky na list papíru.\nArchivační a skartační řád FN Brno je velmi obecný a v některých ustanoveních nejednoznačný, což se týká například skartačních lhůt. Nejednoznačnost může vést k chybnému výpočtu doby archivace a data skartace."
+  },
+  {
+    "id": 121,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OBO; oblast: Obchodního oddělení; číslo procesu: 9_OBO; název procesu: Rozpočtový a plánovací proces; vazba na organizační řád io: Včasná realizace  a dokončení čerpání finančních prostředků z plánu DDHM v daném roce. V případě nedokončení realizace neinvestičních nákupů v daném roce žádá Ekonomického náměstka o výjimku a převod nedočerpaných finančních prostředků z plánu DDHM do dalšího roku; popis procesu: OBO má každoročně předem definovamé prostředky na pořízení DDHM - plán DDHM. Tento plán je každoročně odsouhlasován na jednání o rozpočtech. V průběhu roku se pak jednotlivé položky pořizují. \nNěkteré komodity jsou pořizovány prostřednictví DNS, což znamená, že se nemusí opakovaně vypisovat nové soutěže na stejné typy plnění, ale mohou využít již zavedený systém, ve kterém se oslovují pouze relevantní dodavatelé.; doporučení: Využití DNS, který je efektivní a transparentní by bylo možné využít i u dalších výrobků, služeb, stavebních prací (např. by bylo vhodné využít pro projekční práce)."
+  },
+  {
+    "id": 122,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OBO; oblast: Obchodního oddělení; číslo procesu: 11_OBO; název procesu: Rozpočtový a plánovací proces; vazba na organizační řád io: Zpracování měsíčních přehledů realizovaných nákupů, přehledy vybraných nedokončených investic dotačních a nedotačních. Materiály předává na Ekonomický odbor do 15. dne každého měsíce; popis procesu: Měsíčně vytváří OBO report pro EO s přehledem zaplacených faktur. OBO si vyžádá informace o datech zaplacení faktur od EO, vytvoří report a zašle zpět informace na EO.; doporučení: Tento report by měl být součástí agendy příslušného oddělení EO, které má informace o datech proplacení faktur. Je neefektivní, aby si útvar vyžadovatl informace, kterými sám disponuje, od jiného útvaru. Report by měl být vytvořen EO a zasílán na OBO, které potřebuje informace k evidenci zakázek."
+  },
+  {
+    "id": 123,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OBO; oblast: Obchodního oddělení; číslo procesu: 12_OBO; název procesu: Rozpočtový a plánovací proces; vazba na organizační řád io: Pravidelné roční finanční vypořádání vztahů se státním rozpočtem v souladu s pokyny MZ ČR; popis procesu: Finanční vypořádání se státním rozpočtem není v rámci OBO realizováno, protože součástí agendy OBO není registrace žádostí o dotace ani jejich administrace. Tyto jsou součástí agendy OŘP a ORI."
+  },
+  {
+    "id": 124,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OBO; oblast: Komise pro posuzování rozmístění přístrojových zdravotnických prostředků; číslo procesu: 13_OBO; název procesu: Podklady pro jednání Komise pro posuzování rozmístění přístrojových zdravotnických prostředků; vazba na organizační řád io: Příprava podkladů pro jednání Komise pro posuzování rozmístění přístrojových zdravotnických prostředků a kapacit hrazených ze zdravotního pojištění (poradní orgán MZ ČR); popis procesu: Není realizováno."
+  },
+  {
+    "id": 125,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OBO; oblast: Přístrojová komise; číslo procesu: 14_OBO; název procesu: Podklady pro jednání PK; vazba na organizační řád io: Příprava podkladů pro jednání Komise pro posuzování přístrojových technologií ve FN Brno (Přístrojová komise) a pořizování zápisu.; popis procesu: OBO se podílí na přípravě podkladů pro jednání PK. Koordinace sběru a konsolidace podkladů pro jednání PK je v kompetenci metodika IO."
+  },
+  {
+    "id": 126,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OBO; oblast: Dodavatelský řetězec; číslo procesu: 15_OBO; název procesu: Dodavatelský řetězec; vazba na organizační řád io: Zajištění pravidelného ročního hodnocení dodavatelů; popis procesu: OBO se účastní pravidelného ročního hodnocení dodavatelů. Výsledky hodnocení, které probíhá na úrovni všech relevantních útvarů, jsou pak EO zaslány jako zpětná vazba dodavatelům."
+  },
+  {
+    "id": 127,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OBO; oblast: Řízení kvality IO; číslo procesu: 16_OBO; název procesu: Vnitřní předpisy; vazba na organizační řád io: Je spolutvůrcem směrnic a metodických postupů na Obo a zajišťuje organizačně výkon činností nutných k zajištění požadované kvality v souladu s postupy Ministerstva zdravotnictví a platnou legislativou; popis procesu: OBO se podílí na aktiualizaci interních předpisů v souvislosti s novými externími požadavky, které je nutné zohlednit ve vnitřních předpisech. OBO zde vystupuje v roli iniciátora změn, nebo připomínkuje zpracovaný návrh metodikem IO.; doporučení: Proces není popsán a postup není nikde ukotven. Je nutné napravit, aby byly vždy a včas zapracovány požadavky v dané oblasti a aby se relevatní útvary mohly k návrhu změn vyjádřit v rámci připomínkového řízení. Je nutné sladti s nositelem procesu - metodik IO, který musí pravidelně evidovat činnost útvarů, monitorovat legislativní a další požadavky daných oblastí, aktivně řešit jejich zapracování do vnitřních předpisů a vést připomínkové řízení k návrhu s dotčenými pracovišti."
+  },
+  {
+    "id": 128,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OBO; oblast: Zpracování účetních dokladů; číslo procesu: 17_OBO; název procesu: Zpracování účetních dokladů; vazba na organizační řád io: Kompletace došlých faktur; popis procesu: Faktura za dodávku komodity je dodána poštou, datovou schránkou, emailem, a to na OBO, nebo na EO. I když je uvedeno ve smlouvě, kam fakturu zaslat, není proces sjednocen, protože dodavatelé volí různé cesty zaslání faktur. Faktura se pak bez ohledu na cestu přijetí dostane na OBO, kde je rozdělen náklad na příslušná nákladová střediska, je k ní přiložena objednávka (uložená v Navision). Faktura je následně papírově předána na EO, kde je propalcena (likvidována). Archivace faktur probíhá na EO."
+  },
+  {
+    "id": 129,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OBO; oblast: Perosnální politika; číslo procesu: 18_OBO; název procesu: Nábor zaměstnanců; vazba na organizační řád io: Není specifikováno v Org. řádu IO; popis procesu: Při náboru zaměstnanců je v rámci OBO realizován \"zkušební den\", v rámci kterého jsou uchazeči  po několk hodin součástí týmu OBO, plní přidělený úkol a zapojují se do pracovních procesů. Tato fáze výběrového řízení je důležitá pro posouzení kandidátů stran zapojení se do týmu, míry samostatnosti při jejich plnění, vlastní invence při plnění úkolů apod.; doporučení: K diskusi je  tento systém zavést ve spolupráci s HR  oficiálně, popřípadě implementovat postup na další pracoviště."
+  },
+  {
+    "id": 130,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "úsek/oddělení: OBO; oblast: Perosnální politika; číslo procesu: 19_OBO; název procesu: Zkušební doba; vazba na organizační řád io: Není specifikováno v Org. řádu IO; popis procesu: V průběhu zkušební doby je novému zaměstnanci přiřazen mentor (zkušený kolega OBO), který jej provází po celou dobu 3 měsíců.; doporučení: K diskusi je  tento systém zavést ve spolupráci s HR  oficiálně, popřípadě implementovat postup na další pracoviště. Stejně tak \"rotace zaměstnanců\", aby ve vymezeném čase (např. 14 dní) poznali jiná pracoviště, obzvlášť ta, jejichž agenda je propojena."
+  },
+  {
+    "id": 131,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Řízení kvality IO; číslo procesu: 1_Met; název procesu: Celonemocniční vnitřní předpisy; vazba na organizační řád io: Není specifikováno v Org. řádu IO; popis procesu: Celonemocniční vnitřní předpisy (a předpisy jiných útvarů, které se dotýkají IO) se v průběhu roku aktualizují, případně se ruší nebo vznikají nové. Metodik informuje na pravidelných poradách o změnách a plánovaných změnách celonemocničních předpisů investičního náměstka a vedoucí oddělení IO, kteří následně se změnami seznamují členy svých týmů. Metodik je tak kontaktem IO za agendu celonemocničních předpisů."
+  },
+  {
+    "id": 132,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Řízení kvality IO; číslo procesu: 2_Met; název procesu: Vnitřní předpisy IO; vazba na organizační řád io: Vypracovává a podílí se na tvorbě dokumentace systému kvality IO. Ukládá ostatním zaměstnancům IO úkoly související s budováním, údržbou a zlepšováním systému řízení kvality.\nTvorba směrnic a metodických pokynů pro nastavení pravidel k zajištění efektivní organizace práce, řízení a odbornému provádění činností v rámci fungování Investičního odboru.; popis procesu: Tvorbu a aktualizaci dokumentace systému kvality IO iniciuje vestiční náměstek, metodik, nebo samotná oddělení IO. Jedná se podněty vyplývající například ze změn požadavků zřizovatele, změny v legislativě apod. Jedná se o: \n1. tvorbu nových vnitřních předpisů IO, \n2. ad hoc změny stávajících předpisů,\n3. pravidelné každoroční aktualizace vnitřních předpisů, které se týkají i traumaplánů (k zajištění bezpečnosti a ochrany zdraví při práci) na pracovištích IO.\nMetodik vždy vytvoří návrh předpisu nebo návrh změny, které připomínkují dotčené osoby IO (vedoucí oddělení IO) a investiční náměstek. Po schválení ze strany investičního náměstka je předpis umístěn na sdílené úložistě IO. Akzualizace a změn jsou zaznamenány protřednictvím záznamů úprav a číslováním verzí předpisů. \nO změnách, podnětech apod. informuje metodik vedoucí oddělení a investičního náměstska prostřednictvím porad IO. Vedoucí jednotlivých oddělení následně informují členy svých týmů."
+  },
+  {
+    "id": 133,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Řízení kvality IO; číslo procesu: 3_Met; název procesu: Školení zaměstnanců IO v oblasti řízení kvality; vazba na organizační řád io: Organizuje interní školení zaměstnanců IO o problematice kvality; popis procesu: Metodik pravidelně informuje vedoucí oddělení IO o změnách v oblasti řízení kvality, vnitřních předpisů IO i celonemocničních vnitřních předpisů. Neprobíhá pravidelné školení, pouze ad hoc poskytování informací o novinkách a odpovědi na případné dotazy."
+  },
+  {
+    "id": 134,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Řízení kvality IO; číslo procesu: 4_Met; název procesu: Interní audit; vazba na organizační řád io: Plánuje, provádí a vyhodnocuje interní audity.; popis procesu: Není realizováno"
+  },
+  {
+    "id": 135,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Řízení kvality IO; číslo procesu: 5_Met; název procesu: Interní audit; vazba na organizační řád io: Není specifikováno v Org. řádu IO; popis procesu: Pokud v rámci auditní činnosti Oddělení interního auditu vznikne potřeba realizovat nápravná opatření v rámci IO, metodik koordinuje jejich realizaci a zajišťuje, aby se v případě potřeby zahrnula do příslušných vnitřních předpisů IO (pak je zahájen proces 2_Met)."
+  },
+  {
+    "id": 136,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Přístrojová komise; číslo procesu: 6_Met; název procesu: Podklady pro jednání Přístrojové komise (PK); vazba na organizační řád io: Příprava podkladů pro jednání Přístrojové komise a vedení související agendy; popis procesu: Přístrojová komise FN Brno se schází kjednání 4x za rok, je součástí IO a spadá přímo po investičního náměstka. Přípravu podkladů pro jednání PK koordinuje metodik IO. Potřeba pořízení nového přístroje vzniká na úrovni klinik/ústavů, které ji zadávají do systému FAMA (nejpozději 1,5 měsíce před konáním zasedání PK). Zde (pokud se jedná o investici) vyplňuje zadavatel požadavku také formulář \"investiční námět\", čímž se zařazuje potenciální investice do procesu schvalování ze strany PK. Formulář zahrnuje údaje o samotném přístroji, ale také další informace, které se týkají potřebného spotřebního materiálu, personálních požadaků apod. Jedná se o požadavky v celém životním cyklu přístroje, které představují náklady spojené s jeho pořízením, provozem, likvidací. \nVšechny tyto informace sbírá a kompletuje metodik IO, který je po jejich kompletaci předkládá dotčeným náměstkům FN Brno, kteří se k investičnímu námětu vyjadřují. Námět je náměstkům útvarů předkládán elektornicky v systému ALVAO. Ti zde přikládají své stanovisko. \nVyjádření náměstků (případně dalších dotčených/pověřených/kompetentních osob s ohledem na typ přístroje) je vedle informací v investičním námětu dalším podkladem pro jednání PK. Metodik pak kompletuje podklady pro PK, které členům PK zašle před konáním zasedání PK. Z jednání PK vytvoří metodik zápis, který obsahuje mimo jiné i rozhodntí PK a její doporučení. Metodik průběžně spravuje intranetové stránky PK, kde jsou informace o zasedáních PK, rozhodnutích PK, členech PK a další informace spadající do agendy PK. \nPokud je schválen nákup přístroje, agenda se přesouvá do Obchodního oddělení IO.; doporučení: Podklady pro PK nově využívají formulář \"investiční námět\", který je vytvořen v excelu. Do budoucna by bylo vhodné využívat formulář vytvořený v jiném programu a zároveň automatizovat sběr požadavků ze strany klinik do formy, která je vhodná a efektivní pro účely jednání PK s připomínkováním ze strany náměstků dotčených útvarů."
+  },
+  {
+    "id": 137,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Nákup zdravotnické techniky; číslo procesu: 1_OZT; název procesu: Podklady pro veřejnou zakázku; vazba na organizační řád io: Zajištění odborné technické specifikace pro veřejné zakázky včetně informací potřeby stavební připravenosti; popis procesu: Proces začíná schválením PK požadavku na pořízení přístroje ze strany kliniky/ústavu/útvaru. Po té, co je schválen požadavek PK, OBO zakládá zakázku a předává požadavek na OZT, které při nákupu zajišťuje odbornou specifikaci. OZT v první řadě konzultuje potřeby s uživatelem (klinika/ústav, který vytvořil požadavek) a společně vytáří technickou specifikaci přístroje. \nPro OBO, které je administrátorem nákupu, připraví OZT podkaldy, které zahrnují: \n1. dokumenty k technické specifikaci předmětné zdravotnické techniky včetně potřeby servisní smlouvy,\n2. odhad ceny zdravotnické techniky, \n3. návrh dodavatelů, které oslovit (pokud se jedná o veřejnou zakázku v režimu, která umožňuje oslovení dodavatelů, případně vyžaduje tržní konzultace před realizací výběrového řízení),\n4. doporučení, zda oslovit další útvary, jako je například IT kvůli SW, připojení do sítě apod., ORI stran stavební připravenosti, lékárnu stran léčívých přípravků a spotřebního materiálu apod."
+  },
+  {
+    "id": 138,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Nákup zdravotnické techniky; číslo procesu: 2_OZT; název procesu: Vyhodnocení veřejné zakázky; vazba na organizační řád io: Odborné vyhodnocení nabídek, odpovědí na dotazy a vysvětlení nabídek.; popis procesu: V průběhu realizace veřejné zakázky, kdy mají potenciální dodavatelé možnost dotazů, odpovídá OZT na dotazy ve spoluprácí s klinikou/ústavem, který vytvořil požadavek na zdravotnickou techniku. Ekonomickou výhodnost nabídek OZT nevyhodnocuje, pouze participuje na ověření splnění technických parametrů a ověření dokumentace."
+  },
+  {
+    "id": 139,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Nákup zdravotnické techniky; číslo procesu: 3_OZT; název procesu: Podklady pro uzavírání smluv; vazba na organizační řád io: Schvalování podkladů pro uzavírání smluv a smluv na servis a údržbu zdravotnické a laboratorní techniky a měřidel.; popis procesu: OZT spolupracuje při tvorbě podkladů pro uzavírání smluv a smluv na servis a údržbu zdravotnické a laboratorní techniky a měřidel. Zajišťuje v tomto ohledu technickou stránku podkladů, které předává OBO."
+  },
+  {
+    "id": 140,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Předání zdravotnické techniky; číslo procesu: 4_OZT; název procesu: Příprava instalace zdravotnické techniky; vazba na organizační řád io: Není specifikováno v Org. řádu IO; popis procesu: OZT připravuje dané pracoviště (kliniku/ústav) na instalaci přístroje, koordinuje a zajišťje součinnost dalších dotčených útvarů, a to například OPI, ORI, CI (podle specifik zravotnické techniky), které se podílejí na přípravě pracoviště pro instalaci zdravotnické techniky."
+  },
+  {
+    "id": 141,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Předání zdravotnické techniky; číslo procesu: 5_OZT; název procesu: Příprava, předání a instalace zdravotnické techniky; vazba na organizační řád io: V Org. řádu IO specifikováno částečně\nZajištění účasti podřízených zaměstnanců OZT na předání a převzetí zdravotnické techniky a kontrola zápisů o převzetí zdravotnických prostředků; popis procesu: Při doručení zdravotnické techniky OZT přebírá přístroj a kontroluje, zda jsou splněny všechny podmínky a je k dispozici dokumentace. Patří sem všechny zdravotnické prostředky a SW, který je součástí zdravotnického prostředku (za SW, který je dodán samostatně a není součástí zdravotnického prostředku, zodpovídá CI). OZT koordinuje další útvary, které se účastní předání zdravotnické techniky (podle specifik zdravotnické techniky).\nPři předání zdravotnické techniky OZT koordinuje také technickou a další dokumentaci, kontroluje, zda je dokumentace v  pořádku, zda odpovídá smluvním požadavků. Zajišťuje zápis o převzetí zdravotnických prostředků a o proškolení personálu, které probíhá podle podmínek daných ve smluvní a/nebo technické dokumentaci (školení personálu může proběhnout ze strany OZT, nebo ze strany dodavatele zdravotnické techniky)."
+  },
+  {
+    "id": 142,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Provoz zdravotnické techniky; číslo procesu: 6_OZT; název procesu: Technická, provozní a servisní činnost zdravotnické techniky; vazba na organizační řád io: Provoz zdravotnické a laboratorní techniky a měřidel; výkon správy značně rozsáhlých a různorodých souborů zdravotnické a laboratorní techniky.\nKoordinace technické, provozní a servisní činnosti v oblasti zdravotnické a laboratorní techniky, zajišťuje provoz přístrojů a zařízení pro diagnostický a léčebný proces.; popis procesu: Po předání přístroje (zdravotnické techniky) zajišťuje OZT činnost týkající se provozu.  Pracovníci OZT mají rozdělené kliniky/ústavy, pro které jsou kontaktními osobami v oblasti provozu zdravotnické techniky. V rámci provozu zdravotnické techniky pracovníci zajišťují:\n1. konzultace a odpovědi na dotazy ze strany kliniky/ústavu,\n2. servis přístrojů, který často pracovníci OZT zajišťují sami, v některých případech (např. pokud to vyžaduje servisní smlouva, nebo pokud je oprava natolik náročná, že vyžaduje spolupráci externího odborníka) zajišťují servis externí společností,\n3. školení personálu kliniky, pokud to vyžaduje situace nebo je to povinností vyplývající ze smlouvy,\n4. pravidelné kontroly přístrojů podle harmonogramu stanoveném v technické a/nebo smluvní dokumentaci dané zdravotnické techniky; v některých případech je realizují pracovníci OZT sami, pokud to vyžaduje smlouva, jsou realizovány externí společností. \nPodmínky kontroly, školení personálu  a servisů zdravotnické techniky jsou definovány již před uvedením přístroje do provozu a jsou součástí smluvní a/nebo technické dokumentace. Cílem OZT je zajistit maximum činností vlastními zdroji a snížit tak náklady na provoz dané zdravotnické techniky. Z tohoto důvodu vypracovává vedoucí OZT přehled činností ve vlastní režii OZT s vyčíslením odhadu realizované úspory (také viz 15_OZT).; doporučení: Zavést mechanismus (proces), který by umožnil optimalizovat poměr vlastní práce a externích dodavatelů bez opakovaného obhajování a vysvětlování zestrany OZT."
+  },
+  {
+    "id": 143,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Likvidace zdravotnické techniky; číslo procesu: 7_OZT; název procesu: Likvidace zdravotnické techniky; vazba na organizační řád io: Přípravu podkladů pro likvidaci zdravotnické a laboratorní techniky a měřidel včetně zpracování odborných posudků.; popis procesu: OZT připravuje podklady pro likvidaci zdravotnické a laboratorní techniky a měřidel. Pro tento účel vydává odborný posudek k likvidaci (formář v Navision,) na základě vlastní informací, nebo informací od servisní společnosti. Odborný posudek k likvidaci je postoupen odpovědné osobě za majetek (např. staniční sestra kliniky), která jej postupuje dále na EO k následnému vyřazení z majetku."
+  },
+  {
+    "id": 144,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Metrologie; číslo procesu: 8_OZT; název procesu: Metrologie a kalibrace; vazba na organizační řád io: Zajištění agendy metrologie ve FN Brno. Činnosti souvisejících s měřením, kontrolou a zajištěním přesnosti a správnosti měřicích přístrojů, které se používají při diagnostice, léčbě a monitorování pacientů. \nZajišťuje uplatnění a plnění požadavků, které stanovuje zákon č. 505/1990 Sb., o metrologii, v procesech útvarů FN Brno; popis procesu: OZT realizuje všechny činnosti, které se týkají metrologie. Procesy výběru a pořízení měřících přístrojů odpovídajů procesům výběru a pořizování ostatní zdravotnické techniky (viz 1_OZT, 2_OZT, 3_OZT).\nKromě souladu se zákonem č. 505/1990 Sb., o metrologii, zajišťuje také soulad vnitřní směrnicí FN Brno a ČSN EN ISO/IEC 17025 ."
+  },
+  {
+    "id": 145,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Metrologie; číslo procesu: 9_OZT; název procesu: Provoz měřících přístrojů; vazba na organizační řád io: Provádí kategorizaci měřidel, přístrojů a zařízení a navrhuje lhůty kalibrací pracovních měřidel, spolupracuje na přípravě a předkládání měřidel, přístrojů a zařízení ke stanoveným a plánovaným metrologickým úkonům. Zabezpečuje kontrolu evidence měřidel a přístrojů. \nDodržování a plnění požadavků normy ČSN EN ISO/IEC 17025 a správnost kalibračních listů; popis procesu: OZT zajišťuje provoz měřících přístrojů v souladu s legislativou, interní směrnicí a ČSN EN ISO/IEC 17025. Měřící přítroje jsou umístěné na klinikách/ústavech, které mají vždy svého metrologa (metrology jmenuje ředitel FN Brno), který je pro OZT hlavní kontaktní osobou v oblasti metrologie. Jemu poskytuje OZT informace, proškoluje ho v novinkách v oblasti metrologie a souvisejících oblastech, odpovídá na jeho dotazy. \nMetrolog kliniky/ústavu sám hlídá lhůty kalibrací, kontroluje a zajišťuje provoz měřících přístrojů. OZT v této oblasti funguje jako kontrola druhé instance v případě, že metrolog neplní stanovené termíny."
+  },
+  {
+    "id": 146,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Metrologie; číslo procesu: 10_OZT; název procesu: Školení metrologů; vazba na organizační řád io: Odborná školení metrologů útvarů; popis procesu: OZT zajišťuje odborná školení metrologů FN Brno. Jedná se především o školení o novinkách v dané oblasti a realizuje se ad hoc. Kromě toho je OZT k dispozici metrologům klinik a ústavů jako konzultant v otázkách a při problémech, které metrologům při jejich činnosti vzhnikají (viz 9_OZT)."
+  },
+  {
+    "id": 147,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Metrologie; číslo procesu: 11_OZT; název procesu: Zpráva o stavu metrologie; vazba na organizační řád io: 1x ročně v prosinci předkládá vedoucímu OZT zprávu o stavu metrologie ve FN Brno, o potřebách a požadavcích v oblasti metrologie spolu s případnými návrhy na řešení a navrhuje postihy za porušování metrologické kázně.; popis procesu: 1x ročně vedoucí OZT vypracuje zprávu o stavu metrologie ve FN Brno, kterou předkládá investičnímu náměstkovi. Je to zásadní oficální výstup agendy metrologie v nemocnici. Zpráva obsahuje informace o potřebách a požadavcích v oblasti metrologie, návrhy na řešení a případně také postihy za porušování metrologické kázně."
+  },
+  {
+    "id": 148,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Metrologie; číslo procesu: 12_OZT; název procesu: Metrologický řád; vazba na organizační řád io: Pomáhá metrologům útvarů formulovat obsah metrologického řádu útvaru.; popis procesu: OZT vytváří Metrologický řád FN Brno, který je pro metrology klinik a ústavů \"vodítkem\" v oblasti metrologie a kalibrace. Řád je sestaven na obecnější úrovni, což znamená, že ve specifických případech se metrologové setkávají s otázkami a problémy, které řád neřeší, popřípadě je nelze vyřešit v souladu s ním. V takových případech jsou dílčí otázky a problémy řešeny ad hoc formou konzultací, kdy OZT ve spolupráci s metrologem dílčí problémy a otázky řeší, aby bylo vše v souladu s legislativou (více viz X_OZT)."
+  },
+  {
+    "id": 149,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Technologické inovace; číslo procesu: 13_OZT; název procesu: Realizace inovačních projektů; vazba na organizační řád io: Zajištění koordinační, výkonné a administrativní činnosti spojené se zaváděním technologických inovací ve FN Brno.\nKoordinace a administrativní podpora zavádění nových technologií, postupů a metod do hlavních, řídících a podpůrných procesů FN Brno, a to formou realizace schválených dílčích projektů. Zodpovídá za řízení těchto projektů ve všech jejich fázích – inicializace, plánování, realizace, monitoring a reporting, prezentace výstupů, vyhodnocení. V rámci projektů úzce spolupracuje s klinickými a dalšími pracovišti FN Brno.; popis procesu: OZT koordinuje a administrativně zajišťuje inovační projekty FN Brno. Jedná se o činnost, která je realizována projektově. V současné chvíli Jsou ve fázi realizace tři inovační projekty, jejichž výsledky budou využity na pracovištích nemocnice. \nNáměty na inovační projekty získává OZT od klinických pracovišť a ústavů, případně daších pracovišť. Námět na inovační projekt je následně předán investičnímu náměstkovi, který jej projednává s vedením nemocnice. Součástí námětu je také analýza možností financování projektu, využitelnost výstupů a výsledků, rozpočet, dotčená pracoviště, přínosy pro FN Brno.  V případě schválení projektu ze strany vedení nemocnice zahájí OZT jeho realizaci ve spolupráci s dotčenými pracovišti .; doporučení: V současné chvíli chybí jasný proces podávání a schvalování námětu (např. v režimu shcvalování zdravotnické techniky Přístrojovou komisí.). Proces by měl být transparentní, s jasnými pravidly a spravedlivý tak, aby mělo každé pracoviště možnost \"přihlásit\" svůj námět (například vytvoření \"zaměstnaneckého inkubátoru\" s jasným postupem)."
+  },
+  {
+    "id": 150,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Technologické inovace; číslo procesu: 14_OZT; název procesu: Sledování nových trendů ve zdravotnictví; vazba na organizační řád io: Sledování vývoje nových zdravotnických a laboratorních přístrojů a zařízení; popis procesu: Proces sledování vývoje nových zdravotnických technologií je postaven na ad hoc činnostech:\n1. komunikace s výrobci/dovozci/distributory zdravotnické techniky, a to formou prezentací novinek na trhu,\n2. komunikací s klinikami/ústavy, které mají požadavky na nová zařízení,\n3. vlastním průzkumem trhu pracovníky OZT, kteří musí mít v dané oblasti přehled.\nSledování vývoje na trhu přichází tedy ad hoc, odráží požadavky klinik, nabídku dodavatelů, ale také změny v legislativě apod."
+  },
+  {
+    "id": 151,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Účetní doklady; číslo procesu: 15_OZT; název procesu: Zpracování faktur; vazba na organizační řád io: V Org. řádu IO není definováno správně\nLikvidace faktur za servis a údržbu ZP; popis procesu: V rámci OZT se zpracovávají účetní doklady týkající se faktur externích firem za údržbu a servis. Nedochází zde přímo k likvidaci faktur, ale rozpočtení nákladů na nákladová střediska a potvrzení potřeby servisu/údržby a jeho realizace. Doklad je pak fyzicky doručen na EO (přidělena referentka účtárny, která přináší a odnáší účetní doklady). Samotná likvidace faktury a archivace pak probíhá na EO. Interní činnost (servisy a údržba prováděná pracovníky OZT) není oficiálně vedena, neexistují interní doklady o provedení servisu a údržby, aby mohlo dojít k vnitropodnikovému přeúčtování nákladů. OZT pouze připravuje přehledy pro investičního náměstka, informující o měsíčních (ročních) úsporách, které jsou realizovány, když je servis/údržba provrdena pracovníky OZT nikoliv externí firmou (také viz 6_OZT).; doporučení: Vzhledem ke skutečnosti, že podstatná část servisů a údržby je realizována pracovníky OZT a dochází tak k významné úspoře nákladů, měly by být oficiální vedeny interní doklady o realizaci těchto čiností."
+  },
+  {
+    "id": 152,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Projektový management investičních projektů; číslo procesu: 1_OŘP; název procesu: Příprava dotačního projektu; vazba na organizační řád io: Projektový záměr (Příkaz ministra zdravotnictví č. 11/2022). Zajištění souhlasu s realizací a financováním projektu (interní souhlas, souhlas zřizovatele (MZ ČR)); popis procesu: Všechny projekty, na kterých participuje OŘP, jsou projekty financované, nebo spolufinancované dotacemi. Příprava projektu začíná již v okamžiku, kdy jsou informace o dotační výzvě (aktuální/plánované) poskytnuty relevatním útvarům (klinikám/ústavům/nezdravotnickým útvarům). Zároveň je o výzvě informován investiční náměstek, který s námětem projektu seznámí vedení nemocnice, a potenciálně dotčené útvary, jako je OBO, ORI apod. OŘP koordinuje zapojené útvary a konsoliduje potřebné podklady k vytvoření záměru projektu, který zpracovává podle Příkazu ministra zdravotnictví č. 11/2022. Finální záměr je podepsán statutární orgánem (Ředitel FN Brno), což představuje oficiální interní schválení projektu. Projektový záměr je pak odeslán zřizovateli (MZ ČR), kterým musí být schálen k realizaci."
+  },
+  {
+    "id": 153,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Projektový management investičních projektů; číslo procesu: 2_OŘP; název procesu: Podání žádosti o dotaci; vazba na organizační řád io: Zpracování žádosti v systému MS2021+ (MS2014+), příprava příloh (rozpočet, popis investice, veřejné zakázky, technická dokumentace apod.), spolupráce s interními subjekty (klinikami a dalšími útvary FN Brno) a spolupráce s externími subjekty (projektanty, poradenskými společnostmi apod.).; popis procesu: Po schálení záměru ze strany zřizovatele je zahájeno zpracování žádosti. Obvykle probíhá v systému MS2021+ (MS2014+), výjímečně v jiných systémech. \nPodklady pro registraci žádosti koordinuje a konsoliduje OŘP vždy v souladu s podmínkami dotační výzvy. V této fázi projektu spolupracuje OŘP s ostatními odděleními IO a s relevantními klinikami/útvary, ve spolupráci s nimiž navrhuje harmonogram, rozpočet popis investic, technickou dokumentaci a další potřebné informace a dokumenty.\nPokud to vyžadují specifika projektu a/nebo podmínky dotační výzvy, spolupracuje již v této fázi OŘP s externími subjekty, jako jsou například projektanti nebo poradenské společnosti v předmětné oblasti (s projektanty spolupracuje OŘP prostřednictvím ORI).\nŽádost o podporu podepisuje Vedoucí OŘP na základě plné moci statutárního orgánů. Některé dokumenty, jako jsou čestná prohlášení, nemohou být podepsána v zastoupení na základě plné moci, ale musí být podepsána samotným statutárním orgánem."
+  },
+  {
+    "id": 154,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Projektový management investičních projektů; číslo procesu: 3_OŘP; název procesu: Podání žádosti o dotaci; vazba na organizační řád io: Zajištění spolufinancování (vlastní zdroje); popis procesu: V případě, že podmínky dotace vyžadují spolufinancování projektu z vlastních zdrojů, ověřuje OŘP, že je FN Brno schopna nést náklad spolufinancování. Stejně tak v případě spolufinancování z vlastních zdrojů nebo při způsobu čerpání dotace EX-POST, ověřuje OŘP disponibilitu prostředků k financování akce (cash-flow). Spolufinancování schvaluje EO, kdy je přímo ekonomickému náměstkovi zaslána informace o projektu, který spolufinancování schvaluje.\nVe většině případů však dotace pokrývá 100 % výdajů projektu, což vyplývá ze statusu FN Brno jako příspěvkové organizace  zřizované MZ ČR."
+  },
+  {
+    "id": 155,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Projektový management investičních projektů; číslo procesu: 4_OŘP; název procesu: Realizace dotačního projektu; vazba na organizační řád io: Koordinace činností při realizaci investičních projektů (Příkaz ministra zdravotnictví č. 11/2022). Konzultace s poskytovatelem dotace.; popis procesu: Při fyzické realizaci projektu probíhá paralelně také jeho administrace v dotačním systému, hlídání deklarovaných termínů, koordinace činností s dalšími členy týmu, podílení se na realizaci veřejných zakázek projektu, monitoring podkladů a zajištění souladu s dotací. Pokud dojde ke změnán projektu, tvoří a administruje změnová řízení. Pravidelně podle podmínek programu vytváří monitorovací zprávy, závěrečnou zprávu o realizaci a žádosti o platbu.\nV průběhu realizace projektu (a v době udržitelnosti - viz 8_OŘP) je OŘP také kontaktním subjektem pro případné kontroly (MZ, EK, MF, CRR) . V rámci této agedny OŘP shromažďuje a připravuje podklady ke kontrolám, komunikuje s kontrolujícím subjektem, provází jej po dotčených pracovištích a zajištuje dodatečné podklady. \nVšechny projekty a jejich dokumentace jsou uloženy na interním úložisti, které OŘP spravuje a které je hlavním zdrojem informací a dokumentů při probíhající kontrole.\nV průběhu celého projektu (od plánování až po ukončení) probíhá dle potřeby konzultace s poskytovatelem dotace, a to prostřednctvím depeší v dotačním systému, emailem nebo telefonicky v závislosti na povaze dotazu. Z hlediska časové náročnosti se jedná se o podstatnou část agendy OŘP."
+  },
+  {
+    "id": 156,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Projektový management investičních projektů; číslo procesu: 5_OŘP; název procesu: Realizace dotačního projektu; vazba na organizační řád io: Zajištění publicity dle pravidel EU (loga, cedule); popis procesu: Podle pravidel dotačního programu zajišťuje OŘP také publicitu, kdy spolupracuje s dalšími pracovišti na jejím zajištění (OBO, Centrum komunikace a marketingu apod.). Pokud je zapojeno více pracovišť, pak jejich činnost koordinuje."
+  },
+  {
+    "id": 157,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Projektový management investičních projektů; číslo procesu: 6_OŘP; název procesu: Vypořádání se státním rozpočtem; vazba na organizační řád io: Zpracování dokumentace v elektronickém nástroji SMVS; popis procesu: V rámci každého projektu, který je financován/spolufinancován formou dotace z fondů EU, zajišťujeJe OŘP vypořádání se státním rozpočtem. Jedná se o zpracování podkladů v nástroji SMVS, a to vždy před začátkem projektu, při ročním vyúčtování a při vypořádání akce."
+  },
+  {
+    "id": 158,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Projektový management investičních projektů; číslo procesu: 7_OŘP; název procesu: Monitoring dotačního projektu; vazba na organizační řád io: Archivace dokumentace; popis procesu: Archivace originálů dokumentů, které se týkají projektu, probíhá na příslušných pracovištích (faktury na EO, VZMR na ORI apod.). OŘP v tomto ohledu kompletuje informace pro případné kontroly."
+  },
+  {
+    "id": 159,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Projektový management investičních projektů; číslo procesu: 8_OŘP; název procesu: Udržitelnost projektu; vazba na organizační řád io: Zajištění udržitelnosti projektu a podávání zpráv o udržitelnosti. Sledování indikátorů projektu ve spolupráci s klinikami a ústavy a monitoring dalších náležitostí souvisejících s udržiteoností.; popis procesu: Poslední fází projektu je pro OŘP udržitelnost projektu, v rámci které administruje projekt v dotačním systému, dokldá potřebné informace a dokumenty. Ve spolupráci s klinikami dokládá plnění indikátorů projektu a další náležitosti podle podmínek dotačního programu. Také v této fázi projektového řízení je OŘP kontaktním subjektem pro případné kontroly."
+  },
+  {
+    "id": 160,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Monitoring možností dotační podpory; číslo procesu: 9_OŘP; název procesu: Monitoring dotačních titulů; vazba na organizační řád io: Sledování výzev a identifikace hvodných dotačních příležitostí a dalších možností podpory včetně analýzy podmínek výzvy a reportování a informování vedení nemocnice a relevantních útvarů o možnosti  podpory.; popis procesu: OŘP sleduje možnosti dotačního financování. Monnitoring probíhá průběžně a primárně se týká dotačních titulů evropských fondů, národní dotační tituly (např. MZČR, MŠMT, MPO) jsou v gesci ORI, mezinárodní programy a bilaterální dohody pak realizují kliniky a ústavy., OŘP pravidelně informuje investičního náměstkách o aktuálních a plánovaných dotačních  možnostech. Nedochází však k pravidelnému zpracování reportu (dokumentu) o všech aktuálních a plánovaných výzvách.; doporučení: Nad rámec velkých projektů a velkých investic OŘP nemá dostatečné informace o potřebách pracovišť, které by potenciálně mohly být financované/spolufinancované formou dotace. Kapacitně pak není OŘP schopno zajistit monitoring v celém spektru všech dotačních titulů. Řešením by mohl být sběr požadavků pracovišť, tedy úložiště námětů, kam by se soustředily potřeby pracovišť. OŘP by pak mohlo cíleně prověřit, zda je možné danou potřebu financovat/spolufinancovat dotačně. To by mohlo být zajištěno emailovou schránkou vyhrazenou výlučně na spěr potřeb a námětů, propojenou také inovačními projekty OZT, kam by měli přístup pracovníci OŘP a OZT."
+  },
+  {
+    "id": 161,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Monitoring možností dotační podpory; číslo procesu: 10_OŘP; název procesu: Monitoring dotačních titulů; vazba na organizační řád io: Posouzení souladu se strategií FN Brno, možnostmi spolufinancování a kapacitami; popis procesu: Takto doposud neprobíhá, strategie není v takovém detailu a struktuře, kerá by mohla být vodítkem efektivního monitoringu možností podpory."
+  },
+  {
+    "id": 162,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Ivestiční akce; číslo procesu: 1_ORI; název procesu: Plánování investiční akce; vazba na organizační řád io: Není specifikováno v Org. řádu IO; popis procesu: Námět na realizaci investiční akce přichází od vedení FN Brno. Je zaznamenán v tabulce návrhů na investici a čeká na definitivní schválení ze strany vedení. Již v této fázi však ORI začíná pracovat na studii proveditelnosti (SP). Ta je zpracovávána externím subjektem, který je vybrán prostřednictvím realizace veřejné zakázky. Pokud se jedná o režim VZMR, realizuje výběr dodavatele ORI, pokud se jedná o VZVR, realizuje výběr dodavatele OPV (více viz 7_ORI, 8_ORI). \nZpracování SP trvá přibližné 3 měsíce. V průběhu zpracování jsou každých 14 dní realizovány kontrolní dny, v rámci kterých ORI koordinuje další dotčené útvary (OBO, a OZT, HTS).  V rámci kontrolního dne je prezentováno, jak se posunuly práce, co je hotovo, co je v plánu a stanoví se úkoly. Projektant komunikuje pouze s ORI, které je koordinátorem celé akce. \nPo dokončení SP je dílo představeno vedení nemocnice. Na základě informací SP vedení nemocnice rouhodne, zda bude akce realizována, zda nebude realizována, nebo bude její realizace posunuta. V některých případech si vedení vyžádá další podklady, které se týkají ekonomických ukazatelů a návratnosti investice. Pokud je plánováno financovat/spolufinancovat akci formou dotací, není ve většině potřeba poskytovat další podklady k rozhodnutí o realizaci akce."
+  },
+  {
+    "id": 163,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Ivestiční akce; číslo procesu: 2_ORI; název procesu: Tvorba projektové dokumentace; vazba na organizační řád io: V souladu s platnou legislativou činnosti související s povolováním staveb, jejich změn a kolaudací, které má ve své gesci. Koordinace realizace stavebních akcí. Spolupracuje s OZT, Obo, OŘP a OPI.; popis procesu: Pokud je na základě SP a případně dalších podkladů rozhodnuto o realizaci akce, začne další fáze projektu, v rámci které ORI vybírá zhotovitele projektové dokumentace (PD). Pokud se jedná o režim VZMR, realizuje výběr dodavatele ORI, pokud se jedná o VZVR, realizuje výběr dodavatele OPV  (více viz 7_ORI, 8_ORI). \nVysoutěžený dodavatel PD začne pracovat na tvorbě PD, která trvá cca 9 měsíců. ORI koordinuje s tím spojené činnosti, zapojuje dotčená pracoviště a externího dodavatele. Každých 14 jsou realizovány kontrolní dny, v rámci kterých jsou prezentovány dílčí výsledky, stanovovány úkoly a plánován další postup. Když je PD hotova, proběhne připomínkové řízení. ORI provádí kontrolu dokumentace a zasílá na všechna dotčená pracoviště, aby se k PD vyjádřila. Po skončení připomínkového řízení je dílo finálně předáno a dodavateli je proplacena faktura. PD se podává na stavební úřad spolu s vyjádřením krajské hygienické stanice a Hasičského záchranného sboru s žádostí o stavební povolení (někdy je doplněno vyjádřením Národního památkového ústavu).\nZačíná další fáze projektu, v rámci které se vytváří PD pro provedení stavby, a to dodavatelem, který zhotovil PD pro stavební řízení."
+  },
+  {
+    "id": 164,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Ivestiční akce; číslo procesu: 3_ORI; název procesu: Realizace investiční akce; vazba na organizační řád io: Realizace stavebních investic v hodnotě nad 6 mil. Kč bez DPH, včetně stavebních investic hrazených z dotace v souladu s pravidly pro poskytnutí dotace. Řádné vedení dokumentace akce. Spolupracuje s OZT, Obo, OŘP a OPI.; popis procesu: Když je k dispozici PD pro provedení stavby a je vydáno stavební povolení, začíná samotná realizace investiční akce. Výběrové řízení na zhotovitele, které probíhá v režimu VZMR, je realizováno ORI, výběrové řízení na zhotovitele stavby v režimu VZVR je realizováno ve spolupráci s OPV (více viz 7_ORI, 8_ORI). \nSamostatně stojící vybavení je vyjmuto z VZ v rámci ORI a je postoupeno OBO, které tyto zakázky realizuje. \nNásledně je vybraný zhotovitel je vyzván k zahájení stavby. ORI koordinuje přípravu staveniště a zajistí, aby byl minimálně omezen provoz nemocnice. Při přípravě staveniště ORI koordinuje HTS a další relevantní útvary.\nPo zahájení stavby vybraným zhotovitelem ORI koordinuje činnosti a realizuje 1x týdně kontrolní den, kdy je prezentován dosavadní průběh prací, plán dalších kroků, úkoly. Ad hoc jsou pak řešeny problémy, které vyvstanou až v průběhu realizace akce. K těmto ORI vytváří změnové listy (pro změny v projektu, které vzniknou v průběhu realizace)."
+  },
+  {
+    "id": 165,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Ivestiční akce; číslo procesu: 4_ORI; název procesu: Dokončení investiční akce; vazba na organizační řád io: Řádné předání a převzetí staveb; popis procesu: Když je investiční akce dokončena, je řádně předána klinice, případně jinému útvaru, který ji bude využívat, a odboru HTS, který bude realizovat jeho správu. ORI převezme dokumentaci provedení, kolaudační řízení je v kompetenci zhotovitele. \nV případě reklamace, komunikuje ORI se zhotovitelem a koordinuje realizaci reklamační akce."
+  },
+  {
+    "id": 166,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Rozpočtový a plánovací proces; číslo procesu: 5_ORI; název procesu: Plán investic; vazba na organizační řád io: Stanovení plánu stavebních investic a plánu oprav (po odsouhlasení poradou vedení) v minimální hodnotě nad 6 mil. Kč bez DPH, který vytváří koncem roku na následující rok a průběžně ho aktualizuje.; popis procesu: V rámci FN Brno jsou ve spolupráci ORI a EO zhotovovány tříleté investiční plány, které jsou pravidelně aktualizovány. Plán je postoupen na poradu vedení k jeho odsouhlasení."
+  },
+  {
+    "id": 167,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Rozpočtový a plánovací proces; číslo procesu: 6_ORI; název procesu: Vypořádání se státním rozpočtem; vazba na organizační řád io: Pravidelné roční finanční vypořádání vztahů se státním rozpočtem v souladu s pokyny MZ ČR; popis procesu: U akcí, které jsou financováné/spolufinancované z národních dotací (MZ ČR) je nutné realizovat vypořádání se státním rozpočtem. To probíhá každoročně prostřednictví systému SMVS. Vedle toho ORI vyplňuje formulář SMVS pro každou investiční dotovanou akci,a to před jejím zahájením, při jakékoliv změně a po jejím ukončení akce."
+  },
+  {
+    "id": 168,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Veřejné zakázky; číslo procesu: 7_ORI; název procesu: Realizace VZMR; vazba na organizační řád io: Příprava podkladů pro realizaci veřejných zakázek spojených s činností oddělení.  Připravuje podklady pro OPV k realizaci veřejných zakázek stavebního charakteru, které jsou vyhlašovány v režimu zákona č. 134/2016 Sb. o zadávání veřejných zakázek ve finančním limitu nad 6 mil. Kč bez DPH; popis procesu: Při realizaci VZMR je výběr dodavatele plně v režii ORI, jehož pracovníci připraví podklady do systému EZAK. Po vyhlášení VZMR odpovídá ORI na dotazy, realizuje prohlídky místa plnění, vyhodnocuje nabídky. Po výběru dodavatele postupuje návrh smlouvy OPV, které zajistí podpis statutárního orgánu a smlouvu eviduje a archivuje.\nVeškeré dokumenty,které se týkají realizace VZMR jsou k dispozici na ORI v samostatných složkách pro případnou kontrolu."
+  },
+  {
+    "id": 169,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Veřejné zakázky; číslo procesu: 8_ORI; název procesu: Realizace VZVR; vazba na organizační řád io: Příprava podkladů pro realizaci veřejných zakázek spojených s činností oddělení.  Připravuje podklady pro OPV k realizaci veřejných zakázek stavebního charakteru, které jsou vyhlašovány v režimu zákona č. 134/2016 Sb. o zadávání veřejných zakázek ve finančním limitu nad 6 mil. Kč bez DPH; popis procesu: V případě VZVR připravuje ORI podklady pro OPV, které veřejnou zakázku realizuje. Všechny podklady včetně interního formuláře pro VZVR vkládá ORI na sdílené úložiště (MS Teams). OPV je v průběhu realizace veřejné zakázky neustále k dispozici. Na základě podkladů zpracuje OPV zadávací dokumentaci a návrh smlouvy, které ORI (a případně další dotčené útvary) připomínkují. Po podpisu statutárním orgánem je veřejná zakázka vyhlášena v systému EZAK. ORI následně pomáhá OPV s odpověďmi na dotazy, s prohlídkou místa plnění a s ověřování referencí.  Při hodnocení nabídek jsou pracovníci ORI součástí hodnotící komise a po celou dobu realizace veřejné zakázky vystupují jako odborný a technický pomocník.; doporučení: Bylo by efektivnější ejednotit postup, kdy VZMR i VZVR budou v kompetenci OPV, nebo naopak ORI. Takto jsou postupy roztříštěné."
+  },
+  {
+    "id": 170,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Veřejné zakázky; číslo procesu: 9_ORI; název procesu: Evidence veřejných zakázek; vazba na organizační řád io: Vedení evidence rozpracovanosti veřejných zakázek na stavby; popis procesu: Rozpracované investiční akce mají své složky na sdíleném úložišti MS Teams a na disku N, kam se vkládají všechny podklady. Dotčená pracoviště mají přístup k těm podkladů, které jsou pro ně relevantní. V papírové podobě jsou pak podklady a dokumentace k akcím vedena na ORI.  \nStejně tak jsou zvlášť vedeny VZMR pro případnou kontrolu. VZVR jsou vedeny na OPV.; doporučení: Ve FN Brno není stanoveno, kde a jak má být vedena evidence. ORI naráží na omezení MS Teams stran kapacity. Do budoucna nutné vyřešit, jak a kde tuto evidenci bezpečně vést."
+  },
+  {
+    "id": 171,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Dotace; číslo procesu: 10_ORI; název procesu: Zpracování a administrace národních dotací; vazba na organizační řád io: Ve spolupráci s OŘP realizovat agendu spojenou se získáváním dotací a realizací nákupů stavebních investic spolufinancovaných ze státního rozpočtu a fondů EU, vyjma činností spadající pod jiné útvary FN Brno nebo zajišťování těchto činností externím dodavatelem; popis procesu: V případě investičních akcí s financováním/spolufinancováním dotačním titulem evropských fondů vstupuje do procesu OŘP, které realizuje celou dotační agendu. V případě národních dotačních titulů je agenda v kompetenci ORI, které připraví ve spolupráci s dotčenými útvary projektový záměr investiční akce dle Příkazu ministra zdravotnictví č. 11/2022. Po schválení záměru ze strany zřizovatele ORI registruje žádost o dotaci a připraví všechny podklady podle podmínek dotační výzvy a formulář SMVS. S každou změnou aktualizuje ORI formulář SMVS, stejně tak pro závěrečné vyhodnocení akce. Faktura je zhotoviteli proplacena vždy až po připsání dotace FN Brno. \nDokumentace k dotovaným akcím je vedena odděleně a podle pravidel dotační výzvy."
+  },
+  {
+    "id": 172,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Zpracování účetních dokladů; číslo procesu: 11_ORI; název procesu: Zpracování účetních dokladů; vazba na organizační řád io: Zpracování podkladů pro zavedení pořizovaného majetku do operativní evidence; popis procesu: I když je uzavřená smlouva s dodavatelem, je vytvořena ve Navisoin objednávka, čímž se případ zaeviduje. Po dokončení díla a vystavení faktury, je faktura fyzicky doručena z EO na ORI, kde je faktura doplněna o košilku. Zároveň dojde k rozdělení nákladu na NS, aby mohly být správně rozděleny náklady a zařazeno do majetku. ORI podepisuje doklad jako příkazce a faktura se vrací na EO, které ji proplatí dodavateli. EO následně fakturu zaeviduje.; doporučení: Extrémně zdlouhavý proces, (nejen) kvůli kterému je délka splatnost faktur ve FN Brno 60 dní."
+  },
+  {
+    "id": 173,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Dodavatelský řetězec; číslo procesu: 12_ORI; název procesu: Dodavatelský řetězec; vazba na organizační řád io: Pravidelné roční hodnocení dodavatelů; popis procesu: ORI se účastní pravidelného ročního hodnocení dodavatelů. Výsledky hodnocení, které probíhá na úrovni všech relevantních útvarů, jsou následně EO zaslány jako zpětná vazba dodavatelům."
+  },
+  {
+    "id": 174,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Archivace; číslo procesu: 13_ORI; název procesu: Archivace; vazba na organizační řád io: Archivace dokumentace související s činností oddělení; oddělená archivace dokumentace související s dotačními akcemi po celou dobu udržitelnosti v souladu s pravidly pro přidělení dotace; popis procesu: Archivace dokumentů ORI probíhá vždy papírově i elektronicky (MS Teams, disk N). Odděleně je vedena agenda VZMR pro potřeby případné kontroly."
+  },
+  {
+    "id": 175,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Nákup investičního majetku; číslo procesu: 1_OBO; název procesu: Realizace nákupu; vazba na organizační řád io: Realizace nákupů, kontrola jejich průběhu a plnění. Pořizování veškerého investičního majetku ve FN Brno s výjimkou stavebních investic a těch, které spadají do činností jiných útvarů FN Brno.; popis procesu: Nákup komodity v kompetenci OBO zahrnuje pořizování veškerého investičního majetku s výjimkou stavebních investic a těch, které spadají do činností jiných útvarů FN Brno, nákup vybraných služeb a spotřebního materiálu (ve vymezených případech). Nepatří sem nákup LP a potravin, který součástí agendy jiných útvarů FN Brno.\nNa začátku realizace je založena zakázka. Pokud se jedná o zdravotnickou techniku, jejíž nákup vyžaduje spolupráci OZT, pak OZT dodává OBO podklady a další informace, které zahrnují především:\n1. dokumenty k technické specifikaci předmětné zdravotnické techniky včetně potřeby servisní smlouvy,\n2. odhad ceny zdravotnické techniky, \n3. návrh dodavatelů, které oslovit (pokud se jedná o veřejnou zakázku v režimu, která umožňuje oslovení dodavatelů, případně vyžaduje tržní konzultace před realizací výběrového řízení),\n4. doporučení, zda oslovit další útvary, jako je například IT kvůli SW, připojení do sítě apod., ORI stran stavební připravenosti, lékárnu stran léčívých přípravků a spotřebního materiálu apod.\nOBO na základě podkladů a doporučení konsoliduje podklady OZT a doplňuje další informace, potřebné k realizaci zakázky. Postup se pak liší podle režimu realizace zakázky VZMR, nebo VZVR (viz 6_OBO, 7_OBO).\nV NAVISION se vždy vytvoří a pokud je nákup komodity postaven jen objednávce (není zasmluvněn), bude objednávka zaslána na dodavatele. Pokud je nákup postaven na smlouvě, je objednávka vedena pouze pro interní potřeby.\nOBO vede ke každé zakázce složku od jejího vzniku až po likvidaci faktur s tím, že dokumenty, které jsou v originále archivovány v rámci jiného útvaru, jsou na OBO uchovávány v kopiích. Součástí evidence jednotlivých zakázek jsou veškeré podklady a dokumenty včetně emailových komunikací s dodavateli a vždy v souladu se smluvní a technickou dokumentací zakázky/komodity.; doporučení: Voučasné době velká roztříštěnost pracovních postupů v oblasti nákupů v celé FN. Rozdíly existují i v rámci IO mezi OZT, ORI, OPI, kde všichni dělají totéž, ale každý jinak. \nVhodné by bylo vytvořit mapy procesů nákupu, která by zaznamenala procesy (podle typů komodit) a ukázala, co a v jaké fázi který útvar řeší a jak  přechází plnění a čerpání smlouvy mezi útvay.\nU drobnějších nákupů by mohlo být schvalování v kompetenci vedoucího OBO, což časovou náročnost schvalování ze strany vedení nemocnice."
+  },
+  {
+    "id": 176,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Nákup investičního majetku; číslo procesu: 2_OBO; název procesu: Předání a převzetí zdravotnické techniky; vazba na organizační řád io: Předání a převzetí pořizované technologie, kterého se účastní současně se zástupcem kliniky a odborného útvaru (CI, OZT).; popis procesu: Dodavatel musí vždy informovat 5 dní před dodávkou o plánovaném dodání komodity. OBO ale již týden před termínem plánovaného dodání dle smlouvy dodavatele kontaktuje samo. Důvodem je minimalizace rizika zpoždění dodávky, na kterou se váží další činnosti jiných útvarů a externích dodavatelů.  \nPři dodávání zdravotnické techniky se OBO účastní předání komodity a převzetí na pracoviště, kterého se účastní spolu s OZT a případně dalšími relevantními útvary, pokud to vyžadují specifika zakázky/komodity.\nKaždá zakázka disponuje vlastní složkou, kde se shromažďují dokumenty od založení zakázky po předání dodávky. Součástí jsou tedy i předávací protokoly a protokoly o školení personálu. \nFaktura je dodána poštou, datovou schránkou, emailem, a to na OBO, nebo na EO. I když je uvedeno ve smlouvě, kam fakturu zaslat, není proces sjednocen, protože dodavatelé volí různé cesty zaslání faktury. Faktura se bez ohledu na cestu přijetí dostane na OBO, kde je rozdělen náklad na příslušná nákladová střediska, je k ní přiložena objednávka (uložena v Navision). Faktura je následně papírově předána na EO, kde je proplacena. V registru smluv je zveřejněno Správou budov.; doporučení: Správa budov zveřejňuje v registru smluv, což je pravděpodobně dáno historicky, i když do celého procesu nění jinak zapojena."
+  },
+  {
+    "id": 177,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Evidence majetku; číslo procesu: 3_OBO; název procesu: Evidence majetku; vazba na organizační řád io: Zpracování podkladů pro zařazení nově pořízené technologie a darů do majetku FN Brno; popis procesu: Při zářazení nově pořízené technologie do majetku spolupracuje OBO s Oddělením operativní evidence, pro které OBO zajišťuje podklady a Oddělení operativní evidence přiděluje majetku číslo. Při připravě podkladů pro zařazení do majetku spoluiepracuje OBO s OZT a dotčenými klinikami."
+  },
+  {
+    "id": 178,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Dotace; číslo procesu: 4_OBO; název procesu: Nákup dotovaných komodit; vazba na organizační řád io: Nákup investičního majetku hrazeného z dotace Ministerstva zdravotnictví ČR, strukturálních fondů EU, grantů a jiných zdrojů. V případě realizace nákupu hrazených z dotací za soulad s pravidly pro poskytnutí dotace. Ve spolupráci s OŘP realizuje činnosti za agendu spojenou se získáváním dotací a realizací nákupů spolufinancovaných ze státního rozpočtu a fondů EU, včetně kompletace, vyjma činností spadající pod jiné útvary FN Brno nebo zajišťovaní těchto činností externím dodavatelem.; popis procesu: OBO realizuje nákup komodit,které nejsou součástí stavby. Pokud se jedná komoditu, která je financována formou dotace, spolupracuje OBO s OŘP (v případě dotací z evropských fondů) nebo s ORI (v případě národních dotací). Veřejné zakázky musí být realizovány v souladu s pravidly dotační výzvy, a proto je nutná součinnost s pracovištěm, který podává žádost o dotaci a projekt administruje.\nPři příprave podkladů pro registraci žádostí (OŘP, ORI) participuje OBO na specifikaci zdravotnické techniky, která může být podle pravidel programu do žádosti o dotaci zařazena. Vyhledávání probíhá v seznamech komodit (FAMA). Vzhledem k časové náročnosti procesu a nutnosti blíže zdravotnickou techniku specifikovat, spolupracuje v této fázi přípravy žádosti o dotaci s OZT. Kliniky/ústavy do této fáze vstupují minimálně.; doporučení: Monitoring komodit, které lze zařadit do dotačního programu by měl být realizován do větší hloubky a s podrobnější specifikací zdravotnické techniky. OBO nemá k takovému monitoringu dostatek kapacit a odbornost. Tento průzkum by měl být realizován ve spolupráci s klinikami/ústavy a pod vedením OZT."
+  },
+  {
+    "id": 179,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Dotace; číslo procesu: 5_OBO; název procesu: Vypořádání se státním rozpočtem; vazba na organizační řád io: Zpracování dokumentace dotační akce v elektronickém nástroji SMVS; popis procesu: Tuto činnost OBO nevykonává, součástí jeho agendy nejsou žádostio dotace a administrace dotací."
+  },
+  {
+    "id": 180,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Veřejné zakázky; číslo procesu: 6_OBO; název procesu: VZMR; vazba na organizační řád io: Agenda v oblasti veřejných zakázek malého rozsahu a s využitím elektronických nástrojů pro zadávání veřejných zakázek. Vedení evidence rozpracovanosti veřejných zakázek.; popis procesu: Při realizaci VZMR je výběr dodavatele plně v režii OBO, jehož pracovníci připraví podklady do systému EZAK. OBO na základě podkladů a doporučení konsoliduje podklady OZT a doplňuje je o další informace, potřebné k realizaci zakázky. Na základě všech podkladů vytvoří návrh zadávací dokumentace, který schvaluje investiční náměstek.\nPo schválení investičním náměstkem je zahájena veřejná zakázka prostřednictvím systému EZAK. S odpověďmi na dotazy pomáhají OBO po stránce technické pracovníci OZT. \nVyhodnocení nabídek probíhá podle ekonomické výhodnosti, kdy se všechny dotčené útvary vyjadřují k podaným nabídkám. Těmto útvarům posílá podklady k vyjádření nabídky OBO, a to postupně od nejvýhodnější nabídky. Na základě výsledků hodnocení vzniká na OBO finální doporučení pro investičního náměstka k výběru dodavatele. \nPo finálním potvrzení (schválení) výběru dodavatele investičním náměstkem vytvoří OBO rozhodnutí o výběru dodavatele, které oznámí prostřednictvím systému EZAK. Komunikace s vybraným dodavatelem pak probíhá přímo mezi OBO a dodavatelem, který zašle návrh smlouvy. Výsledek výběru a návrh smlouvy pak OBO postupuje na OPV, které smlouvu finalizuje  a zajistí podpis statutárního orgánu. OPV podává OBO informace, že byla podepsaná smlouva. \nVeškeré dokumenty,které se týkají realizace VZMR jsou k dispozici na OBO v samostatných složkách pro případnou kontrolu. Smlouva je evidována a archivována v originále na OPV."
+  },
+  {
+    "id": 181,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "číslo procesu: 7_OBO; název procesu: VZVR; vazba na organizační řád io: Spolupracuje s OPV v oblasti veřejných zakázek v režimu zákona, podílí se na přípravě podkladů potřebných pro vyhlášení VZVZ,; popis procesu: V případě VZVR připravuje OBO podklady pro OPV, které veřejnou zakázku realizuje. OBO je OPV v průběhu realizace veřejné zakázky neustále k dispozici. Na základě podkladů zpracuje OPV zadávací dokumentaci a návrh smlouvy, které OBO (a případně další dotčené útvary) připomínkují. Po podpisu statutárním orgánem je veřejná zakázka vyhlášena v systému EZAK."
+  },
+  {
+    "id": 182,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Archivace; číslo procesu: 8_OBO; název procesu: Archivace; vazba na organizační řád io: Archivace dokumentace související s činností oddělení. Dbá na oddělenou archivaci dokumentace související s dotačními akcemi po celou dobu udržitelnosti v souladu s pravidly pro přidělení dotace; popis procesu: Každá zakázka, která je realizována OBO, má svou vlastní složku, kde je evidována a archivována veškerá dokumentace. Vedle toho probíhá evidence a archivace v elektronické podobě. V některých případech nejsou archivovány originály dokumentů, protože jejich archivace probíhá na jiném útvaru (např. originály faktur jsou archivovány na EO, originály smluv jsou archivovány na OPV). \nDokumentace související s dotacemi je archivována na OŘP a ORI.; doporučení: Pro archivaci dokumentů v papírové formě by měl stanoven udržitelný postup, který by například zahrnovat tisk dokumentů oboustraně v počtu dvou stránek textu na jednu stranu listu, tj. čtyři stránky na list papíru.\nArchivační a skartační řád FN Brno je velmi obecný a v některých ustanoveních nejednoznačný, což se týká například skartačních lhůt. Nejednoznačnost může vést k chybnému výpočtu doby archivace a data skartace."
+  },
+  {
+    "id": 183,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Obchodního oddělení; číslo procesu: 9_OBO; název procesu: Rozpočtový a plánovací proces; vazba na organizační řád io: Včasná realizace  a dokončení čerpání finančních prostředků z plánu DDHM v daném roce. V případě nedokončení realizace neinvestičních nákupů v daném roce žádá Ekonomického náměstka o výjimku a převod nedočerpaných finančních prostředků z plánu DDHM do dalšího roku; popis procesu: OBO má každoročně předem definovamé prostředky na pořízení DDHM - plán DDHM. Tento plán je každoročně odsouhlasován na jednání o rozpočtech. V průběhu roku se pak jednotlivé položky pořizují. \nNěkteré komodity jsou pořizovány prostřednictví DNS, což znamená, že se nemusí opakovaně vypisovat nové soutěže na stejné typy plnění, ale mohou využít již zavedený systém, ve kterém se oslovují pouze relevantní dodavatelé.; doporučení: Využití DNS, který je efektivní a transparentní by bylo možné využít i u dalších výrobků, služeb, stavebních prací (např. by bylo vhodné využít pro projekční práce)."
+  },
+  {
+    "id": 184,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Obchodního oddělení; číslo procesu: 11_OBO; název procesu: Rozpočtový a plánovací proces; vazba na organizační řád io: Zpracování měsíčních přehledů realizovaných nákupů, přehledy vybraných nedokončených investic dotačních a nedotačních. Materiály předává na Ekonomický odbor do 15. dne každého měsíce; popis procesu: Měsíčně vytváří OBO report pro EO s přehledem zaplacených faktur. OBO si vyžádá informace o datech zaplacení faktur od EO, vytvoří report a zašle zpět informace na EO.; doporučení: Tento report by měl být součástí agendy příslušného oddělení EO, které má informace o datech proplacení faktur. Je neefektivní, aby si útvar vyžadovatl informace, kterými sám disponuje, od jiného útvaru. Report by měl být vytvořen EO a zasílán na OBO, které potřebuje informace k evidenci zakázek."
+  },
+  {
+    "id": 185,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Obchodního oddělení; číslo procesu: 12_OBO; název procesu: Rozpočtový a plánovací proces; vazba na organizační řád io: Pravidelné roční finanční vypořádání vztahů se státním rozpočtem v souladu s pokyny MZ ČR; popis procesu: Finanční vypořádání se státním rozpočtem není v rámci OBO realizováno, protože součástí agendy OBO není registrace žádostí o dotace ani jejich administrace. Tyto jsou součástí agendy OŘP a ORI."
+  },
+  {
+    "id": 186,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Komise pro posuzování rozmístění přístrojových zdravotnických prostředků; číslo procesu: 13_OBO; název procesu: Podklady pro jednání Komise pro posuzování rozmístění přístrojových zdravotnických prostředků; vazba na organizační řád io: Příprava podkladů pro jednání Komise pro posuzování rozmístění přístrojových zdravotnických prostředků a kapacit hrazených ze zdravotního pojištění (poradní orgán MZ ČR); popis procesu: Není realizováno."
+  },
+  {
+    "id": 187,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Přístrojová komise; číslo procesu: 14_OBO; název procesu: Podklady pro jednání PK; vazba na organizační řád io: Příprava podkladů pro jednání Komise pro posuzování přístrojových technologií ve FN Brno (Přístrojová komise) a pořizování zápisu.; popis procesu: OBO se podílí na přípravě podkladů pro jednání PK. Koordinace sběru a konsolidace podkladů pro jednání PK je v kompetenci metodika IO."
+  },
+  {
+    "id": 188,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Dodavatelský řetězec; číslo procesu: 15_OBO; název procesu: Dodavatelský řetězec; vazba na organizační řád io: Zajištění pravidelného ročního hodnocení dodavatelů; popis procesu: OBO se účastní pravidelného ročního hodnocení dodavatelů. Výsledky hodnocení, které probíhá na úrovni všech relevantních útvarů, jsou pak EO zaslány jako zpětná vazba dodavatelům."
+  },
+  {
+    "id": 189,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Řízení kvality IO; číslo procesu: 16_OBO; název procesu: Vnitřní předpisy; vazba na organizační řád io: Je spolutvůrcem směrnic a metodických postupů na Obo a zajišťuje organizačně výkon činností nutných k zajištění požadované kvality v souladu s postupy Ministerstva zdravotnictví a platnou legislativou; popis procesu: OBO se podílí na aktiualizaci interních předpisů v souvislosti s novými externími požadavky, které je nutné zohlednit ve vnitřních předpisech. OBO zde vystupuje v roli iniciátora změn, nebo připomínkuje zpracovaný návrh metodikem IO.; doporučení: Proces není popsán a postup není nikde ukotven. Je nutné napravit, aby byly vždy a včas zapracovány požadavky v dané oblasti a aby se relevatní útvary mohly k návrhu změn vyjádřit v rámci připomínkového řízení. Je nutné sladti s nositelem procesu - metodik IO, který musí pravidelně evidovat činnost útvarů, monitorovat legislativní a další požadavky daných oblastí, aktivně řešit jejich zapracování do vnitřních předpisů a vést připomínkové řízení k návrhu s dotčenými pracovišti."
+  },
+  {
+    "id": 190,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Zpracování účetních dokladů; číslo procesu: 17_OBO; název procesu: Zpracování účetních dokladů; vazba na organizační řád io: Kompletace došlých faktur; popis procesu: Faktura za dodávku komodity je dodána poštou, datovou schránkou, emailem, a to na OBO, nebo na EO. I když je uvedeno ve smlouvě, kam fakturu zaslat, není proces sjednocen, protože dodavatelé volí různé cesty zaslání faktur. Faktura se pak bez ohledu na cestu přijetí dostane na OBO, kde je rozdělen náklad na příslušná nákladová střediska, je k ní přiložena objednávka (uložená v Navision). Faktura je následně papírově předána na EO, kde je propalcena (likvidována). Archivace faktur probíhá na EO."
+  },
+  {
+    "id": 191,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Perosnální politika; číslo procesu: 18_OBO; název procesu: Nábor zaměstnanců; vazba na organizační řád io: Není specifikováno v Org. řádu IO; popis procesu: Při náboru zaměstnanců je v rámci OBO realizován \"zkušební den\", v rámci kterého jsou uchazeči  po několk hodin součástí týmu OBO, plní přidělený úkol a zapojují se do pracovních procesů. Tato fáze výběrového řízení je důležitá pro posouzení kandidátů stran zapojení se do týmu, míry samostatnosti při jejich plnění, vlastní invence při plnění úkolů apod.; doporučení: K diskusi je  tento systém zavést ve spolupráci s HR  oficiálně, popřípadě implementovat postup na další pracoviště."
+  },
+  {
+    "id": 192,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Perosnální politika; číslo procesu: 19_OBO; název procesu: Zkušební doba; vazba na organizační řád io: Není specifikováno v Org. řádu IO; popis procesu: V průběhu zkušební doby je novému zaměstnanci přiřazen mentor (zkušený kolega OBO), který jej provází po celou dobu 3 měsíců.; doporučení: K diskusi je  tento systém zavést ve spolupráci s HR  oficiálně, popřípadě implementovat postup na další pracoviště. Stejně tak \"rotace zaměstnanců\", aby ve vymezeném čase (např. 14 dní) poznali jiná pracoviště, obzvlášť ta, jejichž agenda je propojena."
+  },
+  {
+    "id": 193,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Strategie a rozvoj; název procesu: Realizace stavebních investic a oprav; vazba na organizační řád io: Řízení a odborné provádění staveb a dalších investic a souvisejících činností v jednotkové hodnotě do 6 mil. Kč bez DPH,\nPříprava podkladů pro kontrolní orgány, za spolupráci při zajištění dokumentace s jinými odbory FN Brno.\nČinnosti související s povolováním staveb, jejich změn a kolaudací v souladu s platnou legislativou.\nŘádné předání a převzetí staveb, likvidaci faktur a zpracování podkladů pro zavedení pořizovaného majetku do operativní evidence.; popis procesu: Plánování, rozpočtování a provádění drobných investičních akcí a operativních stavebních či technických oprav."
+  },
+  {
+    "id": 194,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Strategie a rozvoj; název procesu: Stanoviska k investičním akcím externích subjektů, stanoviska externích subjektů k akcím FN Brno; vazba na organizační řád io: Zajišťování vyjadřování ke stavebním akcím za FN Brno.; popis procesu: Posuzování a vydávání vyjádření k projektům ovlivňujícím FN Brno a získávání vyjádření pro vlastní záměry."
+  },
+  {
+    "id": 195,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Veřejné zakázky; název procesu: Realiazce VZMR; vazba na organizační řád io: Realizace veřejných zakázek spojených s činností oddělení a kompletní administraci VZMR, a realizace veřejných zakázek na pořízení investic a oprav s jednotkovou cenou do 6 mil. Kč včetně akcí hrazených z dotace v souladu s pravidly pro poskytnutí dotace, kde zodpovídá za řádné vedení dokumentace, oddělenou účetní evidenci a archivaci,"
+  },
+  {
+    "id": 196,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Veřejné zakázky; název procesu: Evidence VZMR; vazba na organizační řád io: Vedení evidence rozpracovanosti veřejných zakázek na stavby."
+  },
+  {
+    "id": 197,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Strategie a rozvoj; název procesu: Generel FN Brno a dohled nad koncepcí investičního rozvoje FN Brno; vazba na organizační řád io: Zpracování generelu FN Brno a v souladu se strategickými záměry vedení FN Brno podávání návrhů rozvoje FN Brno.\nStanovení plánu stavebních investic a plánu oprav u akcí s jednotkovou cenou do 6 mil. Kč bez DPH, který vytváří na začátku kalendářního roku a průběžně ho aktualizuje.; popis procesu: Koordinace dlouhodobé strategie rozvoje areálu FN Brno; posouzení souladu investičních záměrů s generelní koncepcí."
+  },
+  {
+    "id": 198,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: IS a digitaliazce; název procesu: Správa a rozvoj IS pro Facility management, včetně BIM a inventarizace majetku; vazba na organizační řád io: Zpracování a aktualizace pasportizací prostor a jejich digitalizaci.\nKoordinace řešení majetkoprávních vztahů a dispozic s majetkem.; popis procesu: Zajištění provozu a vývoje systému pro správu budov a majetku, včetně správy BIM modelů a pravidelné inventarizace fyzického i IT majetku."
+  },
+  {
+    "id": 199,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Pozemky; název procesu: Pozemková agenda a směny pozemků; vazba na organizační řád io: Vedení pozemkové agendy.; popis procesu: Identifikace potřebných směn, vedení jednání a příprava dokumentace pro převody nebo směny pozemků v areálu."
+  },
+  {
+    "id": 200,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Strategie a rozvoj; název procesu: Udržitelnost; vazba na organizační řád io: Podílí se na koordinaci aktivit v oblasti environmentální udržitelnosti a společenské odpovědnosti, na zajištění jejich propagace a sdílení dobré praxe, a na tvorbě strategie udržitelnosti a nefinančního reportingu v této oblasti.\nKoordinace aktivit v oblasti environmentální udržitelnosti a společenské odpovědnosti, zajištění její centralizované propagace, sdílení dobré praxe a šíření povědomí mezi zaměstnanci a veřejností. V souladu s národními a evropskými předpisy a ve spolupráci s klinickými pracovišti a nezdravotnickými útvary zodpovídá za zajištění tvorby a aktualizaci celopodnikové strategie udržitelnosti a koordinuje projekty v oblasti udržitelnosti."
+  },
+  {
+    "id": 201,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Dodavatelé; název procesu: Hodnocení dodavatelů; vazba na organizační řád io: Pravidelné roční hodnocení dodavatelů,"
+  },
+  {
+    "id": 202,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Prostory FN Brno; název procesu: Nájmy, včetně přípravy nových nájemních prostor; vazba na organizační řád io: Zajišťuje správu nájemních ploch. Správa zahrnuje získávání nájemců, dojednávání podmínek a kalkulaci cen, sestavování cenových map a znaleckých odhadů, procesování objednávek (schválení objednávky> podpis náměstka> předání k fakturaci), administraci plnění a kontrolu platnosti smluv,; popis procesu: Správa smluvních vztahů, příprava a přizpůsobení prostor pro nájemce včetně stanovení technických a provozních podmínek."
+  },
+  {
+    "id": 203,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Procesy; název procesu: Projektové řízení – zavedení programové kanceláře; vazba na organizační řád io: Není uvedeno v organizačním řádu; popis procesu: Zřízení projektové kanceláře, která koordinuje, metodicky vede a monitoruje průběh klíčových projektů napříč nemocnicí."
+  },
+  {
+    "id": 204,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: IS a digitalizace; název procesu: Digitalizace a AI podpůrných a řídících procesů; vazba na organizační řád io: Není uvedeno v organizačním řádu; popis procesu: Identifikace příležitostí pro automatizaci, digitalizaci a nasazení nástrojů umělé inteligence v oblasti infrastruktury a provozu."
+  },
+  {
+    "id": 205,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Strategie a rozvoj; název procesu: Energetický management a příprava a podíl na realizaci energetických projektů; vazba na organizační řád io: Není uvedeno v organizačním řádu; popis procesu: Monitoring spotřeby, plánování úspor a příprava energeticky efektivních projektů ve spolupráci s provozními týmy."
+  },
+  {
+    "id": 206,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Procesy; název procesu: Řízení kvality především podpůrných procesů a procesů souvisejících s realizací investičních akcí, správou majetku; vazba na organizační řád io: Není uvedeno v organizačním řádu; popis procesu: Nastavení standardů kvality, interních auditů a kontrolních mechanismů pro zajištění efektivity a transparentnosti."
+  },
+  {
+    "id": 207,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Prostory FN Brno; název procesu: Stěhování a přesuny v rámci areálu včetně vyhledávání nových prostor; vazba na organizační řád io: Není uvedeno v organizačním řádu; popis procesu: Zajištění fyzických přesunů oddělení, plánování vhodných prostor, koordinace s technickými a IT službami."
+  },
+  {
+    "id": 208,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: IS a digitaliazce; název procesu: Datová příprava, analýza dat, otevřená data; vazba na organizační řád io: Není uvedeno v organizačním řádu; popis procesu: Sběr, strukturování a interpretace dat o majetku, provozu a investicích; zajištění dostupnosti otevřených dat dle požadavků veřejné správy."
+  },
+  {
+    "id": 209,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: IS a digitaliazce; název procesu: Navigační systém a elektronický navigační systém; vazba na organizační řád io: Není uvedeno v organizačním řádu; popis procesu: Návrh, správa a aktualizace orientačních systémů včetně digitálních nástrojů pro navigaci pacientů a návštěvníků v areálu."
+  },
+  {
+    "id": 210,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Standardy; název procesu: Design & Equipment Guidelines včetně Stavebních a technických standardů; vazba na organizační řád io: Není uvedeno v organizačním řádu; popis procesu: Tvorba, správa a uplatňování standardů pro návrh prostor, zařízení a technologií ve FN Brno."
+  },
+  {
+    "id": 211,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Strategie a rozvoj; název procesu: Strategie FN Brno; vazba na organizační řád io: Odpovídá za: \n- dlouhodobé plánování investičního rozvoje,\n- zpracování generelu FN Brno a v souladu se strategickými záměry vedení FN Brno,\n- předkládání návrhů rozvoje FN Brno řediteli,\n- realizaci schváleného investičního rozvoje."
+  },
+  {
+    "id": 212,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Technologie; název procesu: Přístrojová komise; vazba na organizační řád io: Odpovídá za:\n-svolávání jednání Komise pro posuzování přístrojových technologii (Přístrojová komise) dle aktuální potřeby"
+  },
+  {
+    "id": 213,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Strategie a rozvoj; název procesu: Dotace; vazba na organizační řád io: Odpovídá za:\n- komplexní zajištění projektů hrazených ze strukturálních fondů EU, národních dotací, podpor municipalit a jiných vnějších zdrojů,\n- zajišťování nákupu z dotací a grantů."
+  },
+  {
+    "id": 214,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Strategie a rozvoj; název procesu: Nájmy; vazba na organizační řád io: Odpovídá za: \n- agendu nájemních smluv v souvislosti s pronájmem prostor ve FN Brno."
+  },
+  {
+    "id": 215,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Strategie a rozvoj; název procesu: Realizace stavebních investic; vazba na organizační řád io: Odpovídá za:\n- realizaci stavebních a provozně technických investic."
+  },
+  {
+    "id": 216,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Strategie a rozvoj; název procesu: Nákupy; vazba na organizační řád io: Odpovídá za:\n- zajišťování nákupu z dotací a grantů,\n- nákupní činnost zboží (mimo nákupy Nemocniční lékárny), služeb, materiálu a za strategii výběru dodavatelů a metod nákupu."
+  },
+  {
+    "id": 217,
+    "filename": "Zhodnocení procesů IO.xlsx",
+    "content": "oblast: Technologie; název procesu: Přístrojová technika; vazba na organizační řád io: Odpovídá za:\n- zajišťování komplexní péče o zdravotnickou a laboratorní techniku a měřidla ve FN Brno, navrhování a koordinaci výběru této techniky a měřidel v souladu s požadavky technického vybavení zdravotnických útvarů, zajišťování jejich údržby, PBTK a servisu včetně kalibrací a validací měřidel,\n- zajišťování prostřednictvím metrologa FN Brno (zaměstnanec jmenovaný ředitelem) agendy metrologie v souladu se zákonem č. 505/1990 Sb., o metrologii, v procesech útvarů FN Brno (S/FN Brno/0216 „Metrologický řád FN Brno“),"
+  }
+]

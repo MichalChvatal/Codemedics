@@ -1,0 +1,467 @@
+[
+  {
+    "id": 0,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení controllingu; oblast: Hospodaření; proces: Výnosy; vazba na organizační řád io: Zpracovává modelace úhrad zdravotní péče, výpočet úhrad poskytnuté zdravotní péče."
+  },
+  {
+    "id": 1,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení controllingu; oblast: Hospodaření; proces: Výnosy; vazba na organizační řád io: Zpracovává plán výnosů nemocnice."
+  },
+  {
+    "id": 2,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení controllingu; oblast: Hospodaření; proces: Výnosy; vazba na organizační řád io: Zpracovává návrhy opatření směrem k odstranění slabých míst a naopak posílení té oblasti činnosti s nejvyšším přínosem (v oblasti klinických dat), vše s ohledem na dostupné zdroje nemocnice"
+  },
+  {
+    "id": 3,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení controllingu; oblast: Rozpočet; proces: Rozpočtování; vazba na organizační řád io: Zajišťuje stanovení ukazatelů hodnocení a jejich cílových hodnot nemocnice a následně i zdravotnických/nezdravotnických útvarů."
+  },
+  {
+    "id": 4,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení controllingu; oblast: Rozpočet; proces: Rozpočtování; vazba na organizační řád io: Stanovuje finanční limity zdravotnických útvarů (léky, krev a SZM)."
+  },
+  {
+    "id": 5,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení controllingu; oblast: Rozpočet; proces: Rozpočtování; vazba na organizační řád io: Provádí vyhodnocování ukazatelů a sledování odchylek."
+  },
+  {
+    "id": 6,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení controllingu; oblast: Rozpočet; proces: Rozpočtování; vazba na organizační řád io: Zpracovává metodiku tvorby rozpočtů"
+  },
+  {
+    "id": 7,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení controllingu; oblast: Hospodaření; proces: Náklady; vazba na organizační řád io: Zajišťuje metodické vedení a správu tvorby NS, klíčů k rozúčtování vnitronákladů, účetních schémat."
+  },
+  {
+    "id": 8,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení controllingu; oblast: Hospodaření; proces: Náklady; vazba na organizační řád io: Provádí analytické práce v oblasti sledování nákladů, trendy plnění ukazatelů, komentování vývoje a jeho dopadů na nemocnici - příprava a zpracování reportingu pro vedení nemocnice a medicínských/ nemedicínských útvarů"
+  },
+  {
+    "id": 9,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení controllingu; proces: Smlouvy; vazba na organizační řád io: Provádí posuzování smluv strategického charakteru"
+  },
+  {
+    "id": 10,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení controllingu; proces: Data; vazba na organizační řád io: Provádí metodický dohled nad kvalitou dat produkčních systémů, které vstupují do datového skladu (IS AMIS, IS MIS, IS Navision Attain)"
+  },
+  {
+    "id": 11,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení controllingu; proces: Reporting; vazba na organizační řád io: Zpracovává metodickou část v oblasti správy MIS a Cognos, vč. tvorby reportů"
+  },
+  {
+    "id": 12,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení controllingu; proces: Reporting; vazba na organizační řád io: Monitoruje základní finanční ukazatele"
+  },
+  {
+    "id": 13,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení controllingu; proces: Reporting; vazba na organizační řád io: Spolupracuje s UZIS na projektu DRG restart"
+  },
+  {
+    "id": 14,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení controllingu; proces: Daně; vazba na organizační řád io: Zpracování daňového přiznání k dani z nemovitých věcí"
+  },
+  {
+    "id": 15,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení operativní evidence; proces: Majetek; vazba na organizační řád io: Vedení komplexní souhrnné ekonomické agendy organizace za oblast majetku FN Brno"
+  },
+  {
+    "id": 16,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení operativní evidence; proces: Majetek; vazba na organizační řád io: Komplexní ekonomické rozbory za oblast investičního účetnictví"
+  },
+  {
+    "id": 17,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení operativní evidence; proces: Majetek; vazba na organizační řád io: Zpracování ročních statistických výkazů za oblast dlouhodobého majetku komplexní agendu operativní evidence"
+  },
+  {
+    "id": 18,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení operativní evidence; proces: Majetek; vazba na organizační řád io: Komplexní příprava a zajištění fyzických inventur  DHM a DDHM  ve FN Brno včetně vypořádání inventarizačních rozdílů"
+  },
+  {
+    "id": 19,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení operativní evidence; proces: Evidence majetku; vazba na organizační řád io: Dodržování platných zákonných norem a neprodlené promítnutí legislativních změn do evidence majetku"
+  },
+  {
+    "id": 20,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "proces: Evidence majetku; vazba na organizační řád io: Evidence majetku získaného převodem vlastnictví nebo převodem příslušnosti hospodaření k majetku"
+  },
+  {
+    "id": 21,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení operativní evidence; proces: Majetek; vazba na organizační řád io: Dokladové zpracování výluk, převodů a prodeje majetku FN Brno"
+  },
+  {
+    "id": 22,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení operativní evidence; proces: Účetnictví DHM a DDHM; vazba na organizační řád io: Proúčtování účetních operací v souvislosti s DHM a DDHM"
+  },
+  {
+    "id": 23,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení operativní evidence; proces: Účetnictví DHM a DDHM; vazba na organizační řád io: Výočet a účtování účetních odpisů dlouhodobého majetku"
+  },
+  {
+    "id": 24,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení operativní evidence; proces: Účetnictví DHM a DDHM; vazba na organizační řád io: Výpočet daňových odpisů dlouhodobého majetku a jejich evidenci"
+  },
+  {
+    "id": 25,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení operativní evidence; proces: Účetnictví DHM a DDHM; vazba na organizační řád io: Zpracování údajů pro pomocný analytický přehled"
+  },
+  {
+    "id": 26,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení operativní evidence; proces: Účetnictví DHM a DDHM; vazba na organizační řád io: Zpracování dokladové inventarizace účtů souvisejících s účtováním majetku"
+  },
+  {
+    "id": 27,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení operativní evidence; proces: ?; vazba na organizační řád io: Odsouhlasení investičního okruhu"
+  },
+  {
+    "id": 28,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení operativní evidence; proces: Dotace; vazba na organizační řád io: Spolupráce na kompletaci a předávání dokumentace související s investičními dotacemi v rámci kontrol ve FN Brno"
+  },
+  {
+    "id": 29,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení operativní evidence; proces: Interní předpisy; vazba na organizační řád io: Tvorba a dodržování interní řízené dokumentace v oblasti majetku"
+  },
+  {
+    "id": 30,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení operativní evidence; proces: Škody; vazba na organizační řád io: Spolupráce s OPV při řešení škod zjištěných na majetku FN Brno a vypořádání majetkových škod z hlediska evidence a účetnictví"
+  },
+  {
+    "id": 31,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; proces: Interní předpisy; vazba na organizační řád io: Tvorba a dodržování interní řízené dokumentace v oblasti účetnictví"
+  },
+  {
+    "id": 32,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; proces: Dodavatelský řetězec; vazba na organizační řád io: Evidence a plnění finančních závazků vůči dodavatelům a ostatním věřitelům (saldokonto dodavatelů)"
+  },
+  {
+    "id": 33,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; proces: Odběratelský řetězec; vazba na organizační řád io: Evidence a plnění finančních pohledávek odběratelů a ostatních dlužníků (saldokonto odběratelů)"
+  },
+  {
+    "id": 34,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; proces: Banky; vazba na organizační řád io: Zúčtování finančních operací s peněžními ústavy (výpisy z bankovních účtů, sledování příkazů k úhradě)"
+  },
+  {
+    "id": 35,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; proces: Účetnictví DHM a DDHM; vazba na organizační řád io: Evidence a plnění závazků vůči finančním úřadům z titulu přímých a nepřímých daní"
+  },
+  {
+    "id": 36,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; proces: Účetnictví DHM a DDHM; vazba na organizační řád io: Vedení oblasti pokladních operací"
+  },
+  {
+    "id": 37,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; proces: Účetnictví DHM a DDHM; vazba na organizační řád io: Vedení účetních knih, zejména deníků, hlavní knihy a analytických účtů"
+  },
+  {
+    "id": 38,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; proces: Účetnictví DHM a DDHM; vazba na organizační řád io: Evidence a zaúčtování investičních faktur"
+  },
+  {
+    "id": 39,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; proces: Účetnictví DHM a DDHM; vazba na organizační řád io: Organizaci a řízení účetní závěrky"
+  },
+  {
+    "id": 40,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; proces: Účetnictví DHM a DDHM; vazba na organizační řád io: Vyhotovování účetních výkazů podle potřeb řízení"
+  },
+  {
+    "id": 41,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; proces: Mzdy; vazba na organizační řád io: Rozúčtování mezd na příslušné účty účtového rozvrhu"
+  },
+  {
+    "id": 42,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; proces: Faktury; vazba na organizační řád io: Archivace účetních dokladů včetně investičních faktur"
+  },
+  {
+    "id": 43,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; proces: Faktury; vazba na organizační řád io: Likvidaci dodavatelských faktur"
+  },
+  {
+    "id": 44,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; proces: Reporting; vazba na organizační řád io: Sledování nákladů a výnosů ve vztahu k vnitronemocničním útvarům"
+  },
+  {
+    "id": 45,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; proces: Reporting; vazba na organizační řád io: Sledování nákladů a výnosů podle služeb, popř. výrobků včetně podkladů pro sestavení výsledných kalkulací"
+  },
+  {
+    "id": 46,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; proces: Reporting; vazba na organizační řád io: Vedení pehledů o nevyfakturovaných dodávkách a materiálu na cestě"
+  },
+  {
+    "id": 47,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; proces: Reporting; vazba na organizační řád io: Zpracování ekonomických výkazů požadovaných zřizovatelem, ČSÚ a ostatními orgány. Odpovědnost nese OÚI pouze za data zpracovaná ve výkazech účetními OÚI."
+  },
+  {
+    "id": 48,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; proces: Reporting; vazba na organizační řád io: Zpracování výkazů a údajů pro Pomocný analytický přehled"
+  },
+  {
+    "id": 49,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; proces: Zásoby; vazba na organizační řád io: Evidence nakupovaných zásob"
+  },
+  {
+    "id": 50,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; proces: Zásoby; vazba na organizační řád io: Evidence o stavu a pohybu materiálových zásob podle jednotlivých skladů a druhů zásob"
+  },
+  {
+    "id": 51,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; proces: Zásoby; vazba na organizační řád io: Podklady pro provádění fyzických inventur, zjištění a vypořádání inventarizačních rozdílů"
+  },
+  {
+    "id": 52,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; proces: Samoplátci; vazba na organizační řád io: Ve spolupráci s OZP zajištění agendy samoplátců ve FN Brno"
+  },
+  {
+    "id": 53,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; proces: Evidence; vazba na organizační řád io: Evidence veškerých provozních dotací přidělených zřizovatelem a ostatními orgány evidenci a komplexní ekonomickou agendu grantových úkolů v rámci FN Brno"
+  },
+  {
+    "id": 54,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; proces: Evidence; vazba na organizační řád io: Evidence sponzorských darů a jiných darů a jejich čerpání"
+  },
+  {
+    "id": 55,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; proces: Evidence; vazba na organizační řád io: Zpracování agendy cestovních příkazů"
+  },
+  {
+    "id": 56,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; proces: Evidence; vazba na organizační řád io: Evidence čerpání finančních prostředků na kongresy"
+  },
+  {
+    "id": 57,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení účtáren a informací; proces: Evidence; vazba na organizační řád io: Sledování čerpání FKSP podle jednotlivých položek (půjčky, sociální výpomoci, rekreace atp.) v souladu s kolektivní smlouvou, předpisem FKSP a platnou legislativou"
+  },
+  {
+    "id": 58,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení zdravotních pojišťoven; proces: Výkaznictví; vazba na organizační řád io: Zajišťuje a v plné míře odpovídá za správnost výkaznictví směrem ke zdravotním pojišťovnám."
+  },
+  {
+    "id": 59,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení zdravotních pojišťoven; proces: Výkaznictví; vazba na organizační řád io: Zajišťuje kontrolní činnost v oblasti výkaznictví zdravotních služeb"
+  },
+  {
+    "id": 60,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení zdravotních pojišťoven; proces: Výkaznictví; vazba na organizační řád io: Provádí analýzy jednotlivých rizikových oblastí činnosti FN Brno a stanovování zaměření kontroly ve vztahu ke zdravotním pojišťovnám."
+  },
+  {
+    "id": 61,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení zdravotních pojišťoven; proces: Výkaznictví; vazba na organizační řád io: Provádí kontroly ve specializované oblasti vykazování zdravotních služeb (včetně kontroly nasmlouvání a vykazování léčivých přípravků ATC skupin vázaných na specializovaná pracoviště - centra FN Brno)."
+  },
+  {
+    "id": 62,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení zdravotních pojišťoven; proces: Samoplátci; vazba na organizační řád io: Zajišťuje a v plné míře odpovídá za metodické vedení týkající se agendy samoplátců a cizinců ve FN Brno."
+  },
+  {
+    "id": 63,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení zdravotních pojišťoven; proces: Výkony; vazba na organizační řád io: Zpracovává a odpovídá za správnost pasportizace výkonů."
+  },
+  {
+    "id": 64,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení zdravotních pojišťoven; proces: Reporting; vazba na organizační řád io: Připravuje a odpovídá za správnost rozborů pro vedení FN Brno, EN a klinické útvary,"
+  },
+  {
+    "id": 65,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení zdravotních pojišťoven; proces: Rozpočtování; vazba na organizační řád io: Ve spolupráci s OÚI sleduje úhradu závazků ze strany ZP, stanovuje finanční limity medicínských útvarů týkající se spotřeby léčiv vázaných na specializovaná pracoviště - centra (podklady pro OC),"
+  },
+  {
+    "id": 66,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení zdravotních pojišťoven; proces: Revizní činnost; vazba na organizační řád io: Koordinuje proces oběhu vybraných žádanek na revizní lékaře ZP a vede jejich evidenci. Postupuje dle platného příkazu ředitele FN Brno „Postup pro předkládání žádosti reviznímu lékaři o schválení úhrady léčivého přípravku (LP), který není v platném číselníku a/nebo nemá stanovenou úhradu SUKL a pro předepisování receptu po schválení úhrady RL ZP“."
+  },
+  {
+    "id": 67,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení zdravotních pojišťoven; proces: Revizní činnost; vazba na organizační řád io: Zajišťuje součinnosti s orgány vnější kontroly - zejména se zdravotními pojišťovnami při fyzických revizích, kterých se účastní Interní revizní lékař."
+  },
+  {
+    "id": 68,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení zdravotních pojišťoven; proces: Revizní činnost; vazba na organizační řád io: Analyzuje výsledky revizní činnosti zdravotních pojišťoven a předkládá návrhy opatření k odstranění zjištěných nedostatků."
+  },
+  {
+    "id": 69,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení zdravotních pojišťoven; proces: DRG; vazba na organizační řád io: Spolupracuje na zavádění systému DRG ve FN Brno."
+  },
+  {
+    "id": 70,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení zdravotních pojišťoven; proces: Reportování; vazba na organizační řád io: Zajišťuje datosběr PeK, KDIN, KDN, KDO, DRHO, GPK - NBP, NO."
+  },
+  {
+    "id": 71,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Kodérské oddělení; proces: DRG; vazba na organizační řád io: Zodpovídá za správné zařazení případů hospitalizace v systému DRG"
+  },
+  {
+    "id": 72,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Kodérské oddělení; proces: Výkony; vazba na organizační řád io: Zajišťuje finální část vykazování zdravotní péče, tj. přiřazení kódů MKN-10 popsaným diagnostickým stavům, zařazení do příslušné DRG baze"
+  },
+  {
+    "id": 73,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Kodérské oddělení; proces: Výkony; vazba na organizační řád io: Upozorňuje na nesrovnalosti v propouštěcí zprávě"
+  },
+  {
+    "id": 74,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Kodérské oddělení; proces: Výkony; vazba na organizační řád io: Kontroluje správnost vykázání výkonů v hospitalizačním případu"
+  },
+  {
+    "id": 75,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Kodérské oddělení; proces: DRG; vazba na organizační řád io: Kontroluje správnost vykázání DRG markerů pro IR-DRG i pro CZ-DRG"
+  },
+  {
+    "id": 76,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Kodérské oddělení; proces: DRG; vazba na organizační řád io: Spolupracuje s ÚZIS na projektu DRG Restart"
+  },
+  {
+    "id": 77,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení správy ekonomického a informačního systému; proces: Informační systém; vazba na organizační řád io: Odborná správa aplikační vrstvy ekonomického informačního systému (EIS)."
+  },
+  {
+    "id": 78,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení správy ekonomického a informačního systému; proces: Informační systém; vazba na organizační řád io: Metodické usměrňování uživatelů, definování jejich problémů a jejich řešení se všemi účastníky správy systému, např. se správou operačních systémů databází, sítí, případně dodavateli."
+  },
+  {
+    "id": 79,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení správy ekonomického a informačního systému; proces: Informační systém; vazba na organizační řád io: Definování vazeb mezi aplikacemi systémů výpočetní techniky a zajišťování modulů pro jejich propojování."
+  },
+  {
+    "id": 80,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Oddělení správy ekonomického a informačního systému; proces: Informační systém; vazba na organizační řád io: Správa aplikační vrstvy lékárenského informačního systémů včetně zajištění a kontroly integračních vazeb do finančního účetnictví."
+  },
+  {
+    "id": 81,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Odd. vnitronemocničního účetnictví a financí; proces: Statistické výkaznictví; vazba na organizační řád io: Zpracovává a v plné míře odpovídá za správnost ekonomických statistických výkazů, které jsou požadovány zřizovatelem, ČSÚ, ÚZIS a ostatními orgány. Odpovědnost nese pouze za výkazy zpracované ze strany OVÚF.\nVyhotovuje a odpovídá za správnost veškerých statistických výkazů v oblasti zdravotnické statistiky, které vyžadují externí orgány."
+  },
+  {
+    "id": 82,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Odd. vnitronemocničního účetnictví a financí; proces: Vnitřní směrnice; vazba na organizační řád io: Podílí se na přípravě a zpracování vnitronemocničních směrnic"
+  },
+  {
+    "id": 83,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Odd. vnitronemocničního účetnictví a financí; proces: Cenotvorba; vazba na organizační řád io: Zajišťuje cenovou tvorbu pro potřeby FN Brno. Podílí se na přípravě a následném zpracování cenových kalkulací."
+  },
+  {
+    "id": 84,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Odd. vnitronemocničního účetnictví a financí; proces: Cenové předpisy; vazba na organizační řád io: Sleduje platné cenové předpisy a zajišťuje jejich návaznosti na vnitronemocniční kalkulace."
+  },
+  {
+    "id": 85,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Odd. vnitronemocničního účetnictví a financí; proces: Vnitronemocniční účetnictví; vazba na organizační řád io: Komplexně zajišťuje a odpovídá za správnost vnitronemocničního účetnictví."
+  },
+  {
+    "id": 86,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Odd. vnitronemocničního účetnictví a financí; proces: Zdravotnické statistiky; vazba na organizační řád io: Zajišťuje a v plné míře odpovídá za správnost zdravotnické statistiky ve FN Brno."
+  },
+  {
+    "id": 87,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Odd. vnitronemocničního účetnictví a financí; proces: Zdravotnické statistiky; vazba na organizační řád io: Předkládá návrhy na změny zdravotnické statistiky ve FN Brno."
+  },
+  {
+    "id": 88,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Odd. vnitronemocničního účetnictví a financí; proces: Datové analýzy; vazba na organizační řád io: Předkládá vedení FN Brno požadované údaje a informace. Spolupracuje se zdravotnickými útvary v oblasti zdravotnické statistiky"
+  },
+  {
+    "id": 89,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Odd. vnitronemocničního účetnictví a financí; proces: Rozpočtový proces; vazba na organizační řád io: Podílí se společně s OC na tvorbě a zpracování rozpočtů FN Brno, kontroluje jejich čerpání a schvaluje změny a přesuny v rámci nastavených schválených rozpočtů. Stanovuje finanční limity zdravotnických útvarů (vyjma léků, krve a SZM)"
+  },
+  {
+    "id": 90,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Odd. vnitronemocničního účetnictví a financí; proces: Limity zdravotnických útvarů"
+  },
+  {
+    "id": 91,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Odd. vnitronemocničního účetnictví a financí; proces: Klinické studie; vazba na organizační řád io: není specifikováno"
+  },
+  {
+    "id": 92,
+    "filename": "Zhodnocení procesů EO.xlsx",
+    "content": "útvar/oddělení: Odd. vnitronemocničního účetnictví a financí; proces: vyhodnocování lekařské pohotovostní služby pro kraj; vazba na organizační řád io: není specifikováno"
+  }
+]
