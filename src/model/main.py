@@ -551,4 +551,4 @@ class RAGChatbot:
         response = self.agent.invoke({"messages": messages}, self.config)
         validated_response = self.validation(response)
 
-        return validated_response["messages"][-1].pretty_print()
+        return validated_response["messages"][-1].content
