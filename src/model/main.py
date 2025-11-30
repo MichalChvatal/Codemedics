@@ -13,7 +13,7 @@ from langchain.agents import create_agent
 from langchain.agents.middleware import SummarizationMiddleware
 from langgraph.checkpoint.memory import InMemorySaver
 from langchain_core.tools import tool
-from docx import Document
+from docx import Document, OxmlElement
 from dotenv import load_dotenv
 
 import difflib
