@@ -6,6 +6,7 @@ from langchain.agents import create_agent
 from langchain.agents.middleware import SummarizationMiddleware
 from langgraph.checkpoint.memory import InMemorySaver
 from openai import OpenAI
+import uuid
 
 from langchain_openai import ChatOpenAI
 from langchain.agents import create_agent
