@@ -94,7 +94,7 @@ def excel_to_json(excel_files):
                     if match:
                         department_name = match.group(1).strip()
                         utvar_s = row[department_col]
-                        row_dict['chunk_id'] = chunk_id
+                        row_dict['id'] = chunk_id
                         chunk_id += 1
                         row_dict['filename'] = filename
                         row_dict['content'] = ";".join(chunk_list)

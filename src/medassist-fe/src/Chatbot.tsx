@@ -180,7 +180,7 @@ interface Message {
 const initialMessages: Message[] = [
   {
     id: 1,
-    message: "Hello! I'm connected to your Python server.",
+    text: "Ahoj, jsem tady pro tebe, s čím potřebuješ pomoci?",
     sender: "bot",
   },
 ];
@@ -410,20 +410,25 @@ const Chatbot: FC = () => {
       <div className="sidebar-header">
         <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
           <h3 style={{ paddingBottom: 0, marginBottom: 0 }}>Soubory</h3>
-          {(data?.files ?? []).map((file) => (
-            <div
-              key={file}
-              style={{
-                display: "flex",
-                alignItems: "center",
-                gap: "10px",
-                padding: "6px 0",
-              }}
-            >
-              <span style={{ fontSize: "24px" }}>{getFileIcon(file.name)}</span>
-              <FileLink file={file} />
-            </div>
-          ))}
+          <div style={{ maxHeight: "400px", overflowY: "auto" }}>
+            {(data?.files ?? []).map((file) => (
+              <div
+                key={file}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "10px",
+                  padding: "6px 0",
+                }}
+              >
+                <span style={{ fontSize: "24px" }}>
+                  {getFileIcon(file.name)}
+                </span>
+                <FileLink file={file} />
+              </div>
+            ))}
+          </div>
+
           <FileUpload />
           <span style={{ padding: 20 }} />
           <UserProfile profile={profile} setProfile={setProfile} />
@@ -457,9 +462,6 @@ const Chatbot: FC = () => {
               <SendIcon />
             </button>
           </form>
-          <p className="disclaimer">
-            This UI communicates with your Python server on **port 8000**.
-          </p>
         </div>
       </div>
     </div>

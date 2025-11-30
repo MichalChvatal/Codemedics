@@ -160,7 +160,14 @@ class SimpleHandler(BaseHTTPRequestHandler):
                 f.write(file_bytes)
 
             document_data = load_document(file_path)
-            chunks = chunk_document(document_data, safe_filename)
+
+            ext = os.path.splitext(file_path)[1].lower()
+            if ext == ".xlsx":
+                print("document_data ")
+                print(document_data)
+                chunks = document_data
+            else:
+                chunks = chunk_document(document_data, safe_filename)
             os.makedirs("./chunks", exist_ok=True)
 
             save_chunks(chunks, "./chunks/" +safe_filename + "-chunks.json")
@@ -178,7 +185,7 @@ class SimpleHandler(BaseHTTPRequestHandler):
         # ---- Default POST behavior ----
         message = data.get("message", "")
         llm_response = rag_chatbot.return_response(query=message)
-        response = {"id": 99, "message": llm_response, "sender": "bot"}
+        response = {"message": llm_response}
 
         self.send_response(200)
         self._send_cors_headers()

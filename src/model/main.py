@@ -41,17 +41,66 @@ class RAGChatbot:
         self.current_doc_path: str | None = None
         self.current_doc_name: str | None = None
 
-        conn = iris.connect("localhost", 32782, "DEMO", "_SYSTEM", "ISCDEMO")
+        conn = iris.connect("cuda1.ubmi.feec.vutbr.cz", 32782, "DEMO", "_SYSTEM", "ISCDEMO")
         self.cursor = conn.cursor()
+        self.conn = conn
 
-        self.embedding_model = self.get_embedding_model()
+        self.embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
         self.agent = self.create_agent()
         self.config = {"configurable": {"thread_id": "1"}}
+        self.table_name = "VectorSearch.ORGstruct"
 
     # ------------- MODELS / VECTOR SEARCH ------------- #
 
     def get_embedding_model(self):
-        return SentenceTransformer("all-MiniLM-L6-v2")
+        return self.embedding_model
+    
+    def create_table(self):
+        create_table_query = f"""
+        CREATE TABLE IF NOT EXISTS {self.table_name} (
+        id INTEGER,
+        filename LONGVARCHAR,
+        content LONGVARCHAR,
+        vector VECTOR(DOUBLE, 384)
+        )
+        """
+
+        self.cursor.execute(create_table_query)
+        # self.conn.commit()
+        # self.conn.close()
+
+    
+    def vectorize_content(self, df):
+        embeddings = self.get_embedding_model().encode(df['content'], normalize_embeddings=True, show_progress_bar=True)
+        return embeddings
+
+    def vectorize_filename(self, df):
+        embeddings = self.get_embedding_model().encode(df['filename'], normalize_embeddings=True, show_progress_bar=True)
+        return embeddings
+
+    def insert_chunks_into_table(self, chunks: pd.DataFrame):
+
+        chunks = pd.DataFrame(chunks)
+
+        self.create_table()
+
+        embeddings = self.vectorize_content(chunks)
+        chunks["vector"] = embeddings.tolist()
+
+        # IMPORTANT: convert vector (list) → string
+        chunks["vector"] = chunks["vector"].apply(lambda v: str(v))
+
+        insert_query = f"""
+        INSERT INTO {self.table_name} (id, filename, content, vector)
+        VALUES (?, ?, ?, TO_VECTOR(?))
+        """
+
+        rows_list = chunks[["id", "filename", "content", "vector"]].values.tolist()
+        self.cursor.executemany(insert_query, rows_list)
+
+        # self.conn.commit()
+        # self.conn.close()
+        print("Insertions done!")
 
     def vector_search(self, user_prompt: str):
         search_vector = self.embedding_model.encode(

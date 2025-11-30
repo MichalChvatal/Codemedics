@@ -92,7 +92,7 @@ def excel_to_json(excel_file):
                 continue
 
             data.append({
-                "chunk_id": chunk_id,
+                "id": chunk_id,
                 "filename": filename,
                 "content": "; ".join(chunk_list)
             })
