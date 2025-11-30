@@ -45,6 +45,7 @@ class RAGChatbot:
         self.embedding_model = self.get_embedding_model()
         self.agent = self.create_chatbot()
         self.config = {"configurable": {"thread_id": "1"}}
+        self.table_name = "VectorSearch.ORGstruct"
 
     # ------------- MODELS / VECTOR SEARCH ------------- #
 
