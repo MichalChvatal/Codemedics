@@ -20,7 +20,7 @@ export function useUploadDocument() {
 
   return useMutation({
     mutationFn: async (payload: any) => {
-      const res = await fetch("http://localhost:8000/upload-document", {
+      const res = await fetch("http://cuda1.ubmi.feec.vutbr.cz:8000/upload-document", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -144,7 +144,7 @@ const getFileIcon = (filename) => {
 };
 
 export const api = axios.create({
-  baseURL: "http://localhost:8000",
+  baseURL: "http://cuda1.ubmi.feec.vutbr.cz:8000",
 });
 
 export interface UploadedFile {
@@ -330,7 +330,7 @@ const Chatbot: FC = () => {
       const currentContext = storedContext ? JSON.parse(storedContext) : [];
 
       // 4. Call Backend with Context + Prompt
-      const response = await fetch("http://localhost:8000/generate", {
+      const response = await fetch("http://cuda1.ubmi.feec.vutbr.cz:8000/generate", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
